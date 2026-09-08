@@ -15,3 +15,5 @@ Copy merged outsider PRs in *that* repo. Do not argue AI policy on their tracker
 ## Updating the atlas
 
 New leaves, policies, or merge patterns → append `data/scored.jsonl`, update sector digest, refresh `SHORTLIST.md` / `SYNTHESIS.md`. This repo publishes terrain only; it does not authorize third-party contribution PRs by itself.
+
+Universe harvest covers Rust/Go/C/C++/Python/Shell plus **TypeScript / JavaScript / Zig**. Prefer product CLIs, LSP/formatters, and systems tools when scoring the TS/JS fill — skip generic web apps. `ziglang/zig` is a hard leave (no-LLM).

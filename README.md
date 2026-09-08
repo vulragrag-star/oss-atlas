@@ -24,11 +24,12 @@ Agents: read [`AGENTS.md`](AGENTS.md) before third-party forks/PRs.
 
 ## Status
 
-- Universe seed: ~2100 high-star main repos (systems-leaning)
-- Scored rows: **83** (`databases-storage` 45, `editors-devex` 38) · proceed **43**
-- Sector deep-dives synced: `databases-storage`, `editors-devex` (see [`sectors/`](sectors/))
-- Shortlist: **43** proceed homes in [`SHORTLIST.md`](SHORTLIST.md) (target ~100)
-- Synthesis: CLI/build primary; formatters/git DevEx + SQL/storage secondary; hard leaves fish/sqlite/AgentScan — [`SYNTHESIS.md`](SYNTHESIS.md)
+- Universe seed: **16334** high-star main repos (systems-leaning + TS/JS/Zig fill)
+- Scored rows: **1076** across eight sectors · proceed **700**
+- Sector deep-dives synced: all eight (+ midband digests) in [`sectors/`](sectors/)
+- Shortlist: see [`SHORTLIST.md`](SHORTLIST.md) (target ~100)
+- Synthesis: CLI/build primary; formatters/git DevEx + SQL/storage secondary; hard leaves fish/sqlite/AgentScan/Zig — [`SYNTHESIS.md`](SYNTHESIS.md)
+
 
 ## License
 
@@ -39,6 +40,7 @@ Docs/methodology: CC BY 4.0. Code: MIT. See [`LICENSE`](LICENSE).
 See [`CITATION.cff`](CITATION.cff).
 
 ## Universe bands (auto)
-- Total: **12157**
-- Bands: {'50k+': 475, '10k-50k': 654, '5k-10k': 1018, '1k-5k': 10010}
+- Total: **16334**
+- Bands: {'50k+': 475, '10k-50k': 1937, '5k-10k': 2067, '1k-5k': 11855}
 - Mid-band harvest file: `data/universe-midband.jsonl`
+- Recent fill: TypeScript/JavaScript/Zig (mid+high) — midband TS=939 JS=864 Zig=42

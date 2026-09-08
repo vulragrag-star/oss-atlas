@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: oss-atlas
+message: If you use this atlas, please cite it.
+type: software
+authors:
+  - family-names: Wang
+    given-names: Jason
+repository-code: "https://github.com/vulragrag-star/oss-atlas"
+abstract: Living map of GitHub OSS contribution terrain for humans and agents.
+license: MIT
+version: 0.1.0
+date-released: "2026-09-08"

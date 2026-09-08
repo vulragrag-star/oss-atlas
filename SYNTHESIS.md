@@ -1,35 +1,20 @@
 # Synthesis
 
-Working thesis: highest yield remains **systems CLI and build/packaging adjacency** — path/quoting/parser bugs with tests in famous mains that already merge that class — while avoiding hard-ban ecosystems and automation detectors.
+Living directional read of the atlas (auto-refreshed).
 
-Scored so far: **83** rows · **43** proceed · sectors live: `databases-storage` (45), `editors-devex` (38).
+## Coverage now
+- Scored repos (unique): **255**
+- Proceed: **119**
+- By sector: {'python-tooling': 70, 'security-crypto': 44, 'editors-devex': 37, 'compilers-runtimes': 59, 'databases-storage': 45}
+- Policy mix: {'silent': 191, 'hard_ban': 7, 'disclosure': 34, 'hostility_risk': 18, 'agentscan': 5}
 
-| Band | Stance |
-|---|---|
-| CLI / systems utilities | **Primary** |
-| Build / packaging / CMake wrappers | **Primary** if not satellite |
-| Formatters / git DevEx (editors-devex) | **Secondary** — Prettier/Ruff/rustfmt, tig/lefthook/prek/git-lfs |
-| SQL / storage engines & drivers | **Secondary** — PRQL, squirrel, textql, OpenDAL, Litestream, PromQL |
-| Compilers / runtimes | Selective |
-| Networking / security | Cautious |
-| Listed PyPA/predecessor leaves | Avoid |
-| Hard AI-ban shells/editors | **Leave** — notably `fish-shell/fish-shell` |
-| SQLite upstream agentic ban | **Leave** — `sqlite/sqlite` (and SQLCipher guilt-by-fork) |
-| AgentScan adopter orgs | **Leave** — e.g. `withastro/astro`, `nuxt/nuxt` |
+## Working thesis
+Primary farm: **systems CLI + build/packaging adjacency** (path/quoting/parser bugs with tests).
+Secondary: SQL/query/storage CLIs, selective WASM/runtimes, careful security tooling with clear CONTRIBUTING.
+Avoid: hard AI bans, AgentScan adopters, predecessor closed queues, satellite redirects, docs/GFI spam.
 
-## Hard leaves (do not reopen)
+## Hard leaves seen in survey
+sqlite (agentic ban), typst, kanidm, openbao, fish-shell, qemu/gimp (networking sample), AgentScan hits (astro/nuxt/…), rustc/miri mentor-gated LLM lanes.
 
-- `fish-shell/fish-shell` — generative AI ban in CONTRIBUTING.rst
-- `sqlite/sqlite` — AGENTS.md agentic-code ban
-- AgentScan circles (`withastro`, `nuxt`, …) — leave entire org circle
-- Weaviate-style hostility_risk closers — leave unless cleared
-
-## What is merging
-
-- Parser/path/quoting edges with regression tests beat docs/GFI spam.
-- Disclosure homes are usable when the human owns the patch and copies **that** repo’s outsider voice (Neovim trailer, Astral AI_POLICY, ASF generative-tooling).
-- Prefer one home-repo at a time; warm forks; no same-day PR pairs.
-
-## Cadence reminder
-
-Re-check live gates before any future third-party fork: ≥1000★, not satellite, not AgentScan, read CONTRIBUTING/AI policy, sample closed-unmerged hostility. This atlas publish does **not** authorize contribution PRs.
+## Next
+Finish devops-build + re-run cli-systems (failed network). Expand stars:1000..5000 systems languages. Push shortlist toward ~100.

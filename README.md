@@ -25,7 +25,7 @@ Agents: read [`AGENTS.md`](AGENTS.md) before third-party forks/PRs.
 ## Status
 
 - Universe seed: **16334** high-star main repos (systems-leaning + TS/JS/Zig fill)
-- Scored rows: **1113** across eight sectors · proceed **724**
+- Scored rows: **1153** across eight sectors · proceed **755**
 - Sector deep-dives synced: all eight (+ midband digests) in [`sectors/`](sectors/)
 - Shortlist: [`SHORTLIST.md`](SHORTLIST.md) — **100** sector-balanced proceed targets (cli/devops/editors weighted)
 - Synthesis: CLI/build primary; DevEx + SQL/storage secondary; hard leaves fish/sqlite/AgentScan/Zig — [`SYNTHESIS.md`](SYNTHESIS.md)
@@ -38,9 +38,3 @@ Docs/methodology: CC BY 4.0. Code: MIT. See [`LICENSE`](LICENSE).
 ## Citation
 
 See [`CITATION.cff`](CITATION.cff).
-
-## Universe bands (auto)
-- Total: **16334**
-- Bands: {'50k+': 475, '10k-50k': 1937, '5k-10k': 2067, '1k-5k': 11855}
-- Mid-band harvest file: `data/universe-midband.jsonl`
-- Recent fill: TypeScript/JavaScript/Zig (mid+high) — midband TS=939 JS=864 Zig=42

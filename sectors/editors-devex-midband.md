@@ -1,29 +1,22 @@
-# Sector survey: editors-devex (midband 1k–5k★)
+# Sector survey: editors-devex (midband 1k-5k)
 
-Account: `vulragrag-star` · Input: `survey/raw/editors-devex-midband.jsonl` · Deep-sampled **46** real product repos via `raw.githubusercontent.com` policy files · Hard leaves respected · No fork/PR/comment · Band: `1k-5k`.
+Account: `vulragrag-star` · refreshed `2026-09-08T17:38:01Z` · TS/JS/Zig DevEx slice · No fork/PR/comment.
 
-Playbook lens: famous main product (1k–5k★), not AgentScan, not hard AI ban, hunk class = **LSP / formatter / git UI / terminal-editor parser-path bugs with regression tests** (not TFT displays, games, ebook/map editors, vanity hash toys).
+Playbook lens: parser/path/formatter/LSP/bundler tooling with tests.
 
 ## Policy histogram (scored set)
 
 | Policy class | Count | Notes |
 |---|---:|---|
-| silent | 45 | No hard ban found in common CONTRIBUTING/AI paths |
-| disclosure | 1 | Explicit AI-assisted / disclosure language |
+| silent | 46 | No hard ban in common paths |
+| disclosure | 1 | AI disclosure language |
+| hostility_risk | 1 | Hostility-adjacent |
 
-Proceed: **34** · Leave: **12** · Appended to `survey/scored.jsonl` with `band: "1k-5k"`.
-
-## Hard leaves (playbook — even if outside this band sample)
-
-- `fish-shell/fish-shell` — generative-AI ban (higher band; already scored leave)
-- `withastro/astro`, `nuxt/nuxt` — AgentScan adopter orgs (higher band)
-- Do not treat TFT/display/game/ebook editors in raw dump as DevEx product
+Proceed: **35** · Leave: **13**.
 
 ## PROCEED candidates (contrib fit)
 
-Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo’s merged outsider PR voice. Re-run `agentscan-check.py --refresh` + `hostility-scan.py` before any future fork.
-
-| Repo | ★ | Policy | Why fit | Sample bug class |
+| Repo | Stars | Policy | Why fit | Sample bug class |
 |---|---:|---|---|---|
 | `tkellogg/dura` | 4430 | silent | Background git commit watcher; path/repo edges | git watch/path edge + Rust tests |
 | `jmacdonald/amp` | 4127 | silent | Terminal text editor; command/path/config edges | editor command/path/config edge + Rust tests |
@@ -52,6 +45,7 @@ Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo�
 | `ycm-core/ycmd` | 1741 | silent | Completion/comprehension server; path/compile flags edges | completion path/flags edge + tests |
 | `huacnlee/autocorrect` | 1628 | silent | Copywriting linter/formatter; rule/path edges | lint rule/path edge + Rust tests |
 | `iwe-org/iwe` | 1626 | silent | Markdown knowledge-graph LSP; path/link edges | markdown link/path LSP edge + tests |
+| `quick-lint/quick-lint-js` | 1592 | silent | Fast JS diagnostics engine; parse/diag edges | JS parse/diag edge + tests |
 | `ktock/buildg` | 1502 | silent | Interactive Dockerfile debugger; path/IDE edges | Dockerfile path/breakpoint edge + Go tests |
 | `dave/dst` | 1438 | silent | Decorated Go syntax tree; rewrite/fidelity edges | Go AST rewrite/fidelity edge + tests |
 | `oxc-project/tsgolint` | 1412 | silent | Type-aware oxlint companion; rule/path edges | TS lint rule/path edge + tests |
@@ -60,18 +54,15 @@ Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo�
 | `jdx/hk` | 1153 | disclosure | Git hooks + project lints; config/path — AGENTS AI-assisted mention | hook config/path edge + tests — disclose if agent-assisted |
 | `tombi-toml/tombi` | 1107 | silent | TOML formatter/linter/LSP | TOML format/lint/LSP edge + Rust tests |
 
-### Tier notes
-
-**Best first homes (small testable parser/path/format hunks):** start near the top of the proceed table; one home at a time; stay after a merge.
-
 ## LEAVE list
 
-| Repo | ★ | Policy | Reason |
+| Repo | Stars | Policy | Reason |
 |---|---:|---|---|
 | `KDE/ghostwriter` | 4980 | silent | Markdown note UI app — weak parser/LSP hunk fit |
 | `texstudio-org/texstudio` | 3620 | silent | Heavy LaTeX GUI — prefer LSP/formatter homes |
 | `autozimu/LanguageClient-neovim` | 3565 | silent | Superseded/low-maintenance LSP client — prefer active LSP hosts |
 | `rslint/rslint` | 2729 | silent | WIP abandoned (last push 2023) — not active product |
+| `JamieMason/syncpack` | 2092 | hostility_risk | hostility_risk mentor-gated policy leave |
 | `not-an-aardvark/lucky-commit` | 1991 | silent | Vanity commit-hash novelty — not DevEx product core |
 | `zee-editor/zee` | 1804 | silent | Low-maintenance terminal editor (quiet since early 2025) |
 | `rohit-px2/nvui` | 1742 | silent | Stale Neovim frontend (2023) — prefer goneovim/gnvim |
@@ -83,10 +74,6 @@ Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo�
 
 ## Sector synthesis
 
-- Midband (1k-5k) deep sample: **46** curated product repos.
-- Proceed **34** / Leave **12**.
-- Disclosure repos: `jdx/hk`.
-- No AgentScan / fish-style / sqlite-agentic hits inside this midband sample (those hard leaves live in higher-star scored set).
-- Method: policy files via `raw.githubusercontent.com` (CONTRIBUTING*/AI*/AGENTS*/PR templates); local AgentScan blacklist only.
-- No fork / PR / tracker comment performed.
-
+- Refreshed after TS/JS/Zig DevEx product slice.
+- No tracker comments/forks/third-party PRs.
+- scored_at: `2026-09-08T17:38:01Z`

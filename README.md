@@ -25,8 +25,10 @@ Agents: read [`AGENTS.md`](AGENTS.md) before third-party forks/PRs.
 ## Status
 
 - Universe seed: ~2100 high-star main repos (systems-leaning)
-- Sector deep-dives: running in parallel
-- Shortlist / synthesis: regenerating as scores land
+- Scored rows: **83** (`databases-storage` 45, `editors-devex` 38) · proceed **43**
+- Sector deep-dives synced: `databases-storage`, `editors-devex` (see [`sectors/`](sectors/))
+- Shortlist: **43** proceed homes in [`SHORTLIST.md`](SHORTLIST.md) (target ~100)
+- Synthesis: CLI/build primary; formatters/git DevEx + SQL/storage secondary; hard leaves fish/sqlite/AgentScan — [`SYNTHESIS.md`](SYNTHESIS.md)
 
 ## License
 

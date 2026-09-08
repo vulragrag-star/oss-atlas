@@ -1,10 +1,15 @@
 # Shortlist (100 / target 100)
 
+Sector-balanced from proceed rows (not pure megastar sort). Primary weight: cli-systems + devops-build; elevated editors-devex after TS/JS DevEx scoring; security-crypto and databases-storage no longer token-represented.
+
+Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, databases-storage=12, compilers-runtimes=10, security-crypto=10, networking-distributed=10
+
 | Repo | Stars | Sector | Policy | Bug class hint |
 |---|---|---|---|---|
 | ohmyzsh/ohmyzsh | 189625 | cli-systems | disclosure | plugin path / quoting edge + shell tests |
 | Genymobile/scrcpy | 149109 | cli-systems | silent | adb path / argv edge + C tests |
 | microsoft/PowerToys | 138490 | cli-systems | silent | module path/config edge + C#/C++ tests |
+| microsoft/TypeScript | 110981 | compilers-runtimes | disclosure | TS parse/check/path edge + tests - disclose AI assist |
 | fatedier/frp | 109273 | cli-systems | silent | proxy config/path edge + Go tests |
 | microsoft/terminal | 104843 | cli-systems | silent | settings JSON path / escape edge + C++ tests |
 | neovim/neovim | 102213 | editors-devex | disclosure | path/option/Lua runtime edge + tests |
@@ -16,7 +21,6 @@
 | junegunn/fzf | 82865 | cli-systems | silent | shell/argv/path + Go tests |
 | jesseduffield/lazygit | 82122 | cli-systems | disclosure | git path/config edge + Go tests |
 | coder/code-server | 79236 | editors-devex | silent | path/proxy/config edge + tests |
-| caddyserver/caddy | 75563 | networking-distributed | disclosure |  |
 | apache/superset | 74677 | databases-storage | disclosure | SQL parse/Jinja/template edge with tests |
 | Eugeny/tabby | 74387 | cli-systems | disclosure | SSH config / profile path edge + TS tests — check AI level box |
 | pallets/flask | 73584 | python-tooling | silent | cli/path/config edge + tests |
@@ -31,74 +35,74 @@
 | rclone/rclone | 59639 | cli-systems | disclosure | remote path/quoting edge + Go tests |
 | FiloSottile/mkcert | 59563 | cli-systems | silent | CAROOT path / hostname edge + Go tests |
 | PowerShell/PowerShell | 55292 | cli-systems | silent | path/quoting / parser edge + C# tests |
-| wagoodman/dive | 54538 | cli-systems | silent | image ref / layer path edge + Go tests |
 | mozilla/pdf.js | 53846 | editors-devex | silent | parser edge + unit tests |
 | dockur/windows | 53197 | devops-build | silent | entrypoint shell path/quoting or env parse edge + shell tests |
 | jesseduffield/lazydocker | 52756 | devops-build | silent | docker host path / compose project path edge + Go tests |
 | prettier/prettier | 52240 | editors-devex | silent | parser/printer fixture edge + tests |
 | astral-sh/ruff | 49545 | python-tooling | disclosure | lint rule/path/parse edge + fixtures |
-| Homebrew/brew | 49467 | cli-systems | disclosure | formula path / bottle quoting + Ruby tests |
 | pyenv/pyenv | 45085 | python-tooling | silent | shim/PATH/quoting edge + bats/shell tests |
+| parcel-bundler/parcel | 44024 | editors-devex | silent | bundle resolve/path/config edge + tests |
 | psf/black | 41834 | python-tooling | silent | AST/parse edge + regression fixtures |
+| lerna/lerna | 36055 | devops-build | silent | workspace/publish/path edge + tests |
+| typicode/husky | 35309 | editors-devex | silent | hook path/config edge + tests |
 | python-poetry/poetry | 34295 | python-tooling | silent | lockfile/path/env resolver edge + tests |
+| postcss/postcss | 28974 | editors-devex | silent | CSS plugin/parse/path edge + tests |
+| eslint/eslint | 27499 | editors-devex | silent | lint rule/AST/path edge + tests |
+| rollup/rollup | 26309 | editors-devex | silent | bundle resolve/path/plugin edge + tests |
 | cookiecutter/cookiecutter | 25081 | python-tooling | silent | template path/hook quoting + tests |
 | ahmetb/kubectx | 19978 | devops-build | silent | kubeconfig context/namespace path parse edge + Go/shell tests |
 | fastapi/typer | 19960 | python-tooling | silent | CLI arg/type/help parse edge + tests |
-| probelabs/goreplay | 19319 | networking-distributed | silent |  |
 | google/gvisor | 19245 | devops-build | silent | OCI path / mount path edge + Go tests — Google CLA |
-| Orange-OpenSource/hurl | 19190 | cli-systems | disclosure | Hurlfile parse / path edge + Rust tests — human-written PR text |
+| conventional-changelog/commitlint | 18735 | editors-devex | silent | commitlint rule/config edge + tests |
 | bytecodealliance/wasmtime | 18607 | compilers-runtimes | disclosure | wasm/WASI/CLI path edge + tests |
-| slackhq/nebula | 18310 | networking-distributed | silent |  |
-| ginuerzh/gost | 18214 | cli-systems | silent | proxy URL / path edge + Go tests |
-| upx/upx | 17857 | cli-systems | silent | path / format edge + C++ tests |
-| asciinema/asciinema | 17780 | cli-systems | disclosure | cast path / timing edge + Rust tests |
 | tinygo-org/tinygo | 17707 | compilers-runtimes | silent | target/linker/wasm export edge + tests |
 | pallets/click | 17656 | python-tooling | silent | CLI option/quoting/path parse + tests |
-| NixOS/nix | 17655 | cli-systems | disclosure | store path / flake ref edge + C++ tests |
-| ImageMagick/ImageMagick | 17367 | cli-systems | silent | argv / format path edge + C tests |
-| swaywm/sway | 17312 | cli-systems | silent | config path / command edge + C tests |
 | tursodatabase/libsql | 17208 | databases-storage | silent | SQL parser / savepoint edge + tests |
-| wtfutil/wtf | 17077 | cli-systems | silent | config YAML path edge + Go tests |
 | argoproj/argo-workflows | 16959 | devops-build | disclosure | workflow template path / artifact path edge + Go tests — AI declaration |
-| rui314/mold | 16954 | cli-systems | silent | response-file / path edge + C++ tests |
 | tikv/tikv | 16836 | databases-storage | silent | format/parse or path edge in compact-log-backup + tests |
 | rust-lang/rust-analyzer | 16825 | compilers-runtimes | disclosure | analysis/IDE edge + tests — avoid E-easy |
 | apple/foundationdb | 16677 | databases-storage | silent | simulation knob/path edge + tests |
 | kubernetes/kops | 16670 | devops-build | silent | cluster YAML path / cloud flag edge + Go tests — open issue first |
-| systemd/systemd | 16666 | cli-systems | disclosure | unit file path / parser edge + C tests |
-| ffuf/ffuf | 16652 | cli-systems | silent | wordlist path / filter edge + Go tests |
-| jpillora/chisel | 16506 | networking-distributed | silent |  |
-| davatorium/rofi | 16375 | cli-systems | silent | modi path / config edge + C tests |
-| hyperium/hyper | 16313 | networking-distributed | silent |  |
 | dagger/dagger | 16230 | devops-build | silent | module path / pipeline arg edge + Go tests — claim issue first |
-| lsd-rs/lsd | 16214 | cli-systems | silent | path / config edge + Rust tests |
-| go-task/task | 16110 | cli-systems | disclosure | Taskfile path / var quoting edge + Go tests — disclose AI |
 | goreleaser/goreleaser | 16023 | devops-build | disclosure | config path/template quoting or archive name edge + Go tests — disclose AI |
-| mikefarah/yq | 15934 | cli-systems | disclosure | expression / path edge + Go tests — disclose if agent-assisted |
-| winsiderss/systeminformer | 15898 | cli-systems | silent | path / config edge + C tests |
 | GoogleContainerTools/skaffold | 15888 | devops-build | silent | skaffold.yaml profile/path or artifact sync edge + Go tests |
-| ast-grep/ast-grep | 15797 | cli-systems | silent | rule YAML / path edge + Rust tests |
 | dgraph-io/badger | 15758 | databases-storage | silent | SST path/corruption / compaction edge + tests |
 | microsoft/pyright | 15625 | python-tooling | silent | stub/path/config edge + tests |
-| cloudflare/cloudflared | 15543 | cli-systems | silent | tunnel config / ingress path edge + Go tests |
-| benfred/py-spy | 15481 | cli-systems | silent | pid / native path edge + Rust tests |
 | kubernetes-sigs/kind | 15478 | devops-build | silent | node image path / kubeadm config edge + Go tests |
-| Y2Z/monolith | 15466 | cli-systems | silent | URL / asset path edge + Rust tests |
 | rust-lang/cargo | 15460 | devops-build | silent | path dep / lockfile / quoting edge + Rust tests — high bar |
-| direnv/direnv | 15428 | cli-systems | silent | .envrc path / stdlib edge + Go tests |
 | go-sql-driver/mysql | 15282 | databases-storage | silent | DSN/param/quoting/TINYINT edge + dsn_test |
 | Nuitka/Nuitka | 15122 | python-tooling | disclosure | import/path/plugin edge + tests |
 | zitadel/zitadel | 14959 | security-crypto | disclosure | OIDC/login path or config parse edge + tests |
-| oauth2-proxy/oauth2-proxy | 14929 | networking-distributed | disclosure |  |
-| pytest-dev/pytest | 14489 | python-tooling | disclosure | plugin/path/assertion edge + unit tests |
 | git-lfs/git-lfs | 14476 | editors-devex | silent | pointer/path/transfer edge + tests |
 | coder/coder | 14399 | editors-devex | silent | CLI flag/path/template edge + tests |
-| coturn/coturn | 14391 | networking-distributed | silent |  |
 | benbjohnson/litestream | 14358 | databases-storage | disclosure | path/config DSN/replica path + go test |
 | amir20/dozzle | 14300 | devops-build | silent | container filter / log path edge + Go tests |
-| coredns/coredns | 14299 | networking-distributed | silent |  |
-| rathole-org/rathole | 14123 | networking-distributed | silent |  |
 | cert-manager/cert-manager | 14069 | security-crypto | silent | cert path/DNSName/CSR encode edge + unit tests |
 | openresty/openresty | 14028 | compilers-runtimes | silent | build/path/LuaJIT packaging edge + tests |
+| rolldown/rolldown | 13943 | editors-devex | silent | bundle resolve/path edge + tests |
 | Jguer/yay | 13742 | devops-build | silent | PKGBUILD path/quoting or AUR RPC parse edge + Go tests |
-| DNSCrypt/dnscrypt-proxy | 13647 | networking-distributed | silent |  |
+| rook/rook | 13645 | databases-storage | disclosure | path/ceph volume mount + unit tests |
+| gopherjs/gopherjs | 13183 | compilers-runtimes | silent | compiler/js-runtime edge + tests |
+| drakkan/sftpgo | 12498 | databases-storage | silent | path sanitize / virtual folder edge + tests |
+| manticoresoftware/manticoresearch | 11993 | databases-storage | silent | SQL/fulltext parse edge + tests |
+| kubescape/kubescape | 11722 | security-crypto | silent | control/framework JSON parse or path edge + tests |
+| linkerd/linkerd2 | 11487 | security-crypto | silent | CLI flag/path or identity name normalize + tests |
+| dexidp/dex | 11083 | security-crypto | silent | OIDC connector config / redirect URI parse + tests |
+| quay/clair | 11057 | security-crypto | silent | matcher/index path or purl parse edge + tests |
+| PRQL/prql | 10910 | databases-storage | silent | SQL dialect quoting/escape parser + snapshot tests |
+| foundry-rs/foundry | 10583 | compilers-runtimes | disclosure | CLI flag/path/tool edge + tests |
+| golang-jwt/jwt | 9217 | security-crypto | silent | JWT claim/time/audience parse edge + table tests |
+| wasm-bindgen/wasm-bindgen | 9145 | compilers-runtimes | silent | bindgen attribute/path parse edge + tests |
+| smallstep/certificates | 8843 | security-crypto | silent | ACME/path/SAN parsing edge + go tests |
+| aquasecurity/kube-bench | 8176 | security-crypto | silent | check YAML/config path edge + go tests |
+| kyverno/kyverno | 8120 | security-crypto | disclosure | policy YAML parse / path match edge + unit tests |
+| pomerium/pomerium | 4997 | networking-distributed | disclosure | redirect/URL path or policy rule edge + go tests — disclose AI |
+| NLnetLabs/unbound | 4859 | networking-distributed | silent | conf/ACL/path or DNSSEC edge + tests |
+| microsoft/msquic | 4775 | networking-distributed | silent | QUIC frame/path or API edge + tests |
+| antoniomika/sish | 4712 | networking-distributed | silent | CLI flag/URL path or reverse tunnel edge + go tests |
+| acassen/keepalived | 4680 | networking-distributed | silent | keepalived.conf path/VRRP edge + tests |
+| openziti/zrok | 4668 | networking-distributed | silent | share/token/path CLI edge + go tests |
+| ktr0731/evans | 4493 | networking-distributed | silent | CLI flag/proto descriptor/path edge + go tests |
+| novnc/websockify | 4446 | networking-distributed | silent | WS URL/path or target dial edge + tests |
+| openziti/ziti | 4381 | networking-distributed | silent | identity/config path or dial edge + go tests |
+| networkupstools/nut | 4329 | networking-distributed | disclosure | driver/path or ups.conf quoting edge + tests — disclose |

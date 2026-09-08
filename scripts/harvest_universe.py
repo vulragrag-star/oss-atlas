@@ -44,10 +44,19 @@ QUERIES = [
     "stars:5000..19999 language:Go fork:false",
     "stars:5000..19999 language:C fork:false",
     "stars:5000..19999 language:C++ fork:false",
+    "stars:5000..19999 language:Python fork:false",
     "stars:2000..4999 language:Rust fork:false",
     "stars:2000..4999 language:Go fork:false",
+    "stars:2000..4999 language:C fork:false",
+    "stars:2000..4999 language:C++ fork:false",
+    "stars:2000..4999 language:Python fork:false",
+    "stars:2000..4999 language:Shell fork:false",
     "stars:1000..1999 language:Rust fork:false",
     "stars:1000..1999 language:Go fork:false",
+    "stars:1000..1999 language:C fork:false",
+    "stars:1000..1999 language:C++ fork:false",
+    "stars:1000..1999 language:Python fork:false",
+    "stars:1000..1999 language:Shell fork:false",
 ]
 
 def main() -> None:

@@ -37,3 +37,8 @@ Docs/methodology: CC BY 4.0. Code: MIT. See [`LICENSE`](LICENSE).
 ## Citation
 
 See [`CITATION.cff`](CITATION.cff).
+
+## Universe bands (auto)
+- Total: **12157**
+- Bands: {'50k+': 475, '10k-50k': 654, '5k-10k': 1018, '1k-5k': 10010}
+- Mid-band harvest file: `data/universe-midband.jsonl`

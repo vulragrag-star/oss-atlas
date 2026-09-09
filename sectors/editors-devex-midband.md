@@ -77,3 +77,66 @@ Proceed: **35** · Leave: **13**.
 - Refreshed after TS/JS/Zig DevEx product slice.
 - No tracker comments/forks/third-party PRs.
 - scored_at: `2026-09-08T17:38:01Z`
+
+## Deepen pass (2026-09-09, +44 scored)
+
+Account: `vulragrag-star` · Curated product midband slice from remaining unscored editors-devex leftovers + `gh search` fills · Policy via `raw.githubusercontent.com` · **32** proceed / **12** leave · Band: `1k-5k` · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 42, 'hard_ban': 1, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `mg979/vim-visual-multi` | 4885 | silent | Multiple cursors for Vim/Neovim; selection/path edges | multi-cursor selection edge + Vim tests |
+| `anordal/shellharden` | 4803 | silent | Corrective bash syntax highlighter/linter; parse/quoting edges | bash parse/quoting/syntax edge + Rust tests |
+| `akinomyoga/ble.sh` | 4692 | silent | Bash Line Editor with syntax highlighting; completion/path edges | readline/completion/path edge + shell tests |
+| `numToStr/Comment.nvim` | 4668 | silent | Smart Neovim comment plugin; filetype/path edges | comment filetype/path edge + Lua tests |
+| `amperser/proselint` | 4574 | silent | Prose linter; rule/path/config edges | lint rule/path/config edge + tests |
+| `LuaLS/lua-language-server` | 4365 | silent | Lua language server; LSP/diagnose/path edges | LSP diagnose/path/workspace edge + tests |
+| `jiangmiao/auto-pairs` | 4194 | silent | Vim bracket/quote auto-pair plugin; insert edges | auto-pair insert/edge + Vim tests |
+| `prettier/prettier-eslint` | 4101 | silent | Prettier then ESLint --fix bridge; config/path edges | format bridge/config/path edge + tests |
+| `xcpretty/xcpretty` | 4036 | silent | xcodebuild output formatter; parse/format edges | xcodebuild parse/format edge + Ruby tests |
+| `VonHeikemen/lsp-zero.nvim` | 3977 | silent | Neovim LSP starter kit; config/LSP wiring edges | LSP config/wiring edge + Lua tests |
+| `mason-org/mason-lspconfig.nvim` | 3945 | silent | mason.nvim ↔ lspconfig bridge; install/config edges | LSP install/config bridge edge + Lua tests |
+| `verilator/verilator` | 3916 | silent | SystemVerilog simulator + lint; parse/lint edges | SV parse/lint/diag edge + C++ tests |
+| `swiftlang/sourcekit-lsp` | 3903 | silent | Swift/C-family language server; LSP/index/path edges | Swift LSP index/path edge + tests |
+| `erikw/tmux-powerline` | 3837 | silent | Hackable tmux status bar; segment/config/path edges | tmux segment/config/path edge + shell tests |
+| `nvimdev/lspsaga.nvim` | 3802 | silent | Neovim LSP UX improvements; UI/LSP path edges | LSP UI/path/handler edge + Lua tests |
+| `prettier/eslint-plugin-prettier` | 3652 | silent | ESLint plugin running Prettier; rule/config edges | eslint prettier rule/config edge + tests |
+| `stackrox/kube-linter` | 3503 | silent | Kubernetes YAML static analysis CLI; rule/path edges | k8s YAML lint rule/path edge + Go tests |
+| `Kotlin/kotlin-lsp` | 3501 | silent | Kotlin language server + VS Code plugin; LSP/path edges | Kotlin LSP/path/analyze edge + tests |
+| `adrienverge/yamllint` | 3455 | silent | YAML linter; rule/path/config edges | YAML lint rule/path edge + Python tests |
+| `Shougo/dein.vim` | 3420 | silent | Vim/Neovim plugin manager; install/path/config edges | plugin install/path/config edge + Vim tests |
+| `prabirshrestha/vim-lsp` | 3415 | silent | Async LSP client for Vim/Neovim; protocol/path edges | LSP client protocol/path edge + Vim tests |
+| `waf/CSharpRepl` | 3342 | silent | C# REPL with syntax highlighting; eval/path edges | REPL eval/path/completion edge + C# tests |
+| `csscomb/csscomb.js` | 3334 | silent | CSS coding-style formatter; option/parse edges | CSS format option/parse edge + JS tests |
+| `artempyanykh/marksman` | 3330 | silent | Markdown language server; link/path/wiki edges | markdown LSP link/path edge + F# tests |
+| `dbcli/litecli` | 3297 | silent | SQLite CLI with completion/syntax; path/completion edges | SQL completion/path edge + Python tests |
+| `nvimtools/none-ls.nvim` | 3261 | silent | null-ls reloaded — inject linters/formatters as LSP; source/path edges | null-ls source/path/config edge + Lua tests |
+| `haydenbleasel/ultracite` | 3255 | silent | Zero-config linter/formatter; rule/path edges | lint/format config/path edge + TS tests |
+| `textlint/textlint` | 3178 | silent | Pluggable natural-language linter; rule/path edges | textlint rule/path edge + TS tests |
+| `editorconfig/editorconfig-vim` | 3166 | silent | EditorConfig Vim plugin; indent/path/config edges | editorconfig path/indent edge + Vim tests |
+| `tmux-plugins/tmux-yank` | 3105 | silent | tmux clipboard yank plugin; buffer/path edges | tmux yank/buffer edge + shell tests |
+| `denoland/deno_lint` | 1584 | silent | Fast JS/TS linter (Deno); rule/parse edges | JS/TS lint rule/parse edge + Rust tests |
+| `fcsonline/tmux-thumbs` | 1097 | silent | tmux copy matcher (fingers successor); match/path edges | tmux match/copy edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `zufuliu/notepad4` | 4977 | silent | Windows Scintilla notepad fork — weak outsider systems/LSP fit |
+| `callumlocke/json-formatter` | 4130 | silent | Browser JSON pretty-print extension — not editor/LSP product core |
+| `ekzhang/rustpad` | 4076 | silent | Collaborative web code editor — weak playbook path/parser hunk class |
+| `jdorn/sql-formatter` | 3845 | silent | Legacy PHP SQL formatter — prefer sqruff/sqlfluff-class homes already mapped |
+| `cknadler/vim-anywhere` | 3767 | silent | Launch-Vim-anywhere shell utility — low-maintenance / weak product farm |
+| `mrcjkb/rustaceanvim` | 3108 | hard_ban | CONTRIBUTING no-LLM / NO-AI hard ban — leave |
+| `mileszs/ack.vim` | 3076 | silent | ack.vim superseded by ripgrep/telescope ecosystem — weak fresh hunk surface |
+| `qt-creator/qt-creator` | 3070 | disclosure | Heavy Qt IDE process — prefer smaller LSP/formatter homes even with CLAUDE disclosure |
+| `cpeditor/cpeditor` | 2177 | silent | Competitive-programming IDE niche — weak general DevEx farm |
+| `dzhou121/gonvim` | 1779 | silent | Superseded Neovim GUI — prefer goneovim/gnvim already on midband proceed |
+| `royqh1979/RedPanda-CPP` | 1451 | silent | Niche lightweight C++ IDE — prefer clangd/qt-creator-adjacent only if needed |
+| `eval-exec/neomacs` | 1186 | silent | WIP Neo Emacs — too early/unknown for midband first homes |
+
+Notes: Prefer LSP/formatter/linter/tmux-DevEx product surfaces with regression tests. Leave heavy IDEs, Windows notepad forks, browser JSON extensions, collaborative web pads, competitive-programming IDEs, superseded ack.vim/gonvim, and WIP Neo Emacs. `mrcjkb/rustaceanvim` is a hard no-LLM leave.
+

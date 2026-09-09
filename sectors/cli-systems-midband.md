@@ -151,3 +151,71 @@ Cython, OpenJDK, Zig LLM ban, SQLite agentic, Godot, Gentoo, QEMU AI, AgentScan 
 
 Per-repo policy fetch artifacts: `survey/notes/cli-systems-midband-raw/*.json`  
 Curated scored copy: `survey/notes/cli-systems-midband-scored.jsonl`
+
+## Deepen pass (2026-09-09, +49 scored)
+
+Account: `vulragrag-star` · Curated product midband leftovers — upgrade/env CLIs, search/find, CSV/jq/typos, git adjacency, compress/transfer, HTTP bench, Wayland/X11 utils, shells · Policy via `raw.githubusercontent.com` · **43** proceed / **6** leave · Band: `1k-5k` · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 47, 'disclosure': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `rfjakob/gocryptfs` | 4601 | silent | Encrypted overlay filesystem CLI; path/mount/cipher | mount/path/cipher edge + Go tests |
+| `tokio-rs/console` | 4599 | silent | Async Rust debugger/console TUI; path/tokio instrumentation | console path/target edge + Rust tests |
+| `jakehilborn/displayplacer` | 4518 | silent | macOS multi-display configuration CLI; display/path | display config edge + C tests |
+| `six-ddc/plow` | 4517 | silent | High-performance HTTP benchmarking CLI with realtime TUI; URL/argv | bench URL/argv edge + Go tests |
+| `topgrade-rs/topgrade` | 4498 | silent | Cross-platform upgrade-all-the-things CLI; path/package manager edges | upgrade path/config edge + Rust tests |
+| `medialab/xan` | 4497 | silent | CSV wrangling CLI (xsv-class); path/schema/select | CSV path/select edge + Rust tests |
+| `OpenVPN/easy-rsa` | 4476 | silent | Simple shell-based CA utility; path/PKI | PKI path/script edge + shell tests |
+| `vslavik/diff-pdf` | 4311 | silent | Visual PDF comparison CLI; path/page | PDF path/diff edge + C++ tests |
+| `rhysd/actionlint` | 4200 | silent | Static checker for GitHub Actions workflows; path/YAML | workflow path/YAML lint edge + Go tests |
+| `peak/s5cmd` | 4184 | silent | Parallel S3 and local filesystem execution tool; path/URI | S3 URI/path edge + Go tests |
+| `imapsync/imapsync` | 4146 | silent | IMAP mailbox transfer CLI; host/folder/path | IMAP folder/path edge + Perl/shell tests |
+| `qustavo/httplab` | 4139 | silent | Interactive web server for inspecting HTTP; path/argv | HTTP inspect/path edge + Go tests |
+| `crate-ci/typos` | 4125 | silent | Source code spell checker CLI; path/config/dict | path/dict/config edge + Rust tests |
+| `arxanas/git-branchless` | 4124 | silent | High-velocity git workflow tooling; path/ref/branch | git ref/branch edge + Rust tests |
+| `flox/flox` | 4123 | silent | Nix-based env/package manager CLI; path/activation (CLA + signed commits) | env/path/activation edge + Rust/Nix tests — accept CLA |
+| `zu1k/nali` | 4104 | silent | Offline IP geo/CDN query CLI; path/db/argv | IP db/path edge + Go tests |
+| `Drewsif/PiShrink` | 4104 | silent | Shrink Raspberry Pi images CLI; path/image | image path/shrink edge + shell tests |
+| `runfinch/finch` | 4059 | silent | AWS Finch container client CLI (nerdctl/lima adjacency); path/image/VM | container ref/path/VM edge + Go tests |
+| `sobolevn/git-secret` | 4043 | silent | Bash tool to store private data inside a git repo; path/gpg | git-secret path/gpg edge + shell tests |
+| `icholy/ttygif` | 4012 | silent | Convert terminal recordings to animated gifs; path/ttyrec | ttyrec path edge + C tests |
+| `kashav/fsql` | 3987 | silent | SQL-like filesystem search CLI; path/query parser | path/query parse edge + Go tests |
+| `YS-L/csvlens` | 3956 | silent | Command-line CSV viewer; path/format | CSV path/view edge + Rust tests |
+| `nakabonne/ali` | 3940 | silent | HTTP load generator with realtime plots; URL/argv | load URL/argv edge + Go tests |
+| `newsboat/newsboat` | 3902 | silent | Terminal RSS/Atom reader; path/url/config | feed URL/config path edge + C++ tests |
+| `neomutt/neomutt` | 3828 | disclosure | disclosure required for AI assistance; mutt-class mail client; path/config | config/path/MIME edge + C tests — disclose AI |
+| `ouch-org/ouch` | 3743 | silent | Painless compression/decompression CLI; path/archive format | archive path/format edge + Rust tests |
+| `axel-download-accelerator/axel` | 3401 | silent | Lightweight CLI download accelerator; URL/path/argv | URL/path/argv edge + C tests |
+| `jhawthorn/fzy` | 3300 | silent | Simple fast fuzzy finder for the terminal; argv/match | fuzzy match/argv edge + C tests |
+| `Genivia/ugrep` | 3279 | silent | User-friendly ultra-fast file pattern searcher CLI; path/glob/regex | path/glob/regex edge + C++ tests |
+| `noahgorstein/jqp` | 2835 | silent | TUI playground for jq expressions; expr/path | jq expr/TUI edge + Go tests |
+| `bugaevc/wl-clipboard` | 2430 | silent | Wayland command-line copy/paste utilities; path/MIME | clipboard MIME/path edge + C tests |
+| `hykilpikonna/hyfetch` | 2104 | silent | Neofetch-class system info CLI with pride flags; path/config | sysinfo config/path edge + shell/Python tests |
+| `Macchina-CLI/macchina` | 1969 | silent | System information frontend CLI; path/config | sysinfo config/path edge + Rust tests |
+| `gsamokovarov/jump` | 1945 | silent | Directory jumper CLI that learns habits; path/db | jump path/db edge + Go tests |
+| `lmorg/murex` | 1913 | silent | Smarter shell and scripting environment; argv/path/parser | shell parse/path edge + Go tests |
+| `eth-p/bat-extras` | 1627 | silent | Bash scripts integrating bat with other CLIs; path/argv | bat wrapper path edge + shell tests |
+| `jacobdeichert/mask` | 1616 | silent | Markdown-defined CLI task runner; path/command parse | markdown task/path edge + Rust tests |
+| `jethrokuan/z` | 1532 | silent | Pure-fish z directory jumping; path/ frecency | fish z path edge + shell tests |
+| `isacikgoz/tldr` | 1429 | silent | Fast interactive tldr client; path/page cache | tldr page/path edge + Go tests |
+| `philj56/tofi` | 1398 | silent | Tiny dynamic menu for Wayland; config/path | menu config/path edge + C tests |
+| `astrand/xclip` | 1323 | silent | X11 clipboard CLI; selection/path | clipboard selection/path edge + C tests |
+| `sharkdp/binocle` | 1321 | silent | Graphical binary data visualizer; path/format | binary path/view edge + Rust tests |
+| `emersion/slurp` | 1282 | silent | Wayland region selector CLI; output/geometry | region/output edge + C tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `233boy/sing-box` | 4617 | silent | VPN/proxy one-click installer (circumvention adjacency) — leave; not playbook hunk class |
+| `monitoror/monitoror` | 4389 | silent | Monitoring wallboard/dashboard product — weak CLI path/quoting hunk class |
+| `tmux-plugins/tmux-continuum` | 4067 | silent | tmux plugin not standalone famous CLI product home — leave |
+| `01mf02/jaq` | 3744 | hard_ban | CONTRIBUTING forbids machine-generated content (must be human-written) — hard leave |
+| `contour-terminal/contour` | 3019 | silent | Full terminal emulator surface — heavy GUI/process; prefer CLI utilities over emulator homes |
+| `chjj/compton` | 2263 | silent | Legacy X11 compositor superseded by yshui/picom (already scored) — leave stale fork |
+
+Notes: Prefer product CLI/TUI homes with path/quoting/parser tests (ugrep/xan/ouch/s5cmd/finch/topgrade class). Leave VPN installers, stale compositor forks, wallboards, tmux plugins-only, and full terminal-emulator surfaces. `01mf02/jaq` forbids machine-generated content (hard leave). `neomutt/neomutt` requires AI disclosure.
+

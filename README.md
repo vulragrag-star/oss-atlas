@@ -25,7 +25,7 @@ Agents: read [`AGENTS.md`](AGENTS.md) before third-party forks/PRs.
 ## Status
 
 - Universe seed: **16334** high-star main repos (systems-leaning + TS/JS/Zig fill)
-- Scored rows: **1350** across eight sectors · proceed **903**
+- Scored rows: **1399** across eight sectors · proceed **946**
 - Sector deep-dives synced: all eight (+ midband digests) in [`sectors/`](sectors/)
 - Shortlist: [`SHORTLIST.md`](SHORTLIST.md) — **100** sector-balanced proceed targets (cli/devops/editors weighted)
 - Synthesis: CLI/build primary; DevEx + SQL/storage + careful security secondary; hard leaves fish/sqlite/AgentScan/Zig/ante/boxlite/rustaceanvim — [`SYNTHESIS.md`](SYNTHESIS.md)

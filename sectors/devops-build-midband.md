@@ -95,3 +95,56 @@ Proceed: **52** · Leave: **15**.
 - Refreshed after TS/JS/Zig DevEx product slice.
 - No tracker comments/forks/third-party PRs.
 - scored_at: `2026-09-08T17:38:01Z`
+
+## Deepen pass (2026-09-09, +34 scored)
+
+Account: `vulragrag-star` · Curated product midband slice from remaining unscored devops-build leftovers + curated container/build/CD fills · Policy via `raw.githubusercontent.com` · **25** proceed / **9** leave · Band: `1k-5k` · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 33, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `terraform-docs/terraform-docs` | 4818 | silent | Generate Terraform module docs CLI; path/format/config edges | module path / output format edge + Go tests |
+| `gomods/athens` | 4795 | silent | Go module proxy/datastore; storage/path/protocol edges | module path / storage backend edge + Go tests |
+| `NVIDIA/nvidia-container-toolkit` | 4546 | silent | NVIDIA container runtime toolkit; CDI/config/path edges for GPU containers | runtime config / CDI path edge + Go tests |
+| `facebook/buck2` | 4417 | silent | Buck2 multi-language build system; target/path/remote-exec edges | BUCK target/path or remote-cache edge + Rust tests |
+| `nicholas-fedor/watchtower` | 4399 | silent | Automate Docker container image updates; label/schedule/registry edges | watch label / registry auth path edge + Go tests |
+| `purpleidea/mgmt` | 4314 | silent | Event-driven parallel config management; graph/path/resource edges | resource graph/path edge + Go tests |
+| `iterative/cml` | 4186 | silent | CI/CD for ML reports/comments CLI; path/token/provider edges | cml report/path or provider edge + JS tests |
+| `google/go-containerregistry` | 4037 | silent | crane/gcrane OCI registry CLIs; mutate/copy/digest edges | crane mutate/copy/ref edge + Go tests |
+| `genuinetools/img` | 3987 | silent | Daemon-less Dockerfile/OCI image builder CLI; rootless BuildKit-class surface | Dockerfile/path or rootless build edge + Go tests |
+| `dagucloud/dagu` | 3844 | silent | Self-hostable workflow orchestrator CLI; DAG/path/schedule edges | DAG yaml path / step edge + Go tests |
+| `composerize/composerize` | 3756 | silent | docker run → compose translator CLI; flag/quoting parse edges | docker-run flag parse / quoting edge + JS tests |
+| `buildpacks/pack` | 3002 | silent | Cloud Native Buildpacks pack CLI; builder/path/env edges | pack build builder/path/env edge + Go tests |
+| `ofek/pyapp` | 2029 | silent | Runtime installer for Python applications; path/embed edges | install path / embed config edge + Rust tests |
+| `jkroepke/helm-secrets` | 2027 | silent | Helm secrets plugin; values decrypt/path/backend edges | secrets values path / backend edge + shell tests |
+| `genuinetools/reg` | 1710 | silent | Docker registry v2 CLI for listing/tags/digests; registry ref edges | registry ref/tag/digest path edge + Go tests |
+| `kimdre/doco-cd` | 1649 | silent | Docker Compose continuous deployment tool; compose/path/webhook edges | compose file path / deploy trigger edge + Go tests |
+| `cabinpkg/cabin` | 1499 | silent | Cargo-inspired C/C++ package manager + build system; manifest/path edges | cabin.toml path / build target edge + Rust tests |
+| `cloud66-oss/habitus` | 1401 | silent | Docker build-flow tool; habitus.yml path/secrets edges | habitus.yml path / secret mount edge + Go tests |
+| `ekristen/aws-nuke` | 1401 | silent | AWS account resource cleanup CLI; config/filter/path edges | nuke config path / resource filter edge + Go tests |
+| `Lifailon/lazyjournal` | 1398 | silent | TUI for journald/Docker/Podman logs; unit/container filter edges | unit/container filter path edge + Go tests |
+| `cloudposse/atmos` | 1373 | silent | Atmos infra runtime for Terraform/Helm stacks; stack/path/config edges | stack yaml path / terraform var edge + Go tests |
+| `pipe-cd/pipecd` | 1353 | silent | Multi-platform continuous delivery; app/config/path edges | app config path / sync edge + Go tests |
+| `swiftlang/swift-llbuild` | 1277 | silent | Low-level build system used by Xcode/SwiftPM; Ninja-like path/target edges | build graph/path or target edge + C++ tests |
+| `fastforgedev/fastforge` | 1142 | silent | Build/package/publish CLI for shipping apps; path/target edges | package/publish path edge + Rust tests |
+| `hcavarsan/pipedash` | 1080 | silent | Multi-provider CI/CD pipeline manager (desktop/self-host); pipeline path edges | pipeline config/path edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `ovh/cds` | 4839 | silent | Enterprise CD platform — heavy process / large surface for first home |
+| `lucaslorentz/caddy-docker-proxy` | 4639 | silent | Caddy reverse-proxy for Docker — networking proxy, not build/packaging CLI |
+| `virtual-kubelet/virtual-kubelet` | 4563 | silent | Kubelet implementation / provider runtime — platform, not build/packaging CLI hunk class |
+| `Project-HAMi/HAMi` | 4526 | disclosure | Heterogeneous GPU sharing K8s platform — operator/platform UI class, not build CLI |
+| `ory/dockertest` | 4525 | silent | Go library for ephemeral Docker testcontainers — library not product CLI |
+| `kubernetes-sigs/aws-load-balancer-controller` | 4323 | silent | AWS load-balancer operator — cloud networking, better networking-distributed |
+| `kubernetes-sigs/cluster-api` | 4301 | silent | Large SIG Cluster API platform — heavy process for first atlas home |
+| `create-go-app/cli` | 2771 | silent | Project scaffolder CLI — template generator, not build/packaging product farm |
+| `juju/juju` | 2662 | silent | Large orchestration platform — process-heavy, weak small hunk class |
+
+Notes: Prefer container/registry/build-system/Helm/CD CLI surfaces with regression tests. Leave kubelet/SIG platforms, AWS LB operators, GPU-sharing platforms, enterprise CD monoliths, project scaffolders, Go test libraries, and reverse-proxy sidecars.
+

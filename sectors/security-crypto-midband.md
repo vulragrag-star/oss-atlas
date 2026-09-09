@@ -128,3 +128,61 @@ Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo�
 - Method: policy files via `raw.githubusercontent.com` (CONTRIBUTING*/AI*/AGENTS*/PR templates/SECURITY); `gh api` workflows when needed; local AgentScan blacklist.
 - No fork / PR / tracker comment performed.
 
+## Deepen pass (2026-09-09, +40 scored)
+
+Account: `vulragrag-star` · Curated product midband slice from remaining unscored `security-crypto-midband` raw (+ a few midband fills via `gh`) · Policy via `raw.githubusercontent.com` · **31** proceed / **9** leave · Band: `1k-5k` · No fork/PR/comment.
+
+Policy histogram (this pass): `{'disclosure': 2, 'silent': 38}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `greenbone/openvas-scanner` | 4816 | disclosure | OpenVAS scanner component; scan/config/path edges — disclose AI-assist per PR template | scan/config/path edge + Rust tests — disclose if agent-assisted |
+| `aquasecurity/tracee` | 4612 | silent | Runtime security eBPF tracing toolkit; policy/event/path edges | eBPF policy/event/path edge + Go tests |
+| `spiffe/spire` | 2522 | silent | SPIFFE runtime environment; workload identity/path edges | SPIFFE identity/path/config edge + Go tests |
+| `rspamd/rspamd` | 2522 | silent | Fast spam filtering system; rule/config/path edges | rule/config/path edge + C tests |
+| `authorizerdev/authorizer` | 1997 | silent | Open-source authN/Z service; OAuth/config/path edges | OAuth/config/path edge + Go tests |
+| `pyupio/safety` | 1996 | silent | Python dependency vulnerability checker CLI; package/path edges | advisory/package/path edge + py tests |
+| `cossacklabs/themis` | 1974 | silent | Crypto framework for data protection — config/API edges only | config/API edge + C tests — not novel algorithms |
+| `dghubble/gologin` | 1959 | silent | Go OAuth1/OAuth2 login handlers; provider/callback edges | OAuth callback/config edge + Go tests |
+| `moul/sshportal` | 1940 | silent | SSH/telnet bastion server; config/ACL/path edges | bastion ACL/config/path edge + Go tests |
+| `aquasecurity/trivy-operator` | 1935 | silent | Kubernetes-native Trivy operator; CRD/config/path edges | operator CRD/config/path edge + Go tests |
+| `openshift/osin` | 1935 | silent | Golang OAuth2 server library; grant/config edges | OAuth grant/config edge + Go tests |
+| `BishopFox/jsluice` | 1912 | silent | Extract URLs/paths/secrets from JavaScript; parse/path edges | JS parse/secret/path edge + Go tests |
+| `zema1/watchvuln` | 1894 | silent | High-value vulnerability feed collector/pusher; source/config edges | feed/source/config edge + Go tests |
+| `justinas/nosurf` | 1751 | silent | CSRF protection middleware for Go; token/header edges | CSRF token/header edge + Go tests |
+| `pkg/sftp` | 1664 | silent | SFTP support for go.crypto/ssh; path/protocol edges | SFTP path/protocol edge + Go tests |
+| `rust-openssl/rust-openssl` | 1645 | silent | OpenSSL bindings for Rust — API/build edges only | FFI/API/build edge + Rust tests — not novel crypto |
+| `drduh/pwd.sh` | 1563 | silent | Bash+GnuPG secrets manager; path/gpg edges | gpg/path/secret edge + shell tests |
+| `occlum/occlum` | 1533 | silent | SGX library OS; config/path/seccomp edges | SGX config/path edge + Rust tests |
+| `pass-extension/pass-otp` | 1494 | silent | pass OTP extension; URI/path edges | otpauth URI/path edge + shell tests |
+| `cossacklabs/acra` | 1492 | silent | DB security suite / field-level encryption proxy; SQL/config edges | SQL/proxy/config edge + Go tests |
+| `polhenarejos/pico-fido` | 1482 | silent | FIDO passkey firmware for Pico/ESP32; CTAP/config edges | CTAP/config edge + C tests — hardware care |
+| `Shopify/ejson` | 1481 | silent | Asymmetric encrypted secrets library/CLI; key/path edges | encrypt/key/path edge + Go tests |
+| `cyphar/paperback` | 1480 | silent | Paper backup generator for long-term secrets; encode/path edges | backup encode/path edge + Rust tests |
+| `qpoint-io/qtap` | 1458 | silent | eBPF agent capturing pre-encrypted egress context; path/policy edges | eBPF policy/path edge + C tests |
+| `eljojo/rememory` | 1447 | disclosure | Multi-key digital safe; crypto/path edges — AGENTS/CONTRIBUTING present | multi-key/path edge + Go tests — follow AGENTS disclosure |
+| `aserto-dev/topaz` | 1361 | silent | Cloud-native authorization for apps/APIs; policy/path edges | authZ policy/path edge + Go tests |
+| `sorah/envchain` | 1326 | silent | Env vars meet Keychain/gnome-keyring; path/keychain edges | keychain/path/env edge + C tests |
+| `FiloSottile/passage` | 1188 | silent | password-store fork using age; path/age edges | age/path/store edge + shell tests |
+| `mufeedvh/binserve` | 1127 | silent | Static web server with TLS/routing; config/path/TLS edges | TLS/config/path edge + Rust tests |
+| `kunai-project/kunai` | 1085 | silent | Linux threat-hunting tool; event/rule/path edges | event/rule/path edge + Rust tests |
+| `rpgp/rpgp` | 1066 | silent | Pure-Rust OpenPGP; parse/packet edges — not invent algorithms | OpenPGP packet/parse edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `ComodoSecurity/openedr` | 2718 | silent | Vendor EDR dump — weak outsider hunk fit / unclear contrib culture |
+| `jaksi/sshesame` | 1742 | silent | SSH honeypot — leave (honeypot class, not product tool farm) |
+| `dwisiswant0/crlfuzz` | 1562 | silent | CRLF vulnerability fuzzer — offensive scanner class; leave |
+| `tillson/git-hound` | 1455 | silent | Broad GitHub recon/secret hunter — noisy drive-by recon class; leave |
+| `aquasecurity/trivy-action` | 1410 | silent | GitHub Action wrapper satellite of Trivy — prefer main product repos |
+| `rest-sh/restish` | 1371 | silent | General REST CLI — better fits cli-systems; weak security-sector fit here |
+| `honeytrap/honeytrap` | 1308 | silent | Honeypot framework — not playbook product CLI/path class; stale activity |
+| `httpsok/httpsok` | 1302 | silent | One-liner SSL renew script niche — weak testable product surface |
+| `JonasAlfredsson/docker-nginx-certbot` | 1203 | silent | Compose recipe for nginx+certbot — not a product codebase |
+
+Notes: Prefer PKI/TLS/IAM/secrets/SAST/auth product surfaces with regression tests. Leave honeypots, GitHub Action satellites, compose recipes, and offensive recon/fuzzer kits. Config/API edges only on crypto libraries — never invent algorithms. `greenbone/openvas-scanner` and `eljojo/rememory` need disclosure trailers when agent-assisted.
+

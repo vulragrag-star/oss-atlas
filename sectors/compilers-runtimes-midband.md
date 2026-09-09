@@ -127,3 +127,65 @@ Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo�
 - Method: policy files via `raw.githubusercontent.com` (CONTRIBUTING*/AI*/AGENTS*/PR templates/SECURITY); `gh api` workflows when needed; local AgentScan blacklist.
 - No fork / PR / tracker comment performed.
 
+## Deepen pass (2026-09-09, +44 scored)
+
+Account: `vulragrag-star` · Curated product midband leftovers — linkers, language VMs, assemblers/disassemblers, small compilers, Starlark/CEL/Nickel/KCL surfaces · Policy via `raw.githubusercontent.com` · **31** proceed / **13** leave · Band: `1k-5k` · No fork/PR/comment.
+
+Policy histogram (this pass): `{'disclosure': 3, 'silent': 39, 'hard_ban': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `zrax/pycdc` | 4611 | silent | C++ Python bytecode disassembler/decompiler product | pyc decode/path edge + C++ tests |
+| `zyantific/zydis` | 4360 | silent | Fast x86/x86-64 disassembler + code generation library | decode/encode API or path edge + C tests |
+| `wild-linker/wild` | 3955 | disclosure | Very fast Linux linker (lld-class); human-in-loop AI ownership in CONTRIBUTING | linker path/argv/reloc edge + Rust tests — disclose/human-owns |
+| `icedland/iced` | 3561 | silent | x86/x64 disassembler/assembler/decoder/encoder (Rust/.NET/Java/Python) | instruction decode/encode edge + Rust tests |
+| `NVlabs/cuda-oxide` | 3132 | silent | Experimental Rust→CUDA SIMT compiler | kernel codegen/path edge + Rust tests |
+| `cel-expr/cel-go` | 3092 | silent | CEL expression language evaluator (Go); gradual typing | CEL parse/eval edge + Go tests |
+| `chaosprint/glicol` | 2995 | silent | Graph-oriented live-coding audio language + DSP lib | Glicol parse/graph edge + Rust tests |
+| `nickel-lang/nickel` | 2993 | silent | Nickel configuration language (typed contracts) | Nickel parse/typecheck/path edge + Rust tests |
+| `mstorsjo/llvm-mingw` | 2949 | silent | LLVM/Clang/LLD mingw-w64 cross toolchain product | toolchain path/target/sysroot edge + shell/C tests |
+| `google/starlark-go` | 2758 | silent | Starlark configuration language implemented in Go | Starlark parse/eval edge + Go tests |
+| `kaleidawave/ezno` | 2733 | silent | TypeScript type checker/compiler experiments | TS check/parse edge + Rust tests |
+| `cc65/cc65` | 2687 | silent | Freeware C compiler for 6502-based systems | compile/link/path edge + C tests |
+| `marcj/TypeRunner` | 2656 | silent | High-performance TypeScript compiler (C++) | TS parse/emit path edge + C++ tests |
+| `vnmakarov/mir` | 2650 | silent | Lightweight MIR JIT + C11 JIT interpreter | MIR JIT/API edge + C tests |
+| `keystone-engine/keystone` | 2633 | silent | Multi-arch assembler framework (Arm/x86/…) | assemble API/arch edge + C++ tests |
+| `drh/lcc` | 2618 | silent | Classic retargetable ANSI C compiler | compile/target/path edge + C tests |
+| `seanbaxter/circle` | 2576 | silent | Circle C++ compiler product surface | Circle compile/path edge + tests |
+| `mattwparas/steel` | 2571 | silent | Embedded Scheme interpreter in Rust | Scheme parse/eval edge + Rust tests |
+| `thepowersgang/mrustc` | 2524 | silent | Alternative Rust compiler reimplementation | Rust parse/lowering edge + C++ tests |
+| `mthom/scryer-prolog` | 2452 | silent | Modern Prolog implementation mostly in Rust | Prolog parse/ISO edge + Rust tests |
+| `kcl-lang/kcl` | 2408 | silent | KCL configuration programming language core (CNCF sandbox) | KCL parse/typecheck/path edge + Rust tests |
+| `AcademySoftwareFoundation/OpenShadingLanguage` | 2332 | disclosure | Production GI shading language; ASWF AI disclosure/AGENTS policy | OSL parse/shader edge + C++ tests — follow ASWF disclosure |
+| `rune-rs/rune` | 2321 | silent | Embeddable dynamic programming language for Rust | Rune parse/VM edge + Rust tests |
+| `gbdk-2020/gbdk-2020` | 2294 | silent | Updated GBDK: C compiler/assembler/linker for Game Boy | compile/link/path edge + C tests |
+| `herumi/xbyak` | 2271 | silent | JIT assembler for x86/x64 with modern ISAs | JIT emit/API edge + C++ tests |
+| `nature-lang/nature` | 2252 | silent | Nature programming language compiler/runtime | parser/codegen/path edge + C tests |
+| `Storyyeller/Krakatau` | 2248 | silent | Java decompiler, assembler, and disassembler | classfile decode/assemble edge + Rust tests |
+| `uiua-lang/uiua` | 2162 | silent | Tacit array programming language | Uiua parse/array edge + Rust tests |
+| `wasmerio/wasmer-python` | 2151 | silent | Wasmer WebAssembly runtime bindings for Python | wasm load/host API edge + Python/Rust tests |
+| `kyren/piccolo` | 2149 | silent | Stackless Lua VM in pure Rust | Lua bytecode/VM edge + Rust tests |
+| `aurae-runtime/aurae` | 1911 | silent | Distributed systems runtime daemon (Rust) | runtime API/path/config edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `rivet-dev/agentos` | 4608 | silent | Agent OS library — agent-sandbox adjacency, not compiler/runtime farm |
+| `geohot/qira` | 4070 | silent | QEMU Interactive Runtime Analyser — QEMU-adjacent analysis tool; prefer leave |
+| `banach-space/llvm-tutor` | 3435 | silent | Teaching out-of-tree LLVM passes — tutorial, not product farm |
+| `emojicode/emojicode` | 3414 | silent | Emoji novelty language — weak product contrib fit for atlas farm |
+| `google-ai-edge/LiteRT` | 3380 | silent | On-device ML runtime (TFLite successor) — ML mega, not language/wasm home |
+| `jfecher/ante` | 2337 | hard_ban | CONTRIBUTING NO-AI / hard ban on AI contributions — leave |
+| `boxlite-ai/boxlite` | 2305 | hard_ban | PR template NO-AI phrase — hard leave; also agent micro-VM adjacency |
+| `llvm/circt` | 2237 | disclosure | Circuit IR Compilers (MLIR) — large LLVM subproject / heavy process for first home |
+| `spencertipping/jit-tutorial` | 1934 | silent | How-to JIT tutorial — teaching artifact, not shipping product |
+| `llvm/torch-mlir` | 1907 | silent | PyTorch↔MLIR bridge — ML-compiler mega surface, weak playbook hunk class |
+| `diekmann/wasm-fizzbuzz` | 1557 | silent | Wasm-from-scratch tutorial (FizzBuzz→Doom) — teaching not product |
+| `wa-lang/ugo-compiler-book` | 1537 | silent | µGo compiler book/code — teaching, not product queue |
+| `Spu7Nix/SPWN-language` | 1183 | silent | Geometry Dash trigger language — niche game DSL, weak outsider process |
+
+Notes: Prefer small language/wasm/linker/assembler homes with regression tests. Leave teaching books, ML mega-compilers (Torch-MLIR/LiteRT), emoji/game DSLs, QEMU-adjacent analysers, agent OS/micro-VM novelty, and hard NO-AI repos (`jfecher/ante`, `boxlite-ai/boxlite`). `wild-linker/wild` and ASWF OSL need human-owned disclosure.
+

@@ -186,3 +186,46 @@ Policy histogram (this pass): `{'disclosure': 2, 'silent': 38}`.
 
 Notes: Prefer PKI/TLS/IAM/secrets/SAST/auth product surfaces with regression tests. Leave honeypots, GitHub Action satellites, compose recipes, and offensive recon/fuzzer kits. Config/API edges only on crypto libraries — never invent algorithms. `greenbone/openvas-scanner` and `eljojo/rememory` need disclosure trailers when agent-assisted.
 
+## Product deepen midband subset (2026-09-10, +25 scored)
+
+Account: `vulragrag-star` · Curated PKI/TLS/IAM/secrets/SBOM/SAST/access product homes still missing after midband · Policy via `raw.githubusercontent.com` · **15** proceed / **10** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 25}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `open-policy-agent/gatekeeper` | 4273 | silent | K8s admission policy; constraint/path edges | constraint/template/path edge + Go tests |
+| `google/nsjail` | 4091 | silent | Process isolation; config/path edges | config/path edge + C++ tests |
+| `hashicorp/boundary` | 4057 | silent | Identity-based access; target/path/session edges | target/path/session edge + Go tests |
+| `panva/node-oidc-provider` | 3807 | silent | OIDC provider; client/route/config edges | OIDC client/route/config edge + JS tests |
+| `FairwindsOps/goldilocks` | 3341 | silent | K8s resource right-sizing; config/path edges | config/path edge + Go tests |
+| `jedisct1/minisign` | 2815 | silent | Simple file signing CLI; path/key edges | sign/verify path/key edge + C tests |
+| `Checkmarx/kics` | 2699 | silent | IaC security scanner; query/path edges | query/path edge + Go tests |
+| `supabase/auth` | 2557 | silent | JWT auth API; user/token/path edges | user/token/path edge + Go tests |
+| `cedar-policy/cedar` | 1714 | silent | Cedar policy language; parse/eval edges | policy parse/eval edge + Rust tests |
+| `ossf/allstar` | 1450 | silent | GitHub App security policy enforcer; policy/path edges | policy/path edge + Go tests |
+| `deepfence/YaraHunter` | 1320 | silent | Malware scanner CI; yara/path edges | yara/path edge + Go tests |
+| `pyca/pynacl` | 1205 | silent | PyNaCl bindings — API edges only | API bind/edge + py tests — not invent crypto |
+| `sigstore/rekor` | 1204 | silent | Sigstore transparency log; entry/path edges | log entry/path edge + Go tests |
+| `dalek-cryptography/curve25519-dalek` | 1192 | silent | Curve25519 group ops — API/test edges only | API/test edge + Rust tests — not invent crypto |
+| `square/certigo` | 1034 | silent | Cert examine/validate CLI; PEM/path/SAN edges | PEM/path/SAN edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `auth0/express-jwt` | 4513 | silent | Tiny express JWT middleware — satellite surface |
+| `osohq/oso` | 3489 | silent | Deprecated authZ library — do not open new work |
+| `google/honggfuzz` | 3377 | silent | Fuzzer — specialized; weak path/quoting playbook class |
+| `padloc/padloc` | 2920 | silent | Password manager with no CONTRIBUTING in common paths — weak process |
+| `projectdiscovery/dnsx` | 2863 | silent | DNS toolkit — recon-adjacent; prefer nuclei/httpx |
+| `WireGuard/wireguard-linux` | 1985 | silent | Kernel mirror only — not GitHub contribution home |
+| `nginx/njs` | 1596 | silent | nginx JS subset satellite — prefer main product homes |
+| `Vector35/binaryninja-api` | 1308 | silent | Binary Ninja API satellite — RE tooling; leave |
+| `wolfi-dev/os` | 1286 | silent | Distro package dump — not a single product codebase for drive-by |
+| `hashicorp/vault-helm` | 1259 | silent | Helm chart satellite of Vault — prefer hashicorp/vault product |
+
+Notes: Prefer sealed-secrets/ESO/scorecard/casbin/cedar/gosec/rekor/nsjail/bubblewrap edges. Leave toxiproxy chaos, dnsx/katana recon-adjacent, vault-helm satellite, wolfi package dump, WireGuard kernel mirror, and deprecated oso.
+

@@ -28,8 +28,10 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | nektos/act | 71844 | devops-build | silent | workflow YAML path / secret env edge + Go tests |
 | ansible/ansible | 70621 | devops-build | disclosure | inventory/path or module arg edge + py tests — disclose AI |
 | BurntSushi/ripgrep | 68078 | cli-systems | disclosure | path/glob/ignore edge + Rust tests |
+| dani-garcia/vaultwarden | 66999 | security-crypto | silent | vault path/config/API edge + Rust tests |
 | tw93/Mole | 66556 | cli-systems | silent | path / shell quoting edge + shell tests |
 | prometheus/prometheus | 66005 | databases-storage | silent | PromQL/textparse quoting or tsdb path + table tests |
+| traefik/traefik | 64795 | security-crypto | disclosure | router/middleware/path edge + Go tests — disclose AI |
 | scrapy/scrapy | 64240 | python-tooling | silent | URL/path/selector edge + tests |
 | FuelLabs/sway | 61454 | compilers-runtimes | silent | parser/typecheck edge + tests |
 | pi-hole/pi-hole | 60796 | cli-systems | silent | script path / gravity list edge + shell tests |
@@ -44,6 +46,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | prettier/prettier | 52240 | editors-devex | silent | parser/printer fixture edge + tests |
 | apple/container | 49759 | devops-build | silent | container config/path or image ref edge + Swift/tests |
 | astral-sh/ruff | 49545 | python-tooling | disclosure | lint rule/path/parse edge + fixtures |
+| acmesh-official/acme.sh | 47609 | security-crypto | silent | domain/path/dns-api edge + shell tests |
 | helix-editor/helix | 46159 | editors-devex | silent | config/LSP/path edge + Rust tests |
 | pyenv/pyenv | 45085 | python-tooling | silent | shim/PATH/quoting edge + bats/shell tests |
 | charmbracelet/bubbletea | 44874 | editors-devex | silent | Elm-arch msg/cmd edge + Go tests |
@@ -51,14 +54,21 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | psf/black | 41834 | python-tooling | silent | AST/parse edge + regression fixtures |
 | lapce/lapce | 38833 | editors-devex | silent | config/plugin/path edge + Rust tests |
 | docker/compose | 38127 | devops-build | silent | compose.yaml path / project name edge + Go tests |
+| aquasecurity/trivy | 37848 | security-crypto | silent | scan target/path/SBOM edge + Go tests |
+| AdguardTeam/AdGuardHome | 36759 | security-crypto | silent | config/path/filter edge + Go/TS tests |
+| keycloak/keycloak | 36712 | security-crypto | disclosure | realm/client/config edge + tests — disclose AI |
 | firecracker-microvm/firecracker | 36647 | devops-build | silent | VM config JSON path / vsock edge + Rust tests — CLA |
+| tailscale/tailscale | 36297 | security-crypto | silent | ACL/path/config edge + Go tests |
+| hashicorp/vault | 36219 | security-crypto | silent | secret path/policy/auth edge + Go tests |
 | lerna/lerna | 36055 | devops-build | silent | workspace/publish/path edge + tests |
 | typicode/husky | 35309 | editors-devex | silent | hook path/config edge + tests |
 | python-poetry/poetry | 34295 | python-tooling | silent | lockfile/path/env resolver edge + tests |
 | k3s-io/k3s | 33925 | devops-build | disclosure | install path / kubeconfig edge + Go tests — careful AI |
+| certbot/certbot | 33231 | security-crypto | disclosure | renew/path/plugin edge + py tests — disclose AI |
 | podman-container-tools/podman | 32834 | devops-build | disclosure | quadlet/path or image ref edge + Go tests — human-owned |
 | dokku/dokku | 32126 | devops-build | silent | app path / plugin hook edge + shell tests |
 | kubernetes/minikube | 32113 | devops-build | silent | driver/path or addon config edge + Go tests |
+| jumpserver/jumpserver | 31512 | security-crypto | silent | asset/path/ACL edge + py tests |
 | tqdm/tqdm | 31330 | python-tooling | silent | progress format/path/iterable edge + py tests |
 | helm/helm | 30229 | devops-build | silent | chart path / values quoting edge + Go tests |
 | micro-editor/micro | 29555 | editors-devex | silent | config/plugin/path edge + Go tests |
@@ -78,24 +88,14 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | alibaba/zvec | 15847 | databases-storage | silent | vector index/path edge + C++ tests |
 | dgraph-io/badger | 15758 | databases-storage | silent | SST path/corruption / compaction edge + tests |
 | go-sql-driver/mysql | 15282 | databases-storage | silent | DSN/param/quoting/TINYINT edge + dsn_test |
-| zitadel/zitadel | 14959 | security-crypto | disclosure | OIDC/login path or config parse edge + tests |
 | benbjohnson/litestream | 14358 | databases-storage | disclosure | path/config DSN/replica path + go test |
-| cert-manager/cert-manager | 14069 | security-crypto | silent | cert path/DNSName/CSR encode edge + unit tests |
 | openresty/openresty | 14028 | compilers-runtimes | silent | build/path/LuaJIT packaging edge + tests |
 | rook/rook | 13645 | databases-storage | disclosure | path/ceph volume mount + unit tests |
 | gopherjs/gopherjs | 13183 | compilers-runtimes | silent | compiler/js-runtime edge + tests |
 | drakkan/sftpgo | 12498 | databases-storage | silent | path sanitize / virtual folder edge + tests |
 | manticoresoftware/manticoresearch | 11993 | databases-storage | silent | SQL/fulltext parse edge + tests |
-| kubescape/kubescape | 11722 | security-crypto | silent | control/framework JSON parse or path edge + tests |
-| linkerd/linkerd2 | 11487 | security-crypto | silent | CLI flag/path or identity name normalize + tests |
-| dexidp/dex | 11083 | security-crypto | silent | OIDC connector config / redirect URI parse + tests |
-| quay/clair | 11057 | security-crypto | silent | matcher/index path or purl parse edge + tests |
 | foundry-rs/foundry | 10583 | compilers-runtimes | disclosure | CLI flag/path/tool edge + tests |
-| golang-jwt/jwt | 9217 | security-crypto | silent | JWT claim/time/audience parse edge + table tests |
 | wasm-bindgen/wasm-bindgen | 9145 | compilers-runtimes | silent | bindgen attribute/path parse edge + tests |
-| smallstep/certificates | 8843 | security-crypto | silent | ACME/path/SAN parsing edge + go tests |
-| aquasecurity/kube-bench | 8176 | security-crypto | silent | check YAML/config path edge + go tests |
-| kyverno/kyverno | 8120 | security-crypto | disclosure | policy YAML parse / path match edge + unit tests |
 | pomerium/pomerium | 4997 | networking-distributed | disclosure | redirect/URL path or policy rule edge + go tests — disclose AI |
 | NLnetLabs/unbound | 4859 | networking-distributed | silent | conf/ACL/path or DNSSEC edge + tests |
 | microsoft/msquic | 4775 | networking-distributed | silent | QUIC frame/path or API edge + tests |

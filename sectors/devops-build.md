@@ -146,3 +146,79 @@ Proceed: **89** · Leave: **29**.
 - Refreshed after TS/JS/Zig DevEx product slice.
 - No tracker comments/forks/third-party PRs.
 - scored_at: `2026-09-08T17:38:01Z`
+
+## Product deepen (≥5k★ subset) (2026-09-10, +57 scored)
+
+Account: `vulragrag-star` · Curated devops/build product homes still missing after prior devops-build passes · Policy via `raw.githubusercontent.com` · **48** proceed / **9** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 45, 'disclosure': 11, 'hostility_risk': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `moby/moby` | 72073 | silent | Moby container engine; daemon/path/OCI edges | daemon config/path or OCI mount edge + Go tests |
+| `nektos/act` | 71844 | silent | Run GitHub Actions locally; workflow/path/env edges | workflow YAML path / secret env edge + Go tests |
+| `ansible/ansible` | 70621 | disclosure | IT automation CLI; module/path/inventory — AGENTS disclosure trailer | inventory/path or module arg edge + py tests — disclose AI |
+| `apple/container` | 49759 | silent | Apple Linux container runtime CLI; path/config edges | container config/path or image ref edge + Swift/tests |
+| `docker/compose` | 38127 | silent | Compose multi-container CLI; YAML/path/project edges | compose.yaml path / project name edge + Go tests |
+| `firecracker-microvm/firecracker` | 36647 | silent | Secure microVM VMM; config/path/API edges — Amazon CLA/high bar | VM config JSON path / vsock edge + Rust tests — CLA |
+| `k3s-io/k3s` | 33925 | disclosure | Lightweight Kubernetes distro CLI; install/config path — AI-assisted mention | install path / kubeconfig edge + Go tests — careful AI |
+| `podman-container-tools/podman` | 32834 | disclosure | Podman engine CLI; image/path/quadlet — AGENTS AI policy | quadlet/path or image ref edge + Go tests — human-owned |
+| `dokku/dokku` | 32126 | silent | Docker-powered PaaS CLI; app/path/plugin edges | app path / plugin hook edge + shell tests |
+| `kubernetes/minikube` | 32113 | silent | Local Kubernetes CLI; driver/path/config edges | driver/path or addon config edge + Go tests |
+| `helm/helm` | 30229 | silent | Kubernetes package manager CLI; chart/values/path edges | chart path / values quoting edge + Go tests |
+| `opentofu/opentofu` | 30141 | silent | Terraform-compatible IaC CLI; HCL/path/state edges | module path / state backend edge + Go tests |
+| `goharbor/harbor` | 29342 | silent | Cloud-native registry; project/path/policy edges | project path / retention policy edge + Go tests |
+| `microsoft/vcpkg` | 27454 | silent | C/C++ package manager; port/path/triplet edges | portfile path / triplet edge + tests |
+| `hashicorp/vagrant` | 27206 | silent | VM/dev env CLI; Vagrantfile/path/provider edges | Vagrantfile path / synced-folder edge + Ruby tests |
+| `bazelbuild/bazel` | 25825 | silent | Hermetic build system; BUILD/path/label edges — high bar | label/path or remote-cache edge + Java tests — high bar |
+| `pulumi/pulumi` | 25659 | disclosure | IaC in real languages; stack/path/config — AI policy disclosure | stack path / config key edge + Go tests — disclose AI |
+| `argoproj/argo-cd` | 24114 | silent | GitOps continuous delivery; app/path/sync edges | app manifest path / sync option edge + Go tests |
+| `containerd/containerd` | 21275 | disclosure | Container runtime; snapshot/path/OCI — AI-assisted mention | snapshotter path / image ref edge + Go tests — careful |
+| `gradle/gradle` | 18832 | disclosure | Build system; task/path/config — AI_POLICY disclosure | task path / property edge + tests — AI_POLICY |
+| `hashicorp/nomad` | 16862 | silent | Workload orchestrator CLI; job HCL/path edges | job HCL path / artifact edge + Go tests |
+| `hashicorp/packer` | 15776 | silent | Image builder CLI; template/path/plugin edges | template path / provisioner edge + Go tests |
+| `loft-sh/devpod` | 15191 | silent | Open-source codespaces client; provider/path edges | provider config / workspace path edge + Go tests |
+| `basecamp/kamal` | 14575 | silent | Deploy CLI for Docker hosts; config/path/SSH edges | deploy.yml path / SSH dest edge + Ruby tests |
+| `opencontainers/runc` | 13435 | disclosure | OCI runtime CLI; config/path — disclosure requirement | config.json path / namespace edge + Go tests — disclose |
+| `infracost/infracost` | 12509 | silent | IaC cost estimate CLI; plan/path/usage edges | tfplan path / usage file edge + Go tests |
+| `xmake-io/xmake` | 12212 | silent | Cross-platform build utility; lua/path/target edges | xmake.lua path / target edge + tests |
+| `kubernetes-sigs/kustomize` | 12158 | silent | K8s config customization CLI; overlay/path edges | kustomization path / name-prefix edge + Go tests |
+| `crossplane/crossplane` | 12041 | disclosure | Cloud control plane; XRD/path/compose — AI_POLICY | XRD/path or composition edge + Go tests — AI_POLICY |
+| `podman-container-tools/skopeo` | 11225 | silent | Image copy/inspect CLI; ref/path/auth edges | image ref / auth file path edge + Go tests |
+| `distribution/distribution` | 10607 | silent | OCI registry (CNCF Distribution); storage/path edges | storage root / manifest path edge + Go tests |
+| `moby/buildkit` | 10243 | silent | BuildKit engine; LLB/path/cache edges | dockerfile path / cache key edge + Go tests |
+| `tilt-dev/tilt` | 10041 | silent | K8s microdev CLI; Tiltfile/path/sync edges | Tiltfile path / live-update edge + Go tests |
+| `gruntwork-io/terragrunt` | 9819 | silent | Terraform wrapper CLI; include/path/dependency edges | terragrunt.hcl path / dependency edge + Go tests |
+| `conan-io/conan` | 9511 | silent | C/C++ package manager; recipe/path/profile edges | conanfile path / profile edge + py tests |
+| `canonical/microk8s` | 9367 | silent | Local K8s snap distro; addon/path/config edges | addon enable / config path edge + py/tests |
+| `testcontainers/testcontainers-java` | 8736 | silent | Testcontainers Java; image/mount/wait edges | mount path / wait strategy edge + JUnit tests |
+| `kata-containers/kata-containers` | 8693 | disclosure | VM-isolated containers; config/path — disclosure | runtime config path / hypervisor edge + Go tests — disclose |
+| `Kitware/CMake` | 8060 | disclosure | Cross-platform build generator; listfile/path — AI policy mention | CMakeLists path / generator edge + C++/CTest — careful AI |
+| `concourse/concourse` | 7898 | silent | CI system; pipeline YAML/path/resource edges | pipeline path / resource type edge + Go tests |
+| `k0sproject/k0s` | 6470 | silent | Zero-friction Kubernetes; install/config path edges | k0s.yaml path / install edge + Go tests |
+| `sigstore/cosign` | 6292 | silent | Sigstore signing CLI; key/path/attest edges | key path / attest predicate edge + Go tests |
+| `docker/cli` | 6048 | silent | Docker CLI; command/path/context edges | context path / compose project edge + Go tests |
+| `terraform-linters/tflint` | 5806 | silent | Terraform linter CLI; rule/path/config edges | module path / rule config edge + Go tests |
+| `fluxcd/flagger` | 5401 | silent | Progressive delivery operator; canary/path edges | canary target / metric path edge + Go tests |
+| `apache/maven` | 5340 | silent | Java build tool; POM/path/plugin edges | pom path / plugin config edge + Java tests |
+| `devspace-sh/devspace` | 5180 | silent | K8s develop/deploy CLI; config/path/sync edges | devspace.yaml path / sync edge + Go tests |
+| `spack/spack` | 5121 | silent | HPC package manager; spec/path/concretize edges | spec syntax / package path edge + py tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `coollabsio/coolify` | 61542 | disclosure | Self-host PaaS control plane/UI — weak path/quoting farm vs engine/CLI homes |
+| `portainer/portainer` | 38462 | silent | Docker/K8s management GUI — prefer engine/CLI product homes over dashboard UI |
+| `Dokploy/dokploy` | 37158 | silent | PaaS alternative UI — leave product-web PaaS; prefer kamal/dokku/flyctl CLIs |
+| `jenkinsci/jenkins` | 26531 | silent | Mega Java CI monolith — weak small path/quoting PR class; prefer concourse/act/agent |
+| `rancher/rancher` | 25893 | silent | Full container mgmt platform UI/API — prefer rke2/k3s/minikube product CLIs |
+| `louislam/dockge` | 24286 | silent | Compose YAML GUI manager — leave dashboard skins; prefer docker/compose CLI |
+| `caprover/caprover` | 15154 | silent | PaaS (Docker+nginx) control plane — leave GUI/PaaS farms |
+| `actions/runner` | 6248 | silent | GitHub Actions runner infra — internal high bar / empty policy surface; leave |
+| `cloud-hypervisor/cloud-hypervisor` | 6209 | hostility_risk | Mentor-gated LLM / hostility_risk in CONTRIBUTING+AGENTS — leave |
+
+Notes: Prefer container/runtime/build/IaC/GitOps CLIs (moby/podman/helm/opentofu/pulumi/argo-cd/buildkit/kamal/act/vcpkg/bazel/gradle). Disclosure/careful: ansible AGENTS, podman AGENTS, pulumi/crossplane/gradle AI_POLICY, k3s/containerd/runc/kata/CMake. Leave PaaS GUIs (coolify/dokploy/portainer/dockge/caprover), jenkins mega, rancher platform UI, actions/runner, cloud-hypervisor hostility_risk.
+

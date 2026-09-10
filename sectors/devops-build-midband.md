@@ -148,3 +148,30 @@ Policy histogram (this pass): `{'silent': 33, 'disclosure': 1}`.
 
 Notes: Prefer container/registry/build-system/Helm/CD CLI surfaces with regression tests. Leave kubelet/SIG platforms, AWS LB operators, GPU-sharing platforms, enterprise CD monoliths, project scaffolders, Go test libraries, and reverse-proxy sidecars.
 
+## Product deepen midband subset (2026-09-10, +9 scored)
+
+Account: `vulragrag-star` · Curated devops/build product homes still missing after prior devops-build passes · Policy via `raw.githubusercontent.com` · **8** proceed / **1** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 9}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `garden-io/garden` | 3611 | silent | K8s/cloud develop CLI; garden.yml/path edges | garden.yml path / build action edge + TS tests |
+| `argoproj/argo-rollouts` | 3572 | silent | Progressive delivery controller; rollout/path edges | rollout strategy / analysis path edge + Go tests |
+| `digitalocean/doctl` | 3449 | silent | DigitalOcean CLI; resource/path/config edges | config path / droplet create edge + Go tests |
+| `argoproj/argo-events` | 2689 | silent | Event-driven workflow; EventSource/path edges | EventSource path / sensor edge + Go tests |
+| `rancher/rke2` | 2338 | silent | Rancher Kubernetes engine; config/path edges | config.yaml path / CIS profile edge + Go tests |
+| `superfly/flyctl` | 1702 | silent | Fly.io deploy CLI; fly.toml/path/remote edges | fly.toml path / remote builder edge + Go tests |
+| `carvel-dev/kapp` | 1081 | silent | K8s app deploy CLI; app/path/diff edges | app YAML path / diff change-group edge + Go tests |
+| `buildkite/agent` | 1058 | silent | Buildkite CI agent; pipeline/path/hook edges | pipeline path / hook env edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `tonistiigi/binfmt` | 1527 | silent | Thin QEMU binfmt register helper — weak product farm vs buildkit/cli |
+
+Notes: Prefer midband deploy/CI/agent CLIs (flyctl/kapp/buildkite-agent/rke2/doctl/argo-events/rollouts/garden/devspace). Leave thin binfmt helpers.
+

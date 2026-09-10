@@ -103,3 +103,36 @@ Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo�
 - Local AgentScan check only (no network refresh during survey).
 - Merged-PR titles sampled read-only via `gh pr list` for fit; no tracker comments.
 
+## Product deepen-2 (≥5k★ subset) (2026-09-10, +15 scored)
+
+Account: `vulragrag-star` · Curated product DB/storage homes still missing after prior databases-storage passes · Policy via `raw.githubusercontent.com` · **12** proceed / **3** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 14, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `alibaba/zvec` | 15847 | silent | In-process vector database; index/path edges | vector index/path edge + C++ tests |
+| `happyfish100/fastdfs` | 9252 | silent | Distributed file system; path/storage edges | storage path/tracker edge + C tests |
+| `WiseLibs/better-sqlite3` | 7475 | silent | Node SQLite3 binding; stmt/API/path edges | stmt/bind/path edge + JS tests |
+| `amacneil/dbmate` | 7347 | silent | Framework-agnostic DB migration CLI; path/URL edges | migration path/URL/dialect edge + Go tests |
+| `aarondl/sqlboiler` | 6990 | silent | Schema-driven Go ORM codegen; SQL/dialect edges | schema/SQL dialect edge + Go tests |
+| `postgresml/postgresml` | 6820 | silent | Postgres+GPU ML extension stack; SQL/path edges | SQL/extension/path edge + Rust tests |
+| `GreptimeTeam/greptimedb` | 6648 | disclosure | Observability columnar DB; SQL/PromQL/path edges | SQL/PromQL/path edge + Rust tests |
+| `RediSearch/RediSearch` | 6234 | silent | Redis full-text/vector query module; query/index edges | query/index/path edge + Rust/C tests |
+| `OpenAtomFoundation/pikiwidb` | 6127 | silent | Redis-compatible DB; cmd/RESP/path edges | RESP/cmd/path edge + C++ tests |
+| `HelixDB/helix-db` | 5890 | silent | OLTP graph DB with vector/FTS; query/path edges | graph query/path edge + Rust tests |
+| `Meituan-Dianping/SQLAdvisor` | 5616 | silent | SQL index advisor CLI; SQL parse edges | SQL parse/index-hint edge + C tests |
+| `cube2222/octosql` | 5265 | silent | Multi-source SQL query CLI; dialect/path edges | SQL dialect/path edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `dbgate/dbgate` | 7297 | silent | Heavy multi-DB GUI manager — weak small hunk/outsider fit |
+| `erikgrinaker/toydb` | 7277 | silent | Educational distributed SQL toy — not a production contrib home |
+| `dataease/SQLBot` | 6758 | silent | LLM Text-to-SQL RAG app — wrong class / agent-product adjacency |
+
+Notes: Prefer engines/modules/CLIs (GreptimeDB, RediSearch, PikiwiDB, HelixDB, dbmate, better-sqlite3, SQLBoiler, OctoSQL). Disclosure homes (greptimedb, cloudberry, osm2pgsql) need human-owned PR bodies. Leave GUI managers, Text-to-SQL apps, tutorials, client-only drivers, Docker packaging, and agent MCP/BaaS surfaces.
+

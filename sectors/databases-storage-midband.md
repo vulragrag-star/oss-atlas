@@ -164,3 +164,76 @@ Policy histogram (this pass): `{'silent': 38, 'disclosure': 2}`.
 
 Notes: `documentdb/documentdb` PR template checkbox “No AI tools were used” is disclosure UX, not a ban — CONTRIBUTING welcomes AI-assisted with transparency. Keep sqlite.org culture leaves intact; `coleifer/sqlite-web` is not sqlite.org.
 
+## Product deepen-2 midband subset (2026-09-10, +55 scored)
+
+Account: `vulragrag-star` · Curated product DB/storage homes still missing after prior databases-storage passes · Policy via `raw.githubusercontent.com` · **38** proceed / **17** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 53, 'disclosure': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `livestorejs/livestore` | 3698 | silent | Reactive SQLite state framework; sync/SQL edges | SQL/sync/path edge + TS tests |
+| `holistics/dbml` | 3690 | silent | Database Markup Language; parse/schema edges | DBML parse/schema edge + JS tests |
+| `danfengcao/binlog2sql` | 3554 | silent | MySQL binlog→SQL parser CLI; binlog/SQL edges | binlog/SQL parse edge + py tests |
+| `uber/aresdb` | 3076 | silent | GPU analytics storage/query engine; ingest/path edges | ingest/query/path edge + Go tests |
+| `heavyai/heavydb` | 3060 | silent | GPU SQL analytics DB (ex-MapD); SQL/path edges | SQL/path/storage edge + C++ tests |
+| `oceanbase/seekdb` | 2916 | silent | AI-native hybrid search DB; vector/SQL edges | vector/SQL/path edge + C++ tests |
+| `orbitinghail/sqlsync` | 2912 | silent | Collaborative offline-first SQLite wrapper; sync/SQL edges | sync/SQL/path edge + Rust tests |
+| `armink/FlashDB` | 2840 | silent | Ultra-light embedded KV/TSDB; path/KV edges | KV/TS path edge + C tests |
+| `pipelinedb/pipelinedb` | 2663 | silent | Postgres continuous aggregation extension; SQL edges | SQL continuous-agg edge + C tests |
+| `sqlpage/SQLPage` | 2558 | silent | SQL-only app builder; SQL/route/path edges | SQL/route/path edge + Rust tests |
+| `griddb/griddb` | 2475 | silent | IoT time-series DB; query/path edges | TS query/path edge + C++ tests |
+| `noborus/trdsql` | 2173 | silent | SQL over CSV/JSON/YAML CLI; dialect/path edges | SQL dialect/path edge + Go tests |
+| `RedisGraph/RedisGraph` | 2040 | silent | Redis graph module; Cypher/cmd edges | Cypher/cmd/path edge + C tests |
+| `Mooncake-Labs/pg_mooncake` | 2004 | silent | Real-time analytics on Postgres tables; SQL edges | SQL/analytics extension edge + Rust tests |
+| `asg017/sqlite-vss` | 1998 | silent | SQLite vector-search extension (Faiss); SQL/vtab edges | vtab/SQL/vector edge + C++ tests |
+| `yinqiwen/ardb` | 1847 | silent | Redis-protocol store on LevelDB/RocksDB; cmd/path edges | cmd/path/storage edge + C++ tests |
+| `mathaou/termdbms` | 1821 | silent | DB TUI for viewing/editing; DSN/query edges | DSN/query/path edge + Go tests |
+| `alibaba/MongoShake` | 1820 | silent | MongoDB oplog replication platform; oplog/path edges | oplog/filter/path edge + Go tests |
+| `RedisBloom/RedisBloom` | 1783 | silent | Redis probabilistic datatypes module; cmd edges | Bloom/cmd edge + C tests |
+| `citusdata/cstore_fdw` | 1783 | silent | Postgres columnar FDW; SQL/storage edges | columnar FDW/SQL edge + C tests |
+| `TuGraph-family/tugraph-db` | 1759 | silent | High-performance graph DB; Cypher/path edges | Cypher/query/path edge + C++ tests |
+| `cnosdb/cnosdb` | 1756 | silent | Cloud-native distributed TSDB; SQL/path edges | TS SQL/path edge + Rust tests |
+| `4paradigm/OpenMLDB` | 1711 | silent | ML feature database; SQL/path edges | SQL/feature/path edge + C++ tests |
+| `osm2pgsql-dev/osm2pgsql` | 1682 | disclosure | OSM→PostGIS importer; SQL/path edges | import path/SQL edge + C++ tests |
+| `cswinter/LocustDB` | 1648 | silent | Fast analytics DB; query/path edges | query/path/ingest edge + Rust tests |
+| `mgartner/pg_flame` | 1620 | silent | Postgres EXPLAIN flamegraph generator; plan/parse edges | EXPLAIN parse/path edge + Go tests |
+| `losfair/mvsqlite` | 1576 | silent | Distributed MVCC SQLite on FoundationDB; SQL edges | MVCC/SQL/path edge + Rust tests |
+| `polarsignals/frostdb` | 1546 | silent | Embeddable columnar DB in Go; path/schema edges | column/path/schema edge + Go tests |
+| `nfrastack/db-backup` | 1537 | silent | Multi-backend DB backup/restore CLI; path edges | backup path/URI edge + Go tests |
+| `BemiHQ/BemiDB` | 1533 | silent | Postgres-compatible analytics warehouse; SQL edges | SQL/warehouse path edge + Go tests |
+| `Softmotions/ejdb` | 1481 | silent | Embeddable JSON DB; query/path edges | JSON query/path edge + C tests |
+| `Mithril-mine/libmdbx` | 1460 | silent | Transactional KV storage engine (MDBX); path edges | txn/path/map edge + C tests |
+| `cybertec-postgresql/pg_timetable` | 1396 | silent | Advanced Postgres job scheduler; SQL/schedule edges | schedule/SQL/path edge + Go tests |
+| `apache/cloudberry` | 1394 | disclosure | MPP Postgres-fork analytics DB; SQL/path edges | SQL/path/MPP edge + C tests |
+| `hapostgres/pg_auto_failover` | 1386 | silent | Postgres HA failover extension/service; config edges | failover/config/path edge + C tests |
+| `sqls-server/sqls` | 1334 | silent | SQL language server; dialect/parse edges | SQL parse/LSP edge + Go tests |
+| `kndndrj/nvim-dbee` | 1312 | silent | Neovim interactive DB client; DSN/query edges | DSN/query/path edge + Go tests |
+| `PoloDB/PoloDB` | 1233 | silent | Embedded document database; query/path edges | doc query/path edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `sqlectron/sqlectron` | 4758 | silent | Desktop SQL client GUI — prefer CLI/engine homes |
+| `sidorares/node-mysql2` | 4384 | silent | MySQL Node driver — client binding, prefer engines/CLIs |
+| `liyupi/sql-mother` | 4366 | silent | Interactive SQL tutorial site — not product engine |
+| `whoiskatrin/sql-translator` | 4320 | silent | NL→SQL translator app — not DB/storage core |
+| `bigchaindb/bigchaindb` | 4033 | silent | Archived/stale blockchain DB culture — weak modern fit |
+| `bytebase/dbhub` | 3475 | silent | DB MCP server for agents — agent-product adjacency, leave |
+| `undb-io/undb` | 2976 | silent | No-code BaaS database app — web/product app, not engine |
+| `ServiceStack/redis-windows` | 2730 | silent | Windows Redis port/Vagrant packaging — leave ports |
+| `sewenew/redis-plus-plus` | 1984 | silent | Redis C++ client library — not storage product |
+| `bsm/redislock` | 1767 | silent | Redis lock helper library — not storage engine |
+| `huandu/go-sqlbuilder` | 1727 | silent | SQL string builder/ORM helper — prefer engines/CLIs |
+| `CovenantSQL/CovenantSQL` | 1527 | silent | Blockchain SQL experiment — not mainstream product home |
+| `Grokzen/docker-redis-cluster` | 1517 | silent | Docker Redis cluster packaging — not product core |
+| `2shady4u/godot-sqlite` | 1431 | silent | Godot SQLite wrapper — engine plugin, wrong surface |
+| `PumpkinDB/PumpkinDB` | 1402 | silent | Inactive educational immutable KV — weak velocity |
+| `prodrigestivill/docker-postgres-backup-local` | 1194 | silent | Docker backup wrapper — packaging, not DB product |
+| `n0b0dyCN/redis-rogue-server` | 1171 | silent | Redis RCE exploit demo — security toy, leave |
+
+Notes: Prefer SQL/CLI/engine edges (trdsql, termdbms, frostdb, BemiDB, pg_timetable, sqls, PoloDB, mvsqlite, sqlite-vss, RedisBloom/Graph). Leave redis clients/locks, blockchain SQL toys, Godot wrappers, exploit demos, and inactive educational KV engines.
+

@@ -69,6 +69,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | dagger/dagger | 16230 | devops-build | silent | module path / pipeline arg edge + Go tests — claim issue first |
 | goreleaser/goreleaser | 16023 | devops-build | disclosure | config path/template quoting or archive name edge + Go tests — disclose AI |
 | GoogleContainerTools/skaffold | 15888 | devops-build | silent | skaffold.yaml profile/path or artifact sync edge + Go tests |
+| alibaba/zvec | 15847 | databases-storage | silent | vector index/path edge + C++ tests |
 | dgraph-io/badger | 15758 | databases-storage | silent | SST path/corruption / compaction edge + tests |
 | microsoft/pyright | 15625 | python-tooling | silent | stub/path/config edge + tests |
 | kubernetes-sigs/kind | 15478 | devops-build | silent | node image path / kubeadm config edge + Go tests |
@@ -89,7 +90,6 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | linkerd/linkerd2 | 11487 | security-crypto | silent | CLI flag/path or identity name normalize + tests |
 | dexidp/dex | 11083 | security-crypto | silent | OIDC connector config / redirect URI parse + tests |
 | quay/clair | 11057 | security-crypto | silent | matcher/index path or purl parse edge + tests |
-| PRQL/prql | 10910 | databases-storage | silent | SQL dialect quoting/escape parser + snapshot tests |
 | foundry-rs/foundry | 10583 | compilers-runtimes | disclosure | CLI flag/path/tool edge + tests |
 | golang-jwt/jwt | 9217 | security-crypto | silent | JWT claim/time/audience parse edge + table tests |
 | wasm-bindgen/wasm-bindgen | 9145 | compilers-runtimes | silent | bindgen attribute/path parse edge + tests |

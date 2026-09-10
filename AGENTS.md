@@ -16,4 +16,4 @@ Copy merged outsider PRs in *that* repo. Do not argue AI policy on their tracker
 
 New leaves, policies, or merge patterns → append `data/scored.jsonl`, update sector digest, refresh `SHORTLIST.md` / `SYNTHESIS.md` via `scripts/build_shortlist.py` (sector-balanced quotas). This repo publishes terrain only; it does not authorize third-party contribution PRs by itself.
 
-Universe harvest covers Rust/Go/C/C++/Python/Shell plus **TypeScript / JavaScript / Zig**. Prefer product CLIs, LSP/formatters, and systems tools when scoring the TS/JS fill — skip generic web apps. `ziglang/zig` is a hard leave (no-LLM).
+Universe harvest covers Rust/Go/C/C++/Python/Shell plus **TypeScript / JavaScript / Zig**, with a famous-CLI gap fill (fd/eza/delta/zoxide/yazi/mise/btop/zellij class and topic:cli/tui). Prefer product CLIs, LSP/formatters, and systems tools when scoring the TS/JS fill — skip generic web apps. `ziglang/zig` is a hard leave (no-LLM).

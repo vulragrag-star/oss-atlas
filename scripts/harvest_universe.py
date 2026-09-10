@@ -10,7 +10,7 @@ def gh_api(path: str) -> dict:
         raise RuntimeError(p.stderr or p.stdout)
     return json.loads(p.stdout)
 
-def search(q: str, pages: int = 3) -> list[dict]:
+def search(q: str, pages: int = 10) -> list[dict]:
     got, seen = [], set()
     for page in range(1, pages + 1):
         path = f"search/repositories?q={urllib.parse.quote(q)}&sort=stars&order=desc&per_page=100&page={page}"

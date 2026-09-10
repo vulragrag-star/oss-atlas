@@ -192,3 +192,72 @@ Proceed: **132** · Leave: **30**.
 - Refreshed after TS/JS/Zig DevEx product slice.
 - No tracker comments/forks/third-party PRs.
 - scored_at: `2026-09-08T17:38:01Z`
+
+## Famous CLI score pass (2026-09-10, +50 scored)
+
+Account: `vulragrag-star` · Scored the famous product CLI slice added in the prior universe expand (fd/eza/delta/zoxide/yazi/mise/btop/zellij/just/jq/gh class + shell/history/du/ps/bench adjacency) · Policy via `raw.githubusercontent.com` · **47** proceed / **3** leave · Bands: 1k–5k through 20k+ · No fork/PR/comment.
+
+Policy histogram (this pass): `{'disclosure': 9, 'silent': 41}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `cli/cli` | 46216 | silent | GitHub official CLI; argv/API/path edges | argv/path/API edge + Go tests |
+| `sharkdp/fd` | 44347 | disclosure | Famous find alternative; path/glob/ignore edges (disclose AI-assisted if used) | path/glob/ignore edge + Rust tests — follow CONTRIBUTING AI note |
+| `sxyazi/yazi` | 42084 | disclosure | Terminal file manager; path/preview/plugin edges (AI policy + PR template) | path/preview/plugin edge + Rust tests — follow AI policy |
+| `nushell/nushell` | 40466 | silent | Structured shell; pipeline/path/parse edges (large surface — prefer small tested hunks) | pipeline/path/parse edge + Rust tests |
+| `wg/wrk` | 40409 | silent | HTTP benchmarking tool; script/argv edges | bench script/argv edge + C tests |
+| `schollz/croc` | 40286 | silent | Secure file transfer CLI; path/relay edges | transfer path/relay edge + Go tests |
+| `koalaman/shellcheck` | 40014 | silent | Shell static analysis; script/parse edges | shell parse/lint edge + Haskell tests |
+| `ajeetdsouza/zoxide` | 39323 | silent | Smarter cd; path/frecency/db edges | jump path/db edge + Rust tests |
+| `httpie/cli` | 38489 | silent | User-friendly HTTP CLI; argv/URL/header edges | HTTP argv/URL/header edge + Python tests |
+| `casey/just` | 35709 | silent | Command runner; recipe/path/shell edges | recipe/path/shell edge + Rust tests |
+| `jqlang/jq` | 35561 | silent | JSON processor CLI; filter/path edges | JSON filter/path edge + C tests |
+| `zellij-org/zellij` | 35348 | silent | Terminal workspace multiplexer; layout/session/config edges | layout/session/config edge + Rust tests |
+| `aristocratos/btop` | 34488 | disclosure | Resource monitor TUI; config/theme edges (require [AI generated] disclosure) | config/theme/parse edge + C++ tests — mark AI in PR title |
+| `jdx/mise` | 33716 | disclosure | Dev tools/env/task runner; path/tool-version edges (AGENTS.md) | tool/path/env edge + Rust tests — read AGENTS.md |
+| `dandavison/delta` | 32133 | silent | Git/diff syntax highlighter pager; path/diff/config edges | diff/path/config edge + Rust tests |
+| `atuinsh/atuin` | 31572 | silent | Shell history sync/search; path/db/query edges | history path/db/query edge + Rust tests |
+| `sharkdp/hyperfine` | 28829 | silent | CLI benchmarking tool; argv/shell-escape edges | bench argv/shell-escape edge + Rust tests |
+| `charmbracelet/glow` | 27239 | silent | Markdown CLI renderer; path/style edges | md path/style edge + Go tests |
+| `Schniz/fnm` | 26815 | silent | Fast Node version manager; path/install edges | node path/install edge + Rust tests |
+| `Wilfred/difftastic` | 25872 | disclosure | Structural diff; path/language edges (AI_POLICY disclosure) | diff path/language edge + Rust tests — follow AI_POLICY |
+| `asdf-vm/asdf` | 25576 | silent | Version manager; plugin/path/shims edges | shim/path/plugin edge + Go tests |
+| `uutils/coreutils` | 24059 | disclosure | Rust coreutils rewrite; util argv/path edges (no GNU-derived code) | util argv/path edge + Rust tests — no GNU source links |
+| `FiloSottile/age` | 23505 | silent | Modern file encryption CLI; path/recipient/armor edges | path/recipient/armor edge + Go tests — careful crypto |
+| `eza-community/eza` | 23203 | silent | Modern ls; path/color/symlink/ignore edges | ls path/symlink/ignore edge + Rust tests |
+| `getsops/sops` | 23071 | silent | Secrets management CLI; path/key/format edges | secrets path/key/format edge + Go tests — careful crypto |
+| `gitui-org/gitui` | 22472 | silent | Terminal git UI; path/repo/keybind edges | git path/keybind edge + Rust tests |
+| `twpayne/chezmoi` | 21545 | silent | Dotfile manager CLI; path/template/source edges | dotfile path/template edge + Go tests |
+| `charmbracelet/vhs` | 20844 | silent | CLI recorder; tape/script parse edges | tape/script parse edge + Go tests |
+| `rbenv/rbenv` | 16732 | silent | Ruby version manager; shim/path edges | shim/path edge + shell tests |
+| `muesli/duf` | 15289 | silent | Disk usage/free CLI; mount/path edges | mount/path edge + Go tests |
+| `ClementTsang/bottom` | 14007 | disclosure | Process/system monitor; config edges (strict AI policy: human-owned PRs) | config/parse edge + Rust tests — human-own PR body |
+| `orf/gping` | 12676 | silent | Graphical ping; host/argv edges | ping host/argv edge + Rust tests |
+| `hadolint/hadolint` | 12396 | silent | Dockerfile linter; Dockerfile parse edges | Dockerfile parse/lint edge + Haskell tests |
+| `bootandy/dust` | 12240 | silent | du alternative; path/ignore edges | du path/ignore edge + Rust tests |
+| `imsnif/bandwhich` | 11958 | silent | Terminal bandwidth tool; iface/process edges | iface/process edge + Rust tests |
+| `containerd/nerdctl` | 10367 | silent | Docker-compatible containerd CLI; image/ref/path edges | image/ref/path edge + Go tests |
+| `johnkerl/miller` | 10015 | disclosure | awk/sed-class data CLI; CSV/JSON path edges (AI assistant notes in CLAUDE.md) | CSV/JSON path/verb edge + Go tests |
+| `xonsh/xonsh` | 9635 | disclosure | Python-powered shell; parser/alias edges (AI_POLICY is marketing voice, not ban) | parser/alias edge + Python tests |
+| `mvdan/sh` | 9048 | silent | Shell parser/formatter/interpreter; syntax edges | shell syntax/format edge + Go tests |
+| `cantino/mcfly` | 7789 | silent | Shell history fuzzy finder; path/db edges | history path/db edge + Rust tests |
+| `watchexec/watchexec` | 7176 | silent | File-watch command runner; path/glob/ignore edges | watch path/glob edge + Rust tests |
+| `elves/elvish` | 6376 | silent | Scripting shell; path/completion edges | shell path/completion edge + Go tests |
+| `Byron/dua-cli` | 6243 | silent | Disk usage interactive CLI; path/delete edges | du path/delete edge + Rust tests |
+| `dalance/procs` | 6163 | silent | Modern ps; filter/path edges | ps filter/path edge + Rust tests |
+| `git-town/git-town` | 3373 | silent | Git branch workflow CLI; branch/path edges | git branch/path edge + Go tests |
+| `nix-community/nix-direnv` | 2771 | silent | Fast nix-direnv integration; path/flake edges | nix path/flake edge + shell tests |
+| `sharkdp/diskus` | 1242 | silent | Minimal du -sh alternative; path edges | du path edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `chubin/cheat.sh` | 41734 | silent | Cheat-sheet web service / content farm — not local product CLI hunk class |
+| `JanDeDobbeleer/oh-my-posh` | 23435 | silent | Prompt theme engine — weak path/quoting product hunk class vs classic CLI utils |
+| `oils-for-unix/oils` | 3389 | silent | Full shell/language megaproject — mentor-heavy surface; prefer smaller CLI homes |
+
+Notes: Prefer classic product CLI/TUI homes with path/quoting/parser tests (fd/eza/delta/zoxide/yazi/hyperfine/dust/miller class). Disclosure homes (yazi/btop/bottom/difftastic/fd/mise/uutils/miller) need human-owned PR bodies. Leave cheat.sh (content service), oh-my-posh (prompt themes), oils (full language megaproject).
+

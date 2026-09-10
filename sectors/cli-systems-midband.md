@@ -219,3 +219,21 @@ Policy histogram (this pass): `{'silent': 47, 'disclosure': 2}`.
 
 Notes: Prefer product CLI/TUI homes with path/quoting/parser tests (ugrep/xan/ouch/s5cmd/finch/topgrade class). Leave VPN installers, stale compositor forks, wallboards, tmux plugins-only, and full terminal-emulator surfaces. `01mf02/jaq` forbids machine-generated content (hard leave). `neomutt/neomutt` requires AI disclosure.
 
+## Famous CLI midband subset (2026-09-10, +4 from famous-CLI pass)
+
+Midband (1k–5k★) subset of the famous CLI scoring pass · **3** proceed / **1** leave.
+
+### PROCEED
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `git-town/git-town` | 3373 | silent | Git branch workflow CLI; branch/path edges | git branch/path edge + Go tests |
+| `nix-community/nix-direnv` | 2771 | silent | Fast nix-direnv integration; path/flake edges | nix path/flake edge + shell tests |
+| `sharkdp/diskus` | 1242 | silent | Minimal du -sh alternative; path edges | du path edge + Rust tests |
+
+### LEAVE
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `oils-for-unix/oils` | 3389 | silent | Full shell/language megaproject — mentor-heavy surface; prefer smaller CLI homes |
+

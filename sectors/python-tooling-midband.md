@@ -144,3 +144,48 @@ Policy histogram (this pass): `{'silent': 33, 'disclosure': 2}`.
 
 Notes: Prefer packaging/lint/typecheck/pytest-plugin/docs/profile CLI surfaces with regression tests. Leave stale prompt forks, inactive VCS overlays, superseded bumpversion, Flask web cookiecutters, typed FP libraries without a CLI farm, and app-framework ops CLIs (Frappe bench). wemake AI policy is Astral-style disclosure (no autonomous agents); commitizen wants Generated-by disclosure.
 
+## Product deepen midband subset (2026-09-10, +27 scored)
+
+Account: `vulragrag-star` · Curated product DB/storage homes still missing after prior python-tooling passes · Policy via `raw.githubusercontent.com` · **19** proceed / **8** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 24, 'disclosure': 1, 'hard_ban': 1, 'hostility_risk': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `python-jsonschema/jsonschema` | 4977 | silent | JSON Schema validator; schema/path/ref edges | schema/$ref/path edge + py tests |
+| `sqlalchemy/alembic` | 4385 | silent | DB migration tool; path/revision/script edges | revision/path/script edge + py tests |
+| `pallets-eco/flask-sqlalchemy` | 4307 | silent | Flask↔SQLAlchemy glue; config/path/model edges | config/session/path edge + py tests |
+| `inducer/pudb` | 3248 | silent | Full-screen console debugger; path/config edges | breakpoint/path/config edge + py tests |
+| `pallets/itsdangerous` | 3132 | silent | Signer utility; payload/salt edges | signer/payload/salt edge + py tests |
+| `intoli/exodus` | 3011 | silent | Relocate ELF bins + deps; path/ELF edges | ELF/path/library edge + py tests |
+| `aws-cloudformation/cfn-lint` | 2638 | silent | CloudFormation linter CLI; template/path/rule edges | template/path/rule edge + py tests |
+| `agronholm/anyio` | 2538 | silent | Async compatibility layer; backend/path edges | backend/path/cancel edge + py tests |
+| `dosisod/refurb` | 2532 | silent | Python refactoring linter; AST/path edges | AST/check/path edge + py fixtures |
+| `simonw/sqlite-utils` | 2167 | silent | SQLite CLI+Python; SQL/path/schema edges | SQL/path/schema edge + py tests |
+| `pallets-eco/blinker` | 2092 | silent | Signal/event dispatch; sender/receiver edges | signal/sender edge + py tests |
+| `pypiserver/pypiserver` | 2067 | silent | Minimal PyPI server; path/upload/index edges | upload/path/index edge + py tests |
+| `pytest-dev/pluggy` | 1690 | silent | Pytest plugin system; hook/path edges | hookimpl/path edge + py tests |
+| `pallets-eco/wtforms` | 1580 | silent | Form validation; field/parse edges | field/validate/parse edge + py tests |
+| `jaraco/keyring` | 1512 | silent | Credential store CLI/lib; backend/path edges | backend/path/service edge + py tests |
+| `pytest-dev/pytest-bdd` | 1462 | silent | BDD plugin for pytest; feature/path edges | feature/path/step edge + py tests |
+| `pydantic/pydantic-settings` | 1454 | silent | Settings management; env/path/dotenv edges | env/path/dotenv edge + py tests |
+| `hynek/stamina` | 1446 | disclosure | Retry library; config/backoff edges — AI disclosure like attrs | retry/backoff/config edge + py tests — disclose AI |
+| `marshmallow-code/webargs` | 1407 | silent | HTTP arg parsing; schema/location edges | schema/location/parse edge + py tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `joblib/joblib` | 4390 | silent | Parallel/ML helper lib — weak CLI/parser/packaging hunk class |
+| `jmcnamara/XlsxWriter` | 3972 | silent | Spreadsheet writer lib — leave document-format libs |
+| `django/daphne` | 2685 | hostility_risk | Django ASGI server — same Django hostility_risk circle as channels |
+| `Ericsson/codechecker` | 2615 | silent | Primarily C/C++/Java analyzer stack — not python-tooling product home |
+| `python-security/pyt` | 2200 | silent | Legacy Python taint analyzer; quiet/obsolete surface — skip |
+| `mahmoud/glom` | 2164 | hard_ban | PR template NO-AI / rejects AI-assisted contributions |
+| `nschloe/perfplot` | 1386 | silent | Microbench plotting helper — weak contribution farm |
+| `facelessuser/pymdown-extensions` | 1130 | silent | Markdown extension pack — docs-adjacent; weak path/quoting farm |
+
+Notes: Prefer pytest/plugin/packaging/settings edges (pluggy, pytest-bdd, pydantic-settings, keyring, webargs, refurb, sqlite-utils, cfn-lint, pudb). Leave codechecker (non-Python core), legacy pyt, perfplot, and docs-theme extensions.
+

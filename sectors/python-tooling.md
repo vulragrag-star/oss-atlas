@@ -134,3 +134,60 @@ Ranked for playbook hunk class. Prefer one home-repo at a time; copy that repo's
 - Local AgentScan adopters/skip_orgs check (no `--refresh` during survey).
 - Prior scout (`oss-scout-candidates.md`) reused for pytest/tox/ruff/uv/pre-commit/httpx notes.
 - No forks, PRs, or tracker comments.
+
+## Product deepen (≥5k★ subset) (2026-09-10, +38 scored)
+
+Account: `vulragrag-star` · Curated product DB/storage homes still missing after prior python-tooling passes · Policy via `raw.githubusercontent.com` · **32** proceed / **6** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 32, 'disclosure': 5, 'hostility_risk': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `tqdm/tqdm` | 31330 | silent | Progress/meter CLI lib; path/iterable/format edges | progress format/path/iterable edge + py tests |
+| `celery/celery` | 28874 | silent | Distributed task queue; config/path/serializer edges | config/path/serializer edge + py tests |
+| `pydantic/pydantic` | 28753 | silent | Data validation; parse/coerce/schema edges | model parse/coerce/schema edge + py tests |
+| `mkdocs/mkdocs` | 22426 | silent | Static site generator CLI; path/config/plugin edges | config/path/plugin edge + py tests |
+| `tornadoweb/tornado` | 22177 | disclosure | Async web+networking; URL/path/header edges — disclose AI if used | URL/path/header parse edge + py tests — disclose AI |
+| `astral-sh/ty` | 19655 | silent | Astral type checker; path/stub/config edges — CAREFUL AGENTS/human-in-loop like ruff/uv | stub/path/config edge + Rust/py tests — human-owned |
+| `sanic-org/sanic` | 18639 | silent | Async web framework; route/path/middleware edges | route/path/middleware edge + py tests |
+| `semgrep/semgrep` | 16580 | silent | Static analysis CLI; rule/path/pattern edges — AGENTS present | rule/path/pattern edge + tests — human-owned |
+| `google/yapf` | 13984 | silent | Python formatter; AST/style/path edges | AST/style/path edge + py fixtures |
+| `Kludex/starlette` | 12612 | disclosure | ASGI toolkit; path/routing/middleware — AI_POLICY disclosure | routing/path/middleware edge + py tests — AI_POLICY |
+| `MagicStack/uvloop` | 11898 | silent | libuv event loop for asyncio; path/policy edges | loop/policy/path edge + py tests |
+| `pallets/jinja` | 11771 | silent | Template engine; path/loader/filter edges | loader/path/filter edge + py tests |
+| `Kludex/uvicorn` | 10954 | disclosure | ASGI server; config/path/CLI — AI_POLICY disclosure | config/CLI/path edge + py tests — AI_POLICY |
+| `rq/rq` | 10680 | silent | Redis job queue; path/config/worker edges | job path/config/worker edge + py tests |
+| `harelba/q` | 10363 | silent | SQL-on-text CLI; CSV/SQL/path edges | SQL/CSV/path edge + py tests |
+| `paramiko/paramiko` | 9848 | silent | SSH library; path/key/auth edges | key/path/auth edge + py tests |
+| `httpie/http-prompt` | 9108 | silent | Interactive HTTP REPL; argv/URL/header edges | URL/header/completion edge + py tests |
+| `kellyjonbrazil/jc` | 8671 | silent | CLI output→JSON converter; parser/path edges | parser/format/path edge + py tests |
+| `ijl/orjson` | 8227 | silent | Fast JSON lib; parse/serialize edge cases | JSON parse/serialize edge + py/Rust tests |
+| `python-trio/trio` | 7317 | silent | Async runtime; path/nursery/cancel edges | cancel/path/nursery edge + py tests |
+| `marshmallow-code/marshmallow` | 7237 | silent | Object serialization; schema/parse edges | schema/parse/validate edge + py tests |
+| `pallets/werkzeug` | 6880 | silent | WSGI toolkit; path/routing/header edges | routing/path/header edge + py tests |
+| `pre-commit/pre-commit-hooks` | 6678 | silent | pre-commit hook pack; path/quoting/file edges | hook path/quoting/file edge + py tests |
+| `gevent/gevent` | 6448 | silent | Coroutine networking; monkey-patch/path edges | monkey-patch/path/socket edge + py tests |
+| `rsalmei/alive-progress` | 6304 | silent | Progress bar lib; format/spinner edges | format/spinner/config edge + py tests |
+| `reorx/httpstat` | 6221 | silent | curl timing visualizer; argv/URL parse edges | argv/URL/header edge + shell/py tests |
+| `davidhalter/jedi` | 6175 | silent | Python autocompletion; path/stub/parse edges | path/stub/parse edge + py tests |
+| `indygreg/PyOxidizer` | 6155 | silent | Python app freighter; path/packaging edges | packaging/path/embed edge + Rust tests |
+| `python-attrs/attrs` | 5836 | disclosure | Class boilerplate; field/validate edges — AI disclosure in CONTRIBUTING | field/validate/converter edge + py tests — disclose AI |
+| `python-websockets/websockets` | 5716 | silent | WebSocket lib; frame/URL/path edges | frame/URL/path edge + py tests |
+| `PyCQA/pycodestyle` | 5165 | silent | Style checker; AST/path/config edges | AST/path/config edge + py fixtures |
+| `python/typeshed` | 5120 | silent | Stdlib/third-party stubs; stub/path edges | stub/path/typing edge + stubtest |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `squidfunk/mkdocs-material` | 27408 | silent | Docs theme skin — prefer mkdocs/sphinx product-code homes over theme CSS/docs farm |
+| `Supervisor/supervisor` | 9110 | silent | Aging process-control daemon; verify activity — park vs rq/celery |
+| `django/channels` | 6355 | hostility_risk | Django ecosystem hostility_risk from prior scout — leave channels/daphne for now |
+| `python-openxml/python-docx` | 5713 | silent | Office document library — not packaging/CLI/linter tooling hunk class |
+| `beeware/toga` | 5411 | disclosure | GUI toolkit — prefer beeware/briefcase packaging already scored; GUI hunks weak playbook fit |
+| `readthedocs/sphinx_rtd_theme` | 5084 | silent | Sphinx theme only — prefer sphinx-doc/sphinx product code already scored |
+
+Notes: Prefer packaging/CLI/linter/type/async-runtime homes (pydantic, ty, yapf, starlette/uvicorn, jinja/werkzeug, jc, q, pex, alembic, semgrep). Astral ty + Kludex AI_POLICY + attrs/stamina disclosure need human-owned PR bodies. Leave Django channels circle, mkdocs themes, Office libs, and glom (NO-AI).
+

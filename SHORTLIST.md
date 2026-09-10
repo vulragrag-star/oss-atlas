@@ -49,17 +49,19 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | lerna/lerna | 36055 | devops-build | silent | workspace/publish/path edge + tests |
 | typicode/husky | 35309 | editors-devex | silent | hook path/config edge + tests |
 | python-poetry/poetry | 34295 | python-tooling | silent | lockfile/path/env resolver edge + tests |
+| tqdm/tqdm | 31330 | python-tooling | silent | progress format/path/iterable edge + py tests |
 | micro-editor/micro | 29555 | editors-devex | silent | config/plugin/path edge + Go tests |
 | postcss/postcss | 28974 | editors-devex | silent | CSS plugin/parse/path edge + tests |
+| celery/celery | 28874 | python-tooling | silent | config/path/serializer edge + py tests |
+| pydantic/pydantic | 28753 | python-tooling | silent | model parse/coerce/schema edge + py tests |
 | eslint/eslint | 27499 | editors-devex | silent | lint rule/AST/path edge + tests |
 | rollup/rollup | 26309 | editors-devex | silent | bundle resolve/path/plugin edge + tests |
 | cookiecutter/cookiecutter | 25081 | python-tooling | silent | template path/hook quoting + tests |
+| mkdocs/mkdocs | 22426 | python-tooling | silent | config/path/plugin edge + py tests |
 | ahmetb/kubectx | 19978 | devops-build | silent | kubeconfig context/namespace path parse edge + Go/shell tests |
-| fastapi/typer | 19960 | python-tooling | silent | CLI arg/type/help parse edge + tests |
 | google/gvisor | 19245 | devops-build | silent | OCI path / mount path edge + Go tests — Google CLA |
 | bytecodealliance/wasmtime | 18607 | compilers-runtimes | disclosure | wasm/WASI/CLI path edge + tests |
 | tinygo-org/tinygo | 17707 | compilers-runtimes | silent | target/linker/wasm export edge + tests |
-| pallets/click | 17656 | python-tooling | silent | CLI option/quoting/path parse + tests |
 | tursodatabase/libsql | 17208 | databases-storage | silent | SQL parser / savepoint edge + tests |
 | argoproj/argo-workflows | 16959 | devops-build | disclosure | workflow template path / artifact path edge + Go tests — AI declaration |
 | tikv/tikv | 16836 | databases-storage | silent | format/parse or path edge in compact-log-backup + tests |
@@ -71,11 +73,9 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | GoogleContainerTools/skaffold | 15888 | devops-build | silent | skaffold.yaml profile/path or artifact sync edge + Go tests |
 | alibaba/zvec | 15847 | databases-storage | silent | vector index/path edge + C++ tests |
 | dgraph-io/badger | 15758 | databases-storage | silent | SST path/corruption / compaction edge + tests |
-| microsoft/pyright | 15625 | python-tooling | silent | stub/path/config edge + tests |
 | kubernetes-sigs/kind | 15478 | devops-build | silent | node image path / kubeadm config edge + Go tests |
 | rust-lang/cargo | 15460 | devops-build | silent | path dep / lockfile / quoting edge + Rust tests — high bar |
 | go-sql-driver/mysql | 15282 | databases-storage | silent | DSN/param/quoting/TINYINT edge + dsn_test |
-| Nuitka/Nuitka | 15122 | python-tooling | disclosure | import/path/plugin edge + tests |
 | zitadel/zitadel | 14959 | security-crypto | disclosure | OIDC/login path or config parse edge + tests |
 | benbjohnson/litestream | 14358 | databases-storage | disclosure | path/config DSN/replica path + go test |
 | amir20/dozzle | 14300 | devops-build | silent | container filter / log path edge + Go tests |

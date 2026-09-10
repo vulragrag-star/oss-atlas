@@ -237,3 +237,23 @@ Midband (1k–5k★) subset of the famous CLI scoring pass · **3** proceed / **
 |---|---:|---|---|
 | `oils-for-unix/oils` | 3389 | silent | Full shell/language megaproject — mentor-heavy surface; prefer smaller CLI homes |
 
+## Famous editors/shells midband subset (2026-09-10, +6 from famous editors-shells pass)
+
+Midband (1k–5k★) subset · **3** proceed / **3** leave.
+
+### PROCEED
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `nsf/termbox-go` | 4788 | silent | Pure Go termbox; event/cell buffer edges | event/cell edge + Go tests |
+| `crossterm-rs/crossterm` | 4211 | silent | Cross-platform terminal manipulation; event/style/cursor edges | event/style/cursor edge + Rust tests |
+| `scop/bash-completion` | 3518 | silent | Bash programmable completion; argv/path/compgen edges | compgen/path/argv edge + shell tests |
+
+### LEAVE
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `Guake/guake` | 4668 | silent | Dropdown terminal emulator GUI — leave emulator surface |
+| `zsh-users/zsh` | 4298 | silent | Full shell language megaproject — prefer smaller CLI/completion homes |
+| `tmux-plugins/tmux-sensible` | 2222 | silent | Tiny opinionated tmux defaults — too thin for durable bug-class farm |
+

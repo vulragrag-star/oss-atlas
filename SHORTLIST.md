@@ -40,12 +40,16 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | jesseduffield/lazydocker | 52756 | devops-build | silent | docker host path / compose project path edge + Go tests |
 | prettier/prettier | 52240 | editors-devex | silent | parser/printer fixture edge + tests |
 | astral-sh/ruff | 49545 | python-tooling | disclosure | lint rule/path/parse edge + fixtures |
+| helix-editor/helix | 46159 | editors-devex | silent | config/LSP/path edge + Rust tests |
 | pyenv/pyenv | 45085 | python-tooling | silent | shim/PATH/quoting edge + bats/shell tests |
+| charmbracelet/bubbletea | 44874 | editors-devex | silent | Elm-arch msg/cmd edge + Go tests |
 | parcel-bundler/parcel | 44024 | editors-devex | silent | bundle resolve/path/config edge + tests |
 | psf/black | 41834 | python-tooling | silent | AST/parse edge + regression fixtures |
+| lapce/lapce | 38833 | editors-devex | silent | config/plugin/path edge + Rust tests |
 | lerna/lerna | 36055 | devops-build | silent | workspace/publish/path edge + tests |
 | typicode/husky | 35309 | editors-devex | silent | hook path/config edge + tests |
 | python-poetry/poetry | 34295 | python-tooling | silent | lockfile/path/env resolver edge + tests |
+| micro-editor/micro | 29555 | editors-devex | silent | config/plugin/path edge + Go tests |
 | postcss/postcss | 28974 | editors-devex | silent | CSS plugin/parse/path edge + tests |
 | eslint/eslint | 27499 | editors-devex | silent | lint rule/AST/path edge + tests |
 | rollup/rollup | 26309 | editors-devex | silent | bundle resolve/path/plugin edge + tests |
@@ -53,7 +57,6 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | ahmetb/kubectx | 19978 | devops-build | silent | kubeconfig context/namespace path parse edge + Go/shell tests |
 | fastapi/typer | 19960 | python-tooling | silent | CLI arg/type/help parse edge + tests |
 | google/gvisor | 19245 | devops-build | silent | OCI path / mount path edge + Go tests — Google CLA |
-| conventional-changelog/commitlint | 18735 | editors-devex | silent | commitlint rule/config edge + tests |
 | bytecodealliance/wasmtime | 18607 | compilers-runtimes | disclosure | wasm/WASI/CLI path edge + tests |
 | tinygo-org/tinygo | 17707 | compilers-runtimes | silent | target/linker/wasm export edge + tests |
 | pallets/click | 17656 | python-tooling | silent | CLI option/quoting/path parse + tests |
@@ -73,13 +76,10 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | go-sql-driver/mysql | 15282 | databases-storage | silent | DSN/param/quoting/TINYINT edge + dsn_test |
 | Nuitka/Nuitka | 15122 | python-tooling | disclosure | import/path/plugin edge + tests |
 | zitadel/zitadel | 14959 | security-crypto | disclosure | OIDC/login path or config parse edge + tests |
-| git-lfs/git-lfs | 14476 | editors-devex | silent | pointer/path/transfer edge + tests |
-| coder/coder | 14399 | editors-devex | silent | CLI flag/path/template edge + tests |
 | benbjohnson/litestream | 14358 | databases-storage | disclosure | path/config DSN/replica path + go test |
 | amir20/dozzle | 14300 | devops-build | silent | container filter / log path edge + Go tests |
 | cert-manager/cert-manager | 14069 | security-crypto | silent | cert path/DNSName/CSR encode edge + unit tests |
 | openresty/openresty | 14028 | compilers-runtimes | silent | build/path/LuaJIT packaging edge + tests |
-| rolldown/rolldown | 13943 | editors-devex | silent | bundle resolve/path edge + tests |
 | Jguer/yay | 13742 | devops-build | silent | PKGBUILD path/quoting or AUR RPC parse edge + Go tests |
 | rook/rook | 13645 | databases-storage | disclosure | path/ceph volume mount + unit tests |
 | gopherjs/gopherjs | 13183 | compilers-runtimes | silent | compiler/js-runtime edge + tests |

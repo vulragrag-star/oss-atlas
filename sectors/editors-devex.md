@@ -139,3 +139,45 @@ Proceed: **69** · Leave: **39**.
 - Refreshed after TS/JS/Zig DevEx product slice.
 - No tracker comments/forks/third-party PRs.
 - scored_at: `2026-09-08T17:38:01Z`
+
+## Famous editors/shells score pass (2026-09-10, +23 scored · editors-devex)
+
+Account: `vulragrag-star` · Famous shells/editors atlas slice (tmux/helix/lapce/kitty/wezterm + adjacent mux/editor/TUI homes) · Policy via `raw.githubusercontent.com` + manual AI_POLICY reads · **17** proceed / **6** leave in this sector subset · Bands: &lt;1k through 20k+ · No fork/PR/comment.
+
+Policy histogram (this sector subset): `{'silent': 20, 'disclosure': 3}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `helix-editor/helix` | 46159 | silent | Post-modern modal terminal editor; config/LSP/grammar/path edges | config/LSP/path edge + Rust tests |
+| `charmbracelet/bubbletea` | 44874 | silent | Go TUI framework (DevEx); model/update/cmd message edges | Elm-arch msg/cmd edge + Go tests |
+| `lapce/lapce` | 38833 | silent | Rust code editor; config/plugin/path/LSP edges | config/plugin/path edge + Rust tests |
+| `micro-editor/micro` | 29555 | silent | Modern terminal text editor; config/plugin/path/keybind edges | config/plugin/path edge + Go tests |
+| `neoclide/coc.nvim` | 25164 | silent | Vim/Neovim LSP extension host; config/path/language-server edges | LSP/config/path edge + TS/Vim tests |
+| `ratatui/ratatui` | 22540 | disclosure | Rust TUI framework; layout/backend/widget edges (disclose AI use; human-owned PRs) | layout/widget/backend edge + Rust tests — disclose AI |
+| `nvim-telescope/telescope.nvim` | 19779 | silent | Neovim fuzzy finder; path/picker/preview edges | picker/path/preview edge + Lua tests |
+| `rivo/tview` | 14091 | silent | Go TUI widgets; form/table/focus navigation edges | widget/focus/form edge + Go tests |
+| `charmbracelet/lipgloss` | 11807 | silent | Terminal style/layout library; width/ANSI/wrap edges | style/wrap/ANSI edge + Go tests |
+| `prompt-toolkit/python-prompt-toolkit` | 10565 | silent | Python prompt toolkit; completion/keybind/path edges | completion/keybind edge + Python tests |
+| `saulpw/visidata` | 9267 | disclosure | Terminal data spreadsheet; loader/path/type edges (human gate for AI-assisted code) | loader/path/type edge + Python tests — human-review AI |
+| `charmbracelet/bubbles` | 8892 | silent | Bubble Tea component kit; input/list/viewport edge cases | component input/list edge + Go tests |
+| `vscode-neovim/vscode-neovim` | 7732 | silent | VS Code Neovim bridge; path/RPC/mode edges | RPC/path/mode edge + TS tests |
+| `charmbracelet/huh` | 7158 | silent | Terminal forms library; validation/prompt/path edges | form/validate/prompt edge + Go tests |
+| `slap-editor/slap` | 6188 | silent | Sublime-like terminal editor; path/config edges | editor path/config edge + JS tests |
+| `gyscos/cursive` | 4846 | silent | Rust TUI library; focus/layout/event edges | focus/layout/event edge + Rust tests |
+| `urwid/urwid` | 3017 | silent | Python console UI library; widget/layout edges | widget/layout edge + Python tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `microsoft/vscode` | 191536 | silent | Enormous IDE megaproject — mentor-heavy; prefer LSP/formatter/editor-core homes |
+| `Aider-AI/aider` | 48867 | silent | AI pair-programming agent product — agent surface, not editor/shell atlas class |
+| `Textualize/textual` | 37186 | disclosure | AI_POLICY: AI PRs only after maintainer-approved issue + disclose agent — framework gate like rich; leave |
+| `VSCodium/vscodium` | 33179 | silent | Binary packaging/telemetry-strip of VS Code — not primary product source home |
+| `charmbracelet/crush` | 27981 | silent | Agentic coding assistant product — not classic editor/mux/CLI hunk farm |
+| `neovide/neovide` | 15207 | silent | GUI Neovim frontend — heavy GUI surface; prefer terminal editor/LSP homes |
+
+Notes: Prefer terminal editors (helix/lapce/micro) and DevEx TUI libs (bubbletea/ratatui/tview) with config/path/LSP edges. Disclosure homes (ratatui/visidata) need human-owned PR bodies. Leave vscode megaproject, VSCodium packaging, neovide GUI, crush/aider agent products, textual (maintainer-approved AI issue gate like rich).
+

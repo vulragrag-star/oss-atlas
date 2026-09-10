@@ -140,3 +140,20 @@ Policy histogram (this pass): `{'silent': 42, 'hard_ban': 1, 'disclosure': 1}`.
 
 Notes: Prefer LSP/formatter/linter/tmux-DevEx product surfaces with regression tests. Leave heavy IDEs, Windows notepad forks, browser JSON extensions, collaborative web pads, competitive-programming IDEs, superseded ack.vim/gonvim, and WIP Neo Emacs. `mrcjkb/rustaceanvim` is a hard no-LLM leave.
 
+## Famous editors/shells midband subset (2026-09-10, +2 from famous editors-shells pass)
+
+Midband (1k–5k★) subset · **2** proceed / **0** leave.
+
+### PROCEED
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `gyscos/cursive` | 4846 | silent | Rust TUI library; focus/layout/event edges | focus/layout/event edge + Rust tests |
+| `urwid/urwid` | 3017 | silent | Python console UI library; widget/layout edges | widget/layout edge + Python tests |
+
+### LEAVE
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| — | | | none |
+

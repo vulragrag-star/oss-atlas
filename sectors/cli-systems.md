@@ -261,3 +261,50 @@ Policy histogram (this pass): `{'disclosure': 9, 'silent': 41}`.
 
 Notes: Prefer classic product CLI/TUI homes with path/quoting/parser tests (fd/eza/delta/zoxide/yazi/hyperfine/dust/miller class). Disclosure homes (yazi/btop/bottom/difftastic/fd/mise/uutils/miller) need human-owned PR bodies. Leave cheat.sh (content service), oh-my-posh (prompt themes), oils (full language megaproject).
 
+## Famous editors/shells score pass (2026-09-10, +29 scored · cli-systems)
+
+Account: `vulragrag-star` · Famous shells/editors atlas slice (tmux/helix/lapce/kitty/wezterm + adjacent mux/editor/TUI homes) · Policy via `raw.githubusercontent.com` + manual AI_POLICY reads · **16** proceed / **13** leave in this sector subset · Bands: &lt;1k through 20k+ · No fork/PR/comment.
+
+Policy histogram (this sector subset): `{'silent': 28, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `tmux/tmux` | 49166 | silent | Famous terminal multiplexer; session/config/path/option parse edges with tests | session/config/option edge + C tests |
+| `derailed/k9s` | 34554 | silent | Kubernetes cluster TUI; resource/path/filter edges | k8s resource/filter/path edge + Go tests |
+| `charmbracelet/gum` | 24355 | silent | Glamorous shell-script CLI helpers; argv/filter/choose edges | argv/filter/choose edge + Go tests |
+| `yorukot/superfile` | 23141 | silent | Modern terminal file manager; path/config/preview edges | path/config/preview edge + Go tests |
+| `jarun/nnn` | 21879 | silent | Terminal file manager; path/plugin/selection edges | path/plugin/selection edge + C tests |
+| `tmux-plugins/tpm` | 15064 | silent | tmux plugin manager; path/install/update edges | plugin path/install edge + shell tests |
+| `tmux-plugins/tmux-resurrect` | 13042 | silent | tmux session restore tooling; path/state edges | session path/state edge + shell tests |
+| `gokcehan/lf` | 9500 | silent | Terminal file manager; config/path/preview edges | config/path/preview edge + Go tests |
+| `charmbracelet/soft-serve` | 7215 | silent | Self-hosted git server with TUI; path/SSH/config edges | git/SSH/path/config edge + Go tests |
+| `manifoldco/promptui` | 6409 | silent | Interactive CLI prompts; validate/select edges | validate/select edge + Go tests |
+| `c-bata/go-prompt` | 5498 | silent | Interactive Go prompts; completion/path edges | completion/path edge + Go tests |
+| `gdamore/tcell` | 5219 | silent | Go cell-based terminal library; key/style/resize edges | key/style/resize edge + Go tests |
+| `nsf/termbox-go` | 4788 | silent | Pure Go termbox; event/cell buffer edges | event/cell edge + Go tests |
+| `crossterm-rs/crossterm` | 4211 | silent | Cross-platform terminal manipulation; event/style/cursor edges | event/style/cursor edge + Rust tests |
+| `scop/bash-completion` | 3518 | silent | Bash programmable completion; argv/path/compgen edges | compgen/path/argv edge + shell tests |
+| `arl/gitmux` | 795 | silent | Git status for tmux statusline; path/repo edges | git path/status edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `warpdotdev/warp` | 64921 | silent | Agentic terminal/IDE megaproject with gated OSS process (Oz/spec labels) — emulator+agent surface, not classic CLI hunk farm |
+| `vercel/hyper` | 44728 | silent | Web-tech terminal emulator GUI — prefer CLI utilities over emulator homes |
+| `kovidgoyal/kitty` | 34843 | silent | Full terminal emulator surface — heavy GUI/process; prefer CLI/mux/editor utilities (contour-class leave) |
+| `kingToolbox/WindTerm` | 32210 | silent | Full cross-platform terminal GUI (SSH/SFTP/Telnet) — heavy emulator surface |
+| `wezterm/wezterm` | 28840 | silent | Full GPU terminal emulator + multiplexer surface — prefer tmux/editor CLI hunks over emulator homes |
+| `gpakosz/.tmux` | 25369 | silent | Oh-my-tmux config/dotfile product — not core mux/plugin tooling hunk class |
+| `wavetermdev/waveterm` | 22242 | disclosure | Full terminal emulator (AI-assisted OK with understanding) — leave emulator surface; solo-maintainer alignment gate |
+| `xtermjs/xterm.js` | 21160 | silent | Browser/web terminal emulator library — UI-heavy, weak local CLI hunk fit |
+| `spaceship-prompt/spaceship-prompt` | 20572 | silent | Prompt theme engine — weak path/quoting product hunk class (oh-my-posh-class leave) |
+| `raphamorim/rio` | 7475 | silent | Full terminal emulator surface — heavy GUI; prefer CLI utilities |
+| `Guake/guake` | 4668 | silent | Dropdown terminal emulator GUI — leave emulator surface |
+| `zsh-users/zsh` | 4298 | silent | Full shell language megaproject — prefer smaller CLI/completion homes |
+| `tmux-plugins/tmux-sensible` | 2222 | silent | Tiny opinionated tmux defaults — too thin for durable bug-class farm |
+
+Notes: Prefer multiplexers (tmux) + TUI file managers (nnn/lf/superfile) + shell CLIs (gum/k9s/bash-completion). Leave full terminal emulators (kitty/wezterm/rio/warp/hyper/waveterm/WindTerm/guake/xterm.js), oh-my-tmux configs, prompt themes, and full shell megaprojects (zsh).
+

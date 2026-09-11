@@ -136,3 +136,139 @@ Policy histogram (this pass): `{'silent': 14, 'disclosure': 1}`.
 
 Notes: Prefer engines/modules/CLIs (GreptimeDB, RediSearch, PikiwiDB, HelixDB, dbmate, better-sqlite3, SQLBoiler, OctoSQL). Disclosure homes (greptimedb, cloudberry, osm2pgsql) need human-owned PR bodies. Leave GUI managers, Text-to-SQL apps, tutorials, client-only drivers, Docker packaging, and agent MCP/BaaS surfaces.
 
+## Product deepen (≥5k★ subset) (2026-09-11, +118 scored)
+
+Account: `vulragrag-star` · Curated database/storage/search/TSDB/migration product homes still missing after midband + famous-CLI passes · Policy via `raw.githubusercontent.com` · **78** proceed / **40** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 94, 'disclosure': 20, 'hard_ban': 1, 'hostility_risk': 2, 'agentscan': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `redis/redis` | 76292 | silent | Redis server; command/RESP/path edges with tests | RESP/cmd/config path edge + C tests |
+| `meilisearch/meilisearch` | 59217 | disclosure | Search engine; query/index/path — disclose AI | query/index/path edge + Rust tests |
+| `ClickHouse/ClickHouse` | 49730 | disclosure | OLAP DB; SQL/format/path — AI_POLICY disclosure | SQL/format/path edge + C++ tests |
+| `prisma/orm` | 47610 | disclosure | TS ORM; schema/migrate/client edges — disclose | schema/migrate/query edge + TS tests |
+| `milvus-io/milvus` | 46036 | disclosure | Vector DB; search/index/path — disclose | vector search/index path edge + Go tests |
+| `duckdb/duckdb` | 41108 | disclosure | Embedded OLAP; SQL/CSV/parquet — AI_POLICY HITL | SQL/CSV/parquet path edge + C++ tests |
+| `pingcap/tidb` | 40505 | silent | Distributed SQL; parser/planner/path edges | SQL parser/planner path edge + Go tests |
+| `go-gorm/gorm` | 39950 | silent | Go ORM; query builder/schema edges | query/schema/dialect edge + Go tests |
+| `google/leveldb` | 39395 | silent | Embedded KV; open/path/compaction edges | KV open/path edge + C++ tests |
+| `typeorm/typeorm` | 36649 | silent | TS ORM; entity/migration/path edges | entity/migration/path edge + TS tests |
+| `restic/restic` | 35954 | silent | Backup CLI; path/repo/format edges | backup path/repo format edge + Go tests |
+| `drizzle-team/drizzle-orm` | 35715 | silent | TS SQL ORM; schema/query edges | schema/SQL query edge + TS tests |
+| `seaweedfs/seaweedfs` | 34557 | silent | Distributed object/file storage; path/volume edges | volume/path/API edge + Go tests |
+| `qdrant/qdrant` | 34462 | disclosure | Vector search engine; filter/index — disclose | filter/index/path edge + Rust tests |
+| `surrealdb/surrealdb` | 32997 | silent | Multi-model DB; SurrealQL/path edges | SurrealQL/path edge + Rust tests |
+| `facebook/rocksdb` | 32075 | silent | Embedded KV/storage engine; option/path edges | option/path/compaction edge + C++ tests |
+| `influxdata/influxdb` | 31729 | silent | Time-series DB; InfluxQL/line protocol edges | line protocol/query path edge + Rust tests |
+| `dragonflydb/dragonfly` | 31467 | silent | Dragonfly Redis-compatible; cmd/RESP/path edges | RESP/cmd/path edge + C++ tests |
+| `sequelize/sequelize` | 30366 | silent | Node ORM; dialect/query edges | dialect/query/model edge + JS tests |
+| `chroma-core/chroma` | 29263 | silent | Vector DB for embeddings; collection/path edges | collection/query path edge + Python tests |
+| `grafana/loki` | 28857 | silent | Log aggregation TS store; LogQL/path edges | LogQL/path/label edge + Go tests |
+| `valkey-io/valkey` | 27160 | silent | Valkey Redis-compatible server; RESP/cmd edges | RESP/cmd/path edge + C tests |
+| `typesense/typesense` | 26542 | silent | Search engine; collection/query/path edges | collection/query path edge + C++ tests |
+| `taosdata/TDengine` | 25103 | silent | Time-series DB; SQL/path edges | TS SQL/path edge + C tests |
+| `tursodatabase/turso` | 24221 | disclosure | SQLite-compatible Rust DB — disclose AI | SQL/compat/path edge + Rust tests |
+| `timescale/timescaledb` | 23499 | disclosure | Postgres TS extension; SQL/hypertable — human ownership | SQL hypertable/path edge + C tests |
+| `neondatabase/neon` | 23062 | silent | Serverless Postgres storage/compute split; path/pageserver edges | pageserver/path/WAL edge + Rust tests |
+| `dgraph-io/dgraph` | 21788 | silent | Graph DB; DQL/query/path edges | DQL/query/path edge + Go tests |
+| `valeriansaliou/sonic` | 21337 | silent | Schema-less search backend; ingest/query edges | ingest/query/path edge + Rust tests |
+| `vitessio/vitess` | 21303 | silent | MySQL clustering; VTGate SQL/path edges | VTGate SQL/path edge + Go tests |
+| `knex/knex` | 20343 | silent | SQL query builder; dialect/migration edges | dialect/migration/path edge + JS tests |
+| `golang-migrate/migrate` | 18904 | silent | DB migration CLI; source/URL/path edges | migration source/URL path edge + Go tests |
+| `sqlc-dev/sqlc` | 18260 | silent | SQL→type-safe codegen CLI; parse/path edges | SQL parse/codegen path edge + Go tests |
+| `jmoiron/sqlx` | 17733 | silent | Go database/sql extensions; named query edges | named query/scan edge + Go tests |
+| `VictoriaMetrics/VictoriaMetrics` | 17679 | silent | Metrics TSDB; PromQL/remote-write edges | PromQL/remote-write path edge + Go tests |
+| `transact-rs/sqlx` | 17461 | silent | Rust async SQL toolkit; query/migrate edges | query/migrate/path edge + Rust tests |
+| `questdb/questdb` | 17315 | silent | Time-series SQL DB; ILP/SQL edges | ILP/SQL/path edge + Java tests |
+| `ent/ent` | 17196 | silent | Go entity framework; schema/codegen edges | schema/codegen/path edge + Go tests |
+| `apache/arrow` | 17092 | disclosure | Columnar format; IPC/parquet — disclose AI | IPC/parquet/path edge + C++ tests |
+| `tigerbeetle/tigerbeetle` | 16971 | silent | Financial tx DB; journal/path edges | journal/path/replica edge + Zig tests |
+| `prestodb/presto` | 16733 | silent | Distributed SQL engine; connector/SQL edges | SQL/connector/path edge + Java tests |
+| `quickwit-oss/tantivy` | 16050 | silent | Full-text search library; index/query edges | index/query/path edge + Rust tests |
+| `electric-sql/pglite` | 16000 | silent | Embeddable Postgres WASM; SQL/path edges | SQL/WASM/path edge + TS tests |
+| `apache/doris` | 15889 | silent | MPP OLAP DB; SQL/path edges | SQL/path/FE edge + Java tests |
+| `scylladb/scylladb` | 15740 | silent | Cassandra-compatible NoSQL; CQL/path edges | CQL/path/compaction edge + C++ tests |
+| `juicedata/juicefs` | 14418 | silent | POSIX-on-object-storage FS; path/meta edges | meta/path/object edge + Go tests |
+| `arangodb/arangodb` | 14269 | silent | Multi-model DB; AQL/path edges | AQL/path edge + C++ tests |
+| `thanos-io/thanos` | 14200 | silent | Prometheus long-term storage; store/query edges | store/query/path edge + Go tests |
+| `diesel-rs/diesel` | 14173 | disclosure | Rust ORM; query/schema — disclose AI | query/schema/migration edge + Rust tests |
+| `kopia/kopia` | 14067 | silent | Backup CLI; repo/path/format edges | backup repo/path format edge + Go tests |
+| `apache/druid` | 14050 | silent | Realtime analytics DB; ingest/query edges | ingest/query/path edge + Java tests |
+| `borgbackup/borg` | 13706 | disclosure | Dedup backup CLI — AI policy disclosure | archive/path/format edge + Python tests |
+| `opensearch-project/OpenSearch` | 13701 | silent | Search/analytics fork; query/index edges | query/index/path edge + Java tests |
+| `github/gh-ost` | 13559 | silent | Online MySQL schema migration CLI; binlog/path edges | binlog/DDL/path edge + Go tests |
+| `trinodb/trino` | 13223 | silent | Distributed SQL; connector/SQL edges | SQL/connector/path edge + Java tests |
+| `citusdata/citus` | 12753 | silent | Postgres distributed extension; SQL/shard edges | SQL/shard/path edge + C tests |
+| `StarRocks/starrocks` | 12098 | silent | MPP OLAP; SQL/path edges | SQL/path/FE edge + Java tests |
+| `quickwit-oss/quickwit` | 11577 | disclosure | Log search engine — AI_POLICY present | index/query/path edge + Rust tests |
+| `pressly/goose` | 11429 | silent | Go migration CLI; SQL/path edges | migration SQL/path edge + Go tests |
+| `apache/cassandra` | 10087 | disclosure | Wide-column DB — disclose AI | CQL/path/compaction edge + Java tests |
+| `flyway/flyway` | 10083 | silent | Migration CLI/tool; SQL/path edges | migration SQL/path edge + Java tests |
+| `databendlabs/databend` | 9441 | disclosure | Cloud warehouse; SQL/path — AI welcome w/ disclosure | SQL/storage/path edge + Rust tests |
+| `risingwavelabs/risingwave` | 9305 | silent | Streaming SQL DB; SQL/path edges | streaming SQL/path edge + Rust tests |
+| `apache/iceberg` | 9222 | disclosure | Table format; snapshot/path — disclose | snapshot/manifest/path edge + Java tests |
+| `delta-io/delta` | 8991 | silent | Lakehouse table format; protocol/path edges | delta protocol/path edge + Scala tests |
+| `ariga/atlas` | 8709 | silent | Schema-as-code CLI; HCL/SQL/path edges | schema HCL/SQL path edge + Go tests |
+| `vespa-engine/vespa` | 7080 | silent | Big data serving engine; query/rank edges | query/rank/path edge + Java tests |
+| `MaterializeInc/materialize` | 6368 | silent | Streaming SQL DB; SQL/path edges | streaming SQL/path edge + Rust tests |
+| `apache/hudi` | 6236 | silent | Lakehouse table format; commit/path edges | commit/timeline/path edge + Java tests |
+| `apache/pinot` | 6134 | silent | Realtime OLAP; query/segment edges | query/segment/path edge + Java tests |
+| `cockroachdb/pebble` | 6019 | silent | RocksDB-inspired KV; option/path edges | KV option/path edge + Go tests |
+| `cubefs/cubefs` | 5655 | silent | Cloud-native distributed storage; meta/path edges | meta/data path edge + Go tests |
+| `liquibase/liquibase` | 5609 | silent | DB migration tool; changelog/path edges | changelog/SQL path edge + Java tests |
+| `apache/hbase` | 5558 | silent | Wide-column store; region/path edges | region/path/API edge + Java tests |
+| `treeverse/lakeFS` | 5521 | silent | Git-like data lake control; path/ref edges | ref/path/object edge + Go tests |
+| `grafana/tempo` | 5471 | disclosure | Distributed tracing backend — disclose AI | trace query/path edge + Go tests |
+| `grafana/mimir` | 5231 | silent | Prometheus long-term metrics; PromQL/path edges | PromQL/store path edge + Go tests |
+| `apache/calcite` | 5182 | silent | SQL parser/planner framework; SQL dialect edges | SQL parse/plan edge + Java tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `elastic/elasticsearch` | 77902 | silent | Search mega process — prefer OpenSearch/meilisearch/typesense-sized homes |
+| `pandas-dev/pandas` | 49696 | silent | Pandas dataframe mega — prefer DuckDB/Arrow/Polars-adjacent; polars is agent-forbidden |
+| `apache/spark` | 43978 | silent | Spark process mega — not small parser/SQL hunk farm |
+| `pola-rs/polars` | 39697 | hostility_risk | AI_POLICY: agents strictly forbidden from interacting; leave agent workflow |
+| `numpy/numpy` | 32706 | disclosure | Foundational scientific mega with AI disclosure — park vs DuckDB/Arrow product homes |
+| `cockroachdb/cockroach` | 32448 | silent | Cockroach distributed SQL mega — high bar |
+| `mongodb/mongo` | 28544 | silent | MongoDB server mega — process-heavy; prefer modules/drivers already scored |
+| `facebook/zstd` | 27807 | silent | Compression codec — not DB/storage product hunk class |
+| `PostgREST/postgrest` | 27655 | hard_ban | Gentoo AI policy via CONTRIBUTING — hard leave |
+| `Automattic/mongoose` | 27472 | silent | Mongo ODM — prefer engine/module homes over ODM wrappers for first PRs |
+| `rethinkdb/rethinkdb` | 26994 | silent | RethinkDB low-maintenance realtime DB — verify activity; park |
+| `apache/flink` | 26333 | disclosure | Flink process mega despite disclosure AGENTS — leave megas |
+| `redis/go-redis` | 22230 | silent | Redis Go client-only driver — leave client-only class per atlas guidance |
+| `postgres/postgres` | 22056 | silent | Postgres core mega — not small hunk-friendly first home |
+| `apache/pouchdb` | 17604 | silent | Browser pocket DB — weak systems hunk class for playbook |
+| `neo4j/neo4j` | 17220 | silent | Neo4j graph mega — prefer smaller graph homes already scored |
+| `ceph/ceph` | 17011 | silent | Ceph distributed storage mega — leave for smaller object stores |
+| `apache/hadoop` | 15654 | disclosure | Hadoop process mega — leave |
+| `redis/ioredis` | 15335 | silent | Node Redis client-only — leave client-only drivers |
+| `jackc/pgx` | 14227 | silent | Postgres pgx driver — leave client-only drivers |
+| `dask/dask` | 13913 | silent | Dask parallel mega — leave |
+| `redis/redis-py` | 13635 | silent | Python Redis client-only — leave client-only drivers |
+| `Snapchat/KeyDB` | 12506 | silent | KeyDB Redis fork under Snapchat — verify contribution path; park vs valkey/dragonfly |
+| `redis/jedis` | 12361 | silent | Java Redis client-only — leave client-only drivers |
+| `lz4/lz4` | 12051 | silent | Compression codec — not DB/storage product hunk class |
+| `modin-project/modin` | 10392 | silent | Pandas-on-Ray skin — leave |
+| `oceanbase/oceanbase` | 10263 | silent | OceanBase distributed mega — leave |
+| `mongodb/node-mongodb-native` | 10179 | silent | MongoDB Node driver — leave client-only drivers |
+| `lib/pq` | 9957 | silent | Postgres lib/pq client-only — leave client-only drivers |
+| `sqlfluff/sqlfluff` | 9866 | agentscan | AgentScan adopter — leave |
+| `openebs/openebs` | 9810 | silent | K8s storage platform umbrella — weak SQL/parser hunk class |
+| `tobymao/sqlglot` | 9603 | hostility_risk | LLM-assisted contribs discouraged; low-effort mostly-LLM PRs closed |
+| `apache/beam` | 8658 | silent | Beam process mega — leave |
+| `MariaDB/server` | 8189 | silent | MariaDB server mega — leave |
+| `longhorn/longhorn` | 7968 | silent | K8s distributed block storage — ops platform, not DB engine |
+| `google/snappy` | 6606 | silent | Compression codec — not DB/storage product hunk class |
+| `elastic/go-elasticsearch` | 6067 | silent | Elasticsearch Go client-only — leave client-only drivers |
+| `apache/hive` | 6020 | silent | Hive mega — leave |
+| `cortexproject/cortex` | 5861 | disclosure | Cortex largely superseded by Mimir lineage — prefer mimir/loki/thanos |
+| `redis/lettuce` | 5780 | silent | Java Redis client-only — leave client-only drivers |
+
+Notes: Prefer engines/modules/SQL CLIs/ORMs/query builders/search/TSDB/vector/object-storage/backup (redis/valkey/dragonfly, ClickHouse/duckdb/tidb/vitess, meilisearch/typesense/qdrant/milvus, loki/mimir/tempo/thanos/VictoriaMetrics, restic/borg/kopia/gh-ost, goose/flyway/atlas/sqlc, rocksdb/leveldb/pebble/juicefs/seaweedfs, arrow/iceberg/delta/hudi). Disclosure: meilisearch/ClickHouse/duckdb/qdrant/turso/timescale/arrow/cassandra/iceberg/quickwit/diesel/borg/databend/prisma/milvus/tempo. Leave PostgREST Gentoo-ban, polars agent-forbidden, sqlfluff AgentScan, sqlglot hostility, client-only drivers, compression codecs, Spark/Flink/Hadoop/Ceph/Postgres megas.
+

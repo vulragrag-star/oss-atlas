@@ -22,6 +22,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | junegunn/fzf | 82865 | cli-systems | silent | shell/argv/path + Go tests |
 | jesseduffield/lazygit | 82122 | cli-systems | disclosure | git path/config edge + Go tests |
 | coder/code-server | 79236 | editors-devex | silent | path/proxy/config edge + tests |
+| redis/redis | 76292 | databases-storage | silent | RESP/cmd/config path edge + C tests |
 | apache/superset | 74677 | databases-storage | disclosure | SQL parse/Jinja/template edge with tests |
 | Eugeny/tabby | 74387 | cli-systems | disclosure | SSH config / profile path edge + TS tests — check AI level box |
 | pallets/flask | 73584 | python-tooling | silent | cli/path/config edge + tests |
@@ -41,6 +42,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | starship/starship | 59811 | cli-systems | disclosure | config.toml path/module edge + Rust tests |
 | rclone/rclone | 59639 | cli-systems | disclosure | remote path/quoting edge + Go tests |
 | FiloSottile/mkcert | 59563 | cli-systems | silent | CAROOT path / hostname edge + Go tests |
+| meilisearch/meilisearch | 59217 | databases-storage | disclosure | query/index/path edge + Rust tests |
 | laurent22/joplin | 56323 | editors-devex | silent | note sync/path/plugin edge + TS tests |
 | PowerShell/PowerShell | 55292 | cli-systems | silent | path/quoting / parser edge + C# tests |
 | mozilla/pdf.js | 53846 | editors-devex | silent | parser edge + unit tests |
@@ -49,11 +51,14 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | prettier/prettier | 52240 | editors-devex | silent | parser/printer fixture edge + tests |
 | tldraw/tldraw | 50258 | editors-devex | silent | canvas shape/store edge + TS tests |
 | apple/container | 49759 | devops-build | silent | container config/path or image ref edge + Swift/tests |
+| ClickHouse/ClickHouse | 49730 | databases-storage | disclosure | SQL/format/path edge + C++ tests |
 | astral-sh/ruff | 49545 | python-tooling | disclosure | lint rule/path/parse edge + fixtures |
 | JuliaLang/julia | 49089 | compilers-runtimes | disclosure | parse/runtime/path edge + tests — disclose AI |
+| prisma/orm | 47610 | databases-storage | disclosure | schema/migrate/query edge + TS tests |
 | acmesh-official/acme.sh | 47609 | security-crypto | silent | domain/path/dns-api edge + shell tests |
 | slab/quill | 47336 | editors-devex | silent | delta/format/path edge + TS tests |
 | helix-editor/helix | 46159 | editors-devex | silent | config/LSP/path edge + Rust tests |
+| milvus-io/milvus | 46036 | databases-storage | disclosure | vector search/index path edge + Go tests |
 | pyenv/pyenv | 45085 | python-tooling | silent | shim/PATH/quoting edge + bats/shell tests |
 | charmbracelet/bubbletea | 44874 | editors-devex | silent | Elm-arch msg/cmd edge + Go tests |
 | Kong/kong | 44123 | networking-distributed | silent | route/plugin/path edge + tests |
@@ -62,13 +67,18 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | curl/curl | 42829 | networking-distributed | silent | URL/path/quoting or transfer edge + tests |
 | psf/black | 41834 | python-tooling | silent | AST/parse edge + regression fixtures |
 | XTLS/Xray-core | 41519 | networking-distributed | silent | inbound/path/config edge + go tests |
+| duckdb/duckdb | 41108 | databases-storage | disclosure | SQL/CSV/parquet path edge + C++ tests |
 | vim/vim | 40887 | editors-devex | disclosure | option/path/ex-cmd edge + Vim tests — disclose AI |
+| pingcap/tidb | 40505 | databases-storage | silent | SQL parser/planner path edge + Go tests |
+| go-gorm/gorm | 39950 | databases-storage | silent | query/schema/dialect edge + Go tests |
+| google/leveldb | 39395 | databases-storage | silent | KV open/path edge + C++ tests |
 | docker/compose | 38127 | devops-build | silent | compose.yaml path / project name edge + Go tests |
 | SagerNet/sing-box | 37853 | networking-distributed | silent | rule/config path or outbound edge + go tests |
 | aquasecurity/trivy | 37848 | security-crypto | silent | scan target/path/SBOM edge + Go tests |
 | vlang/v | 37842 | compilers-runtimes | silent | parser/runtime/path edge + tests |
 | AdguardTeam/AdGuardHome | 36759 | security-crypto | silent | config/path/filter edge + Go/TS tests |
 | keycloak/keycloak | 36712 | security-crypto | disclosure | realm/client/config edge + tests — disclose AI |
+| typeorm/typeorm | 36649 | databases-storage | silent | entity/migration/path edge + TS tests |
 | firecracker-microvm/firecracker | 36647 | devops-build | silent | VM config JSON path / vsock edge + Rust tests — CLA |
 | tailscale/tailscale | 36297 | security-crypto | silent | ACL/path/config edge + Go tests |
 | hashicorp/vault | 36219 | security-crypto | silent | secret path/policy/auth edge + Go tests |
@@ -96,13 +106,3 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | RustPython/RustPython | 22344 | compilers-runtimes | disclosure | parser/runtime/path edge + Rust tests — disclose AI |
 | micropython/micropython | 22054 | compilers-runtimes | disclosure | port/path/API edge + C tests — disclose AI |
 | gleam-lang/gleam | 21896 | compilers-runtimes | silent | parser/runtime/path edge + tests |
-| tursodatabase/libsql | 17208 | databases-storage | silent | SQL parser / savepoint edge + tests |
-| tikv/tikv | 16836 | databases-storage | silent | format/parse or path edge in compact-log-backup + tests |
-| apple/foundationdb | 16677 | databases-storage | silent | simulation knob/path edge + tests |
-| alibaba/zvec | 15847 | databases-storage | silent | vector index/path edge + C++ tests |
-| dgraph-io/badger | 15758 | databases-storage | silent | SST path/corruption / compaction edge + tests |
-| go-sql-driver/mysql | 15282 | databases-storage | silent | DSN/param/quoting/TINYINT edge + dsn_test |
-| benbjohnson/litestream | 14358 | databases-storage | disclosure | path/config DSN/replica path + go test |
-| rook/rook | 13645 | databases-storage | disclosure | path/ceph volume mount + unit tests |
-| drakkan/sftpgo | 12498 | databases-storage | silent | path sanitize / virtual folder edge + tests |
-| manticoresoftware/manticoresearch | 11993 | databases-storage | silent | SQL/fulltext parse edge + tests |

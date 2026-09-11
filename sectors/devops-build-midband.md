@@ -175,3 +175,69 @@ Policy histogram (this pass): `{'silent': 9}`.
 
 Notes: Prefer midband deploy/CI/agent CLIs (flyctl/kapp/buildkite-agent/rke2/doctl/argo-events/rollouts/garden/devspace). Leave thin binfmt helpers.
 
+## Product deepen-2 midband subset (2026-09-11, +48 scored)
+
+Account: `vulragrag-star` · Curated devops container/runtime/k8s-CLI/IaC/Nix/serverless product homes still missing after prior devops product deepen · Policy via `raw.githubusercontent.com` · **33** proceed / **15** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 43, 'disclosure': 4, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `mutagen-io/mutagen` | 4419 | silent | file sync + forward CLI; path/ignore | sync path / ignore rule edge + Go tests |
+| `whalebrew/whalebrew` | 4247 | silent | homebrew-like docker CLI packages; path | package install path / image edge + Go tests |
+| `txn2/kubefwd` | 4168 | silent | bulk service port-forward CLI; kubeconfig/path | namespace/service select / kubeconfig edge + Go tests |
+| `helm/chartmuseum` | 3843 | silent | helm chart repo server; path/storage | chart storage path / index edge + Go tests |
+| `databus23/helm-diff` | 3491 | silent | helm diff plugin; release/path | manifest diff / values path edge + Go tests |
+| `ahmetb/kubectl-tree` | 3423 | silent | kubectl plugin; object hierarchy | GVK/name parse edge + Go tests |
+| `wowu/docker-rollout` | 3334 | silent | compose zero-downtime deploy; service/path | compose service / healthcheck edge + shell tests |
+| `open-policy-agent/conftest` | 3259 | silent | config policy tests CLI; path/rego | policy path / input parse edge + Go tests |
+| `nix-community/nh` | 3191 | disclosure | Nix CLI helper — disclose AI | flake path / generation edge + Rust tests — disclose AI |
+| `yannh/kubeconform` | 3186 | silent | k8s manifest validator CLI; path/schema | manifest path / schema cache edge + Go tests |
+| `kubernetes-sigs/kwok` | 3184 | silent | fake kubelet simulator; config/path | stage config path / node template edge + Go tests |
+| `gruntwork-io/cloud-nuke` | 3182 | silent | cloud cleanup CLI; resource filter/path | resource filter / region config edge + Go tests |
+| `kubernetes-sigs/gateway-api` | 2995 | disclosure | Gateway API CRDs; YAML/path — disclose AI | HTTPRoute path match / gateway ref edge + Go tests — disclose AI |
+| `kubernetes-sigs/kueue` | 2963 | disclosure | job queueing — disclose AI (K8s policy) | ClusterQueue / LocalQueue path edge + Go tests — disclose AI |
+| `kubernetes-sigs/controller-runtime` | 2953 | silent | controller lib used by operators; path/scheme | scheme/builder path edge + Go tests — library bar |
+| `devcontainers/cli` | 2948 | silent | devcontainer CLI; json/path | devcontainer.json path / feature edge + TS tests |
+| `kubesphere/kubekey` | 2865 | silent | k8s installer CLI; config/path | config path / addons edge + Go tests |
+| `snyk/driftctl` | 2663 | silent | infra drift detect CLI; state/path | tfstate path / filter edge + Go tests |
+| `cycloidio/terracognita` | 2390 | silent | cloud→tf import CLI; provider/path | resource filter / output path edge + Go tests |
+| `nix-community/colmena` | 2340 | silent | NixOS deploy tool; hive/path | hive.nix path / target edge + Rust tests |
+| `serokell/deploy-rs` | 2311 | silent | Nix flake deploy tool; profile/path | deploy flake path / profile edge + Rust tests |
+| `openfaas/faas-netes` | 2170 | silent | OpenFaaS on k8s; function CR path | Function CR path / secret edge + Go tests |
+| `sealerio/sealer` | 2093 | silent | cluster+image build/run CLI; path | Clusterfile path / image build edge + Go tests |
+| `cycloidio/inframap` | 2064 | silent | tfstate/HCL graph CLI; path | tfstate path / graph edge + Go tests |
+| `zhaofengli/attic` | 2063 | silent | Nix binary cache; path/auth | cache path / narinfo edge + Rust tests |
+| `apptainer/apptainer` | 1962 | disclosure | HPC app containers; path/SIF — disclose AI | bind path / sif create edge + Go tests — disclose AI |
+| `operator-framework/operator-lifecycle-manager` | 1861 | silent | OLM operator lifecycle; CSV/path | CSV path / catalog source edge + Go tests |
+| `argoproj-labs/argocd-image-updater` | 1717 | silent | Argo CD image updater; annotation/path | image list / write-back path edge + Go tests |
+| `knative/eventing` | 1552 | silent | knative eventing; trigger/path | Trigger broker path edge + Go tests |
+| `bazel-contrib/rules_go` | 1484 | silent | Bazel Go rules; path/label | go_library path / embed edge + Go tests |
+| `moonrepo/proto` | 1406 | silent | multi-lang version manager; tool/path | tool version / shim path edge + Rust tests |
+| `rootless-containers/rootlesskit` | 1303 | silent | rootless fake-root helper; argv/path | path mapping / port driver edge + Go tests |
+| `ansible/ansible-runner` | 1085 | silent | ansible runner lib/CLI; path/inventory | playbook path / inventory edge + Python tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `wallix/awless` | 4955 | silent | Unmaintained AWS CLI alternative — weak cadence |
+| `just-containers/s6-overlay` | 4583 | hard_ban | CONTRIBUTING hard ban: does not accept LLM-generated contributions |
+| `bitnami/containers` | 4459 | silent | Container image catalog — packaging farm not product CLI |
+| `oxequa/realize` | 4434 | silent | Unmaintained Go task runner — weak cadence |
+| `moby/swarmkit` | 3651 | silent | Swarm orchestration toolkit — legacy/low product CLI surface vs compose/buildkit |
+| `dragonflyoss/dragonfly` | 3326 | silent | P2P distribution — networking-distributed adjacency |
+| `im2nguyen/rover` | 3325 | silent | Terraform visualization UI — leave viz apps |
+| `docker/docker-install` | 3173 | silent | Install script only — not an ongoing product CLI |
+| `mitogen-hq/mitogen` | 2533 | silent | Python distributed exec library — leave libs vs ansible-runner CLI |
+| `kuberhealthy/kuberhealthy` | 2266 | silent | Synthetic check operator — monitoring adjacency |
+| `openshift/openshift-ansible` | 2221 | silent | Legacy OpenShift 3.x installer — prefer kubekey/kubespray/talos |
+| `projectcapsule/capsule` | 2176 | silent | Multi-tenancy framework — policy mega vs path/quoting farm |
+| `konstructio/kubefirst` | 2058 | silent | Full platform installer mega — weak small hunk class |
+| `siderolabs/omni` | 1375 | silent | SaaS control plane for Talos — prefer siderolabs/talos CLI |
+| `weaveworks/weave-gitops` | 1130 | silent | Transitioning/community wind-down — skip |
+
+Notes: Prefer midband CLI/plugins (kubeconform/conftest/helm-diff/chartmuseum/whalebrew/docker-rollout/rootlesskit/proto/rules_go). Leave install scripts, demo apps, unmaintained CLIs.
+

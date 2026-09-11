@@ -222,3 +222,74 @@ Policy histogram (this pass): `{'silent': 45, 'disclosure': 11, 'hostility_risk'
 
 Notes: Prefer container/runtime/build/IaC/GitOps CLIs (moby/podman/helm/opentofu/pulumi/argo-cd/buildkit/kamal/act/vcpkg/bazel/gradle). Disclosure/careful: ansible AGENTS, podman AGENTS, pulumi/crossplane/gradle AI_POLICY, k3s/containerd/runc/kata/CMake. Leave PaaS GUIs (coolify/dokploy/portainer/dockge/caprover), jenkins mega, rancher platform UI, actions/runner, cloud-hypervisor hostility_risk.
 
+## Product deepen-2 (≥5k★ subset) (2026-09-11, +53 scored)
+
+Account: `vulragrag-star` · Curated devops container/runtime/k8s-CLI/IaC/Nix/serverless product homes still missing after prior devops product deepen · Policy via `raw.githubusercontent.com` · **42** proceed / **11** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 50, 'disclosure': 3}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `abiosoft/colima` | 30766 | silent | macOS/Linux container runtime CLI; lima/docker path edges | VM disk/path or docker socket path edge + Go tests |
+| `openfaas/faas` | 26236 | silent | OpenFaaS gateway/CLI stack; function YAML | stack.yml path / env edge + Go tests |
+| `slimtoolkit/slim` | 23410 | silent | container image minify CLI; Dockerfile/path | include-path / http-probe edge + Go tests |
+| `lima-vm/lima` | 21866 | silent | Linux VM CLI focused on containers; YAML/path/quoting | lima.yaml mount path / port forward edge + Go tests |
+| `google/cadvisor` | 19417 | silent | container metrics agent; path/cgroup | cgroup path / docker endpoint edge + Go tests |
+| `kubernetes-sigs/kubespray` | 18727 | silent | ansible k8s deploy; inventory/path | inventory path / group_vars edge + ansible tests |
+| `labring/sealos` | 18341 | silent | cluster app deploy CLI; Clusterfile/path | Clusterfile path / app install edge + Go tests |
+| `GoogleContainerTools/jib` | 14451 | silent | Java container build; path/layer | extra directory / entrypoint edge + Java tests |
+| `89luca89/distrobox` | 12969 | silent | distro-in-terminal wrapper; shell path/quoting | image/name or home mount path quoting + shell tests |
+| `siderolabs/talos` | 11142 | silent | Talos Linux for k8s; machine config/path | machineconfig path / patch edge + Go tests |
+| `kubernetes/kompose` | 10623 | silent | Compose→K8s converter CLI; path/YAML | compose path / service convert edge + Go tests |
+| `kedacore/keda` | 10517 | silent | event-driven autoscaler; ScaledObject YAML | scaler metadata / trigger path edge + Go tests |
+| `reviewdog/reviewdog` | 9581 | silent | review annotation CLI; reporter/path | diff path / reporter config edge + Go tests |
+| `runatlantis/atlantis` | 9285 | silent | Terraform PR automation; path/workspace | repo config path / plan output edge + Go tests |
+| `kubernetes/autoscaler` | 8963 | silent | cluster autoscaler; config/path | node group config / expander edge + Go tests |
+| `linuxkit/linuxkit` | 8649 | silent | secure OS image toolkit; YAML/path | pkg path / kernel config edge + Go tests |
+| `kubevela/kubevela` | 7894 | silent | app platform CLI; appfile/path | appfile path / trait edge + Go tests |
+| `chaos-mesh/chaos-mesh` | 7888 | silent | chaos engineering platform; experiment YAML | experiment path / selector edge + Go tests |
+| `aws/karpenter-provider-aws` | 7715 | silent | k8s node autoscaler; NodePool YAML | NodePool requirement / EC2 path edge + Go tests |
+| `operator-framework/operator-sdk` | 7678 | silent | operator scaffolding CLI; path/API | scaffold path / domain flag edge + Go tests |
+| `cachix/devenv` | 7635 | silent | declarative Nix env; devenv.nix/path | devenv.nix path / shell hook edge + tests |
+| `kubeedge/kubeedge` | 7570 | silent | edge k8s; device/path config | edgecore config path edge + Go tests |
+| `kubevirt/kubevirt` | 7063 | silent | k8s VM API/runtime; VM YAML/path | disk path / cloud-init edge + Go tests |
+| `aws/aws-sam-cli` | 6732 | disclosure | SAM build/deploy CLI — disclose AI | template path / build artifact edge + Python tests — disclose AI |
+| `kubernetes-sigs/metrics-server` | 6716 | silent | metrics-server; kubelet path/config | kubelet cert path / metric scrape edge + Go tests |
+| `k3d-io/k3d` | 6551 | silent | k3s-in-docker helper CLI; path/config | k3d.yaml volume / registry config edge + Go tests |
+| `actions/actions-runner-controller` | 6490 | silent | GH Actions runner controller; CR path | RunnerDeployment path / scale edge + Go tests |
+| `containers/podman-compose` | 6212 | silent | compose-on-podman; YAML/path/env | compose service path / env file edge + Python tests |
+| `lxc/incus` | 6166 | silent | system container/VM manager CLI; path/config | instance config path / storage pool edge + Go tests |
+| `knative/serving` | 6089 | silent | knative serving; service YAML/path | Service path / revision edge + Go tests |
+| `goss-org/goss` | 5966 | silent | server validation CLI; YAML/path | goss.yaml path / command check edge + Go tests |
+| `fnproject/fn` | 5944 | silent | fn serverless CLI; path/route | func.yaml path / route edge + Go tests |
+| `volcano-sh/volcano` | 5939 | silent | batch scheduling; queue/job YAML | queue/job path edge + Go tests |
+| `nuclio/nuclio` | 5755 | silent | high-perf serverless; function YAML/path | function.yaml path / build edge + Go tests |
+| `cri-o/cri-o` | 5657 | silent | OCI CRI runtime; path/config | runtime path / cni conf edge + Go tests |
+| `karmada-io/karmada` | 5619 | silent | multi-cluster orchestration; policy/path | propagation policy path edge + Go tests |
+| `litmuschaos/litmus` | 5610 | silent | chaos engineering; chaosengine path | chaosengine path / probe edge + Go tests |
+| `kubernetes-sigs/descheduler` | 5515 | silent | k8s descheduler; policy YAML/path | policy path / node selector edge + Go tests |
+| `psviderski/uncloud` | 5486 | silent | lightweight container deploy CLI; path | compose/deploy path edge + Go tests |
+| `eksctl-io/eksctl` | 5211 | silent | EKS CLI; cluster YAML/path | cluster.yaml path / addon config edge + Go tests |
+| `helmfile/helmfile` | 5193 | silent | declarative helm deploy CLI; values/path | helmfile.yaml path / values quoting edge + Go tests |
+| `diggerhq/digger` | 5044 | disclosure | IaC orchestration — disclose AI | project path / plan edge + Go tests — disclose AI |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `dapr/dapr` | 26091 | silent | Distributed app runtime mega — weak small path/quoting PR class vs CLI/build homes |
+| `ansible/awx` | 15550 | silent | AWX web UI/API control plane — leave GUI; prefer ansible-runner/CLI homes |
+| `hashicorp/terraform-provider-aws` | 11085 | disclosure | Provider plugin mega — prefer atlantis/terragrunt/CLI IaC homes over provider internals |
+| `orbstack/orbstack` | 9305 | silent | Mostly proprietary product landing/docs repo — weak open contribution farm |
+| `cloudnative-pg/cloudnative-pg` | 9282 | silent | Postgres operator — databases-storage sector, not devops-build deepen |
+| `nginx-proxy/acme-companion` | 7726 | silent | Thin ACME companion for nginx-proxy — weak product farm |
+| `stefanprodan/podinfo` | 5992 | silent | Demo microservice template — not a product contribution home |
+| `weaveworks/scope` | 5909 | silent | Monitoring visualisation UI — leave dashboards |
+| `devtron-labs/devtron` | 5595 | silent | Kubernetes dashboard/UI platform — leave GUIs |
+| `tsuru/tsuru` | 5311 | silent | PaaS platform — prefer kamal/dokku/flyctl class already scored |
+| `github/gh-aw` | 5127 | silent | GitHub Agentic Workflows product — leave agent workflow farms |
+
+Notes: Prefer container/runtime CLIs (colima/lima/distrobox/cri-o/slim/talos/incus/k3d), k8s installer/autoscaler/CLI plugins (kubespray/kompose/eksctl/karpenter/helmfile/kubefwd), IaC PR automation (atlantis/digger/driftctl), Nix env/deploy (devenv/nh/colmena/deploy-rs), serverless CLIs (openfaas/fn/nuclio/sam-cli). Disclosure: gateway-api/kueue/sam-cli/digger/nh/apptainer. Leave GUIs (awx/devtron), provider plugins, PaaS megas, hard_ban s6-overlay.
+

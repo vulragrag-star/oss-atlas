@@ -94,7 +94,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | jumpserver/jumpserver | 31512 | security-crypto | silent | asset/path/ACL edge + py tests |
 | grafana/k6 | 31440 | networking-distributed | silent | script/path or HTTP edge + go tests |
 | tqdm/tqdm | 31330 | python-tooling | silent | progress format/path/iterable edge + py tests |
-| helm/helm | 30229 | devops-build | silent | chart path / values quoting edge + Go tests |
+| abiosoft/colima | 30766 | devops-build | silent | VM disk/path or docker socket path edge + Go tests |
 | hashicorp/consul | 30063 | networking-distributed | silent | ACL/config path or DNS edge + go tests |
 | celery/celery | 28874 | python-tooling | silent | config/path/serializer edge + py tests |
 | pydantic/pydantic | 28753 | python-tooling | silent | model parse/coerce/schema edge + py tests |

@@ -229,3 +229,99 @@ Policy histogram (this pass): `{'silent': 25}`.
 
 Notes: Prefer sealed-secrets/ESO/scorecard/casbin/cedar/gosec/rekor/nsjail/bubblewrap edges. Leave toxiproxy chaos, dnsx/katana recon-adjacent, vault-helm satellite, wolfi package dump, WireGuard kernel mirror, and deprecated oso.
 
+## Midband product deepen (2026-09-11, +78 scored)
+
+Account: `vulragrag-star` · Curated security-crypto midband (1k–5k★) PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ/password/CT/sandbox homes still missing after prior security product deepen · Policy via `raw.githubusercontent.com` · **39** proceed / **39** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 73, 'disclosure': 5}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `intelowlproject/IntelOwl` | 4703 | silent | Threat intel platform; analyzer/config/path edges | analyzer/config/path edge + Python tests |
+| `cerbos/cerbos` | 4577 | disclosure | AuthZ policy engine; policy/path edges — disclose AI | policy/path/eval edge + Go tests |
+| `trifectatechfoundation/sudo-rs` | 4463 | disclosure | Memory-safe sudo/su; argv/policy edges — disclose AI | sudo argv/policy edge + Rust tests |
+| `jtesta/ssh-audit` | 4299 | silent | SSH audit CLI; banner/kex/cipher edges | SSH audit/parse edge + Python tests |
+| `DependencyTrack/dependency-track` | 4195 | silent | SBOM/SCA platform; component/vuln/path edges | SBOM/component/path edge + Java tests |
+| `RetireJS/retire.js` | 4170 | silent | JS dependency vuln scanner; path/repo edges | dep/path scan edge + JS tests |
+| `briansmith/ring` | 4106 | silent | Crypto primitives — API/test edges only, never invent algos | API/test edge + Rust tests — not invent crypto |
+| `cartography-cncf/cartography` | 4051 | disclosure | Infra asset graph; connector/path edges — disclose AI | connector/path edge + Python tests |
+| `spotbugs/spotbugs` | 3940 | silent | Java SAST; detector/bug-pattern edges | detector/pattern edge + Java tests |
+| `corazawaf/coraza` | 3792 | silent | OWASP Coraza WAF; rule/config/path edges | WAF rule/config/path edge + Go tests |
+| `Neo23x0/Loki` | 3789 | silent | IOC/YARA scanner; rule/path edges | yara/IOC/path edge + Python tests |
+| `aquasecurity/cloudsploit` | 3775 | silent | CSPM scanner; plugin/cloud/path edges | CSPM plugin/path edge + JS tests |
+| `allinssl/allinssl` | 3586 | silent | SSL cert lifecycle tool; domain/path/deploy edges | cert deploy/path edge + Go tests |
+| `iann0036/iamlive` | 3408 | silent | IAM policy generator from cloud activity; policy/path edges | IAM policy/path edge + Go tests |
+| `Yamato-Security/hayabusa` | 3336 | silent | Sigma threat-hunting CLI; rule/path edges | sigma/rule/path edge + Rust tests |
+| `django-oauth/django-oauth-toolkit` | 3335 | silent | Django OAuth2 provider; app/token/path edges | OAuth app/token/path edge + Django tests |
+| `Mic92/sops-nix` | 3157 | silent | NixOS sops secrets; secret/path edges | sops/nix secret/path edge + Nix tests |
+| `aliasvault/aliasvault` | 3104 | silent | Privacy-first password manager; vault/path edges | vault/path/email-alias edge + tests |
+| `oauthlib/oauthlib` | 2980 | silent | OAuth lib; grant/token/parse edges | OAuth grant/token edge + Python tests |
+| `opencve/opencve` | 2826 | silent | Vuln intelligence platform; CVE/feed/path edges | CVE/feed/path edge + Python tests |
+| `authpass/authpass` | 2787 | silent | Flutter password manager; entry/path/import edges | entry/path/import edge + Dart tests |
+| `awnumar/memguard` | 2758 | silent | Sensitive memory sandbox; alloc/lock edges | memguard alloc/lock edge + Go tests |
+| `coreos/go-oidc` | 2475 | silent | Go OIDC client; discovery/verify edges | OIDC discovery/verify edge + Go tests |
+| `find-sec-bugs/find-sec-bugs` | 2443 | silent | FindSecBugs SpotBugs plugin; detector edges | detector/pattern edge + Java tests |
+| `panva/openid-client` | 2407 | silent | OIDC client; discovery/token/path edges | OIDC discovery/token edge + JS tests |
+| `unrolled/secure` | 2355 | silent | Go secure headers middleware; header/config edges | secure header/config edge + Go tests |
+| `MasterKale/SimpleWebAuthn` | 2341 | silent | WebAuthn library; ceremony/option edges | WebAuthn ceremony/option edge + TS tests |
+| `keepassxreboot/keepassxc-browser` | 2327 | disclosure | KeePassXC browser bridge; native-msg/path edges — disclose AI | native messaging/path edge + JS tests |
+| `thoughtworks/talisman` | 2098 | silent | Secrets pre-commit scanner; pattern/path edges | secret pattern/path edge + Go tests |
+| `theupdateframework/python-tuf` | 1726 | silent | TUF Python reference; metadata/path edges | TUF metadata/path edge + Python tests |
+| `FairwindsOps/rbac-manager` | 1667 | silent | K8s RBAC operator; role/path edges | RBAC role/path edge + Go tests |
+| `controlplaneio/kubesec` | 1479 | silent | K8s manifest risk analysis; path/score edges | manifest/path/score edge + Go tests |
+| `neuvector/neuvector` | 1334 | silent | Container security platform; policy/path edges | policy/path edge + Go tests |
+| `zalando/go-keyring` | 1329 | silent | OS keyring helper; service/user/path edges | keyring service/path edge + Go tests |
+| `stackrox/stackrox` | 1309 | disclosure | K8s security platform; policy/path edges — disclose AI | policy/path edge + Go tests |
+| `gorilla/csrf` | 1210 | silent | Go CSRF middleware; token/header edges | CSRF token/header edge + Go tests |
+| `Yubico/yubikey-manager` | 1186 | silent | YubiKey CLI/library; config/path edges | YubiKey config/path edge + Python tests |
+| `SSLMate/certspotter` | 1173 | silent | CT log monitor; log/path edges | CT log/path edge + Go tests |
+| `simplesamlphp/simplesamlphp` | 1140 | silent | SAML IdP/SP; config/metadata/path edges | SAML metadata/config edge + PHP tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `netlify/gotrue` | 4476 | silent | Supabase/Netlify GoTrue — often satellite of larger auth platforms; process unclear here |
+| `jazzband/djangorestframework-simplejwt` | 4333 | silent | DRF JWT helper — thin library; prefer IdP/OIDC homes |
+| `aarondl/authboss` | 4197 | silent | Go auth toolkit with weak CONTRIBUTING surface |
+| `simov/grant` | 4168 | silent | Generic OAuth proxy middleware — prefer dedicated IdP/OIDC homes |
+| `thephpleague/oauth2-client` | 3821 | silent | PHP OAuth client satellite — prefer IdP/OIDC product homes |
+| `maxcountryman/flask-login` | 3675 | silent | Tiny Flask session helper — prefer authlib/allauth class |
+| `JosephSilber/bouncer` | 3580 | silent | Laravel abilities package — app-framework satellite |
+| `lynndylanhurley/devise_token_auth` | 3569 | silent | Rails token auth add-on — prefer main devise/IdP homes |
+| `jaredhanson/oauth2orize` | 3534 | silent | Legacy Node OAuth2 toolkit — stale/process unclear |
+| `ueberauth/guardian` | 3514 | silent | Elixir token lib — niche; prefer broader auth platforms |
+| `laravel/passport` | 3417 | silent | Laravel OAuth server plugin — framework satellite |
+| `auth0/jwt-decode` | 3399 | silent | Tiny JWT decode helper — satellite surface |
+| `OAuthSwift/OAuthSwift` | 3331 | silent | iOS OAuth helper — mobile satellite surface |
+| `workos/authkit` | 3329 | silent | Auth UI kit / login box — weak systems product hunk fit |
+| `chromium/badssl.com` | 3047 | silent | TLS test content site — not a product codebase for drive-by patches |
+| `appleboy/gin-jwt` | 2974 | silent | Thin Gin JWT middleware — satellite; prefer product auth homes |
+| `apache/casbin-node-casbin` | 2915 | silent | Casbin Node binding satellite — prefer main casbin |
+| `rs/cors` | 2898 | silent | Tiny CORS middleware — prefer fuller security product homes |
+| `omab/python-social-auth` | 2801 | silent | Legacy meta-package — prefer social-app-django / maintained forks |
+| `sunscrapers/djoser` | 2678 | silent | Django REST auth helper — prefer allauth/simplejwt/IdP |
+| `apache/casbin-jcasbin` | 2652 | silent | Casbin Java binding satellite — prefer main casbin |
+| `lexik/LexikJWTAuthenticationBundle` | 2609 | silent | Symfony JWT bundle satellite |
+| `jwt-dotnet/jwt` | 2191 | silent | Thin .NET JWT helper — weak outsider hunk surface |
+| `ruby-oauth/oauth2` | 2179 | silent | Thin Ruby OAuth2 gem — prefer fuller IdP/OIDC homes |
+| `zmap/zgrab2` | 2174 | silent | Internet-wide banner scanner — recon-adjacent optics; leave |
+| `python-social-auth/social-app-django` | 2144 | silent | Social-auth Django adapter — prefer django-allauth |
+| `authts/oidc-client-ts` | 1948 | silent | Browser OIDC client — frontend satellite; prefer server auth homes |
+| `spiffe/spiffe` | 1851 | silent | SPIFFE specs/docs home — not a single product implementation |
+| `apache/casbin-pycasbin` | 1767 | silent | Casbin language binding satellite — prefer apache/casbin main |
+| `keepassium/KeePassium` | 1689 | silent | iOS KeePass client — mobile App Store surface; weak CI outsider fit |
+| `projectdiscovery/notify` | 1611 | silent | Generic notify CLI — weak security-sector product fit |
+| `simonrob/email-oauth2-proxy` | 1470 | silent | Niche email OAuth proxy — weak testable product farm |
+| `passwordless-lib/fido2-net-lib` | 1451 | silent | .NET FIDO2 lib — niche binding; prefer broader WebAuthn homes |
+| `lepture/flask-oauthlib` | 1446 | silent | Stale Flask OAuth helper — prefer authlib |
+| `php-casbin/php-casbin` | 1337 | silent | Casbin PHP binding satellite — prefer main casbin |
+| `apache/casbin-Casbin.NET` | 1334 | silent | Casbin .NET binding satellite — prefer main casbin |
+| `waiting-for-dev/devise-jwt` | 1291 | silent | Thin Devise JWT add-on — prefer main auth product homes |
+| `damienbod/angular-auth-oidc-client` | 1238 | silent | Angular OIDC client — frontend satellite |
+| `auth0/go-jwt-middleware` | 1205 | silent | Thin Go JWT middleware satellite of Auth0 samples |
+
+Notes: Prefer midband PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ homes (fail2ban/boulder/secretive/cerbos/keto/opal/coraza/dependency-track/hayabusa/kubesec/sops-nix/sudo-rs/git-secrets/talisman/certspotter/testssl/memguard/SimpleWebAuthn). Disclosure: keto/cerbos/sudo-rs/cartography/keepassxc-browser/stackrox. Leave Casbin language bindings, thin JWT middleware, frontend OIDC clients, badssl content site, SPIFFE specs-only, recon scanners (zgrab2), and framework auth satellites.
+

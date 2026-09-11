@@ -202,3 +202,36 @@ Policy histogram (this pass): `{'silent': 62, 'disclosure': 17}`.
 
 Notes: Prefer secrets/PKI/IAM/SBOM/SAST/access homes (vaultwarden, vault, trivy, gitleaks, keycloak, authentik, OPA, teleport, falco). Disclosure: openssl, keycloak, authentik, certbot, keepassxc, ory/*, better-auth, anubis, traefik, opa, external-secrets. Scanner false-positive NO-AI on certbot/authentik overridden to disclosure (AI allowed with HITL). Leave offensive scanners/crackers, RE frameworks, VPN install recipes, mesh megas (istio/envoy/cilium), and wrong-sector (renovate/golangci/kibana).
 
+## Midband product deepen (spill ≥5k★ if any) (2026-09-11, +15 scored)
+
+Account: `vulragrag-star` · Curated security-crypto midband (1k–5k★) PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ/password/CT/sandbox homes still missing after prior security product deepen · Policy via `raw.githubusercontent.com` · **14** proceed / **1** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 14, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `bitwarden/server` | 20121 | silent | Bitwarden backend; vault item/path/API edges | vault item/path/API edge + tests |
+| `fail2ban/fail2ban` | 18606 | silent | Host ban daemon; filter/jail/path edges | filter/jail/path edge + tests |
+| `supertokens/supertokens-core` | 15297 | silent | Auth core alternative; recipe/config/path edges | recipe/config/path edge + tests |
+| `awslabs/git-secrets` | 13391 | silent | Pre-commit secrets scanner; pattern/path edges | pattern/path edge + shell tests |
+| `jwtk/jjwt` | 11136 | silent | Java JWT library; claim/parse edges | JWT claim/parse edge + Java tests |
+| `pennersr/django-allauth` | 10378 | silent | Django auth social/account; provider/path edges | provider/callback/path edge + Django tests |
+| `owasp-modsecurity/ModSecurity` | 9776 | silent | WAF engine; rule/config/path edges | rule/config/path edge + tests |
+| `testssl/testssl.sh` | 9200 | silent | TLS/SSL test CLI; host/port/cipher edges | TLS probe/config edge + shell tests |
+| `maxgoedjen/secretive` | 8863 | silent | macOS Secure Enclave SSH agent; key/path edges | key/agent/path edge + Swift tests |
+| `lesspass/lesspass` | 6056 | silent | Stateless password manager; site/login/options edges | password options/path edge + tests |
+| `letsencrypt/boulder` | 5748 | silent | ACME CA; order/authz/path edges — small testable hunks only | ACME order/authz/path edge + Go tests |
+| `permitio/opal` | 5504 | silent | Policy admin/distribution; policy/path edges | policy/path/sync edge + Python tests |
+| `authlib/authlib` | 5418 | silent | OAuth/OIDC library; grant/token/path edges | grant/token/path edge + Python tests |
+| `ory/keto` | 5397 | disclosure | Permission server; relation/tuple/path edges — disclose AI | relation/tuple/path edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `auth0/java-jwt` | 6235 | silent | Auth0 JWT sample library — prefer jjwt / fuller auth platforms |
+
+Notes: Prefer midband PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ homes (fail2ban/boulder/secretive/cerbos/keto/opal/coraza/dependency-track/hayabusa/kubesec/sops-nix/sudo-rs/git-secrets/talisman/certspotter/testssl/memguard/SimpleWebAuthn). Disclosure: keto/cerbos/sudo-rs/cartography/keepassxc-browser/stackrox. Leave Casbin language bindings, thin JWT middleware, frontend OIDC clients, badssl content site, SPIFFE specs-only, recon scanners (zgrab2), and framework auth satellites.
+

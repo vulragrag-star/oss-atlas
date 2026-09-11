@@ -232,3 +232,48 @@ Ranked for playbook hunk class (protocol/CLI/path/quoting + tests). Prefer one h
 - Deep overrides after reading live AI_POLICY/CONTRIBUTING: PowerDNS + iPXE → hard_ban; meshbird → hostility_risk.
 - No fork, PR, issue, or comment created.
 - Hard leaves applied: QEMU/GIMP patterns (none in midband sample), AgentScan circle, predecessor closed queues, offensive/circumvention kits.
+
+## Product deepen midband subset (2026-09-11, +26 scored)
+
+Account: `vulragrag-star` · Curated compiler/runtime/Wasm/language product homes still missing after midband + famous-CLI passes · Policy via `raw.githubusercontent.com` · **22** proceed / **4** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 23, 'disclosure': 2, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `xtaci/kcp-go` | 4553 | silent | KCP reliable UDP lib; session/path edges | KCP session/path edge + go tests |
+| `tower-rs/tower` | 4293 | silent | Service middleware tower; layer/path edges | middleware layer/path edge + rust tests |
+| `osrg/gobgp` | 4106 | silent | GoBGP daemon CLI; policy/path/RIB edges | BGP policy/path edge + go tests |
+| `hashicorp/memberlist` | 4103 | disclosure | Gossip memberlist — disclose AI | node/meta path edge + go tests — disclose AI |
+| `projectcontour/contour` | 3947 | silent | Envoy ingress controller; HTTPProxy/path edges | HTTPProxy/path edge + go tests |
+| `vernemq/vernemq` | 3628 | silent | MQTT broker; listener/path/ACL edges | listener/ACL path edge + tests |
+| `curl/trurl` | 3348 | silent | URL parse CLI sibling of curl; path/quoting edges | URL parse/quoting edge + tests |
+| `eclipse-paho/paho.mqtt.golang` | 3121 | silent | MQTT Go client; URI/path/option edges | URI/option path edge + go tests |
+| `jitsi/jitsi-videobridge` | 3105 | silent | Jitsi SFU bridge; conference/path edges | conference/path edge + tests |
+| `golang/net` | 3040 | silent | x/net extensions; http2/proxy/path edges | http2/proxy/path edge + go tests |
+| `envoyproxy/gateway` | 3025 | silent | Envoy Gateway; Gateway API/path edges | Gateway API/path edge + go tests |
+| `kube-vip/kube-vip` | 2952 | silent | K8s VIP/LB; ARP/BGP/path config edges | VIP/BGP config path edge + go tests |
+| `k8snetworkplumbingwg/multus-cni` | 2945 | silent | Multus multi-net CNI; conf/path edges | network attachment path edge + go tests |
+| `kubeovn/kube-ovn` | 2394 | silent | Kube-OVN CNI; subnet/path edges | subnet/config path edge + go tests |
+| `eclipse-paho/paho.mqtt.c` | 2369 | silent | MQTT C client; URI/path/option edges | URI/option path edge + tests |
+| `Exa-Networks/exabgp` | 2304 | silent | ExaBGP; process/path/API edges | neighbor/API path edge + tests |
+| `pion/turn` | 2252 | silent | TURN/STUN server lib; realm/path edges | TURN realm/path edge + go tests |
+| `connectrpc/connect-es` | 1808 | silent | Connect protocol TypeScript; path/codec edges | RPC path/codec edge + tests |
+| `antrea-io/antrea` | 1807 | silent | Antrea CNI; policy/path edges | NetworkPolicy/path edge + go tests |
+| `hyperium/h2` | 1551 | silent | HTTP/2 protocol lib; frame/stream edges | H2 frame/stream edge + rust tests |
+| `hivemq/hivemq-community-edition` | 1208 | silent | MQTT broker CE; extension/path edges | extension/path config edge + tests |
+| `ameshkov/dnslookup` | 1153 | silent | DNS lookup CLI; protocol/flag/path edges | DNS query/flag/path edge + go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `emissary-ingress/emissary` | 4521 | silent | Emissary ingress process/CNCF heavy — leave |
+| `urllib3/urllib3` | 4055 | silent | Python HTTP client lib — client-only leave |
+| `cloudnativelabs/kube-router` | 2500 | hard_ban | AI_POLICY / PR template NO-AI — hard leave |
+| `ovn-kubernetes/ovn-kubernetes` | 1063 | disclosure | OVN-K8s mega; process-heavy CNCF — leave |
+
+Notes: Prefer midband protocol satellites (dnslookup/trurl/pion-turn/exabgp/hivemq-ce/connect-es/h2/antrea/kube-ovn/envoy-gateway/multus/kube-vip). Leave OVN-K8s process mega and client-only HTTP libs.
+

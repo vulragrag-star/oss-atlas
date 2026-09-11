@@ -158,3 +158,116 @@ Ranked for playbook hunk class (protocol/CLI/path/quoting + tests). Prefer one h
 - Before any future PR: `python scripts/repo-gate.py` + `agentscan-check.py --refresh` + `hostility-scan.py`; sample 10 merged outsider PRs for voice.
 
 _Survey finished 2026-09-08 (UTC+8 afternoon)._
+
+## Product deepen (≥5k★ subset) (2026-09-11, +94 scored)
+
+Account: `vulragrag-star` · Curated compiler/runtime/Wasm/language product homes still missing after midband + famous-CLI passes · Policy via `raw.githubusercontent.com` · **61** proceed / **33** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 78, 'disclosure': 11, 'hard_ban': 4, 'agentscan': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `Kong/kong` | 44123 | silent | Kong API gateway; route/plugin/path edges | route/plugin/path edge + tests |
+| `juanfont/headscale` | 43745 | disclosure | Tailscale-compatible control plane — disclose AI | ACL/config/path or DERP edge + go tests — disclose AI |
+| `curl/curl` | 42829 | silent | curl CLI; URL/path/quoting/protocol classic playbook surface | URL/path/quoting or transfer edge + tests |
+| `XTLS/Xray-core` | 41519 | silent | VLESS/XTLS core; inbound/path/config edges | inbound/path/config edge + go tests |
+| `SagerNet/sing-box` | 37853 | silent | Universal proxy platform; rule/path/config edges | rule/config path or outbound edge + go tests |
+| `v2fly/v2ray-core` | 34569 | silent | V2Ray core; protocol/path/config edges | protocol/config path edge + go tests |
+| `MetaCubeX/mihomo` | 33993 | silent | Clash Meta core; rule/path/config edges | rule/config path edge + tests |
+| `grafana/k6` | 31440 | silent | Load testing CLI/JS; script/path/HTTP edges | script/path or HTTP edge + go tests |
+| `hashicorp/consul` | 30063 | silent | Consul service mesh control; ACL/path/config | ACL/config path or DNS edge + go tests |
+| `locustio/locust` | 28142 | silent | Python load tester; task/path/HTTP edges | task/path/HTTP edge + tests |
+| `nsqio/nsq` | 25777 | silent | Realtime distributed messaging; topic/path edges | topic/channel/path edge + go tests |
+| `tsenart/vegeta` | 25185 | silent | HTTP load testing CLI; target/path/quoting edges | target URL/path quoting edge + go tests |
+| `gorilla/websocket` | 24866 | silent | Go WebSocket lib; upgrade/path edges | upgrade/path/frame edge + go tests |
+| `valyala/fasthttp` | 23469 | silent | Fast HTTP server/client; header/path parse edges | header/path/URI parse edge + go tests |
+| `fosrl/pangolin` | 22706 | disclosure | Identity-aware proxy tunnel — disclose AI in PR | auth/proxy path edge + tests — disclose AI |
+| `HyNetworks/hysteria` | 22465 | silent | QUIC proxy/tunnel CLI; config/path/protocol edges | config/QUIC path or auth edge + go tests |
+| `livekit/livekit` | 20843 | silent | Realtime WebRTC SFU; room/path/config edges | room/path/config edge + go tests |
+| `nats-io/nats-server` | 20693 | disclosure | NATS server — disclose AI assist | subject/config/path edge + go tests — disclose AI |
+| `rakyll/hey` | 20258 | silent | HTTP load CLI; URL/header/path edges | URL/header/path edge + go tests |
+| `bluenviron/mediamtx` | 20100 | silent | Media-over-QUIC/RTSP/WebRTC server; path/config | path/config or protocol edge + go tests |
+| `grpc-ecosystem/grpc-gateway` | 20002 | silent | gRPC↔JSON gateway; HTTP path/proto mapping edges | HTTP path/proto mapping edge + go tests |
+| `apache/brpc` | 17601 | silent | bRPC framework; protocol/path edges | protocol/path edge + tests |
+| `joewalnes/websocketd` | 17464 | silent | WebSocket↔stdio bridge CLI; path/argv edges | path/argv quoting edge + go tests |
+| `ipfs/kubo` | 17131 | silent | IPFS Kubo node; path/CID/config edges | CID/path/config edge + go tests |
+| `apache/apisix` | 17110 | silent | Apache APISIX gateway; route/plugin/path edges | route/plugin path edge + tests |
+| `skywind3000/kcp` | 16903 | silent | KCP ARQ protocol; segment/path edges | segment/conv path edge + tests |
+| `pion/webrtc` | 16773 | silent | Pure Go WebRTC; SDP/ICE/path edges | SDP/ICE/path edge + go tests |
+| `emqx/emqx` | 16705 | silent | EMQX MQTT broker; rule/path/config edges | rule/config path edge + tests |
+| `shadowsocks/shadowsocks-c` | 16177 | silent | Shadowsocks C impl; plugin/path/ACL edges | plugin path/ACL edge + tests |
+| `passteque/gluetun` | 15464 | silent | VPN client container CLI; provider/path config | provider/config path edge + go tests |
+| `txthinking/brook` | 15175 | silent | Programmable network tool CLI; dial/path edges | CLI dial/path or socks edge + go tests |
+| `sogou/workflow` | 14421 | silent | C++ async networking framework; URI/path edges | URI/path/task edge + tests |
+| `AlexxIT/go2rtc` | 14157 | silent | Camera streaming; source/path/config edges | source/path/config edge + go tests |
+| `EasyTier/EasyTier` | 13592 | silent | Decentralized mesh VPN; peer/path/config edges | peer/config path edge + rust tests |
+| `SoftEtherVPN/SoftEtherVPN` | 13543 | silent | Multi-protocol VPN; config/path edges | config/path or protocol edge + tests |
+| `cesanta/mongoose` | 13038 | silent | Embedded TCP/HTTP/MQTT stack; path/URI edges | URI/path or MQTT edge + tests |
+| `n0-computer/iroh` | 12481 | silent | QUIC+NAT traversal lib; dial-key/path edges | dial-key/QUIC path edge + rust tests |
+| `libevent/libevent` | 11949 | silent | Evented net lib; bufferevent/path edges | bufferevent/path edge + tests |
+| `seanmonstar/reqwest` | 11815 | silent | Rust HTTP client; URL/proxy/redirect edges | URL/proxy/redirect edge + rust tests |
+| `gravitl/netmaker` | 11779 | silent | WireGuard mesh control plane; node/CIDR/path edges | node/CIDR/config path edge + go tests |
+| `quic-go/quic-go` | 11765 | silent | QUIC protocol lib; frame/path/config edges with tests | QUIC frame/path or dial edge + go tests |
+| `bufbuild/buf` | 11427 | silent | Protobuf/buf CLI; path/module/config edges | proto path/module config edge + go tests |
+| `eclipse-mosquitto/mosquitto` | 11186 | silent | MQTT broker; conf/path/ACL edges | conf/ACL path edge + tests |
+| `apache/thrift` | 10957 | disclosure | Apache Thrift — disclose AI trailer | IDL/path/transport edge + tests — disclose AI |
+| `hashicorp/raft` | 9120 | disclosure | Raft consensus lib — disclose AI | log/path or snapshot edge + go tests — disclose AI |
+| `smallnest/rpcx` | 8316 | silent | Go RPCX; service/path/codec edges | service/path/codec edge + go tests |
+| `cloudwego/kitex` | 8035 | silent | RPC framework; IDL/path/codec edges | IDL/path/codec edge + go tests |
+| `go-gost/gost` | 7459 | silent | GOST tunnel/proxy CLI; chain/path/config edges | chain/config path edge + go tests |
+| `cloudwego/hertz` | 7361 | silent | HTTP framework; route/path/middleware edges | route/path middleware edge + go tests |
+| `versatica/mediasoup` | 7360 | silent | SFU WebRTC; transport/path edges | transport/path edge + tests |
+| `projectcalico/calico` | 7351 | disclosure | Calico CNI/network — disclose AI policy | IPAM/policy path edge + go tests — disclose AI |
+| `cloudflare/boringtun` | 7190 | silent | Userspace WireGuard; config/path edges | WG config/path or key edge + rust tests |
+| `google/gopacket` | 6795 | silent | Packet decode framework; layer/path edges | layer decode/path edge + go tests |
+| `nats-io/nats.go` | 6745 | silent | NATS Go client; subject/path edges | subject/path edge + go tests |
+| `gobwas/ws` | 6466 | silent | Go WebSocket; upgrade/path edges | upgrade/path edge + go tests |
+| `containernetworking/cni` | 6113 | silent | CNI spec/libs; conf/path edges | CNI conf/path edge + go tests |
+| `hashicorp/serf` | 6072 | disclosure | Serf gossip membership — disclose AI | member/event path edge + go tests — disclose AI |
+| `coder/websocket` | 5460 | silent | Minimal WebSocket lib; dial/path edges | dial/path/frame edge + go tests |
+| `yggdrasil-network/yggdrasil-go` | 5405 | silent | Overlay mesh; admin/API/path edges | admin socket/path or peer edge + go tests |
+| `quinn-rs/quinn` | 5254 | disclosure | QUIC in Rust — disclose AI per CONTRIBUTING | QUIC stream/path edge + rust tests — disclose AI |
+| `nginx/kubernetes-ingress` | 5077 | silent | NGINX Ingress Controller; annotation/path edges | annotation/path config edge + go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `2dust/v2rayN` | 115884 | silent | Windows GUI client for Xray — leave GUI class |
+| `axios/axios` | 109224 | silent | JS HTTP client in web ecosystem — weak protocol edge; leave |
+| `etcd-io/etcd` | 52244 | silent | etcd mega; Kubernetes control-plane process — leave |
+| `lysine-dev/okhttp` | 47065 | silent | JVM HTTP client (ex-square) — client-only leave |
+| `grpc/grpc` | 45303 | hard_ban | CONTRIBUTING NO-AI — hard leave |
+| `gofiber/fiber` | 40143 | silent | Go web framework — leave web-app class |
+| `Kong/insomnia` | 40003 | silent | API client GUI — leave; prefer Kong gateway product |
+| `netty/netty` | 35048 | silent | Netty mega framework — leave |
+| `apache/kafka` | 33701 | disclosure | Kafka mega; process-heavy — leave for outsider agent cadence |
+| `tokio-rs/tokio` | 33118 | silent | Tokio runtime mega — leave; prefer protocol satellites |
+| `labstack/echo` | 32706 | silent | Go web framework — leave web-app class |
+| `facebook/folly` | 30535 | silent | Folly C++ utility mega — leave |
+| `jitsi/jitsi-meet` | 29903 | silent | Jitsi Meet web/app frontend — leave GUI; prefer videobridge |
+| `libuv/libuv` | 27165 | silent | libuv runtime mega — leave |
+| `tokio-rs/axum` | 27080 | silent | Rust web framework — leave web-app class |
+| `actix/actix-web` | 24822 | silent | Rust web framework — leave web-app class |
+| `grpc/grpc-go` | 23052 | hard_ban | CONTRIBUTING NO-AI — hard leave |
+| `apache/rocketmq` | 22588 | silent | RocketMQ mega — leave |
+| `ZLMediaKit/ZLMediaKit` | 17519 | silent | Media server mega; prefer smaller SFU/CLI homes |
+| `Qv2ray/Qv2ray` | 16906 | silent | Cross-platform V2Ray GUI — leave GUI |
+| `avwo/whistle` | 15686 | silent | HTTP debug proxy with web UI — leave GUI/debug surface |
+| `v2rayA/v2rayA` | 15550 | silent | Web GUI client for Project V — leave GUI |
+| `apache/pulsar` | 15328 | disclosure | Pulsar messaging mega — leave |
+| `owasp-amass/amass` | 15142 | silent | Attack-surface mapping — leave recon/offensive |
+| `amnezia-vpn/amnezia-client` | 14960 | silent | VPN desktop/mobile client GUI — leave |
+| `OJ/gobuster` | 14106 | silent | Dir/DNS busting tool — leave offensive class |
+| `rabbitmq/rabbitmq-server` | 13849 | hard_ban | AGENTS.md NO-AI — hard leave |
+| `grpc/grpc-rust` | 12467 | hard_ban | CONTRIBUTING NO-AI (tonic home) — hard leave |
+| `wireshark/wireshark` | 9859 | disclosure | Wireshark mega; Gerrit/process-heavy — leave for outsider cadence |
+| `apache/jmeter` | 9528 | silent | JMeter Java GUI load mega — leave; prefer vegeta/hey/k6 |
+| `ntop/ntopng` | 8149 | silent | ntopng monitoring UI product — leave UI/ops mega |
+| `nodejs/undici` | 7693 | agentscan | AgentScan adopter — leave Node circle |
+| `projectdiscovery/naabu` | 6238 | silent | Port scanner — leave offensive/recon class |
+
+Notes: Prefer DNS/lookup CLIs, HTTP/QUIC/gRPC protocol+CLI (curl/trurl/quic-go/fasthttp/reqwest/buf/grpc-gateway/quinn/h2), tunnels/overlays (headscale/hysteria/sing-box/xray/v2ray/brook/netmaker/EasyTier/iroh/gluetun/mihomo/gost), reverse proxies/ingress (apisix/kong/contour/envoy-gateway), WebRTC/SFU (pion/mediasoup/livekit/mediamtx/go2rtc), load CLIs (vegeta/hey/k6), messaging brokers (nats/mosquitto/emqx/nsq), K8s CNI (calico/cni/multus/kube-vip/antrea), BGP (gobgp/exabgp), Consul/serf/raft. Disclosure: headscale/nats/calico/quinn/pangolin/thrift/hashicorp serf/memberlist/raft. Leave grpc NO-AI, rabbitmq NO-AI, kube-router NO-AI, AgentScan undici, GUIs (v2rayN/v2rayA/Qv2ray/insomnia), offensive scanners, web frameworks, kafka/etcd megas, wireshark process.
+

@@ -16,6 +16,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | nvbn/thefuck | 97772 | cli-systems | silent | command rule / argv edge + Python tests |
 | oven-sh/bun | 95915 | compilers-runtimes | silent | runtime CLI/path/Node-compat edge + tests |
 | nvm-sh/nvm | 95020 | cli-systems | silent | NODE_VERSION path / shell quoting + shell tests |
+| mermaid-js/mermaid | 90192 | editors-devex | silent | diagram grammar/parse edge + TS tests |
 | zed-industries/zed | 89921 | editors-devex | disclosure | path/project-open or config parse + tests |
 | astral-sh/uv | 89622 | python-tooling | disclosure | resolver/path/venv edge + Rust tests |
 | junegunn/fzf | 82865 | cli-systems | silent | shell/argv/path + Go tests |
@@ -34,25 +35,29 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | traefik/traefik | 64795 | security-crypto | disclosure | router/middleware/path edge + Go tests — disclose AI |
 | scrapy/scrapy | 64240 | python-tooling | silent | URL/path/selector edge + tests |
 | FuelLabs/sway | 61454 | compilers-runtimes | silent | parser/typecheck edge + tests |
+| marktext/marktext | 61281 | editors-devex | silent | markdown parse/export/path edge + TS tests |
 | pi-hole/pi-hole | 60796 | cli-systems | silent | script path / gravity list edge + shell tests |
 | sharkdp/bat | 60389 | cli-systems | silent | path/theme config edge + Rust tests |
 | starship/starship | 59811 | cli-systems | disclosure | config.toml path/module edge + Rust tests |
 | rclone/rclone | 59639 | cli-systems | disclosure | remote path/quoting edge + Go tests |
 | FiloSottile/mkcert | 59563 | cli-systems | silent | CAROOT path / hostname edge + Go tests |
+| laurent22/joplin | 56323 | editors-devex | silent | note sync/path/plugin edge + TS tests |
 | PowerShell/PowerShell | 55292 | cli-systems | silent | path/quoting / parser edge + C# tests |
 | mozilla/pdf.js | 53846 | editors-devex | silent | parser edge + unit tests |
 | dockur/windows | 53197 | devops-build | silent | entrypoint shell path/quoting or env parse edge + shell tests |
 | jesseduffield/lazydocker | 52756 | devops-build | silent | docker host path / compose project path edge + Go tests |
 | prettier/prettier | 52240 | editors-devex | silent | parser/printer fixture edge + tests |
+| tldraw/tldraw | 50258 | editors-devex | silent | canvas shape/store edge + TS tests |
 | apple/container | 49759 | devops-build | silent | container config/path or image ref edge + Swift/tests |
 | astral-sh/ruff | 49545 | python-tooling | disclosure | lint rule/path/parse edge + fixtures |
 | acmesh-official/acme.sh | 47609 | security-crypto | silent | domain/path/dns-api edge + shell tests |
+| slab/quill | 47336 | editors-devex | silent | delta/format/path edge + TS tests |
 | helix-editor/helix | 46159 | editors-devex | silent | config/LSP/path edge + Rust tests |
 | pyenv/pyenv | 45085 | python-tooling | silent | shim/PATH/quoting edge + bats/shell tests |
 | charmbracelet/bubbletea | 44874 | editors-devex | silent | Elm-arch msg/cmd edge + Go tests |
 | parcel-bundler/parcel | 44024 | editors-devex | silent | bundle resolve/path/config edge + tests |
 | psf/black | 41834 | python-tooling | silent | AST/parse edge + regression fixtures |
-| lapce/lapce | 38833 | editors-devex | silent | config/plugin/path edge + Rust tests |
+| vim/vim | 40887 | editors-devex | disclosure | option/path/ex-cmd edge + Vim tests — disclose AI |
 | docker/compose | 38127 | devops-build | silent | compose.yaml path / project name edge + Go tests |
 | aquasecurity/trivy | 37848 | security-crypto | silent | scan target/path/SBOM edge + Go tests |
 | AdguardTeam/AdGuardHome | 36759 | security-crypto | silent | config/path/filter edge + Go/TS tests |
@@ -61,7 +66,6 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | tailscale/tailscale | 36297 | security-crypto | silent | ACL/path/config edge + Go tests |
 | hashicorp/vault | 36219 | security-crypto | silent | secret path/policy/auth edge + Go tests |
 | lerna/lerna | 36055 | devops-build | silent | workspace/publish/path edge + tests |
-| typicode/husky | 35309 | editors-devex | silent | hook path/config edge + tests |
 | python-poetry/poetry | 34295 | python-tooling | silent | lockfile/path/env resolver edge + tests |
 | k3s-io/k3s | 33925 | devops-build | disclosure | install path / kubeconfig edge + Go tests — careful AI |
 | certbot/certbot | 33231 | security-crypto | disclosure | renew/path/plugin edge + py tests — disclose AI |
@@ -71,12 +75,8 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | jumpserver/jumpserver | 31512 | security-crypto | silent | asset/path/ACL edge + py tests |
 | tqdm/tqdm | 31330 | python-tooling | silent | progress format/path/iterable edge + py tests |
 | helm/helm | 30229 | devops-build | silent | chart path / values quoting edge + Go tests |
-| micro-editor/micro | 29555 | editors-devex | silent | config/plugin/path edge + Go tests |
-| postcss/postcss | 28974 | editors-devex | silent | CSS plugin/parse/path edge + tests |
 | celery/celery | 28874 | python-tooling | silent | config/path/serializer edge + py tests |
 | pydantic/pydantic | 28753 | python-tooling | silent | model parse/coerce/schema edge + py tests |
-| eslint/eslint | 27499 | editors-devex | silent | lint rule/AST/path edge + tests |
-| rollup/rollup | 26309 | editors-devex | silent | bundle resolve/path/plugin edge + tests |
 | cookiecutter/cookiecutter | 25081 | python-tooling | silent | template path/hook quoting + tests |
 | mkdocs/mkdocs | 22426 | python-tooling | silent | config/path/plugin edge + py tests |
 | bytecodealliance/wasmtime | 18607 | compilers-runtimes | disclosure | wasm/WASI/CLI path edge + tests |

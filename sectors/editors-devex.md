@@ -181,3 +181,114 @@ Policy histogram (this sector subset): `{'silent': 20, 'disclosure': 3}`.
 
 Notes: Prefer terminal editors (helix/lapce/micro) and DevEx TUI libs (bubbletea/ratatui/tview) with config/path/LSP edges. Disclosure homes (ratatui/visidata) need human-owned PR bodies. Leave vscode megaproject, VSCodium packaging, neovide GUI, crush/aider agent products, textual (maintainer-approved AI issue gate like rich).
 
+## Product deepen (≥5k★ subset) (2026-09-11, +93 scored)
+
+Account: `vulragrag-star` · Curated editor/LSP/formatter/bundler/notebook product homes still missing after famous-editors + midband · Policy via `raw.githubusercontent.com` · **61** proceed / **32** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 73, 'disclosure': 12, 'agentscan': 7, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `mermaid-js/mermaid` | 90192 | silent | Diagram-from-text; grammar/parse/path edges | diagram grammar/parse edge + TS tests |
+| `marktext/marktext` | 61281 | silent | Markdown editor app; parse/export/path edges | markdown parse/export/path edge + TS tests |
+| `laurent22/joplin` | 56323 | silent | Note-taking app; sync/path/plugin edges | note sync/path/plugin edge + TS tests |
+| `tldraw/tldraw` | 50258 | silent | Infinite canvas SDK; shape/store/path edges | canvas shape/store edge + TS tests |
+| `slab/quill` | 47336 | silent | Rich text editor core; delta/format/path edges | delta/format/path edge + TS tests |
+| `vim/vim` | 40887 | disclosure | Classic Vim; option/path — disclose AI use | option/path/ex-cmd edge + Vim tests — disclose AI |
+| `evanw/esbuild` | 40049 | silent | Fast JS bundler/minifier; resolve/path/loader edges | bundle resolve/path/loader edge + Go tests |
+| `ueberdosis/tiptap` | 38340 | disclosure | Headless editor framework; extension/path — disclose AI | extension/path edge + TS tests — disclose AI |
+| `TriliumNext/Trilium` | 37788 | disclosure | Hierarchical notes; sync/path — AI-assisted policy | note tree/path/sync edge + TS tests — disclose AI |
+| `pnpm/pnpm` | 36481 | disclosure | Package manager; lockfile/path/workspace — AI policy disclosure | lockfile/workspace/path edge + tests — disclose AI |
+| `swc-project/swc` | 34190 | silent | Rust JS/TS compiler; parse/transform/path edges | AST transform/path edge + Rust tests |
+| `ianstormtaylor/slate` | 31751 | silent | Customizable rich-text framework; node/path edges | editor node/path edge + TS tests |
+| `ggreer/the_silver_searcher` | 27119 | silent | Code search CLI (ag); path/ignore edges | search path/ignore edge + C tests |
+| `tree-sitter/tree-sitter` | 26913 | disclosure | Incremental parser generator; grammar/path — disclose AI | grammar/path/query edge + Rust tests — disclose AI |
+| `d2lang/d2` | 25369 | silent | Declarative diagram language; compile/layout/path edges | diagram compile/path edge + Go tests |
+| `go-delve/delve` | 24914 | silent | Go debugger; breakpoint/path edges | debug breakpoint/path edge + Go tests |
+| `marimo-team/marimo` | 22714 | disclosure | Reactive Python notebooks; cell/path — agent mention in AGENTS | notebook cell/path edge + py tests — human-owned |
+| `oxc-project/oxc` | 22706 | disclosure | JS toolchain (parser/linter/formatter); path/config — disclose AI | parse/lint/format path edge + Rust tests — disclose AI |
+| `tpope/vim-fugitive` | 21779 | silent | Vim git wrapper; path/rev edges | git path/rev edge + Vimscript |
+| `eclipse-theia/theia` | 21681 | silent | Cloud/desktop IDE framework; extension/path edges | extension/path/config edge + TS tests |
+| `folke/lazy.nvim` | 21545 | silent | Neovim plugin manager; spec/path edges | plugin spec/path edge + Lua tests |
+| `commitizen/cz-cli` | 17497 | silent | Commit message CLI; prompt/config edges | prompt/config edge + JS tests |
+| `foambubble/foam` | 17393 | silent | VS Code PKM; wiki-link/path edges | wiki-link/path edge + TS tests |
+| `less/less.js` | 17025 | silent | LESS CSS compiler; parse/path edges | LESS parse/path edge + JS tests |
+| `ipython/ipython` | 16777 | silent | IPython REPL; magic/path/completer edges | magic/path/completer edge + py tests |
+| `tinymce/tinymce` | 16292 | silent | Rich text editor; plugin/format/path edges | plugin/format/path edge + TS tests |
+| `sass/sass` | 15373 | silent | Sass language/implementation meta; spec/path edges | Sass language/path edge + tests |
+| `jupyterlab/jupyterlab` | 15295 | silent | JupyterLab IDE; extension/path/kernel edges | extension/path/kernel edge + TS/py tests |
+| `lint-staged/lint-staged` | 14731 | silent | Git staged-file linter runner; glob/path/config edges | glob/path/config edge + JS tests |
+| `nvim-treesitter/nvim-treesitter` | 14384 | silent | Neovim treesitter integration; query/path edges | query/path/lang edge + Lua tests |
+| `dense-analysis/ale` | 14016 | silent | Async lint engine for Vim; linter/path edges | linter path/config edge + Vim tests |
+| `neovim/nvim-lspconfig` | 13939 | silent | Neovim LSP configs; server/path edges | LSP server/path config edge + Lua tests |
+| `Zettlr/Zettlr` | 13486 | silent | Markdown academic editor; path/export/cite edges | markdown path/export edge + TS tests |
+| `plantuml/plantuml` | 13311 | silent | UML-from-text; grammar/path/export edges | UML grammar/path edge + Java tests |
+| `Milkdown/milkdown` | 11904 | silent | Plugin-driven markdown editor; parse/plugin/path edges | markdown plugin/path edge + TS tests |
+| `stylus/stylus` | 11329 | silent | Stylus CSS compiler; parse/path edges | Stylus parse/path edge + JS tests |
+| `libgit2/libgit2` | 10589 | silent | Git core library; path/odb edges | git path/odb edge + C tests |
+| `ckeditor/ckeditor5` | 10492 | silent | WYSIWYG editor framework; plugin/model/path edges | editor plugin/model edge + JS tests |
+| `mason-org/mason.nvim` | 10476 | silent | Neovim package manager for LSP/DAP; install/path edges | install/path/registry edge + Lua tests |
+| `npm/cli` | 10108 | silent | npm CLI product; config/path/registry edges | CLI config/path/registry edge + JS tests |
+| `webdriverio/webdriverio` | 9835 | silent | Browser test runner; selector/path/config edges | selector/path/config edge + TS tests |
+| `hrsh7th/nvim-cmp` | 9480 | silent | Neovim completion engine; source/path edges | completion source/path edge + Lua tests |
+| `conventional-changelog/conventional-changelog` | 8506 | silent | Changelog generator; commit parse/path edges | commit parse/path edge + JS tests |
+| `jgraph/drawio` | 8042 | silent | Diagram editor; mxGraph/path/export edges | diagram path/export edge + JS tests |
+| `golang/tools` | 7999 | silent | Go tools + gopls home; analysis/path edges | gopls/analysis/path edge + Go tests |
+| `sindresorhus/np` | 7713 | silent | npm publish helper CLI; version/path edges | publish/version/path edge + JS tests |
+| `dendronhq/dendron` | 7465 | silent | Hierarchical note LSP/VS Code; path/schema edges | note path/schema edge + TS tests |
+| `universal-ctags/ctags` | 7280 | silent | Universal ctags; language/path edges | ctags lang/path edge + C tests |
+| `mfussenegger/nvim-dap` | 7251 | silent | Neovim DAP client; adapter/path edges | DAP adapter/path edge + Lua tests |
+| `jupytext/jupytext` | 7243 | silent | Jupyter percent/markdown sync; path/format edges | notebook path/format edge + py tests |
+| `stevearc/oil.nvim` | 6885 | silent | Neovim file explorer editing buffer; path edges | oil path/edit edge + Lua tests |
+| `vuejs/language-tools` | 6715 | silent | Vue language tools/Volar; SFC/path edges | Vue SFC/path edge + TS tests |
+| `microsoft/rushstack` | 6495 | silent | Monorepo tooling suite; path/config/project edges | monorepo path/config edge + TS tests |
+| `google/wireit` | 6423 | silent | npm script caching/orchestration; path/config edges | script graph/path/config edge + TS tests |
+| `lite-xl/lite-xl` | 6376 | silent | Lightweight Lua editor; plugin/path/config edges | plugin/path/config edge + Lua/C tests |
+| `gitpod-io/openvscode-server` | 6170 | silent | Open VS Code server core; path/remote edges | server path/remote edge + TS tests |
+| `silverbulletmd/silverbullet` | 6035 | silent | Markdown PKM; space-lua/path edges | markdown space/path edge + TS tests |
+| `quarto-dev/quarto-cli` | 5991 | disclosure | Scientific publishing CLI; render/path — AI policy | render/path/project edge + tests — disclose AI |
+| `sindrets/diffview.nvim` | 5811 | silent | Neovim git diff UI; path/rev edges | diff path/rev edge + Lua tests |
+| `NeogitOrg/neogit` | 5615 | silent | Neovim magit-like git UI; path/status edges | git status/path edge + Lua tests |
+| `emacs-mirror/emacs` | 5192 | silent | GNU Emacs mirror; lisp/path/config edges | elisp/path/config edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `anomalyco/opencode` | 206493 | hard_ban | CONTRIBUTING NO-AI — hard leave |
+| `tailwindlabs/tailwindcss` | 97495 | silent | CSS utility framework mega — prefer LSP/formatter/editor homes |
+| `storybookjs/storybook` | 91034 | agentscan | AgentScan adopter/org — leave circle |
+| `OpenHands/OpenHands` | 87271 | silent | AI-driven coding agent product — leave agent surface |
+| `vitejs/vite` | 82780 | agentscan | AgentScan adopter/org — leave circle |
+| `AppFlowy-IO/AppFlowy` | 76513 | silent | Notion-alternative mega app — prefer LSP/editor-core homes |
+| `typicode/json-server` | 75705 | silent | Fake REST API mock server — not editor/DevEx product class |
+| `cline/cline` | 67802 | disclosure | Autonomous coding agent product — not editor/LSP hunk farm |
+| `git/git` | 63102 | silent | Git core mega — prefer libgit2/cli/fugitive-scale homes |
+| `usememos/memos` | 62901 | silent | Self-hosted memo SaaS — note-app mega, weak parser hunk class |
+| `siyuan-note/siyuan` | 46277 | silent | Full PKM desktop mega — prefer markdown LSP/editor cores |
+| `streamlit/streamlit` | 45733 | disclosure | ML/data app framework — not editor/LSP class |
+| `logseq/logseq` | 44863 | silent | Knowledge-graph note mega — prefer Foam/Dendron/Zettlr-scale homes |
+| `babel/babel` | 43991 | agentscan | AgentScan adopter/org — leave circle |
+| `gradio-app/gradio` | 43513 | disclosure | ML demo UI framework — not editor/LSP class |
+| `NvChad/NvChad` | 28479 | silent | Neovim distro/config skin — prefer plugin/LSP product repos |
+| `LazyVim/LazyVim` | 27439 | silent | Neovim distro/config skin — prefer plugin/LSP product repos |
+| `biomejs/biome` | 25755 | agentscan | AgentScan adopter/org — leave circle |
+| `syl20bnr/spacemacs` | 24563 | silent | Emacs distro/config skin — prefer emacs-mirror or package homes |
+| `mochajs/mocha` | 22897 | agentscan | AgentScan adopter/org — leave circle |
+| `doomemacs/core` | 22672 | silent | Emacs distro core — prefer emacs-mirror or package homes |
+| `LunarVim/LunarVim` | 19263 | silent | Neovim distro/config skin — prefer plugin/LSP product repos |
+| `unocss/unocss` | 18952 | silent | Atomic CSS engine — framework skin, weak playbook path farm |
+| `vitest-dev/vitest` | 17085 | agentscan | AgentScan adopter/org — leave circle |
+| `AstroNvim/AstroNvim` | 14440 | silent | Neovim distro/config skin — prefer plugin/LSP product repos |
+| `gitpod-io/gitpod` | 13768 | silent | Cloud IDE platform mega — prefer openvscode-server core |
+| `codesandbox/codesandbox-client` | 13638 | silent | Cloud IDE client mega — prefer openvscode-server/theia cores |
+| `changesets/changesets` | 12382 | agentscan | AgentScan org blacklist — leave |
+| `WordPress/gutenberg` | 11749 | disclosure | WordPress block editor mega/CMS — leave CMS surface |
+| `rxi/lite` | 8227 | silent | Abandoned upstream of lite-xl — contribute to lite-xl instead |
+| `onivim/oni2` | 7840 | silent | Stale Neovim GUI (archived activity risk) — prefer terminal editor/LSP |
+| `standardnotes/app` | 6627 | silent | Encrypted notes client — product app, not DevEx tooling |
+
+Notes: Prefer editor cores (vim/emacs/lite-xl/pulsar/theia), LSP homes (gopls/tools, clangd, vue/ruby/haskell/metals), formatters/bundlers (esbuild/swc/oxc/pnpm), markdown editors (marktext/Zettlr/Foam), diagram DevEx (mermaid/d2/plantuml/tldraw), and Neovim plugin products (lspconfig/lazy/mason/oil/neogit). Disclosure: oxc/pnpm/tiptap/tree-sitter/vim/Trilium/marimo/quarto/HLS. Leave AgentScan circles (vite/storybook/babel/biome/mocha/vitest/changesets/svelte), agent products (opencode/cline/OpenHands), CSS framework megas (tailwind/unocss), note megas (AppFlowy/logseq/siyuan), Neovim/Emacs distro skins, and git/core mega.
+

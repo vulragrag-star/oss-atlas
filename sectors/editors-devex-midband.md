@@ -157,3 +157,36 @@ Midband (1k–5k★) subset · **2** proceed / **0** leave.
 |---|---:|---|---|
 | — | | | none |
 
+## Product deepen midband subset (2026-09-11, +15 scored)
+
+Account: `vulragrag-star` · Curated editor/LSP/formatter/bundler/notebook product homes still missing after famous-editors + midband · Policy via `raw.githubusercontent.com` · **12** proceed / **3** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 13, 'disclosure': 1, 'agentscan': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `pulsar-edit/pulsar` | 4156 | silent | Community Atom fork editor; package/path/config edges | package/path/config edge + JS tests |
+| `haskell/haskell-language-server` | 2955 | disclosure | Haskell LSP; cradle/path — AI policy template | HLS cradle/path edge + Haskell tests — disclose AI |
+| `typescript-language-server/typescript-language-server` | 2561 | silent | TS language server wrapper; LSP/path edges | LSP/path/config edge + TS tests |
+| `eclipse-jdtls/eclipse.jdt.ls` | 2438 | silent | Java language server; classpath/path edges | Java LSP classpath/path edge + Java tests |
+| `scalameta/metals` | 2329 | silent | Scala language server; build/path edges | Scala LSP/build/path edge + Scala tests |
+| `clangd/clangd` | 2284 | silent | C/C++ language server packaging; compile_commands/path edges | LSP compile_commands/path edge + tests |
+| `fwcd/kotlin-language-server` | 2043 | silent | Kotlin LSP; compile/path edges | Kotlin LSP/path edge + Kotlin tests |
+| `Shopify/ruby-lsp` | 2039 | silent | Ruby language server; indexing/path edges | Ruby LSP/index/path edge + Ruby tests |
+| `phpactor/phpactor` | 1925 | silent | PHP language server/refactor; path/index edges | PHP refactor/path edge + PHP tests |
+| `sourcegraph/zoekt` | 1882 | silent | Code search engine; index/path edges | index/path/query edge + Go tests |
+| `elixir-lsp/elixir-ls` | 1776 | silent | Elixir language server; mix/path edges | Elixir LSP/mix/path edge + Elixir tests |
+| `redhat-developer/yaml-language-server` | 1519 | silent | YAML LSP; schema/path edges | YAML schema/path edge + TS tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `stackblitz/webcontainer-core` | 4635 | silent | Browser Node runtime infra — not editor hunk farm |
+| `sveltejs/language-tools` | 1444 | agentscan | AgentScan org (sveltejs) — leave |
+| `hashicorp/terraform-ls` | 1202 | silent | Terraform LSP — devops-build sector adjacency; leave for that farm |
+
+Notes: Prefer midband LSP (yaml/kotlin/phpactor/typescript-language-server/clangd packaging) and search/index (zoekt). Leave terraform-ls (devops adjacency) and AgentScan svelte language-tools.
+

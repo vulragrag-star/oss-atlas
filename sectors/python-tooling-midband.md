@@ -189,3 +189,87 @@ Policy histogram (this pass): `{'silent': 24, 'disclosure': 1, 'hard_ban': 1, 'h
 
 Notes: Prefer pytest/plugin/packaging/settings edges (pluggy, pytest-bdd, pydantic-settings, keyring, webargs, refurb, sqlite-utils, cfn-lint, pudb). Leave codechecker (non-Python core), legacy pyt, perfplot, and docs-theme extensions.
 
+## Product deepen-2 midband subset (2026-09-11, +66 scored)
+
+Account: `vulragrag-star` · Curated python packaging/CLI/HTTP/async/test/docs-engine product homes still missing after prior product deepen · Policy via `raw.githubusercontent.com` · **54** proceed / **12** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 60, 'disclosure': 5, 'agentscan': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `ets-labs/python-dependency-injector` | 4911 | silent | DI framework; provider/path edges | provider/path edge + tests |
+| `strawberry-graphql/strawberry` | 4713 | disclosure | Disclosure GraphQL lib; schema/path edges | schema/path edge + tests — AI policy |
+| `spec-first/connexion` | 4611 | silent | OpenAPI-first framework; spec path/validation edges | OpenAPI path / validation edge + tests |
+| `miguelgrinberg/python-socketio` | 4368 | disclosure | Disclosure Socket.IO; path/namespace edges | namespace/path edge + tests — disclose AI |
+| `MongoEngine/mongoengine` | 4350 | silent | Mongo ODM; field/path/query edges | field/path / query edge + tests |
+| `Pylons/pyramid` | 4098 | silent | Web framework; path/config/tween edges | config path / tween edge + tests |
+| `encode/databases` | 3993 | silent | Async DB toolkit; URL/path/dialect edges | DB URL / dialect path edge + tests |
+| `wjakob/nanobind` | 3705 | silent | C++/Python bindings; stub/path edges | stub/path edge + tests |
+| `sloria/doitlive` | 3580 | silent | Live demo shell recorder; path/script edges | script path / prompt edge + tests |
+| `jarun/ddgr` | 3542 | silent | DuckDuckGo CLI; argv/quoting edges | argv/query quoting edge + tests |
+| `decalage2/oletools` | 3414 | silent | OLE/Office parse CLIs; path/stream edges | OLE path / stream parse edge + tests |
+| `pyeve/cerberus` | 3283 | silent | Validation schema lib; schema/path edges | schema/path edge + tests |
+| `Tinche/aiofiles` | 3259 | silent | Async file IO; path open edges | path open / mode edge + tests |
+| `dalibo/pg_activity` | 3036 | silent | Postgres activity top CLI; conn/path edges | conn info / query path edge + tests |
+| `python-arq/arq` | 3012 | silent | Async Redis job queue; job/path/serialize edges | job serialize / Redis path edge + tests |
+| `kevin1024/vcrpy` | 3008 | silent | HTTP cassette mock; cassette path/filter edges | cassette path / filter edge + tests |
+| `kislyuk/yq` | 2975 | silent | YAML/XML/TOML jq wrapper CLI; path/quoting edges | path/quoting / filter edge + tests |
+| `yaml/pyyaml` | 2941 | silent | YAML parser; path/loader edges | loader/path edge + tests |
+| `smithyhq/sqladmin` | 2822 | silent | SQLAlchemy admin for FastAPI; model/path edges | model path / admin mount edge + tests |
+| `python-gino/gino` | 2790 | silent | Async SQLAlchemy dialect; query/path edges | query/path edge + tests |
+| `mozilla/bleach` | 2766 | silent | HTML sanitizer; filter/path edges | filter/protocol path edge + tests |
+| `BeanieODM/beanie` | 2698 | silent | Async Mongo ODM; model/path/query edges | query/path / model edge + tests |
+| `litl/backoff` | 2695 | silent | Retry decorators; predicate edges | predicate / jitter edge + tests |
+| `rthalley/dnspython` | 2674 | silent | DNS toolkit; name/path parse edges | name/parse edge + tests |
+| `bczsalba/pytermgui` | 2673 | silent | TUI framework; markup/path edges | markup/path edge + tests |
+| `nolar/kopf` | 2635 | silent | K8s operator framework; handler/path edges | handler/path / CRD edge + tests |
+| `dateutil/dateutil` | 2633 | silent | Date utilities; parse/tz edges | parse/tz edge + tests |
+| `hbldh/bleak` | 2515 | silent | Async BLE client; device/path edges | device path / GATT edge + tests |
+| `RDFLib/rdflib` | 2510 | silent | RDF toolkit; graph/path/format edges | graph path / format edge + tests |
+| `fastapi/asyncer` | 2490 | silent | Async DX helpers; sync/async bridge edges | bridge/path edge + tests |
+| `pytest-dev/pytest-testinfra` | 2477 | silent | Infra tests via pytest; host/path edges | host/path edge + tests |
+| `SCons/scons` | 2418 | disclosure | Disclosure build tool; SConstruct path/parser edges | SConstruct path / scanner edge + tests — disclose AI |
+| `Neoteroi/BlackSheep` | 2359 | silent | ASGI web framework; route/path/headers edges | route/path/header edge + tests |
+| `taskiq-python/taskiq` | 2330 | silent | Async task queue; broker/path edges | broker path / task name edge + tests |
+| `testcontainers/testcontainers-python` | 2293 | silent | Docker testcontainers; image/mount path edges | image/mount path edge + tests |
+| `pygments/pygments` | 2206 | silent | Syntax highlighter; lexer/path edges | lexer/path edge + tests |
+| `gabrielfalcao/HTTPretty` | 2156 | silent | HTTP socket mock; URL/path edges | URL/path match edge + tests |
+| `miguelgrinberg/microdot` | 2145 | disclosure | Disclosure tiny web framework; route/path edges | route/path edge + tests — disclose AI |
+| `Kludex/mangum` | 2136 | silent | ASGI↔Lambda adapter; event/path edges | event path / handler edge + tests |
+| `blade-build/blade-build` | 2105 | silent | Build system; BUILD path/parser edges | BUILD path / target edge + tests |
+| `pydoit/doit` | 2083 | silent | CLI task automation; task/path edges | task path / dependency edge + tests |
+| `nat-n/poethepoet` | 2073 | silent | Task runner for poetry/uv; task/path edges | task path / env quoting edge + tests |
+| `pybuilder/pybuilder` | 2042 | silent | Python build automation; path/plugin edges | plugin/path edge + tests |
+| `rubik/radon` | 2019 | silent | Code metrics CLI; path/JSON edges | path / JSON report edge + tests |
+| `cherrypy/cherrypy` | 1946 | silent | OO HTTP framework; config/path/tool edges | config path / tool hook edge + tests |
+| `python-greenlet/greenlet` | 1845 | silent | Green threads runtime; switch/stack edges with C tests | switch/stack edge + C tests |
+| `pydantic/pydantic-core` | 1766 | silent | Pydantic Rust core; validator/path edges | validator/path edge + tests |
+| `simplejson/simplejson` | 1710 | silent | JSON lib; encode/path edges | encode/path edge + tests |
+| `pgjones/hypercorn` | 1610 | silent | ASGI server; config/path/HTTP2 edges | config path / bind arg edge + tests |
+| `Pylons/waitress` | 1598 | silent | Pure-Python WSGI server; path/header parse edges | path / header parse edge + tests |
+| `astral-sh/ruff-lsp` | 1505 | silent | Ruff LSP bridge; path/config edges — careful astral sibling policy | path/config edge + tests — human-owned |
+| `eventlet/eventlet` | 1275 | silent | Concurrent networking lib; hub/patch path edges | hub/path / monkey-patch edge + tests |
+| `PyCQA/pydocstyle` | 1116 | silent | Docstring linter; path/convention edges | path/convention parse edge + tests |
+| `python-hyper/h2` | 1041 | silent | HTTP/2 protocol lib; frame/path edges | frame/path edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `carltongibson/django-filter` | 4684 | silent | Django ecosystem — FastAPI/Django hostility_risk farm |
+| `Kinto/kinto` | 4417 | silent | JSON sync service app — weak playbook hunk class |
+| `elastic/elasticsearch-py` | 4386 | silent | ES client-only — leave |
+| `prometheus/client_python` | 4369 | silent | Metrics client lib — weak path/quoting farm |
+| `bchao1/bullet` | 3612 | silent | Prompt UI toy — weak product surface |
+| `pradyunsg/furo` | 3583 | silent | Sphinx theme skin — prefer sphinx product-code homes |
+| `open-telemetry/opentelemetry-python` | 2629 | disclosure | OTel SDK umbrella — prefer smaller product CLIs |
+| `qwj/python-proxy` | 2205 | silent | Proxy/tunnel tool — networking-distributed sector |
+| `getsentry/sentry-python` | 2202 | silent | Vendor SDK client — leave |
+| `RobertCraigie/prisma-client-py` | 2095 | silent | Generated client-only ORM wrapper — leave |
+| `kivy/buildozer` | 2030 | silent | Mobile packager — leave mobile packaging |
+| `aio-libs/aiomysql` | 1895 | agentscan | AgentScan adopter/org blacklist |
+
+Notes: Prefer midband CLI/parser/test satellites (radon/doit/poethepoet/yq/json_repair/ddgr/ngxtop/s-tui/pg_activity). Leave client-only SDKs and mobile packagers.
+

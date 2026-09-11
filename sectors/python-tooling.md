@@ -191,3 +191,92 @@ Policy histogram (this pass): `{'silent': 32, 'disclosure': 5, 'hostility_risk':
 
 Notes: Prefer packaging/CLI/linter/type/async-runtime homes (pydantic, ty, yapf, starlette/uvicorn, jinja/werkzeug, jc, q, pex, alembic, semgrep). Astral ty + Kludex AI_POLICY + attrs/stamina disclosure need human-owned PR bodies. Leave Django channels circle, mkdocs themes, Office libs, and glom (NO-AI).
 
+## Product deepen-2 (≥5k★ subset) (2026-09-11, +71 scored)
+
+Account: `vulragrag-star` · Curated python packaging/CLI/HTTP/async/test/docs-engine product homes still missing after prior product deepen · Policy via `raw.githubusercontent.com` · **38** proceed / **33** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 59, 'disclosure': 11, 'hostility_risk': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `Delgan/loguru` | 24098 | disclosure | Disclosure logging lib; sink/path edges; no autonomous agents | sink/path / format edge + tests — disclose AI; no agents |
+| `joke2k/faker` | 19398 | disclosure | Disclosure fake-data lib; provider/locale path edges | provider/locale path edge + tests — AI disclosure |
+| `pybind/pybind11` | 18008 | silent | C++/Python bindings; cmake/path edges | cmake/path / casting edge + tests |
+| `fabric/fabric` | 15497 | silent | SSH task runner; path/host quoting edges | host/path / command quoting edge + tests |
+| `python-pillow/Pillow` | 13809 | silent | Imaging library; path/format codec edges | codec/path / format edge + tests |
+| `coleifer/peewee` | 11986 | silent | Small ORM; query/path/migrate edges | query/migrate path edge + tests |
+| `jsvine/pdfplumber` | 10735 | silent | PDF table/text extract; path/crop edges | PDF path / crop edge + tests |
+| `benoitc/gunicorn` | 10668 | silent | WSGI HTTP server; argv/config/worker path edges with tests | config path / worker argv quoting edge + tests |
+| `py-pdf/pypdf` | 10196 | disclosure | Disclosure PDF toolkit; path/page parse edges | PDF path / page parse edge + tests — AI policy |
+| `falconry/falcon` | 9800 | disclosure | Disclosure web API framework; router/path/media edges | router path / media handler edge + tests — disclose AI |
+| `arrow-py/arrow` | 9053 | silent | DateTime lib; parse/format edges | parse/format edge + tests |
+| `bottlepy/bottle` | 8782 | disclosure | Disclosure microframework; route/path/plugin edges | route/path/plugin edge + tests — disclose |
+| `getmoto/moto` | 8655 | silent | AWS service mocks; path/resource edges | resource path / service edge + tests |
+| `MagicStack/asyncpg` | 8088 | silent | Async Postgres driver; encode/path/type edges | type codec / connection path edge + tests |
+| `AdnanHodzic/auto-cpufreq` | 7756 | silent | CPU power CLI; config/path edges | config path / governor edge + tests |
+| `donnemartin/gitsome` | 7693 | silent | GitHub CLI; argv/path edges | argv/path edge + tests |
+| `agronholm/apscheduler` | 7627 | silent | Job scheduler; jobstore path/trigger edges | jobstore path / trigger parse edge + tests |
+| `jrnl-org/jrnl` | 7311 | silent | Journal CLI; path/config/quoting edges | journal path / config edge + tests |
+| `jarun/buku` | 7198 | silent | Bookmark CLI; DB path/URL edges | DB path / URL parse edge + tests |
+| `facebook/pyre-check` | 7171 | silent | Type checker; path/config edges | path/config edge + tests |
+| `pdfminer/pdfminer.six` | 7021 | silent | PDF text extract; path/layout edges | PDF path / layout edge + tests |
+| `hugapi/hug` | 6878 | silent | API microframework; route/path edges | route/path edge + tests |
+| `python-pendulum/pendulum` | 6674 | silent | DateTime lib; parse/tz path edges | parse/tz edge + tests |
+| `lebinh/ngxtop` | 6525 | silent | nginx metrics CLI; log path/parse edges | log path / parse edge + tests |
+| `lexiforest/curl_cffi` | 6480 | silent | HTTP client with TLS impersonation; request/path edges | request/path / impersonate edge + tests |
+| `pywinauto/pywinauto` | 6161 | silent | Windows GUI automation; path/control edges | control path / window edge + tests |
+| `pyinfra-dev/pyinfra` | 5986 | disclosure | Disclosure infra automation CLI; inventory/path edges | inventory/path / op arg edge + tests — disclose AI |
+| `lark-parser/lark` | 5981 | silent | Parser toolkit; grammar/path edges | grammar/path / lexer edge + tests |
+| `twisted/twisted` | 5978 | disclosure | Disclosure event-driven networking; protocol/path edges | protocol/path edge + tests — disclose AI assist |
+| `frostming/legit` | 5684 | silent | Git for humans CLI; path/branch edges | branch/path edge + tests |
+| `tortoise/tortoise-orm` | 5625 | silent | Async ORM; query/path/schema edges | query/schema path edge + tests |
+| `nginx/unit` | 5547 | silent | App server; config/path edges | config path / route edge + tests |
+| `ag2ai/faststream` | 5338 | silent | Async event framework; broker/path edges | broker path / serializer edge + tests |
+| `donnemartin/saws` | 5302 | silent | AWS CLI wrapper; argv/path edges | argv/path edge + tests |
+| `aiortc/aiortc` | 5101 | silent | WebRTC asyncio; SDP/path edges | SDP/path edge + tests |
+| `mangiucugna/json_repair` | 5094 | silent | JSON repair CLI/lib; parse/path edges | parse/path edge + tests |
+| `amanusk/s-tui` | 5086 | silent | Terminal stress/monitor TUI; path/config edges | config path / sensor edge + tests |
+| `google/pytype` | 5031 | silent | Static type analyzer; path/config edges | import path / config edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `scikit-learn/scikit-learn` | 67213 | silent | ML framework mega — wrong playbook hunk class |
+| `localstack/localstack` | 65127 | silent | Local AWS emulator mega — prefer smaller mock homes (moto) |
+| `BerriAI/litellm` | 58258 | disclosure | LLM gateway / agent infra — leave agent platforms |
+| `soimort/you-get` | 56877 | silent | Downloader scraper; yt-dlp-adjacent leave |
+| `apache/airflow` | 46797 | disclosure | Workflow mega platform — too large / ops-heavy for first homes |
+| `explosion/spaCy` | 33887 | silent | NLP framework mega — wrong sector |
+| `openai/openai-python` | 31604 | silent | Vendor SDK — client-only leave |
+| `Lightning-AI/pytorch-lightning` | 31326 | silent | ML training framework mega — leave |
+| `encode/django-rest-framework` | 30172 | silent | Django REST mega — leave Django circle |
+| `mlflow/mlflow` | 27890 | disclosure | MLOps platform mega — leave |
+| `PrefectHQ/prefect` | 23810 | silent | Workflow orchestration mega — leave |
+| `matplotlib/matplotlib` | 23204 | disclosure | Plotting mega; AI summary must be human-written — weak playbook fit |
+| `huggingface/datasets` | 21956 | silent | HF datasets hub — ML data leave |
+| `onnx/onnx` | 21456 | silent | ML interchange format mega — leave |
+| `networkx/networkx` | 17256 | silent | Graph theory library mega — weak CLI/path farm |
+| `aws/aws-cli` | 17248 | silent | AWS CLI mega — high bar / client surface |
+| `dagster-io/dagster` | 16139 | silent | Data orchestration mega — leave |
+| `saltstack/salt` | 15651 | silent | Config-mgmt mega — DevOps leave for this slice |
+| `sympy/sympy` | 14915 | hostility_risk | Strict AI PR policy; closes AI-looking descriptions — park |
+| `optuna/optuna` | 14780 | silent | Hyperparam tuning ML — leave |
+| `fivetran/great_expectations` | 11782 | silent | Data quality platform mega — leave |
+| `wandb/wandb` | 11247 | silent | ML experiment tracking SaaS — leave |
+| `numba/numba` | 11150 | silent | JIT compiler mega — high bar / wrong first home |
+| `boto/boto3` | 9900 | silent | AWS SDK client-only — leave |
+| `kivy/python-for-android` | 8920 | silent | Android packaging — leave mobile |
+| `django-commons/django-debug-toolbar` | 8379 | silent | Django debug UI — leave Django circle |
+| `kubernetes-client/python` | 7660 | silent | K8s client-only SDK — leave |
+| `kennethreitz/records` | 7220 | silent | Unmaintained SQL helper — park |
+| `docker/docker-py` | 7211 | silent | Docker SDK client-only — leave |
+| `robinhood/faust` | 6825 | silent | Stream processing largely unmaintained fork surface — park |
+| `crytic/slither` | 6361 | silent | Solidity security analyzer — belongs security-crypto sector |
+| `fastapi-users/fastapi-users` | 6242 | silent | FastAPI users addon — FastAPI hostility adjacent |
+| `aiogram/aiogram` | 5864 | silent | Telegram bot framework — app leave |
+
+Notes: Prefer packaging/CLI/HTTP/async/test/parser homes (gunicorn/hypercorn/falcon/bottle, pex/poethepoet/SCons, pytype/pyre/pydocstyle, Pillow/pypdf/lark/msgspec/yq, asyncpg/beanie/tortoise/peewee, vcrpy/moto/testcontainers, pyinfra/fabric/jrnl). Disclosure: falcon/bottle/pypdf/loguru/twisted/strawberry/pyinfra/faker/SCons/microdot/socketio. Leave ML megas (sklearn/spacy/lightning/onnx), orchestration megas (airflow/prefect/dagster), Django circle, cloud SDKs, AgentScan aiomysql, sympy hostility_risk, theme skins (furo).
+

@@ -190,3 +190,91 @@ Policy histogram (this pass): `{'silent': 13, 'disclosure': 1, 'agentscan': 1}`.
 
 Notes: Prefer midband LSP (yaml/kotlin/phpactor/typescript-language-server/clangd packaging) and search/index (zoekt). Leave terraform-ls (devops adjacency) and AgentScan svelte language-tools.
 
+## Midband product deepen (2026-09-11, +70 scored)
+
+Account: `vulragrag-star` · Curated editors-devex midband (1k–5k★) LSP/formatter/editor/Neovim-product/VS Code/bundler homes still missing after prior editors product deepen · Policy via `raw.githubusercontent.com` · **47** proceed / **23** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 65, 'disclosure': 1, 'agentscan': 2, 'hard_ban': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `mermaid-js/mermaid-cli` | 4998 | silent | Mermaid diagram CLI; config/path/render edges with fixture culture | mermaid CLI config/path/render edge + tests |
+| `lokalise/i18n-ally` | 4895 | silent | VS Code i18n tooling; locale/path/key edges | i18n key/path/locale edge + extension tests |
+| `sublimehq/package_control` | 4884 | silent | Sublime package manager; install/path/channel edges | package install/path/channel edge + tests |
+| `microsoft/vscode-python` | 4634 | silent | Official Python VS Code extension; env/path/LSP edges | Python env/path/LSP edge + extension tests |
+| `vuejs/eslint-plugin-vue` | 4591 | silent | Official Vue ESLint plugin; rule/AST/path edges | Vue lint rule/AST/path edge + tests |
+| `fallow-rs/fallow` | 4462 | silent | TS/JS static analysis CLI; style/path edges | static analysis path/style edge + Rust tests |
+| `ibhagwan/fzf-lua` | 4435 | silent | Neovim fuzzy finder product; provider/path edges | picker provider/path edge + Lua tests |
+| `L3MON4D3/LuaSnip` | 4426 | silent | Neovim snippet engine product; snippet/path edges | snippet parse/path edge + Lua tests |
+| `kylechui/nvim-surround` | 4295 | silent | Neovim surround product; delimiter/operator edges | surround delimiter/operator edge + Lua tests |
+| `golang/vscode-go` | 4263 | silent | Official Go VS Code extension; gopls/path edges | Go gopls/path/env edge + extension tests |
+| `junegunn/vim-easy-align` | 4238 | silent | Vim alignment plugin with clear text/op edges | align delimiter/range edge + Vim tests |
+| `folke/flash.nvim` | 4233 | silent | Neovim navigation product; label/motion edges | flash label/motion edge + Lua tests |
+| `windwp/nvim-autopairs` | 4092 | silent | Neovim autopairs product; pair/rule edges | autopair rule/edge + Lua tests |
+| `mvdan/gofumpt` | 4074 | silent | Stricter gofmt; format fixture edges | gofumpt format fixture edge + Go tests |
+| `uber-go/nilaway` | 3903 | silent | Go nil static analysis; analyzer/path edges | nil analysis path/diag edge + Go tests |
+| `nvim-orgmode/orgmode` | 3875 | disclosure | Orgmode for Neovim; parse/agenda/path — AGENTS AI-assisted disclosure | org parse/agenda/path edge + Lua tests — disclose if agent-assisted |
+| `curlpipe/ox` | 3741 | silent | Terminal text editor; command/path/config edges | editor command/path/config edge + Rust tests |
+| `charmbracelet/glamour` | 3688 | silent | CLI markdown stylesheet renderer; style/path edges | markdown render style/path edge + Go tests |
+| `tailwindlabs/tailwindcss-intellisense` | 3472 | silent | Tailwind VS Code tooling; class/path/config edges | Tailwind class/path/config edge + extension tests |
+| `web-infra-dev/rsbuild` | 3376 | silent | Rspack-based build tool; config/path/plugin edges | bundler config/path/plugin edge + tests |
+| `vadimcn/codelldb` | 3295 | silent | Native debugger VS Code extension; path/breakpoint edges | debugger path/breakpoint edge + tests |
+| `yzhang-gh/vscode-markdown` | 3285 | silent | Markdown All in One VS Code; preview/path edges | markdown preview/path/TOC edge + extension tests |
+| `nvim-neotest/neotest` | 3119 | silent | Neovim test runner framework; adapter/path edges | test adapter/path edge + Lua tests |
+| `athasdev/athas` | 3055 | silent | Cross-platform code editor; path/git/config edges | editor path/git/config edge + tests |
+| `mtshiba/pylyzer` | 2856 | silent | Python analyzer + language server; type/path edges | Python LSP/type/path edge + Rust tests |
+| `wellle/targets.vim` | 2642 | silent | Vim text-object product; object/edge selection | text-object selection edge + Vim tests |
+| `redhat-developer/vscode-java` | 2295 | silent | Java language support for VS Code; JDT/path edges | Java JDT/path edge + extension tests |
+| `neurocyte/flow` | 2213 | silent | Programmer text editor (Zig); command/path edges | editor command/path edge + Zig tests |
+| `dotenv-linter/dotenv-linter` | 2102 | silent | dotenv linter CLI; rule/path edges | env lint rule/path edge + Rust tests |
+| `sbdchd/neoformat` | 2047 | silent | Neovim/Vim format runner; formatter/path edges | format runner/path edge + Vim tests |
+| `latex-lsp/texlab` | 2014 | silent | LaTeX language server; build/path/xref edges | LaTeX LSP build/path/xref edge + Rust tests |
+| `castwide/solargraph` | 2007 | silent | Ruby language server; type/path edges | Ruby LSP type/path edge + tests |
+| `ilai-deutel/kibi` | 1942 | silent | Minimal text editor; command/path edges | editor command/path edge + Rust tests |
+| `liuchengxu/vista.vim` | 1934 | silent | LSP/tag viewer for Vim/Neovim; symbol/path edges | symbol view/path edge + Vim tests |
+| `andymass/vim-matchup` | 1926 | silent | Enhanced match navigation; syntax/match edges | match/syntax edge + Vim tests |
+| `bmewburn/vscode-intelephense` | 1859 | silent | PHP IntelliSense VS Code; symbol/path edges | PHP symbol/path edge + extension tests |
+| `OlaProeis/Ferrite` | 1805 | silent | Markdown/JSON/YAML/TOML editor; parse/path edges | structured text parse/path edge + Rust tests |
+| `sublimelsp/LSP` | 1797 | silent | Sublime LSP client; server/path/config edges | LSP client server/path/config edge + tests |
+| `gabotechs/dep-tree` | 1723 | silent | Dependency graph CLI for keeping codebases decoupled; graph/path edges | dep graph/path edge + Go tests |
+| `michaelb/sniprun` | 1709 | silent | Neovim code runner plugin; interpreter/path edges | sniprun interpreter/path edge + tests |
+| `astral-sh/ruff-vscode` | 1671 | silent | Official Ruff VS Code extension; lint/format/path edges | ruff lint/format/path edge + extension tests |
+| `Dart-Code/Dart-Code` | 1605 | silent | Dart/Flutter VS Code; analyzer/path edges | Dart analyzer/path edge + extension tests |
+| `mattn/efm-langserver` | 1554 | silent | General-purpose LSP wrapper for linters/formatters; config/path edges | efm config/linter/path edge + Go tests |
+| `denoland/vscode_deno` | 1548 | silent | Deno VS Code extension; path/config edges | Deno path/config edge + extension tests |
+| `rvben/rumdl` | 1485 | silent | Markdown linter/formatter CLI; rule/path edges | markdown lint/format edge + Rust tests |
+| `nix-community/nixd` | 1481 | silent | Nix language server; eval/path edges | Nix LSP eval/path edge + tests |
+| `kristoff-it/superhtml` | 1370 | silent | HTML validator/formatter/LSP; parse edges | HTML parse/format/LSP edge + Zig tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `microsoft/tsdoc` | 4963 | silent | Doc-comment standard/spec — not a product CLI/LSP home |
+| `junegunn/goyo.vim` | 4687 | silent | Distraction-free UI skin — prefer product LSP/formatter homes |
+| `biomejs/gritql` | 4591 | agentscan | AgentScan adopter org (biomejs) — leave |
+| `microsoft/codetour` | 4573 | silent | Code tour recorder — weak playbook hunk class |
+| `akinsho/bufferline.nvim` | 4366 | silent | Bufferline UI chrome — prefer product LSP/formatter/picker homes |
+| `rolldown/tsdown` | 4254 | hard_ban | PR template NO-AI — leave |
+| `rust-lang/rust.vim` | 4184 | silent | Vim syntax pack — prefer rust-analyzer homes |
+| `trivago/prettier-plugin-sort-imports` | 3950 | silent | Prettier plugin satellite — prefer prettier/dprint hosts |
+| `pangloss/vim-javascript` | 3784 | silent | Syntax/indent pack — prefer LSP/formatter products |
+| `jsx-eslint/eslint-plugin-jsx-a11y` | 3615 | silent | A11y ESLint plugin — prefer product linter/LSP homes |
+| `unjs/unplugin` | 3605 | agentscan | AgentScan adopter — leave |
+| `DisposaBoy/GoSublime` | 3400 | silent | Legacy Sublime Go plugin — prefer vscode-go/gopls |
+| `amilajack/eslint-plugin-compat` | 3183 | silent | Compat ESLint plugin — weak systems hunk fit |
+| `sublimehq/Packages` | 3018 | silent | Shipped Sublime syntax packs — not outsider product target |
+| `azat-io/eslint-plugin-perfectionist` | 2920 | silent | Sorting ESLint plugin — prefer eslint core/plugin hosts with clearer tests |
+| `godlygeek/tabular` | 2660 | silent | Legacy Vim align script — prefer vim-easy-align when needed |
+| `RRethy/vim-illuminate` | 2467 | silent | Highlight companion plugin — skin-adjacent |
+| `junegunn/limelight.vim` | 2451 | silent | Goyo companion UI skin — leave |
+| `loeffel-io/ls-lint` | 2419 | hard_ban | AI_POLICY.md NO-AI — leave |
+| `trishume/syntect` | 2413 | silent | Syntax-highlighting library — not editor/LSP product |
+| `leafgarland/typescript-vim` | 1896 | silent | Syntax pack — prefer LSP homes |
+| `gchp/iota` | 1661 | silent | Quiet/unmaintained terminal editor — prefer ox/kibi/flow |
+| `ebkalderon/tower-lsp` | 1360 | silent | LSP framework library — prefer concrete language servers |
+
+Notes: Prefer midband LSP/formatters/editors (texlab/solargraph/pylyzer/nixd/superhtml/rumdl/efm-langserver/ox/kibi/flow/Ferrite), product Neovim plugins (fzf-lua/LuaSnip/nvim-surround/neotest/neoformat/vista), VS Code language extensions (vscode-python/vscode-go/Dart-Code/ruff-vscode/vscode-java/intelephense), bundler/CLI (rsbuild/mermaid-cli/gofumpt/dotenv-linter). Disclosure: nvim-orgmode/orgmode. Leave AgentScan (biomejs/gritql, unjs/unplugin), hard_ban (rolldown/tsdown, loeffel-io/ls-lint), syntax packs, UI skins (goyo/limelight/bufferline), libraries (tower-lsp/syntect/tsdoc).
+

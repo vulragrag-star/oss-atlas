@@ -50,6 +50,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | tldraw/tldraw | 50258 | editors-devex | silent | canvas shape/store edge + TS tests |
 | apple/container | 49759 | devops-build | silent | container config/path or image ref edge + Swift/tests |
 | astral-sh/ruff | 49545 | python-tooling | disclosure | lint rule/path/parse edge + fixtures |
+| JuliaLang/julia | 49089 | compilers-runtimes | disclosure | parse/runtime/path edge + tests — disclose AI |
 | acmesh-official/acme.sh | 47609 | security-crypto | silent | domain/path/dns-api edge + shell tests |
 | slab/quill | 47336 | editors-devex | silent | delta/format/path edge + TS tests |
 | helix-editor/helix | 46159 | editors-devex | silent | config/LSP/path edge + Rust tests |
@@ -60,6 +61,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | vim/vim | 40887 | editors-devex | disclosure | option/path/ex-cmd edge + Vim tests — disclose AI |
 | docker/compose | 38127 | devops-build | silent | compose.yaml path / project name edge + Go tests |
 | aquasecurity/trivy | 37848 | security-crypto | silent | scan target/path/SBOM edge + Go tests |
+| vlang/v | 37842 | compilers-runtimes | silent | parser/runtime/path edge + tests |
 | AdguardTeam/AdGuardHome | 36759 | security-crypto | silent | config/path/filter edge + Go/TS tests |
 | keycloak/keycloak | 36712 | security-crypto | disclosure | realm/client/config edge + tests — disclose AI |
 | firecracker-microvm/firecracker | 36647 | devops-build | silent | VM config JSON path / vsock edge + Rust tests — CLA |
@@ -77,25 +79,23 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | helm/helm | 30229 | devops-build | silent | chart path / values quoting edge + Go tests |
 | celery/celery | 28874 | python-tooling | silent | config/path/serializer edge + py tests |
 | pydantic/pydantic | 28753 | python-tooling | silent | model parse/coerce/schema edge + py tests |
+| emscripten-core/emscripten | 27607 | compilers-runtimes | silent | parser/runtime/path edge + tests |
+| elixir-lang/elixir | 26629 | compilers-runtimes | disclosure | compile/macro/path edge + tests — disclose AI |
 | cookiecutter/cookiecutter | 25081 | python-tooling | silent | template path/hook quoting + tests |
 | mkdocs/mkdocs | 22426 | python-tooling | silent | config/path/plugin edge + py tests |
-| bytecodealliance/wasmtime | 18607 | compilers-runtimes | disclosure | wasm/WASI/CLI path edge + tests |
-| tinygo-org/tinygo | 17707 | compilers-runtimes | silent | target/linker/wasm export edge + tests |
+| RustPython/RustPython | 22344 | compilers-runtimes | disclosure | parser/runtime/path edge + Rust tests — disclose AI |
+| micropython/micropython | 22054 | compilers-runtimes | disclosure | port/path/API edge + C tests — disclose AI |
+| gleam-lang/gleam | 21896 | compilers-runtimes | silent | parser/runtime/path edge + tests |
 | tursodatabase/libsql | 17208 | databases-storage | silent | SQL parser / savepoint edge + tests |
 | tikv/tikv | 16836 | databases-storage | silent | format/parse or path edge in compact-log-backup + tests |
-| rust-lang/rust-analyzer | 16825 | compilers-runtimes | disclosure | analysis/IDE edge + tests — avoid E-easy |
 | apple/foundationdb | 16677 | databases-storage | silent | simulation knob/path edge + tests |
 | alibaba/zvec | 15847 | databases-storage | silent | vector index/path edge + C++ tests |
 | dgraph-io/badger | 15758 | databases-storage | silent | SST path/corruption / compaction edge + tests |
 | go-sql-driver/mysql | 15282 | databases-storage | silent | DSN/param/quoting/TINYINT edge + dsn_test |
 | benbjohnson/litestream | 14358 | databases-storage | disclosure | path/config DSN/replica path + go test |
-| openresty/openresty | 14028 | compilers-runtimes | silent | build/path/LuaJIT packaging edge + tests |
 | rook/rook | 13645 | databases-storage | disclosure | path/ceph volume mount + unit tests |
-| gopherjs/gopherjs | 13183 | compilers-runtimes | silent | compiler/js-runtime edge + tests |
 | drakkan/sftpgo | 12498 | databases-storage | silent | path sanitize / virtual folder edge + tests |
 | manticoresoftware/manticoresearch | 11993 | databases-storage | silent | SQL/fulltext parse edge + tests |
-| foundry-rs/foundry | 10583 | compilers-runtimes | disclosure | CLI flag/path/tool edge + tests |
-| wasm-bindgen/wasm-bindgen | 9145 | compilers-runtimes | silent | bindgen attribute/path parse edge + tests |
 | pomerium/pomerium | 4997 | networking-distributed | disclosure | redirect/URL path or policy rule edge + go tests — disclose AI |
 | NLnetLabs/unbound | 4859 | networking-distributed | silent | conf/ACL/path or DNSSEC edge + tests |
 | microsoft/msquic | 4775 | networking-distributed | silent | QUIC frame/path or API edge + tests |

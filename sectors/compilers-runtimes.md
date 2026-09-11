@@ -171,3 +171,91 @@ Proceed: **94** · Leave: **46**.
 - Refreshed after TS/JS/Zig DevEx product slice.
 - No tracker comments/forks/third-party PRs.
 - scored_at: `2026-09-08T17:38:01Z`
+
+## Product deepen (≥5k★ subset) (2026-09-11, +69 scored)
+
+Account: `vulragrag-star` · Curated compiler/runtime/Wasm/language product homes still missing after midband + famous-CLI passes · Policy via `raw.githubusercontent.com` · **41** proceed / **28** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'disclosure': 11, 'silent': 53, 'agentscan': 1, 'hard_ban': 4}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `JuliaLang/julia` | 49089 | disclosure | Julia language; parse/runtime edges — disclose AI assist | parse/runtime/path edge + tests — disclose AI |
+| `vlang/v` | 37842 | silent | v language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `emscripten-core/emscripten` | 27607 | silent | emscripten language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `elixir-lang/elixir` | 26629 | disclosure | Elixir language; compile/macro path — disclose AI | compile/macro/path edge + tests — disclose AI |
+| `RustPython/RustPython` | 22344 | disclosure | Python interpreter in Rust — disclose AI policy | parser/runtime/path edge + Rust tests — disclose AI |
+| `micropython/micropython` | 22054 | disclosure | MCU Python; port/path edges — AI policy disclosure | port/path/API edge + C tests — disclose AI |
+| `gleam-lang/gleam` | 21896 | silent | gleam language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `wasmerio/wasmer` | 21025 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `crystal-lang/crystal` | 20402 | silent | crystal language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `wenyan-lang/wenyan` | 20268 | silent | wenyan language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `nim-lang/Nim` | 18232 | silent | Nim language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `AssemblyScript/assemblyscript` | 18013 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `erlang/otp` | 12330 | silent | otp language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `odin-lang/Odin` | 11894 | silent | Odin language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `facebook/hermes` | 11302 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `dart-lang/sdk` | 11278 | disclosure | Dart SDK/VM/compilers — disclose AI | VM/compiler/path edge + tests — disclose AI |
+| `bellard/quickjs` | 10983 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `clojure/clojure` | 10955 | silent | clojure language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `cython/cython` | 10843 | silent | Language/compiler product; parse/codegen edges | parser/codegen/path edge + tests |
+| `WasmEdge/WasmEdge` | 10799 | disclosure | Wasm runtime; plugin/path — disclose AI | runtime/plugin/path edge + tests — disclose AI |
+| `goplus/xgo` | 9458 | silent | xgo language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `clojure/clojurescript` | 9391 | silent | clojurescript language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `purescript/purescript` | 8909 | silent | purescript language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `WebAssembly/binaryen` | 8622 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `wren-lang/wren` | 8128 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `WebAssembly/wabt` | 8124 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `wasm3/wasm3` | 8025 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `elm/compiler` | 7900 | silent | compiler language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `google/jsonnet` | 7566 | silent | Config/data language; parse/eval edges | parse/eval/path edge + tests |
+| `rescript-lang/rescript` | 7443 | silent | rescript language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `wasm-bindgen/wasm-pack` | 7283 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `HaxeFoundation/haxe` | 6926 | silent | haxe language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `ocaml/ocaml` | 6553 | disclosure | OCaml compiler/runtime — AI.md disclosure/HITL | parse/typecheck/path edge + tests — disclose AI |
+| `imba/imba` | 6508 | silent | imba language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `spinframework/spin` | 6508 | silent | Runtime/bindings product surface; config/path edges | config/path/API edge + tests |
+| `cue-lang/cue` | 6249 | silent | Config/data language; parse/eval edges | parse/eval/path edge + tests |
+| `bellard/mquickjs` | 6159 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `roc-lang/roc` | 6040 | silent | roc language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `luau-lang/luau` | 5855 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `LuaJIT/LuaJIT` | 5763 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `racket/racket` | 5207 | silent | racket language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `golang/go` | 138403 | silent | Go core; proposal/Gerrit culture — leave core; prefer tooling satellites already scored |
+| `nodejs/node` | 121574 | agentscan | AgentScan adopter — leave the Node circle |
+| `godotengine/godot` | 116947 | hard_ban | Godot autonomous-agent / vibe-coding auto-ban — hard leave |
+| `swiftlang/swift` | 70336 | silent | Swift compiler mega; Apple contribution process — leave |
+| `ziglang/zig` | 43306 | hard_ban | Playbook Zig no-LLM ban (issues/PRs/comments) — hard leave; zls separately proceed |
+| `llvm/llvm-project` | 40412 | silent | LLVM monorepo mega; mentor/Phabricator-class process — leave |
+| `php/php-src` | 40368 | silent | PHP core; RFC/karma culture — leave |
+| `carbon-language/carbon-lang` | 33887 | disclosure | Google experimental language; CLA/process heavy — leave for now |
+| `argotorg/solidity` | 25735 | hard_ban | PR template NO-AI — hard leave |
+| `v8/v8` | 25238 | silent | V8 engine mirror; Chromium process — leave |
+| `ruby/ruby` | 23720 | silent | Ruby core; mature committer culture — leave |
+| `copy/v86` | 23471 | silent | x86-in-browser emulator — leave full emulator class |
+| `openjdk/jdk` | 23336 | hard_ban | OpenJDK GB interim: no LLM content in git/PRs/mail — hard leave |
+| `oracle/graal` | 21696 | disclosure | GraalVM mega; Oracle CLA/process — leave for outsider agent cadence |
+| `dotnet/roslyn` | 20656 | silent | .NET compiler mega; Microsoft CLA/process — leave |
+| `HigherOrderCO/Bend` | 19825 | silent | Research parallel language / HVM stack — leave research mega |
+| `compiler-explorer/compiler-explorer` | 19059 | silent | Interactive compiler web app — leave mega frontend; prefer language homes |
+| `facebook/hhvm` | 18661 | silent | HHVM/Hack mega — leave |
+| `dotnet/runtime` | 18265 | silent | .NET runtime mega — leave |
+| `leaningtech/webvm` | 17385 | silent | Browser VM demo product — leave emulator/demo surface |
+| `gcc-mirror/gcc` | 11231 | silent | GCC mirror; GNU process / patch norms — leave |
+| `chakra-core/ChakraCore` | 9255 | silent | Archived/legacy JS engine orbit — leave |
+| `BoundaryML/baml` | 9165 | silent | Agent programming language product — not compiler hunk farm |
+| `leanprover/lean4` | 9110 | disclosure | Theorem prover / mathlib orbit — leave proof-assistant farm |
+| `scala/scala3` | 6299 | disclosure | Scala 3 compiler mega; SIP/process — leave core |
+| `red/red` | 6037 | silent | Red language; sparse modern PR culture — leave |
+| `WebAssembly/WASI` | 5793 | silent | WASI interface spec repo — prefer wasi-sdk/wasm-tools product surfaces |
+| `rocq-prover/rocq` | 5571 | silent | Proof assistant mega (ex-Coq); leave theorem-prover farm |
+
+Notes: Prefer Wasm toolchains/runtimes (wasmer/WasmEdge/wasm3/binaryen/wabt/wasm-tools/wasm-pack/AssemblyScript/spin), embeddable engines (quickjs/hermes/rhino/LuaJIT/luau/wren), and mid-size language homes (gleam/crystal/nim/elixir/julia/odin/v/grain/rescript/purescript/elm/cython/micropython/RustPython). Disclosure: Julia/elixir/RustPython/micropython/dart/WasmEdge/ocaml. Leave AgentScan nodejs, hard bans (zig/godot/OpenJDK/solidity), mentor-gated perl5, language megas (go/swift/llvm/gcc/php/ruby/v8/roslyn), proof assistants, agent langs (baml), emulators (v86/webvm).
+

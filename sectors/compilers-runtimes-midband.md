@@ -189,3 +189,55 @@ Policy histogram (this pass): `{'disclosure': 3, 'silent': 39, 'hard_ban': 2}`.
 
 Notes: Prefer small language/wasm/linker/assembler homes with regression tests. Leave teaching books, ML mega-compilers (Torch-MLIR/LiteRT), emoji/game DSLs, QEMU-adjacent analysers, agent OS/micro-VM novelty, and hard NO-AI repos (`jfecher/ante`, `boxlite-ai/boxlite`). `wild-linker/wild` and ASWF OSL need human-owned disclosure.
 
+## Product deepen midband subset (2026-09-11, +34 scored)
+
+Account: `vulragrag-star` · Curated compiler/runtime/Wasm/language product homes still missing after midband + famous-CLI passes · Policy via `raw.githubusercontent.com` · **23** proceed / **11** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 32, 'disclosure': 1, 'hostility_risk': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `mozilla/rhino` | 4625 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `babashka/babashka` | 4605 | silent | babashka language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `adafruit/circuitpython` | 4553 | silent | Language/compiler product; parse/codegen edges | parser/codegen/path edge + tests |
+| `dhall-lang/dhall-lang` | 4484 | silent | Config/data language; parse/eval edges | parse/eval/path edge + tests |
+| `dotnet/fsharp` | 4331 | silent | fsharp language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `just-js/just` | 3806 | silent | just language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `quickjs-ng/quickjs` | 3731 | silent | Embeddable JS/Lua engine; parse/eval/path edges | parser/eval/path edge + tests |
+| `grain-lang/grain` | 3466 | silent | Language/compiler product; parse/codegen edges | parser/codegen/path edge + tests |
+| `dlang/dmd` | 3307 | silent | dmd language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `fibjs/fibjs` | 3097 | silent | fibjs language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `TheDan64/inkwell` | 3013 | silent | Runtime/bindings product surface; config/path edges | config/path/API edge + tests |
+| `mlua-rs/mlua` | 2861 | silent | Runtime/bindings product surface; config/path edges | config/path/API edge + tests |
+| `sharkdp/numbat` | 2684 | silent | Language/compiler product; parse/codegen edges | parser/codegen/path edge + tests |
+| `lfe/lfe` | 2455 | silent | lfe language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `thheller/shadow-cljs` | 2407 | silent | shadow-cljs language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `mun-lang/mun` | 2132 | silent | Language/compiler product; parse/codegen edges | parser/codegen/path edge + tests |
+| `vtereshkov/umka-lang` | 2103 | silent | Language/compiler product; parse/codegen edges | parser/codegen/path edge + tests |
+| `pypy/pypy` | 1793 | silent | Language/compiler product; parse/codegen edges | parser/codegen/path edge + tests |
+| `bytecodealliance/wasm-tools` | 1789 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `WebAssembly/wasi-sdk` | 1636 | silent | Wasm toolchain/runtime product; module/path/CLI edges | wasm module/path/CLI edge + tests |
+| `Moddable-OpenSource/moddable` | 1552 | silent | moddable language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `babashka/sci` | 1383 | silent | sci language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+| `ldc-developers/ldc` | 1371 | silent | ldc language/runtime product; parser/path/CLI edges | parser/runtime/path edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `hyperlight-dev/hyperlight` | 4675 | silent | Agent-oriented lightweight VMM — leave agent infrastructure |
+| `ballercat/walt` | 4630 | silent | Walt JS→Wasm syntax — stale/niche; leave |
+| `WebAssembly/spec` | 3450 | silent | WASM specification / reference interpreter — not product CLI farm |
+| `ghc/ghc` | 3273 | silent | GHC mirror; Haskell core process — leave |
+| `idris-lang/Idris2` | 3060 | disclosure | Dependently typed language / proof orbit — leave |
+| `agda/agda` | 2930 | silent | Dependently typed proof assistant — leave |
+| `Perl/perl5` | 2325 | hostility_risk | AI_POLICY mentor-gated LLM + human-ownership — leave |
+| `bluealloy/revm` | 2231 | silent | Ethereum VM — blockchain runtime; leave chain farm |
+| `cesanta/mjs` | 2055 | silent | Tiny embedded JS; sparse tests/community — leave |
+| `factor/factor` | 1849 | silent | Factor image-based language; high onboarding friction — leave |
+| `pharo-project/pharo` | 1484 | silent | Pharo Smalltalk image workflow — leave |
+
+Notes: Prefer midband embeddable/scripting (umka/mun/numbat/mlua/inkwell/babashka/sci/shadow-cljs/lfe). Leave proof assistants, Factor/Pharo image workflows, stale Walt, and chain EVMs.
+

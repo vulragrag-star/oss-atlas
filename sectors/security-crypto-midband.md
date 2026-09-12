@@ -325,3 +325,81 @@ Policy histogram (this pass): `{'silent': 73, 'disclosure': 5}`.
 
 Notes: Prefer midband PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ homes (fail2ban/boulder/secretive/cerbos/keto/opal/coraza/dependency-track/hayabusa/kubesec/sops-nix/sudo-rs/git-secrets/talisman/certspotter/testssl/memguard/SimpleWebAuthn). Disclosure: keto/cerbos/sudo-rs/cartography/keepassxc-browser/stackrox. Leave Casbin language bindings, thin JWT middleware, frontend OIDC clients, badssl content site, SPIFFE specs-only, recon scanners (zgrab2), and framework auth satellites.
 
+## Midband product deepen-2 (2026-09-12, +60 scored)
+
+Account: `vulragrag-star` · Curated security-crypto midband (1k–5k★) IAM/secrets/PKI/SAST/CSPM/runtime/firewall leftovers after prior security product deepens · Policy via `raw.githubusercontent.com` · **50** proceed / **10** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 56, 'disclosure': 3, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `DefectDojo/django-DefectDojo` | 4936 | silent | Vuln management platform; finding/import/path edges | finding import/path edge + Django tests |
+| `anonaddy/anonaddy` | 4837 | silent | Anonymous email forwarding; alias/domain/path edges | alias/domain/path edge + PHP tests |
+| `HotCakeX/Harden-Windows-Security` | 4734 | silent | Windows hardening toolkit; policy/path edges | hardening policy/path edge + tests |
+| `emanuele-f/PCAPdroid` | 4707 | silent | Android firewall/PCAP monitor; rule/path edges | firewall rule/path edge + Android tests |
+| `opnsense/core` | 4684 | disclosure | OPNsense firewall core; config/API/path edges — disclose AI | config/API/path edge + tests |
+| `Authenticator-Extension/Authenticator` | 4666 | silent | Browser 2FA authenticator; account/otp/path edges | OTP account/path edge + TS tests |
+| `stratumauth/app` | 4576 | silent | Mobile 2FA client; entry/otp/path edges | OTP entry/path edge + tests |
+| `intuitem/ciso-assistant-community` | 4414 | silent | GRC/risk platform; assessment/policy/path edges | assessment/policy/path edge + Python tests |
+| `Bubka/2FAuth` | 4148 | silent | Self-hosted 2FA manager; account/otp/path edges | OTP account/path edge + PHP tests |
+| `WithSecureOpenSource/chainsaw` | 3659 | silent | Windows forensic hunt CLI; rule/path edges | sigma/hunt path edge + Rust tests |
+| `tnodir/fort` | 3547 | silent | Windows Fort Firewall; rule/path edges | firewall rule/path edge + C++ tests |
+| `ukanth/afwall` | 3472 | silent | Android iptables firewall; rule/path edges | iptables rule/path edge + Java tests |
+| `pglombardo/PasswordPusher` | 3192 | silent | Secure secret sharing; expire/path edges | push expire/path edge + Ruby tests |
+| `ChatSecure/ChatSecure-iOS` | 3152 | silent | Encrypted chat client; account/crypto/path edges | XMPP/crypto path edge + iOS tests |
+| `ulisesbocchio/jasypt-spring-boot` | 3087 | silent | Spring Boot Jasypt encryption; property/path edges | property encrypt/path edge + Java tests |
+| `bcgit/bc-java` | 2689 | silent | Bouncy Castle Java crypto — API/test edges only, never invent algos | API/test edge + Java tests — not invent crypto |
+| `segmentio/chamber` | 2615 | silent | Secrets CLI for AWS SSM; path/param edges | SSM param/path edge + Go tests |
+| `open-keychain/open-keychain` | 2615 | silent | Android OpenPGP; key/path edges | OpenPGP key/path edge + Android tests |
+| `kubearmor/KubeArmor` | 2610 | silent | K8s runtime security enforcement; policy/path edges | policy/path edge + Go tests |
+| `ajinabraham/nodejsscan` | 2573 | silent | Node.js SAST scanner; rule/path edges | SAST rule/path edge + Python tests |
+| `pac4j/pac4j` | 2523 | silent | Java security engine; authn/authz/path edges | authn/authz/path edge + Java tests |
+| `Peergos/Peergos` | 2515 | silent | P2P encrypted storage; path/crypto edges | storage/crypto path edge + Java tests |
+| `RevylAI/greenlight` | 2426 | silent | App Store compliance scanner; check/path edges | compliance check/path edge + Go tests |
+| `lihenggui/blocker` | 2392 | silent | Android app firewall; rule/path edges | firewall rule/path edge + Kotlin tests |
+| `yeojz/otplib` | 2291 | disclosure | OTP/2FA library; secret/algorithm edges — disclose AI | OTP secret/algo edge + TS tests |
+| `bank-vaults/bank-vaults` | 2271 | silent | Vault CLI/operator helper; unseal/config/path edges | vault unseal/config path edge + Go tests |
+| `ory/polis` | 2263 | disclosure | Auth streaming/proxy; config/path edges — disclose AI | auth config/path edge + TS tests |
+| `salesforce/cloudsplaining` | 2247 | silent | AWS IAM assessment; policy/path edges | IAM policy/path edge + Python tests |
+| `Versent/saml2aws` | 2245 | silent | SAML CLI for cloud creds; provider/path edges | SAML provider/path edge + Go tests |
+| `greenpau/caddy-security` | 2234 | silent | Caddy AAA plugin; authn/authz/path edges | AAA config/path edge + Go tests |
+| `ranisalt/node-argon2` | 2183 | silent | Argon2 Node bindings; hash/param edges | argon2 param/hash edge + JS tests |
+| `hannob/snallygaster` | 2112 | silent | HTTP secret-file scanner; path/probe edges | HTTP path/probe edge + Python tests |
+| `hlandau/acmetool` | 2092 | silent | ACME certificate tool; order/path edges | ACME order/path edge + Go tests |
+| `someengineering/fixinventory` | 2077 | silent | Cloud inventory/cost security; resource/path edges | inventory resource/path edge + Python tests |
+| `authgear/authgear-server` | 2045 | silent | Auth0-class identity server; OIDC/path edges | OIDC/path edge + Go tests |
+| `opsre/go-ldap-admin` | 2019 | silent | OpenLDAP admin UI/API; entry/path edges | LDAP entry/path edge + Go tests |
+| `antonioribeiro/google2fa` | 2008 | silent | PHP TOTP package; secret/window edges | TOTP secret/window edge + PHP tests |
+| `dromara/MaxKey` | 1949 | silent | IAM/IDaaS SSO; app/path edges | SSO app/path edge + Java tests |
+| `betterleaks/betterleaks` | 1874 | silent | Secret leak finder CLI; pattern/path edges | secret pattern/path edge + Go tests |
+| `lirantal/npq` | 1793 | silent | npm pre-install audit CLI; package/path edges | package audit/path edge + JS tests |
+| `alienator88/Sentinel` | 1748 | silent | macOS Gatekeeper helper; quarantine/path edges | Gatekeeper path edge + Swift tests |
+| `webprofusion/certify` | 1703 | silent | Windows ACME client; cert/path edges | ACME cert/path edge + C# tests |
+| `matanolabs/matano` | 1696 | silent | Security data lake; detection/path edges | detection/path edge + Rust tests |
+| `emberstack/kubernetes-reflector` | 1673 | silent | K8s secret/config reflector; mirror/path edges | reflect/path edge + C# tests |
+| `scito/extract_otp_secrets` | 1655 | silent | OTP secret extractor CLI; QR/path edges | OTP QR/path edge + Python tests |
+| `chaitin/veinmind-tools` | 1652 | silent | Container security toolset; scan/path edges | container scan/path edge + Go tests |
+| `mssun/passforios` | 1644 | silent | Pass password-store iOS client; entry/path edges | pass entry/path edge + Swift tests |
+| `ankane/lockbox` | 1609 | silent | Ruby/Rails encryption; field/path edges | encrypt field/path edge + Ruby tests |
+| `freeipa/freeipa` | 1278 | silent | Integrated identity (LDAP/Kerberos/PKI); install/path edges — small hunks only | IPA install/path edge + Python tests |
+| `DataDog/guarddog` | 1204 | silent | Malicious package CLI scanner; ecosystem/path edges | package scan/path edge + Python tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `osixia/container-openldap` | 4228 | silent | Container image packaging only — leave packaging satellites |
+| `Neo23x0/signature-base` | 3027 | silent | YARA/IOC signature database dump — not product hunk class |
+| `cryfs/cryfs` | 2305 | hard_ban | AI_POLICY NO-AI — hard leave |
+| `slsa-framework/slsa` | 1927 | silent | SLSA levels spec/docs repo — not product CLI/library |
+| `lavabit/magma` | 1830 | silent | Encrypted email server daemon mega — poor drive-by surface |
+| `ammarahm-ed/react-native-mmkv-storage` | 1751 | silent | RN MMKV storage lib — mobile KV spill, not security product farm |
+| `mprimi/portable-secret` | 1735 | silent | HTML novelty secret page — not product contribution target |
+| `AltraMayor/gatekeeper` | 1638 | silent | DDoS protection system — networking/DDoS mega; leave for networking sector or too heavy |
+| `mazen160/secrets-patterns-db` | 1617 | silent | Secrets patterns database — content dump, not product |
+| `w3c/webauthn` | 1456 | silent | W3C WebAuthn specification — specs-only, not product code |
+
+Notes: Prefer midband security product homes (vuln mgmt/GRC, IAM/SSO/OIDC, OTP/2FA, secrets CLIs/sharing, ACME/PKI, SAST/CSPM, runtime K8s policy, host firewall/hardening, OpenPGP/crypto libs with testable API edges). Leave hard_ban cryfs, specs-only (w3c/webauthn, slsa docs), signature/pattern DBs, HTML novelty secrets, RN MMKV spill, DDoS megas, email-server megas, packaging-only LDAP images.
+

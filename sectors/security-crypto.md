@@ -235,3 +235,28 @@ Policy histogram (this pass): `{'silent': 14, 'disclosure': 1}`.
 
 Notes: Prefer midband PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ homes (fail2ban/boulder/secretive/cerbos/keto/opal/coraza/dependency-track/hayabusa/kubesec/sops-nix/sudo-rs/git-secrets/talisman/certspotter/testssl/memguard/SimpleWebAuthn). Disclosure: keto/cerbos/sudo-rs/cartography/keepassxc-browser/stackrox. Leave Casbin language bindings, thin JWT middleware, frontend OIDC clients, badssl content site, SPIFFE specs-only, recon scanners (zgrab2), and framework auth satellites.
 
+## Midband product deepen-2 (spill ≥5k★ if any) (2026-09-12, +6 scored)
+
+Account: `vulragrag-star` · Curated security-crypto midband (1k–5k★) IAM/secrets/PKI/SAST/CSPM/runtime/firewall leftovers after prior security product deepens · Policy via `raw.githubusercontent.com` · **6** proceed / **0** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 6}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `prowler-cloud/prowler` | 14805 | silent | Multi-cloud security auditor CLI; check/provider/path edges | check/provider/path edge + Python tests |
+| `logto-io/logto` | 14529 | silent | Auth/identity infra; OIDC/app/path edges | OIDC app/path edge + TS tests |
+| `SigmaHQ/sigma` | 11033 | silent | Sigma rule repo + tooling adjacency; rule/parse/path edges | sigma rule/parse/path edge + tests |
+| `nccgroup/ScoutSuite` | 7815 | silent | Multi-cloud security auditing; provider/rule/path edges | provider/rule/path edge + Python tests |
+| `presidentbeef/brakeman` | 7269 | silent | Rails SAST; warning/parser/path edges | SAST warning/path edge + Ruby tests |
+| `openfga/openfga` | 5762 | silent | AuthZ relationship engine; tuple/store/path edges | tuple/store/path edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| — | | | none |
+
+Notes: Prefer midband security product homes (vuln mgmt/GRC, IAM/SSO/OIDC, OTP/2FA, secrets CLIs/sharing, ACME/PKI, SAST/CSPM, runtime K8s policy, host firewall/hardening, OpenPGP/crypto libs with testable API edges). Leave hard_ban cryfs, specs-only (w3c/webauthn, slsa docs), signature/pattern DBs, HTML novelty secrets, RN MMKV spill, DDoS megas, email-server megas, packaging-only LDAP images.
+

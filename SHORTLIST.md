@@ -68,6 +68,7 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | psf/black | 41834 | python-tooling | silent | AST/parse edge + regression fixtures |
 | XTLS/Xray-core | 41519 | networking-distributed | silent | inbound/path/config edge + go tests |
 | duckdb/duckdb | 41108 | databases-storage | disclosure | SQL/CSV/parquet path edge + C++ tests |
+| facebookresearch/faiss | 40893 | databases-storage | silent | index/metric/path edge + C++ tests |
 | vim/vim | 40887 | editors-devex | disclosure | option/path/ex-cmd edge + Vim tests — disclose AI |
 | pingcap/tidb | 40505 | databases-storage | silent | SQL parser/planner path edge + Go tests |
 | go-gorm/gorm | 39950 | databases-storage | silent | query/schema/dialect edge + Go tests |
@@ -78,7 +79,6 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | vlang/v | 37842 | compilers-runtimes | silent | parser/runtime/path edge + tests |
 | AdguardTeam/AdGuardHome | 36759 | security-crypto | silent | config/path/filter edge + Go/TS tests |
 | keycloak/keycloak | 36712 | security-crypto | disclosure | realm/client/config edge + tests — disclose AI |
-| typeorm/typeorm | 36649 | databases-storage | silent | entity/migration/path edge + TS tests |
 | firecracker-microvm/firecracker | 36647 | devops-build | silent | VM config JSON path / vsock edge + Rust tests — CLA |
 | tailscale/tailscale | 36297 | security-crypto | silent | ACL/path/config edge + Go tests |
 | hashicorp/vault | 36219 | security-crypto | silent | secret path/policy/auth edge + Go tests |

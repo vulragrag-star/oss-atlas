@@ -237,3 +237,104 @@ Policy histogram (this pass): `{'silent': 53, 'disclosure': 2}`.
 
 Notes: Prefer SQL/CLI/engine edges (trdsql, termdbms, frostdb, BemiDB, pg_timetable, sqls, PoloDB, mvsqlite, sqlite-vss, RedisBloom/Graph). Leave redis clients/locks, blockchain SQL toys, Godot wrappers, exploit demos, and inactive educational KV engines.
 
+## Midband product deepen (2026-09-12, +83 scored)
+
+Account: `vulragrag-star` · Curated databases-storage midband (1k–5k★) product engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM homes still missing after prior DB midband + product deepens · Policy via `raw.githubusercontent.com` · **57** proceed / **26** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 79, 'disclosure': 3, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `crate/crate` | 4435 | disclosure | Distributed SQL DB for machine data — disclose | SQL/distributed query edge + Java tests |
+| `facebookincubator/velox` | 4209 | silent | Composable C++ execution engine | expr/vectorized exec edge + C++ tests |
+| `tarantool/tarantool` | 3666 | silent | In-memory computing + DB platform (product) | Lua/SQL/storage edge + C tests |
+| `terminusdb/terminusdb` | 3411 | silent | Collaborative graph DB | WOQL/document/path edge + Prolog tests |
+| `delta-io/delta-rs` | 3298 | silent | Native Rust Delta Lake library | transaction/log/path edge + Rust tests |
+| `storj/storj` | 3282 | silent | Decentralized S3-compatible object storage | object key/path/ACL edge + Go tests |
+| `mydumper/mydumper` | 3223 | silent | MySQL logical dump/restore CLI | dump/restore/path edge + C tests |
+| `Tencent/Tendis` | 3157 | silent | Redis-compatible distributed storage on RocksDB | cmd/storage/path edge + C++ tests |
+| `timescale/pgvectorscale` | 3127 | silent | Postgres DiskANN vector extension | index/search/SQL edge + tests |
+| `hydra-db/hydradb` | 3083 | silent | Graph database on object storage | graph/query/object-store edge + tests |
+| `hydradatabase/columnar` | 3042 | silent | Postgres-native columnar storage extension | columnar scan/storage edge + tests |
+| `pgpartman/pg_partman` | 2821 | silent | Postgres partition management extension | partition/maintain SQL edge + tests |
+| `maxpert/marmot` | 2819 | silent | Distributed SQLite with MySQL wire | SQLite/replication/wire edge + Go tests |
+| `XiaoMi/Gaea` | 2764 | silent | MySQL proxy (Xiaomi) | route/auth/SQL edge + Go tests |
+| `postgres-ai/database-lab-engine` | 2710 | silent | Postgres thin-clone / branching engine | clone/ZFS/path edge + Go tests |
+| `paypal/junodb` | 2636 | silent | PayPal consistent HA KV store | KV/replication/path edge + tests |
+| `multigres/multigres` | 2616 | disclosure | Vitess-for-Postgres — disclose | shard/route/SQL edge + Go tests |
+| `Altinity/clickhouse-operator` | 2563 | silent | ClickHouse Kubernetes operator | CRD/config/path edge + Go tests |
+| `tidwall/pogocache` | 2516 | silent | Low-latency caching/KV software product | cmd/latency path edge + C tests |
+| `rbatis/rbatis` | 2485 | silent | Compile-time async dynamic SQL ORM | SQL/ORM/compile edge + C++ tests |
+| `wiredtiger/wiredtiger` | 2424 | silent | WiredTiger storage engine | page/storage/tx edge + C tests |
+| `VexDB-THU/VexDB-Lite` | 2378 | silent | Cross-platform embedded vector DB | vector/query/path edge + tests |
+| `supabase/etl` | 2329 | silent | Postgres replication engine in Rust | logical repl/CDC path edge + Rust tests |
+| `fjall-rs/fjall` | 2317 | silent | Embeddable LSM key-value engine in Rust | LSM/compaction/path edge + Rust tests |
+| `symisc/unqlite` | 2315 | silent | Embedded NoSQL transactional DB engine | doc/KV/tx edge + C tests |
+| `reorg/pg_repack` | 2303 | silent | Online Postgres table repack | rewrite/lock/path edge + C tests |
+| `apache/datafusion-ballista` | 2134 | silent | Distributed DataFusion query engine | scheduler/query/path edge + Rust tests |
+| `feldera/feldera` | 2085 | silent | Incremental computation / streaming SQL engine | pipeline/SQL edge + Rust tests |
+| `TileDB-Inc/TileDB` | 2077 | silent | Universal array storage engine | array/fragment/path edge + C++ tests |
+| `toeverything/OctoBase` | 2065 | silent | Local-first DB behind AFFiNE | CRDT/storage/path edge + Rust tests |
+| `twitter/pelikan` | 1957 | silent | Twitter unified cache backend (KV) | protocol/cache path edge + C tests |
+| `microsoft/DiskANN` | 1923 | silent | DiskANN vector indexing library | graph/index/path edge + C++ tests |
+| `SeekStorm/SeekStorm` | 1909 | silent | Vector + lexical search engine/library | index/query/path edge + Rust tests |
+| `pmwkaa/sophia` | 1887 | silent | Transactional key-value/row storage library | MVCC/storage path edge + C tests |
+| `oxigraph/oxigraph` | 1877 | silent | SPARQL graph database | SPARQL/RDF/path edge + Rust tests |
+| `arkdb/inception` | 1873 | silent | MySQL audit/execute/backup ops tool | SQL audit/backup edge + tests |
+| `fabianlindfors/reshape` | 1849 | silent | Zero-downtime Postgres schema migration | migrate/lock/SQL edge + Rust tests |
+| `radondb/radon` | 1795 | silent | Cloud-native sharded MySQL | shard/SQL/proxy edge + Go tests |
+| `supervc-stack/VectorChord` | 1789 | silent | Disk-friendly Postgres vector search | index/search/SQL edge + tests |
+| `hanchuanchuan/goInception` | 1744 | silent | Go MySQL audit/execute/backup tool | SQL audit/backup edge + Go tests |
+| `LadybugDB/ladybug` | 1738 | silent | Graph database product | graph/query/path edge + tests |
+| `EnterpriseDB/repmgr` | 1711 | silent | Postgres replication manager | standby/failover/config edge + C tests |
+| `HypoPG/hypopg` | 1710 | silent | Hypothetical indexes for Postgres | planner/index edge + tests |
+| `chaisql/chai` | 1704 | silent | Modern embedded SQL database | SQL/parser/storage edge + Go tests |
+| `pgaudit/pgaudit` | 1703 | silent | Postgres audit extension | audit log/SQL edge + tests |
+| `rust-db/refinery` | 1700 | silent | Rust SQL migration toolkit | migrate/path/SQL edge + Rust tests |
+| `lesovsky/pgcenter` | 1625 | silent | Postgres admin/observability CLI | stats/query/path edge + Go tests |
+| `tonbo-io/tonbo` | 1619 | silent | Embedded DB for serverless/edge | LSM/arrow/path edge + Rust tests |
+| `percona/percona-xtrabackup` | 1556 | silent | Hot backup for InnoDB/XtraDB | backup/restore/path edge + tests |
+| `percona/percona-toolkit` | 1549 | silent | Advanced MySQL/Postgres ops toolkit | pt-tool path/SQL edge + Perl tests |
+| `mariadb-corporation/MaxScale` | 1496 | silent | Intelligent DB proxy | route/filter/protocol edge + C++ tests |
+| `skeema/skeema` | 1381 | silent | Declarative MySQL/MariaDB schema CLI | diff/migrate/path edge + Go tests |
+| `rwynn/monstache` | 1332 | silent | MongoDB→Elasticsearch sync daemon | change-stream/mapping edge + Go tests |
+| `apache/impala` | 1287 | disclosure | Apache Impala MPP SQL — disclose | SQL/scan/fragment edge + tests |
+| `percona/percona-server` | 1270 | silent | Percona MySQL server fork product | SQL/storage/config edge + tests |
+| `openGemini/openGemini` | 1174 | silent | CNCF distributed time-series DB | TSDB ingest/query edge + Go tests |
+| `RedisTimeSeries/RedisTimeSeries` | 1070 | silent | Redis time-series module | TS cmd/retention edge + C tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `objectbox/objectbox-java` | 4622 | silent | Mobile/JVM embedded DB client SDK — leave |
+| `toshi-search/Toshi` | 4256 | silent | Stale educational full-text engine — leave |
+| `eyebluecn/tank` | 3235 | silent | Cloud-disk / file manager GUI — leave GUI managers |
+| `LMDB/lmdb` | 3039 | silent | Read-only OpenLDAP mirror; issues/PRs ignored — leave |
+| `nicolasff/webdis` | 2965 | silent | Thin Redis HTTP interface wrapper — leave thin gateway |
+| `Forceu/Gokapi` | 2862 | silent | Self-hosted file-share app — leave share/GUI class |
+| `HouzuoGuo/tiedot` | 2724 | silent | Rudimentary unmaintained document DB toy — leave |
+| `rbock/sqlpp11` | 2625 | silent | C++ SQL template library — leave client/template lib |
+| `neilotoole/sq` | 2564 | hard_ban | AGENTS.md NO-AI — hard leave data wrangler CLI |
+| `Tencent/phxsql` | 2445 | silent | Legacy unmaintained MySQL HA cluster — leave |
+| `apache/geode` | 2383 | silent | In-memory data-grid platform mega — leave platform class |
+| `armink/EasyFlash` | 2366 | silent | IoT firmware KV/IAP on flash — leave embedded firmware |
+| `alibaba/tair` | 2314 | silent | Legacy Alibaba KV (stale contrib surface) — leave |
+| `Meituan-Dianping/DBProxy` | 2266 | silent | Legacy empty-desc MySQL proxy — leave |
+| `jiangwenyuan/nuster` | 1903 | silent | HTTP proxy cache / RESTful NoSQL cache — networking spill |
+| `baidu/tera` | 1902 | silent | Legacy Internet-scale DB (stale) — leave |
+| `ttionya/vaultwarden-backup` | 1876 | silent | Thin vaultwarden backup packaging script — leave |
+| `foyer-rs/foyer` | 1804 | silent | Hybrid cache library — leave cache abstraction class |
+| `julien040/anyquery` | 1774 | silent | Multi-tool SQL connector / Text-to-SQL-ish app — leave |
+| `SeaQL/sea-query` | 1758 | silent | SQL query builder library (sea-orm is the product home) |
+| `gobuffalo/pop` | 1524 | silent | Thin Go ORM/helper — leave lightweight wrapper |
+| `kelindar/column` | 1512 | silent | In-memory columnar store library — leave library class |
+| `sist2app/sist2` | 1301 | silent | Filesystem indexer/search — not DB/storage product |
+| `citusdata/postgresql-hll` | 1230 | silent | Narrow HyperLogLog datatype extension — leave niche |
+| `mdbtools/mdbtools` | 1172 | silent | MS Access reader toolkit — niche format leave |
+| `realm/realm-core` | 1053 | silent | Realm mobile database core — leave mobile client class |
+
+Notes: Prefer midband product DB/storage homes (engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM). Disclosure: crate/multigres/impala. Hard leave: neilotoole/sq (NO-AI). Leave cache libs (caffeine/ristretto/foyer), mobile ORMs (greenDAO/objectbox/realm), GUI/share apps (tank/Gokapi), data-grid platforms (geode/hazelcast/ignite), analytics transform (dbt), Text-to-SQL/connectors (anyquery), mirrors (LMDB/xapian), legacy proxies, thin wrappers.
+

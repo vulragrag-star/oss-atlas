@@ -272,3 +272,49 @@ Policy histogram (this pass): `{'silent': 94, 'disclosure': 20, 'hard_ban': 1, '
 
 Notes: Prefer engines/modules/SQL CLIs/ORMs/query builders/search/TSDB/vector/object-storage/backup (redis/valkey/dragonfly, ClickHouse/duckdb/tidb/vitess, meilisearch/typesense/qdrant/milvus, loki/mimir/tempo/thanos/VictoriaMetrics, restic/borg/kopia/gh-ost, goose/flyway/atlas/sqlc, rocksdb/leveldb/pebble/juicefs/seaweedfs, arrow/iceberg/delta/hudi). Disclosure: meilisearch/ClickHouse/duckdb/qdrant/turso/timescale/arrow/cassandra/iceberg/quickwit/diesel/borg/databend/prisma/milvus/tempo. Leave PostgREST Gentoo-ban, polars agent-forbidden, sqlfluff AgentScan, sqlglot hostility, client-only drivers, compression codecs, Spark/Flink/Hadoop/Ceph/Postgres megas.
 
+## Midband product deepen (spill ≥5k★ if any) (2026-09-12, +28 scored)
+
+Account: `vulragrag-star` · Curated databases-storage midband (1k–5k★) product engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM homes still missing after prior DB midband + product deepens · Policy via `raw.githubusercontent.com` · **20** proceed / **8** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 28}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `facebookresearch/faiss` | 40893 | silent | Similarity search / clustering library | index/metric/path edge + C++ tests |
+| `zincsearch/zincsearch` | 17884 | silent | Lightweight Elasticsearch alternative | index/query/API edge + Go tests |
+| `spotify/annoy` | 14298 | silent | Approximate nearest neighbors library | index/build/query edge + C++ tests |
+| `geldata/gel` | 14170 | silent | Gel (ex-EdgeDB) Postgres-supercharged graph/SQL | EdgeQL/schema/migrate edge + tests |
+| `dbcli/mycli` | 11976 | silent | Rich MySQL terminal client | DSN/completion/query edge + Python tests |
+| `lancedb/lancedb` | 11407 | silent | Embedded multimodal retrieval DB | vector/SQL/path edge + tests |
+| `blevesearch/bleve` | 11204 | silent | Go full-text/numeric/geo/vector indexing | index/query/mapping edge + Go tests |
+| `xo/usql` | 10111 | silent | Universal SQL CLI for many engines | DSN/driver/query edge + Go tests |
+| `SeaQL/sea-orm` | 9891 | silent | Relational ORM for Rust | entity/query/migrate edge + Rust tests |
+| `JetBrains/Exposed` | 9287 | silent | Kotlin SQL framework/ORM | DSL/schema/query edge + Kotlin tests |
+| `patroni/patroni` | 8718 | silent | Postgres HA template (etcd/consul) | failover/config/path edge + Python tests |
+| `lance-format/lance` | 7064 | silent | Lakehouse format for multimodal AI | fragment/version/path edge + Rust tests |
+| `sysown/proxysql` | 6919 | silent | High-performance MySQL/Postgres proxy | query route/cache edge + C++ tests |
+| `sqldelight/sqldelight` | 6874 | silent | Typesafe Kotlin APIs from SQL | SQL codegen/migrate edge + tests |
+| `dimitri/pgloader` | 6525 | silent | Migrate to Postgres in one command | source/URI/type map edge + tests |
+| `syndtr/goleveldb` | 6322 | silent | LevelDB key/value DB in Go | LSM/compaction/path edge + Go tests |
+| `nmslib/hnswlib` | 5327 | silent | Header-only HNSW ANN library | HNSW insert/search edge + C++ tests |
+| `readysettech/readyset` | 5279 | silent | MySQL/Postgres wire-compatible cache | SQL/cache invalidation edge + Rust tests |
+| `ossc-db/pg_hint_plan` | 914 | silent | Postgres optimizer hints extension | hint parse/plan edge + tests |
+| `meilisearch/heed` | 912 | silent | Typed LMDB wrappers (Meilisearch storage) | LMDB txn/path edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `ben-manes/caffeine` | 17863 | silent | Java in-memory cache library — not DB/storage product |
+| `dbt-labs/dbt` | 13807 | silent | Analytics SQL transform tool — leave analytics/transform spill |
+| `greenrobot/greenDAO` | 12588 | silent | Android mobile ORM client — leave mobile ORM class |
+| `dgraph-io/ristretto` | 6986 | silent | Go memory-bound cache library — not DB product |
+| `hazelcast/hazelcast` | 6611 | silent | Unified real-time data platform mega — leave |
+| `apache/ignite` | 5081 | silent | In-memory computing platform mega — leave |
+| `marqo-ai/marqo` | 5032 | silent | Ecommerce search/discovery app — leave app-layer search |
+| `xapian/xapian` | 875 | silent | Xapian mirror repo — leave mirrors |
+
+Notes: Prefer midband product DB/storage homes (engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM). Disclosure: crate/multigres/impala. Hard leave: neilotoole/sq (NO-AI). Leave cache libs (caffeine/ristretto/foyer), mobile ORMs (greenDAO/objectbox/realm), GUI/share apps (tank/Gokapi), data-grid platforms (geode/hazelcast/ignite), analytics transform (dbt), Text-to-SQL/connectors (anyquery), mirrors (LMDB/xapian), legacy proxies, thin wrappers.
+

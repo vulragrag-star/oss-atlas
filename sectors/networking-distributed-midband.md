@@ -277,3 +277,109 @@ Policy histogram (this pass): `{'silent': 23, 'disclosure': 2, 'hard_ban': 1}`.
 
 Notes: Prefer midband protocol satellites (dnslookup/trurl/pion-turn/exabgp/hivemq-ce/connect-es/h2/antrea/kube-ovn/envoy-gateway/multus/kube-vip). Leave OVN-K8s process mega and client-only HTTP libs.
 
+## Midband product deepen (2026-09-12, +88 scored)
+
+Account: `vulragrag-star` · Curated networking-distributed midband (1k–5k★) product DNS/QUIC/gRPC/proxy/LB/tunnel/VPN/WebRTC/SFU/load-test/packet/MQTT/CNI homes still missing after prior networking midband + product deepens · Policy via `raw.githubusercontent.com` · **68** proceed / **20** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 85, 'disclosure': 3}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `session-replay-tools/tcpcopy` | 4677 | silent | TCP stream replay / request replication | pcap/replay/path edge + C tests |
+| `nanomsg/nng` | 4664 | silent | nanomsg-next-gen brokerless messaging | socket/protocol/path edge + C tests |
+| `giltene/wrk2` | 4630 | silent | Constant-throughput HTTP load generator | load/latency/path edge + C tests |
+| `improbable-eng/grpc-web` | 4473 | silent | gRPC-Web proxy/impl | HTTP/gRPC path/codec edge + tests |
+| `cilium/pwru` | 3822 | disclosure | eBPF packet where-are-you debugger — disclose AI | eBPF filter/path edge + C tests — disclose AI |
+| `octodns/octodns` | 3759 | silent | Multi-provider DNS as-code CLI | zone/record/provider path edge + python tests |
+| `blechschmidt/massdns` | 3645 | silent | High-perf DNS stub resolver CLI | query/resolve/path edge + C tests |
+| `asterisk/asterisk` | 3535 | silent | Asterisk PBX / VoIP engine | dialplan/SIP/path edge + C tests |
+| `zalando/skipper` | 3326 | silent | HTTP router/reverse proxy | route/filter/path edge + go tests |
+| `OvenMediaLabs/OvenMediaEngine` | 3274 | silent | Sub-second live streaming server | ingest/WebRTC/path edge + C++ tests |
+| `moul/assh` | 3221 | silent | Smart SSH client wrapper CLI | SSH config/host/path edge + go tests |
+| `seladb/PcapPlusPlus` | 3136 | silent | C++ packet craft/capture library | pcap/parse/path edge + C++ tests |
+| `strongswan/strongswan` | 2976 | silent | IPsec VPN (strongSwan) | IKE/config/path edge + C tests |
+| `ntop/PF_RING` | 2968 | silent | High-speed packet processing framework | ring/capture/path edge + C tests |
+| `kamailio/kamailio` | 2943 | silent | Kamailio SIP server | SIP route/config path edge + C tests |
+| `krakend/krakend-ce` | 2681 | silent | KrakenD API gateway CE | endpoint/config/path edge + go tests |
+| `cloudwego/volo` | 2624 | silent | Rust RPC framework (CloudWeGo) | RPC codec/path/config edge + rust tests |
+| `FreeRADIUS/freeradius-server` | 2585 | disclosure | FreeRADIUS multi-protocol policy server — disclose AI | RADIUS/config/path edge + C tests — disclose AI |
+| `aws/amazon-vpc-cni-k8s` | 2453 | silent | AWS VPC CNI for Kubernetes | CNI conf/IPAMD path edge + go tests |
+| `rsocket/rsocket-java` | 2389 | silent | RSocket Java protocol impl | frame/stream/path edge + java tests |
+| `memorysafety/river` | 2351 | silent | River reverse proxy (memorysafe) | proxy/TLS/path edge + rust tests |
+| `fcsonline/drill` | 2309 | silent | HTTP load testing CLI (Rust) | benchmark/path/config edge + rust tests |
+| `squat/kilo` | 2285 | silent | WireGuard multi-cloud overlay | peer/overlay/path edge + go tests |
+| `baresip/baresip` | 2209 | silent | Modular SIP user-agent | SIP call/media path edge + C tests |
+| `rofl0r/microsocks` | 2196 | silent | Tiny SOCKS5 server | SOCKS dial/auth/path edge + C tests |
+| `bytebeamio/rumqtt` | 2164 | silent | Rust MQTT ecosystem (broker/client) | MQTT packet/path edge + rust tests |
+| `sogou/srpc` | 2141 | silent | RPC on C++ Workflow | RPC/protocol/path edge + C++ tests |
+| `trickstercache/trickster` | 2090 | disclosure | HTTP reverse proxy cache / TSDB accelerator — disclose AI | cache/origin/path edge + go tests — disclose AI |
+| `sipcapture/homer` | 2013 | silent | SIP/VoIP/RTC packet capture stack | HEP/capture/path edge + go tests |
+| `mfontanini/libtins` | 1991 | silent | C++ packet sniffing/crafting lib | PDU/parse/path edge + C++ tests |
+| `moscajs/aedes` | 1968 | silent | Barebone MQTT broker | MQTT packet/path edge + js tests |
+| `nitefood/asn` | 1934 | silent | ASN/RPKI/BGP lookup CLI | ASN/whois/path edge + tests |
+| `loxilb-io/loxilb` | 1877 | silent | eBPF cloud-native load balancer | LB rule/eBPF/path edge + go tests |
+| `bilibili/discovery` | 1804 | silent | Service discovery/registry | instance/register/path edge + go tests |
+| `openelb/openelb` | 1773 | silent | K8s bare-metal load balancer | BGP/VIP/config path edge + go tests |
+| `davrodpin/mole` | 1727 | silent | SSH tunnel CLI | SSH tunnel/flag/path edge + go tests |
+| `pi-hole/FTL` | 1692 | silent | Pi-hole FTL DNS engine | DNS/query/config path edge + C tests |
+| `storj/drpc` | 1630 | silent | Lightweight gRPC replacement | RPC frame/path edge + go tests |
+| `tenta-browser/tenta-dns` | 1601 | silent | Recursive/authoritative DNS server in Go | DNSSEC/DoT/path edge + go tests |
+| `grpc-ecosystem/grpc-health-probe` | 1573 | silent | gRPC health-check CLI | health probe/flag/path edge + go tests |
+| `ipfs-cluster/ipfs-cluster` | 1558 | silent | IPFS pinset orchestration | pin/peer/path edge + go tests |
+| `OpenSIPS/opensips` | 1523 | silent | OpenSIPS SIP server | SIP script/path edge + C tests |
+| `coder/wush` | 1493 | silent | WireGuard file-transfer CLI | WG transfer/path edge + go tests |
+| `abh/geodns` | 1458 | silent | GeoDNS server with per-client responses | geo/record/path edge + go tests |
+| `lance0/ttl` | 1453 | silent | Modern traceroute TUI | TTL/probe/path edge + rust tests |
+| `zeromq/zmq.rs` | 1426 | silent | Native ØMQ in Rust | socket/pattern/path edge + rust tests |
+| `jech/galene` | 1397 | silent | Galène videoconference SFU | conference/path edge + go tests |
+| `fhmq/hmq` | 1391 | silent | High-performance MQTT broker | MQTT listener/ACL path edge + go tests |
+| `wait4x/wait4x` | 1379 | silent | Wait-for-port/service CLI | probe/timeout/path edge + go tests |
+| `vicanso/pingap` | 1368 | silent | Pingora-based reverse proxy | upstream/config/path edge + rust tests |
+| `appneta/tcpreplay` | 1349 | silent | Edit/replay captured traffic | pcap/replay/speed edge + C tests |
+| `tg123/sshpiper` | 1314 | silent | SSH reverse proxy | SSH pipe/auth/path edge + go tests |
+| `kubernetes/ingress-gce` | 1305 | silent | GCE Ingress controller | Ingress/path mapping edge + go tests |
+| `ycd/dstp` | 1298 | silent | Networking diagnostics CLI | DNS/TLS/HTTP probe path edge + go tests |
+| `mozillazg/ptcpdump` | 1270 | silent | Process-aware eBPF tcpdump | capture/filter/path edge + C tests |
+| `kpcyrd/sniffglue` | 1267 | silent | Secure multithreaded packet sniffer | pcap/parse/path edge + rust tests |
+| `pmacct/pmacct` | 1240 | silent | Passive network monitoring / NetFlow | flow/export/path edge + C tests |
+| `bradleyjkemp/grpc-tools` | 1238 | silent | gRPC debugging CLI suite | proxy/dump/path edge + go tests |
+| `wind-c/comqtt` | 1178 | silent | High-perf Go MQTT server | MQTT session/path edge + go tests |
+| `apache/apisix-ingress-controller` | 1142 | silent | APISIX Ingress Controller | Ingress/route/path edge + go tests |
+| `semihalev/sdns` | 1075 | silent | High-perf recursive DNS resolver | cache/resolve/path edge + go tests |
+| `deviceinsight/kafkactl` | 1068 | silent | Kafka management CLI | topic/consumer/path edge + go tests |
+| `l7mp/stunner` | 1049 | silent | K8s WebRTC media gateway | TURN/Gateway path edge + go tests |
+| `mwitkow/grpc-proxy` | 1048 | silent | gRPC reverse proxy | route/codec/path edge + go tests |
+| `DrmagicE/gmqtt` | 1048 | silent | Flexible MQTT broker library/server | MQTT auth/path edge + go tests |
+| `jpr5/ngrep` | 1020 | silent | Network-layer grep CLI | BPF/pattern/path edge + C tests |
+| `rmqtt/rmqtt` | 1008 | silent | Distributed MQTT broker in Rust | MQTT cluster/path edge + rust tests |
+| `flipt-io/reverst` | 1003 | silent | Reverse tunnels over HTTP/3+QUIC | tunnel/QUIC/path edge + go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `vulcand/vulcand` | 3095 | silent | Legacy etcd-backed LB — weak maintenance vs skipper/krakend |
+| `liftbridge-io/liftbridge` | 2799 | silent | Liftbridge lightly maintained vs NATS/Pulsar already scored |
+| `harlanc/xiu` | 2330 | silent | Live media server — prefer OvenMediaEngine/mediamtx class |
+| `yuezk/GlobalProtect-openconnect` | 2256 | silent | GlobalProtect VPN desktop client — leave client/GUI class |
+| `armon/go-socks5` | 2123 | silent | SOCKS5 library only — prefer microsocks product CLI |
+| `pojntfx/weron` | 2111 | silent | WebRTC overlay niche vs WireGuard overlays already scored |
+| `saljam/webwormhole` | 2087 | silent | WebRTC file-transfer novelty CLI — weak ongoing farm |
+| `openp2p-cn/openp2p` | 2027 | silent | P2P sharing/NAT traverse — circumvention-leaning |
+| `jamsocket/plane` | 2025 | silent | WebSocket hosting runtime — not protocol/CLI hunk first |
+| `fonoster/routr` | 1708 | silent | Prefer kamailio/opensips/baresip for SIP protocol hunks |
+| `razvandimescu/numa` | 1438 | silent | Early DNS resolver — prefer unbound/coredns/sdns |
+| `retlehs/quien` | 1263 | silent | Whois toolkit — weak networking protocol product |
+| `STRRL/cloudflare-tunnel-ingress-controller` | 1193 | silent | Thin Cloudflare Tunnel Ingress wrapper — prefer cloudflared |
+| `514-labs/dnsglobe` | 1152 | silent | DNS propagation TUI novelty — prefer resolver/server homes |
+| `cunnie/sslip.io` | 1141 | silent | Novelty DNS mapping embedded IPs — weak product home |
+| `seashell/drago` | 1121 | silent | WireGuard mgmt plane stale vs netbird/headscale scored |
+| `ionorg/ion-sfu` | 1099 | silent | ion-sfu upstream quiet; prefer livekit/galene surfaces |
+| `serjs/socks5-server` | 1098 | silent | Minimal SOCKS5 server stub — thin product surface |
+| `facebook/dhcplb` | 1062 | silent | Facebook DHCP LB — specialized; weak outsider path |
+| `pingooio/pingoo` | 1031 | silent | Young LB/gateway — prefer skipper/river/pingap first |
+
+Notes: Prefer midband product networking homes (DNS/DoH resolvers, QUIC/gRPC/RPC, reverse proxies/LBs/ingress, VPN/tunnel/overlay CLIs, WebRTC/SFU/SIP, load-test/packet/diag CLIs, MQTT brokers, CNI/service-discovery leftovers). Disclosure: cilium/pwru, FreeRADIUS/freeradius-server, trickstercache/trickster. Leave thin SOCKS libs, VPN GUIs, novelty DNS, stale WireGuard mgmt, quiet SFUs, young gateways, circumvention-leaning P2P, whois/propagation TUIs.
+

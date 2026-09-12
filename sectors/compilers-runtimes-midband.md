@@ -241,3 +241,92 @@ Policy histogram (this pass): `{'silent': 32, 'disclosure': 1, 'hostility_risk':
 
 Notes: Prefer midband embeddable/scripting (umka/mun/numbat/mlua/inkwell/babashka/sci/shadow-cljs/lfe). Leave proof assistants, Factor/Pharo image workflows, stale Walt, and chain EVMs.
 
+## Midband product deepen (2026-09-12, +71 scored)
+
+Account: `vulragrag-star` · Curated compilers-runtimes midband (1k–5k★) product language/Wasm/JIT/interpreter/assembler/emulator/shader/HDL toolchain homes still missing after prior compilers-runtimes midband deepen · Policy via `raw.githubusercontent.com` · **54** proceed / **17** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 65, 'disclosure': 6}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `google/wuffs` | 4823 | silent | Memory-safe untrusted file-format codecs / transpiler | wuffs transpile/decode edge + Go/C tests |
+| `immunant/c2rust` | 4800 | silent | C-to-Rust transpiler / migration toolchain | transpile AST/path edge + Rust tests |
+| `86Box/86Box` | 4790 | disclosure | x86 PC machine emulator (disclosure CoC); BIOS/device/path edges | device/BIOS/path edge + C tests — disclose AI |
+| `chipsalliance/chisel` | 4779 | disclosure | Modern hardware design language on Scala (disclosure PR template) | HDL elaborat/FIRRTL edge + Scala tests — disclose AI |
+| `YosysHQ/yosys` | 4748 | silent | Open synthesis suite (Verilog→netlist) product CLI | synth pass/path edge + C++ tests |
+| `scala-js/scala-js` | 4710 | silent | Scala-to-JavaScript compiler product | Scala.js codegen/IR edge + Scala tests |
+| `kaitai-io/kaitai_struct` | 4673 | silent | Declarative binary format → parser codegen | kaitai compile/path edge + multi-lang tests |
+| `libffi/libffi` | 4365 | silent | Portable foreign-function interface library | FFI ABI/calling-conv edge + C tests |
+| `evhub/coconut` | 4355 | silent | Coconut functional Python → Python compiler | Coconut transpile/path edge + Python tests |
+| `jruby/jruby` | 3916 | silent | Ruby on the JVM; runtime/IR/path edges | Ruby JVM runtime/IR edge + Ruby tests |
+| `ptitSeb/box86` | 3802 | silent | Linux userspace x86 emulator on ARM; dynarec/path edges | dynarec/path/ELF edge + C tests |
+| `kach/nearley` | 3742 | silent | JS parser toolkit (Earley); grammar/compile edges | grammar/compile edge + JS tests |
+| `joncampbell123/dosbox-x` | 3720 | silent | DOSBox-X PC/DOS emulator product; config/device/path edges | DOS device/config/path edge + C++ tests |
+| `steveicarus/iverilog` | 3632 | silent | Icarus Verilog simulator/compiler | Verilog parse/sim edge + C++ tests |
+| `momo5502/sogen` | 3612 | silent | Windows/Linux userspace emulator; syscall/PE/path edges | syscall/PE/path edge + C++ tests |
+| `KhronosGroup/glslang` | 3581 | disclosure | Khronos GLSL/ESSL front-end + SPIR-V (disclosure AI policy) | GLSL parse/SPIR-V edge + C++ tests — disclose AI |
+| `eclipse-openj9/openj9` | 3545 | disclosure | Eclipse OpenJ9 JVM (disclosure AI policy); JIT/GC/path edges | JVM JIT/GC/path edge + C++ tests — disclose AI |
+| `lalrpop/lalrpop` | 3504 | silent | LR(1) parser generator for Rust | grammar/codegen edge + Rust tests |
+| `mortbopet/Ripes` | 3417 | silent | Graphical RISC-V processor simulator + assembly editor | Ripes asm/sim edge + C++ tests |
+| `netwide-assembler/nasm` | 3311 | silent | NASM x86 assembler product CLI | asm parse/encode/path edge + C tests |
+| `riscv-software-src/riscv-isa-sim` | 3226 | silent | Spike RISC-V ISA simulator; CSR/trap/path edges | RISC-V CSR/trap edge + C++ tests |
+| `truffleruby/truffleruby` | 3221 | silent | High-performance Ruby on GraalVM Truffle | Truffle Ruby runtime edge + Ruby tests |
+| `DynamoRIO/dynamorio` | 3160 | disclosure | Dynamic binary instrumentation platform (disclosure AI policy) | DBI client/trace edge + C tests — disclose AI |
+| `ingokegel/jclasslib` | 2997 | silent | Java bytecode viewer/editor product | classfile parse/edit edge + Kotlin tests |
+| `ghdl/ghdl` | 2889 | silent | VHDL 2008/93/87 simulator/analyzer | VHDL analyze/sim edge + Ada/C tests |
+| `teal-language/tl` | 2820 | silent | Teal typed-Lua compiler product | Teal typecheck/codegen edge + Lua tests |
+| `Chevrotain/chevrotain` | 2801 | silent | JS parser-building toolkit | lexer/parser API edge + TS tests |
+| `IronLanguages/ironpython3` | 2760 | silent | Python 3 on .NET; runtime/interop edges | IronPython runtime/interop edge + C# tests |
+| `TypeScriptToLua/TypeScriptToLua` | 2542 | silent | TypeScript→Lua transpiler product | TS→Lua emit/path edge + TS tests |
+| `KhronosGroup/SPIRV-Cross` | 2511 | silent | SPIR-V → GLSL/HLSL/MSL reflection/compiler tool | SPIR-V cross-compile edge + C++ tests |
+| `wasmCloud/wasmCloud` | 2436 | silent | CNCF Wasm application runtime / host | wasm host/capability edge + Rust tests |
+| `edubart/nelua-lang` | 2420 | silent | Minimal statically-typed systems language → C/LuaJIT | Nelua compile/path edge + Lua tests |
+| `google/gnostic` | 2300 | silent | OpenAPI → compiler/codegen toolkit | OpenAPI compile/path edge + Go tests |
+| `cosmos72/gomacro` | 2300 | silent | Interactive Go interpreter/REPL with eval | Go interpret/eval edge + Go tests |
+| `google/shaderc` | 2181 | silent | Vulkan shader compile tools (glslc) collection | shaderc CLI/path edge + C++ tests |
+| `cnlohr/mini-rv32ima` | 2174 | silent | Tiny header-only RISC-V emulator | RISC-V emu/instr edge + C tests |
+| `serge-sans-paille/pythran` | 2142 | silent | AOT compiler for numeric Python kernels | Pythran AOT/path edge + Python tests |
+| `benhoyt/goawk` | 2053 | silent | POSIX AWK interpreter in Go (+ CSV mode) | AWK parse/runtime edge + Go tests |
+| `SpinalHDL/SpinalHDL` | 2038 | silent | Scala-based HDL generator product | Spinal elaborat/Verilog edge + Scala tests |
+| `oracle/graaljs` | 2026 | silent | GraalJS ECMAScript runtime on GraalVM | JS runtime/interop edge + Java tests |
+| `blend2d/blend2d` | 1986 | silent | 2D vector graphics engine with JIT compiler | JIT pipeline/path edge + C++ tests |
+| `AdaptiveCpp/AdaptiveCpp` | 1934 | silent | SYCL/C++ parallel compiler (hipSYCL lineage) | SYCL compile/target edge + C++ tests |
+| `google/xls` | 1882 | silent | XLS accelerated hardware synthesis (DSL→RTL) | XLS IR/codegen edge + C++ tests |
+| `lifting-bits/remill` | 1825 | silent | Lift machine code → LLVM bitcode library | lifter decode/LLVM edge + C++ tests |
+| `oracle/graalpython` | 1642 | silent | GraalPy embeddable Python 3 on GraalVM | Python runtime/interop edge + Java tests |
+| `intelxed/xed` | 1615 | silent | Intel XED x86 encoder/decoder library | x86 encode/decode API edge + C tests |
+| `clash-lang/clash-compiler` | 1612 | silent | Haskell → VHDL/Verilog/SystemVerilog compiler | Clash HDL emit edge + Haskell tests |
+| `jython/jython` | 1540 | silent | Python on the JVM implementation | Jython runtime/path edge + Java tests |
+| `yasm/yasm` | 1482 | silent | Yasm modular assembler (NASM/GAS syntax) | asm parse/encode edge + C tests |
+| `bochs-emu/Bochs` | 1361 | silent | Bochs IA-32 PC emulator | PC emu/device/path edge + C++ tests |
+| `KhronosGroup/SPIRV-Tools` | 1357 | silent | SPIR-V optimizer/validator/assembler tools | SPIR-V opt/validate edge + C++ tests |
+| `B-Lang-org/bsc` | 1143 | silent | Bluespec SystemVerilog compiler | BSC compile/sim edge + Haskell tests |
+| `myhdl/myhdl` | 1128 | silent | Python HDL → Verilog/VHDL conversion | MyHDL convert/path edge + Python tests |
+| `veryl-lang/veryl` | 1034 | disclosure | Modern HDL (disclosure AI policy); compile/emit edges | Veryl parse/emit edge + Rust tests — disclose AI |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `pegjs/pegjs` | 4903 | silent | Legacy PEG.js (largely superseded / low maintainer energy for agent PRs) |
+| `vercel-labs/scriptc` | 4817 | silent | Vercel Labs TypeScript-to-native novelty compiler — not stable product home |
+| `JonathanSalwan/Triton` | 4291 | silent | DBA/symbolic RE framework — security-crypto sector spill |
+| `mint-lang/mint` | 4267 | silent | Front-end novelty language — thin product/regression surface |
+| `cea-sec/miasm` | 3960 | silent | Reverse-engineering framework — security-crypto sector spill |
+| `skulpt/skulpt` | 3399 | silent | In-browser Python teaching runtime — tutorial/demo surface |
+| `plasma-disassembler/plasma` | 3069 | silent | Interactive disassembler — security/RE spill, thin CR product lens |
+| `weld-project/weld` | 3006 | silent | Analytics runtime (Stanford Weld) — ML/data mega-compiler adjacency, quiet |
+| `d4l3k/go-pry` | 3004 | silent | Go REPL novelty — not a compiler/runtime product farm |
+| `bytenode/bytenode` | 2975 | silent | Node bytecode packer utility — packaging trick, not language product |
+| `TranscryptOrg/Transcrypt` | 2919 | silent | Python→JS teaching transpiler — weak regression/product surface |
+| `google/cpu_features` | 2618 | silent | Tiny CPU feature-detect library — not a compiler/runtime product |
+| `AbsInt/CompCert` | 2224 | silent | Formally-verified C compiler — academic/proof-hostile contribution climate |
+| `codeplea/tinyexpr` | 1924 | silent | Tiny expression evaluator — toy/lib, not toolchain product |
+| `cesanta/elk` | 1900 | silent | Ultra-low-footprint embedded JS toy engine |
+| `moonbitlang/core` | 1204 | silent | MoonBit stdlib satellite — language compiler home not midband-scored here |
+| `node-ffi-napi/node-ffi-napi` | 1095 | silent | Legacy Node FFI binding — stale vs napi-rs/cxx; weak farm |
+
+Notes: Prefer midband product compilers/runtimes (languages, Wasm/JIT VMs, interpreters, assembler/disassembler, userspace CPU emulators, shader/HDL toolchains, binding generators). Disclosure: cosmopolitan/box64/86Box/chisel/glslang/openj9/dynamorio/slang/veryl. Hard leave: capstone (forbids AI), FEX-Emu (NO-AI). Leave browser-Python toys (brython/skulpt), Vercel Labs scriptc, mint-lang novelty, RE frameworks (Triton/miasm/plasma), CompCert academic, tinyexpr/elk toys, MoonBit core satellite, node-ffi-napi, cpu_features lib.
+

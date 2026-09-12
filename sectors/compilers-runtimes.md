@@ -259,3 +259,39 @@ Policy histogram (this pass): `{'disclosure': 11, 'silent': 53, 'agentscan': 1, 
 
 Notes: Prefer Wasm toolchains/runtimes (wasmer/WasmEdge/wasm3/binaryen/wabt/wasm-tools/wasm-pack/AssemblyScript/spin), embeddable engines (quickjs/hermes/rhino/LuaJIT/luau/wren), and mid-size language homes (gleam/crystal/nim/elixir/julia/odin/v/grain/rescript/purescript/elm/cython/micropython/RustPython). Disclosure: Julia/elixir/RustPython/micropython/dart/WasmEdge/ocaml. Leave AgentScan nodejs, hard bans (zig/godot/OpenJDK/solidity), mentor-gated perl5, language megas (go/swift/llvm/gcc/php/ruby/v8/roslyn), proof assistants, agent langs (baml), emulators (v86/webvm).
 
+## Midband product deepen (spill ≥5k★ if any) (2026-09-12, +18 scored)
+
+Account: `vulragrag-star` · Curated compilers-runtimes midband (1k–5k★) product language/Wasm/JIT/interpreter/assembler/emulator/shader/HDL toolchain homes still missing after prior compilers-runtimes midband deepen · Policy via `raw.githubusercontent.com` · **15** proceed / **3** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'disclosure': 3, 'silent': 13, 'hard_ban': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `jart/cosmopolitan` | 21280 | disclosure | Build-once run-anywhere C library/toolchain (disclosure CONTRIBUTING); APE/path/syscall edges | APE/path/syscall edge + C tests — disclose AI |
+| `antlr/antlr4` | 19000 | silent | Language recognition toolkit / parser generator product | grammar/parser/codegen edge + Java tests |
+| `pyodide/pyodide` | 14827 | silent | CPython-in-Wasm browser/Node distribution; package/runtime path edges | wasm package/runtime path edge + Python tests |
+| `mono/mono` | 11463 | silent | ECMA CLI / C# / .NET open implementation; runtime/JIT/path edges | runtime/JIT/path edge + C tests |
+| `unicorn-engine/unicorn` | 9322 | silent | Multi-arch CPU emulator framework (ARM/x86/MIPS/…); hook/mem/path edges | emu hook/mem/API edge + C tests |
+| `jart/blink` | 7579 | silent | Tiny x86-64-linux userspace emulator; syscall/ELF/path edges | syscall/ELF/path edge + C tests |
+| `cisco/ChezScheme` | 7348 | silent | Chez Scheme compiler/runtime product | Scheme compile/runtime edge + Scheme tests |
+| `dtolnay/cxx` | 6826 | silent | Safe Rust↔C++ interop / binding generator product | FFI bridge/codegen edge + Rust tests |
+| `wazero/wazero` | 6368 | silent | Zero-dependency Wasm runtime for Go; module/host/path edges | wasm module/host edge + Go tests |
+| `shader-slang/slang` | 5640 | disclosure | Shader language compiler (disclosure AI policy); HLSL/SPIR-V edges | shader parse/codegen edge + C++ tests — disclose AI |
+| `ptitSeb/box64` | 5638 | disclosure | Linux userspace x86_64 emulator on ARM (disclosure AGENTS); dynarec/path edges | dynarec/path/ELF edge + C tests — disclose AI |
+| `mruby/mruby` | 5609 | silent | Lightweight embeddable Ruby; bytecode/runtime edges | Ruby bytecode/runtime edge + C tests |
+| `ohmjs/ohm` | 5547 | silent | Parser toolkit / grammar language for interpreters & compilers | grammar/parse edge + JS tests |
+| `pest-parser/pest` | 5395 | silent | Elegant PEG parser for Rust; grammar/span edges | PEG grammar/span edge + Rust tests |
+| `rust-lang/rust-bindgen` | 5280 | silent | C/C++ → Rust FFI binding generator | bindgen header/path edge + Rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `capstone-engine/capstone` | 9010 | hard_ban | CONTRIBUTING forbids AI implementation — hard leave |
+| `FEX-Emu/FEX` | 7947 | hard_ban | CONTRIBUTING/AGENTS NO-AI — hard leave |
+| `brython-dev/brython` | 6606 | silent | Browser-Python novelty runtime — weak product farm vs Pyodide/CPython |
+
+Notes: Prefer midband product compilers/runtimes (languages, Wasm/JIT VMs, interpreters, assembler/disassembler, userspace CPU emulators, shader/HDL toolchains, binding generators). Disclosure: cosmopolitan/box64/86Box/chisel/glslang/openj9/dynamorio/slang/veryl. Hard leave: capstone (forbids AI), FEX-Emu (NO-AI). Leave browser-Python toys (brython/skulpt), Vercel Labs scriptc, mint-lang novelty, RE frameworks (Triton/miasm/plasma), CompCert academic, tinyexpr/elk toys, MoonBit core satellite, node-ffi-napi, cpu_features lib.
+

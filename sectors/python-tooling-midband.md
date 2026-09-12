@@ -273,3 +273,79 @@ Policy histogram (this pass): `{'silent': 60, 'disclosure': 5, 'agentscan': 1}`.
 
 Notes: Prefer midband CLI/parser/test satellites (radon/doit/poethepoet/yq/json_repair/ddgr/ngxtop/s-tui/pg_activity). Leave client-only SDKs and mobile packagers.
 
+## Midband product deepen (2026-09-12, +58 scored)
+
+Account: `vulragrag-star` · Curated python-tooling midband (1k–5k★) packaging/config/HTTP/async/ORM/test/CLI/docs leftovers still missing after prior python product deepens · Policy via `raw.githubusercontent.com` · **44** proceed / **14** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'disclosure': 4, 'silent': 50, 'agentscan': 4}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `mongodb/mongo-python-driver` | 4358 | disclosure | Official PyMongo driver; BSON/URI/codec edges with tests — disclose AI assist | URI/BSON/codec edge + tests — disclose AI assist |
+| `dynaconf/dynaconf` | 4326 | silent | Python config management CLI/lib; env/file merge edges with tests | config merge/env path edge + tests |
+| `more-itertools/more-itertools` | 4089 | silent | stdlib-adjacent iterable utilities; recipe/edge-case unit tests | iterable recipe edge + tests |
+| `rspeer/python-ftfy` | 4064 | silent | Unicode mojibake repair library; encoding edge cases with tests | encoding/mojibake edge + tests |
+| `pallets/quart` | 3668 | silent | Async Flask-like microframework; ASGI/routing/path edges with tests | ASGI routing/path edge + tests |
+| `aws-powertools/powertools-lambda-python` | 3285 | silent | AWS Lambda Powertools; logger/tracer/parser helpers with tests | parser/logger/env edge + tests |
+| `lxml/lxml` | 3055 | silent | XML/HTML toolkit; parse/xpath/serialize edges with tests | xpath/parse/serialize edge + tests |
+| `scrapinghub/dateparser` | 2855 | silent | Human-date parser; locale/format edge cases with tests | date locale/format parse edge + tests |
+| `Textualize/trogon` | 2844 | silent | Click→TUI auto UI; option/path rendering edges with tests | Click option/path TUI edge + tests |
+| `psycopg/psycopg` | 2490 | silent | Modern PostgreSQL adapter; connection/type/copy edges with tests | conninfo/type/copy edge + tests |
+| `omry/omegaconf` | 2431 | silent | Hierarchical config system; merge/interpolate edges with tests | config merge/interpolate edge + tests |
+| `ariebovenberg/whenever` | 2402 | silent | Type-safe datetime/DST library; timezone edge cases with tests | DST/timezone parse edge + tests |
+| `piccolo-orm/piccolo` | 1939 | silent | Friendly async/sync ORM + migrations; query/schema edges with tests | query/migration schema edge + tests |
+| `Knio/dominate` | 1827 | silent | Python HTML document builder; tag/attribute escape edges with tests | HTML tag/attr escape edge + tests |
+| `ormar-orm/ormar` | 1802 | silent | Async pydantic ORM; relation/validation edges with tests | ORM relation/validation edge + tests |
+| `crdoconnor/strictyaml` | 1626 | silent | Type-safe YAML subset parser; validation edges with tests | YAML validate/parse edge + tests |
+| `hauntsaninja/pyp` | 1531 | silent | Shell-friendly Python runner; argv/pipe edge cases with tests | argv/stdin pipe edge + tests |
+| `pallets-eco/flask-wtf` | 1510 | silent | Flask-WTF forms/CSRF; form/csrf edge cases with tests | CSRF/form validation edge + tests |
+| `requests-cache/requests-cache` | 1501 | disclosure | Persistent HTTP cache for requests; key/expiry edges — disclose AI assist | cache key/expiry edge + tests — disclose AI assist |
+| `mosquito/aio-pika` | 1475 | silent | Async AMQP client; channel/queue declare edges with tests | AMQP queue/channel edge + tests |
+| `closeio/tasktiger` | 1467 | silent | Redis task queue; retry/schedule edges with tests | task retry/schedule edge + tests |
+| `ionelmc/pytest-benchmark` | 1450 | silent | pytest benchmark fixture; timing/compare edges with tests | benchmark compare/fixture edge + tests |
+| `dbcli/mssql-cli` | 1416 | silent | SQL Server CLI with completion; query/format edges with tests | SQL CLI format/completion edge + tests |
+| `executablebooks/markdown-it-py` | 1360 | silent | CommonMark-compliant Markdown parser; plugin/token edges with tests | markdown token/plugin edge + tests |
+| `redis/redis-om-python` | 1316 | silent | Redis object mapping; model/index edges with tests | OM model/index edge + tests |
+| `ParallelSSH/parallel-ssh` | 1282 | silent | Async parallel SSH client; host/cmd edge cases with tests | SSH host/cmd edge + tests |
+| `BrianPugh/cyclopts` | 1251 | silent | Type-hint CLI framework; parse/coerce edges with tests | CLI type coerce/parse edge + tests |
+| `chinapandaman/PyPDFForm` | 1249 | silent | PDF form fill library/CLI; field/path edges with tests | PDF form field/path edge + tests |
+| `devpi/devpi` | 1222 | silent | PyPI staging/test server; upload/index edges with tests | index/upload/path edge + tests |
+| `tmux-python/libtmux` | 1206 | silent | Python tmux API wrapper; session/pane edges with tests | tmux session/pane edge + tests |
+| `nbQA-dev/nbQA` | 1205 | silent | Run ruff/mypy/etc on notebooks; path/cell edges with tests | notebook path/cell lint edge + tests |
+| `itamarst/eliot` | 1188 | silent | Causal logging library; action/serialize edges with tests | log action/serialize edge + tests |
+| `art049/odmantic` | 1175 | silent | MongoDB ODM for asyncio; model/query edges with tests | ODM model/query edge + tests |
+| `seddonym/import-linter` | 1174 | silent | Architecture import linter; contract/path edges with tests | import contract/path edge + tests |
+| `taverntesting/tavern` | 1160 | silent | pytest plugin for HTTP APIs; YAML spec edges with tests | HTTP YAML spec/assert edge + tests |
+| `prkumar/uplink` | 1139 | silent | Declarative HTTP client; consumer/path edges with tests | HTTP consumer/path edge + tests |
+| `brentyi/tyro` | 1108 | silent | CLI from type hints/config objects; parse edges with tests | CLI type/config parse edge + tests |
+| `linkchecker/linkchecker` | 1076 | silent | Link checker CLI; URL/crawl edges with tests | URL crawl/check edge + tests |
+| `cheshirekow/cmake_format` | 1072 | silent | CMake listfile formatter; parse/format edges with tests | cmake parse/format edge + tests |
+| `python-attrs/cattrs` | 1051 | disclosure | attrs/dataclass converters; structure/unstructure edges — disclose AI assist | structure/unstructure edge + tests — disclose AI assist |
+| `requests/toolbelt` | 1039 | silent | requests utilities (multipart/auth); helper edge cases with tests | multipart/auth helper edge + tests |
+| `tarpas/pytest-testmon` | 1014 | silent | Select tests affected by changes; depgraph edges with tests | test selection/depgraph edge + tests |
+| `desgeeko/pdfsyntax` | 1010 | silent | PDF inspect/modify library; object/stream edges with tests | PDF object/stream edge + tests |
+| `samuelcolvin/dirty-equals` | 1004 | silent | Flexible equality helpers for tests; matcher edges with tests | test matcher/equals edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `pydata/xarray` | 4193 | disclosure | Scientific N-D arrays mega-adjacent — leave data-science spill |
+| `python-excel/xlrd` | 2206 | silent | Legacy Excel reader; maintainers steer to openpyxl — leave |
+| `faust-streaming/faust` | 1887 | silent | Kafka stream processing fork — leave networking/streaming spill |
+| `pyca/bcrypt` | 1503 | silent | Crypto primitive — leave for security-crypto sector |
+| `FreeOpcUa/opcua-asyncio` | 1478 | silent | Industrial OPC UA stack — niche IoT leave |
+| `secretlint/secretlint` | 1448 | silent | TypeScript secrets linter — wrong sector (security/editors spill) |
+| `aio-libs/aiocache` | 1437 | agentscan | AgentScan adopter/org blacklist — leave aio-libs circle |
+| `aio-libs/aiopg` | 1431 | agentscan | AgentScan adopter/org blacklist — leave aio-libs circle |
+| `aio-libs/aiobotocore` | 1425 | agentscan | AgentScan adopter/org blacklist — leave aio-libs circle |
+| `aio-libs/aiokafka` | 1403 | agentscan | AgentScan adopter/org blacklist — leave aio-libs circle |
+| `domainaware/parsedmarc` | 1294 | silent | DMARC email security parser — leave security spill |
+| `uiri/toml` | 1135 | silent | Legacy TOML lib; prefer tomli/tomllib — leave stale |
+| `jaraco/inflect` | 1084 | silent | English inflection helpers — thin library leave |
+| `spyoungtech/ahk` | 1032 | silent | AutoHotkey GUI automation wrapper — weak product-code farm |
+
+Notes: Prefer midband python product homes (config/packaging leftovers, ASGI/HTTP clients, ORM/queue adapters, pytest plugins, type-hint CLIs, Markdown/PDF/XML parsers, Redis/Mongo OMs). Disclosure: mongo-python-driver/requests-cache/cattrs. Leave AgentScan aio-libs circle (aiocache/aiopg/aiobotocore/aiokafka), science spill (xarray), streaming/IoT/security spills (faust/opcua/parsedmarc/secretlint), crypto primitive (bcrypt), legacy toml/xlrd, thin inflect, AHK GUI wrapper.
+

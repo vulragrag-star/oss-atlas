@@ -278,3 +278,89 @@ Policy histogram (this pass): `{'silent': 65, 'disclosure': 1, 'agentscan': 2, '
 
 Notes: Prefer midband LSP/formatters/editors (texlab/solargraph/pylyzer/nixd/superhtml/rumdl/efm-langserver/ox/kibi/flow/Ferrite), product Neovim plugins (fzf-lua/LuaSnip/nvim-surround/neotest/neoformat/vista), VS Code language extensions (vscode-python/vscode-go/Dart-Code/ruff-vscode/vscode-java/intelephense), bundler/CLI (rsbuild/mermaid-cli/gofumpt/dotenv-linter). Disclosure: nvim-orgmode/orgmode. Leave AgentScan (biomejs/gritql, unjs/unplugin), hard_ban (rolldown/tsdown, loeffel-io/ls-lint), syntax packs, UI skins (goyo/limelight/bufferline), libraries (tower-lsp/syntect/tsdoc).
 
+## Midband product deepen-2 (2026-09-12, +68 scored)
+
+Account: `vulragrag-star` · Curated editors-devex midband (1k–5k★) LSP/formatter/editor/Neovim/VS Code/markdown leftovers after prior editors product deepens · Policy via `raw.githubusercontent.com` · **51** proceed / **17** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 66, 'agentscan': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `lukas-reineke/indent-blankline.nvim` | 4993 | silent | Neovim indent-guides product; scope/filetype/path edges with Lua tests | indent scope/filetype/path edge + Lua tests |
+| `vuejs/vue-loader` | 4959 | silent | Official Vue webpack loader; SFC parse/path/loader edges | Vue SFC/loader path edge + tests |
+| `fastmail/Squire` | 4909 | silent | HTML rich-text editor core; command/format edges | rich-text command/format edge + tests |
+| `json-editor/json-editor` | 4904 | silent | JSON Schema form editor; schema/path/validate edges | JSON schema/path/validate edge + tests |
+| `Tencent/cherry-markdown` | 4866 | silent | Markdown editor product; parse/render/path edges | markdown parse/render/path edge + tests |
+| `suren-atoyan/monaco-react` | 4742 | silent | Monaco React wrapper; editor option/path edges | Monaco option/path edge + React tests |
+| `martanne/vis` | 4713 | silent | Structural vi-like editor; command/path/regex edges | vis command/path/regex edge + tests |
+| `oliverschwendener/ueli` | 4594 | silent | Cross-platform keystroke launcher; plugin/path/config edges | launcher plugin/path/config edge + TS tests |
+| `amir9480/vscode-laravel-extra-intellisense` | 4213 | silent | Laravel VS Code intellisense; route/view/path edges | Laravel route/view/path edge + extension tests |
+| `folke/todo-comments.nvim` | 4202 | silent | Neovim TODO highlight/search product; pattern/path edges | todo pattern/path edge + Lua tests |
+| `m4xshen/hardtime.nvim` | 3842 | silent | Neovim motion-habit trainer with clear config surface | hardtime config/disabled-key edge + Lua tests |
+| `ms-jpq/coq_nvim` | 3815 | silent | Neovim completion engine; source/path edges | completion source/path edge + Lua tests |
+| `mdx-editor/editor` | 3673 | silent | MDX rich-text React editor; MDAST/Lexical parse edges — AGENTS guidance present | MDX/Lexical parse edge + Vitest |
+| `OXY2DEV/markview.nvim` | 3635 | silent | Neovim markdown/Typst preview product; parse/path edges | markdown/Typst preview path edge + Lua tests |
+| `privatenumber/esbuild-loader` | 3602 | silent | esbuild webpack loader; loader option/path edges | esbuild loader option/path edge + tests |
+| `rcarriga/nvim-notify` | 3572 | silent | Neovim notification manager; config/render edges | notify config/render edge + Lua tests |
+| `justinmk/vim-sneak` | 3533 | silent | Vim motion plugin; label/motion edges | sneak motion/label edge + Vim tests |
+| `nvim-lua/plenary.nvim` | 3495 | silent | Neovim Lua stdlib used by plugins; path/async edges | plenary path/async edge + Lua tests |
+| `lukakerr/Pine` | 3487 | silent | Native macOS markdown editor; open/path/render edges | markdown open/path/render edge + Swift tests |
+| `pwntester/octo.nvim` | 3380 | silent | Neovim GitHub issues/PR UI; API/path edges | GitHub issue/PR path edge + Lua tests |
+| `rcarriga/nvim-dap-ui` | 3372 | silent | nvim-dap UI product; layout/config edges | dap-ui layout/config edge + Lua tests |
+| `nvim-treesitter/nvim-treesitter-context` | 3226 | silent | Treesitter sticky context; parser/path edges | treesitter context/path edge + tests |
+| `Ionaru/easy-markdown-editor` | 3073 | silent | Embeddable markdown editor (EasyMDE); toolbar/parse edges | markdown toolbar/parse edge + JS tests |
+| `kevinhwang91/nvim-ufo` | 2948 | silent | Neovim fold UI product; provider/path edges | fold provider/path edge + Lua tests |
+| `uiwjs/react-md-editor` | 2926 | silent | React markdown editor with preview; parse/path edges | markdown parse/preview edge + React tests |
+| `cweijan/vscode-database-client` | 2917 | silent | VS Code database client; connection/path/query edges | DB connection/path/query edge + extension tests |
+| `jest-community/vscode-jest` | 2889 | silent | Official-adjacent Jest VS Code extension; config/path edges | Jest config/path edge + extension tests |
+| `mfussenegger/nvim-lint` | 2782 | silent | Async Neovim lint runner; linter/path edges | linter config/path edge + Lua tests |
+| `bash-lsp/bash-language-server` | 2777 | silent | Bash language server; parse/shellcheck/path edges | Bash LSP parse/path edge + TS tests |
+| `tpope/vim-dispatch` | 2738 | silent | Vim async build/test dispatcher; compiler/path edges | dispatch compiler/path edge + Vim tests |
+| `mhinz/vim-signify` | 2728 | silent | Vim VCS sign column; path/diff edges | signify path/diff edge + Vim tests |
+| `romgrk/barbar.nvim` | 2727 | silent | Neovim tabline product; buffer/path edges | tabline buffer/path edge + Lua tests |
+| `dvorka/mindforger` | 2718 | silent | Markdown thinking notebook/editor; note/path edges | notebook path/parse edge + C++ tests |
+| `alefragnani/vscode-project-manager` | 2668 | silent | VS Code project manager; project path/config — AGENTS workflow present | project path/config edge + extension tests |
+| `neomake/neomake` | 2665 | silent | Vim/Neovim async lint/make framework; maker/path edges | neomake maker/path edge + Vim tests |
+| `ray-x/go.nvim` | 2659 | silent | Neovim Go tooling suite; gopls/path edges | Go gopls/path edge + Lua tests |
+| `standard/eslint-config-standard` | 2645 | silent | JavaScript Standard Style ESLint config; rule/shareable edges | eslint config rule edge + tests |
+| `j-hui/fidget.nvim` | 2594 | silent | Neovim LSP progress UI; notification/path edges | LSP progress UI edge + Lua tests |
+| `imzbf/md-editor-v3` | 2587 | silent | Vue3 markdown editor; parse/toolbar/path edges | markdown parse/toolbar edge + TS tests |
+| `estruyf/vscode-front-matter` | 2544 | silent | VS Code CMS/front-matter tooling; content/path edges | front-matter path/config edge + extension tests |
+| `mhutchie/vscode-git-graph` | 2510 | silent | VS Code git graph UI; repo/path edges | git graph repo/path edge + extension tests |
+| `formulahendry/vscode-code-runner` | 2437 | silent | VS Code code runner; executor/path/cwd edges | runner executor/path/cwd edge + extension tests |
+| `btd/rollup-plugin-visualizer` | 2419 | silent | Rollup/Vite bundle visualizer; stats/path edges | bundle stats/path edge + tests |
+| `ray-x/lsp_signature.nvim` | 2367 | silent | Neovim LSP signature hints; handler/path edges | LSP signature handler edge + Lua tests |
+| `stevearc/aerial.nvim` | 2338 | silent | Neovim code outline window; symbol/path edges | outline symbol/path edge + Lua tests |
+| `tim-koehler/Helm-Intellisense` | 2311 | silent | Helm VS Code intellisense; chart/path/value edges | Helm chart/path/values edge + extension tests |
+| `prettier/pretty-quick` | 2288 | silent | Prettier git-staged runner; path/staged edges | pretty-quick staged/path edge + tests |
+| `alefragnani/vscode-bookmarks` | 2168 | silent | VS Code bookmarks extension; line/path — AGENTS workflow present | bookmark line/path edge + extension tests |
+| `markpluslabs/react-markplus` | 2115 | silent | React markdown editor/previewer; parse/path edges | markdown parse/preview edge + tests |
+| `shd101wyy/vscode-markdown-preview-enhanced` | 2074 | silent | Markdown Preview Enhanced VS Code; preview/path — AGENTS guidance | markdown preview/path edge + extension tests |
+| `francoismassart/eslint-plugin-tailwindcss` | 2073 | silent | Tailwind ESLint plugin; class/AST/path edges | Tailwind class/AST edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `babel/babel-loader` | 4835 | agentscan | AgentScan adopter org (babel) — leave circle |
+| `CSSLint/csslint` | 4812 | silent | Stale CSS linter (quiet years) — prefer active Stylelint/Biome homes |
+| `tonybaloney/vscode-pets` | 4172 | silent | Novelty pets UI — not DevEx product hunk class |
+| `zbirenbaum/copilot.lua` | 4100 | silent | Copilot client plugin — AI completion product, not playbook farm |
+| `EdenEast/nightfox.nvim` | 4073 | silent | Colorscheme — theme not parser/LSP/formatter farm |
+| `jackMort/ChatGPT.nvim` | 3997 | silent | ChatGPT chat UI plugin — not contribution farm |
+| `SilasMarvin/lsp-ai` | 3207 | silent | LLM language-server product — agentic AI LS, leave |
+| `qax-os/goreporter` | 3120 | silent | Stale Go static-analysis suite — prefer active golangci/staticcheck homes |
+| `rose-pine/neovim` | 3091 | silent | Colorscheme — theme not product farm |
+| `material-extensions/vscode-material-icon-theme` | 2973 | silent | Icon theme — weak playbook hunk class |
+| `nvimdev/dashboard-nvim` | 2873 | silent | Start-screen greeter — prefer editor/LSP/formatter homes |
+| `nvim-tree/nvim-web-devicons` | 2717 | silent | Icon glyphs library — not editor product core |
+| `palantir/python-language-server` | 2700 | silent | Superseded/archived Python LS — prefer python-lsp-server/basedpyright |
+| `ellisonleao/gruvbox.nvim` | 2604 | silent | Colorscheme — theme not product farm |
+| `goolord/alpha-nvim` | 2410 | silent | Greeter/start screen — weak playbook hunk class |
+| `ggml-org/llama.vim` | 2170 | silent | LLM completion vim plugin — not playbook farm |
+| `unjs/webpackbar` | 2090 | agentscan | AgentScan adopter org (unjs) — leave circle |
+
+Notes: Prefer midband DevEx product homes (Bash/Python LS leftovers, Neovim lint/DAP/fold/outline/completion plugins, Vim dispatch/signify/sneak, VS Code Jest/project/git-graph/markdown/Laravel/Helm extensions, markdown/MDX/Monaco editors, webpack/esbuild/rollup/eslint adjacency). Leave AgentScan (babel-loader, unjs/webpackbar), themes/icons/greeters (nightfox/gruvbox/rose-pine/material-icons/web-devicons/dashboard/alpha), AI chat toys (ChatGPT.nvim/copilot.lua/llama.vim/lsp-ai/vscode-pets), superseded palantir python-LS, stale csslint/goreporter.
+

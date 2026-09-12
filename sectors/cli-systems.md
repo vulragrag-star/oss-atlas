@@ -308,3 +308,57 @@ Policy histogram (this sector subset): `{'silent': 28, 'disclosure': 1}`.
 
 Notes: Prefer multiplexers (tmux) + TUI file managers (nnn/lf/superfile) + shell CLIs (gum/k9s/bash-completion). Leave full terminal emulators (kitty/wezterm/rio/warp/hyper/waveterm/WindTerm/guake/xterm.js), oh-my-tmux configs, prompt themes, and full shell megaprojects (zsh).
 
+## Midband product deepen (spill ≥5k★ if any) (2026-09-12, +36 scored)
+
+Account: `vulragrag-star` · Curated cli-systems midband (1k–5k★) product CLI/TUI/sysadmin homes still missing after prior cli-systems midband deepen · Policy via `raw.githubusercontent.com` · **26** proceed / **10** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'disclosure': 3, 'silent': 33}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `jgm/pandoc` | 46243 | silent | Universal markup converter CLI; format/path/filter edges | format/path/filter edge + Haskell tests |
+| `aria2/aria2` | 42057 | silent | Multi-protocol download utility; URI/path/option edges | URI/path/option edge + C++ tests |
+| `nicolargo/glances` | 33556 | silent | Cross-platform system monitor CLI/TUI; metric/plugin/path edges | metric/plugin/path edge + Python tests |
+| `AlDanial/cloc` | 23519 | silent | Count blank/comment/code lines CLI; path/lang edges | path/lang count edge + Perl tests |
+| `magic-wormhole/magic-wormhole` | 22924 | silent | Secure file transfer CLI; code/path/transit edges | transfer path/code edge + Python tests |
+| `antonmedv/fx` | 20623 | silent | Terminal JSON viewer/processor; path/expr edges | JSON path/expr edge + Go tests |
+| `ranger/ranger` | 17403 | silent | VIM-inspired console file manager; path/preview/config edges | path/preview/config edge + Python tests |
+| `rupa/z` | 17043 | silent | Directory jumper (frecency); path/db edges | jump path/db edge + shell tests |
+| `wting/autojump` | 16960 | silent | Learned cd jumper CLI; path/db edges | jump path/db edge + Python tests |
+| `XAMPPRocky/tokei` | 14904 | silent | Fast code line counter CLI; path/language edges | path/language count edge + Rust tests |
+| `tomnomnom/gron` | 14516 | silent | Make JSON greppable; path/flatten edges | JSON flatten/path edge + Go tests |
+| `tmuxinator/tmuxinator` | 13722 | silent | Manage complex tmux sessions; YAML/path/layout edges | tmux YAML/path edge + Ruby tests |
+| `orhun/git-cliff` | 12226 | silent | Changelog generator from conventional commits; config/path/tag edges | changelog config/tag edge + Rust tests |
+| `claudiodangelis/qrcp` | 10512 | silent | WiFi QR file transfer CLI; path/network edges | path/network transfer edge + Go tests |
+| `phiresky/ripgrep-all` | 9841 | silent | ripgrep over PDFs/ebooks/archives; path/adapter edges | adapter/path search edge + Rust tests |
+| `boyter/scc` | 8735 | silent | Fast accurate code counter CLI; path/complexity edges | path/count edge + Go tests |
+| `htop-dev/htop` | 8322 | disclosure | Interactive process viewer (disclosure AGENTS); process/column/config edges | process/column/config edge + C tests — disclose AI |
+| `ducaale/xh` | 8068 | silent | Friendly HTTP request CLI (httpie-class); URL/header/body edges | HTTP URL/header edge + Rust tests |
+| `TomWright/dasel` | 8029 | silent | Unified select/modify for JSON/YAML/TOML/XML; selector/path edges | selector/path edge + Go tests |
+| `chmln/sd` | 7350 | silent | Intuitive find & replace CLI (sed alternative); pattern/path edges | pattern/path replace edge + Rust tests |
+| `simeji/jid` | 7139 | silent | JSON incremental digger TUI; path/query edges | JSON digger/path edge + Go tests |
+| `skim-rs/skim` | 6949 | silent | Fuzzy finder in Rust (fzf-class); path/query/preview edges | fuzzy query/path edge + Rust tests |
+| `sdkman/sdkman-cli` | 6844 | silent | SDK version manager CLI; candidate/path/install edges | candidate/path install edge + shell/bash tests |
+| `Nukesor/pueue` | 6327 | silent | Shell command queue manager; task/path/group edges | task/path/group edge + Rust tests |
+| `eradman/entr` | 5677 | silent | Run commands on file change; path/argv edges | watch path/argv edge + C tests |
+| `knqyf263/pet` | 5346 | silent | CLI snippet manager; path/tag/sync edges | snippet path/tag edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `zsh-users/zsh-autosuggestions` | 36053 | silent | Zsh plugin skin — not a product CLI argv/path farm |
+| `fastfetch-cli/fastfetch` | 24594 | disclosure | Neofetch-class system vanity fetch — weak bug farm for path/quoting |
+| `zsh-users/zsh-syntax-highlighting` | 22974 | silent | Zsh highlighting plugin — prefer product CLIs |
+| `tj/git-extras` | 18103 | silent | Bag-of-git-aliases — uneven test surface; prefer focused git TUIs |
+| `so-fancy/diff-so-fancy` | 18087 | silent | Diff pager filter — thin satellite of git/diff tooling |
+| `o2sh/onefetch` | 12047 | disclosure | Git repo vanity fetch — neofetch-class leave |
+| `s3fs-fuse/s3fs-fuse` | 9989 | silent | FUSE filesystem not a CLI argv product home |
+| `zsh-users/zsh-completions` | 7879 | silent | Additional zsh completion definitions dump — satellite |
+| `marlonrichert/zsh-autocomplete` | 6731 | silent | Zsh typeahead plugin — not product CLI home |
+| `ankitpokhrel/jira-cli` | 5962 | silent | Atlassian SaaS Jira CLI — weak local path/quoting farm |
+
+Notes: Prefer midband product CLIs/TUIs/sysadmin homes (htop/glances/ranger/skim/xh/aria2/fx/dasel/sd/gron/pandoc/git-cliff/gitu/jjui/pueue/entr/termscp/ATAC/systemctl-tui/bluetui/impala/kdash/dockly/landrun/gomplate/gobackup/sdkman/hishtory). Disclosure: htop/termscp/onefetch/fastfetch. Leave zsh plugin skins, neofetch-class vanity fetches, novelty CLIs (pingu/gitlogue/gitmoji), FUSE s3fs, vendor cloud megas, cargo-edit/bacon/wrkflw sector spills.
+

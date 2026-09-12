@@ -257,3 +257,73 @@ Midband (1k–5k★) subset · **3** proceed / **3** leave.
 | `zsh-users/zsh` | 4298 | silent | Full shell language megaproject — prefer smaller CLI/completion homes |
 | `tmux-plugins/tmux-sensible` | 2222 | silent | Tiny opinionated tmux defaults — too thin for durable bug-class farm |
 
+## Midband product deepen (2026-09-12, +52 scored)
+
+Account: `vulragrag-star` · Curated cli-systems midband (1k–5k★) product CLI/TUI/sysadmin homes still missing after prior cli-systems midband deepen · Policy via `raw.githubusercontent.com` · **35** proceed / **17** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 51, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `jpmens/jo` | 4863 | silent | JSON output from shell argv; argv/nesting edges | JSON argv/nesting edge + C tests |
+| `tlkh/asitop` | 4631 | silent | Apple Silicon perf monitor CLI; powermetrics/parse edges | powermetrics/parse edge + Python tests |
+| `wookayin/gpustat` | 4394 | silent | nvidia-smi-like GPU monitor CLI; device/query edges | GPU query/device edge + Python tests |
+| `lirantal/dockly` | 4031 | silent | Docker container management TUI; container/path edges | docker container/path edge + JS tests |
+| `Textualize/toolong` | 3945 | silent | TUI log viewer/tail/merge/search; path/format edges | log path/format edge + Python tests |
+| `bgreenwell/doxx` | 3750 | silent | Terminal .docx content viewer; path/OOXML edges | docx path/OOXML edge + Rust tests |
+| `Julien-cpsn/ATAC` | 3721 | silent | Postman-like API client TUI; request/collection/path edges | HTTP collection/path edge + Rust tests |
+| `libarchive/libarchive` | 3615 | silent | Multi-format archive library + bsdtar/cpio CLIs; format/path edges | archive format/path edge + C tests |
+| `pamburus/hl` | 3282 | silent | Fast log viewer/processor CLI; path/format/query edges | log format/query edge + Rust tests |
+| `hairyhenderson/gomplate` | 3203 | silent | Template rendering CLI; datasource/path edges | template datasource/path edge + Go tests |
+| `tio/tio` | 3162 | silent | Serial device I/O CLI; device/baud/path edges | serial device/config edge + C tests |
+| `skywind3000/z.lua` | 3148 | silent | cd jumper in Lua; path/frecency edges | jump path/frecency edge + Lua/shell tests |
+| `ddworken/hishtory` | 3118 | silent | Synced queryable shell history; query/sync/path edges | history query/sync edge + Go tests |
+| `xxxserxxx/gotop` | 3090 | silent | Terminal graphical activity monitor; metric/layout edges | metric/layout edge + Go tests |
+| `microsoft/ProcDump-for-Linux` | 3081 | silent | Linux ProcDump dump-on-trigger CLI; process/signal/path edges | process/trigger/path edge + C++ tests |
+| `veeso/termscp` | 3077 | disclosure | TUI file transfer/explorer (disclosure AI_POLICY); path/protocol edges | path/protocol/TUI edge + Rust tests — disclose AI |
+| `pythops/bluetui` | 3000 | silent | Bluetooth manager TUI for Linux; device/adapter edges | bluetooth device edge + Rust tests |
+| `gobackup/gobackup` | 2951 | silent | Backup DBs/files to cloud CLI; config/path edges | backup config/path edge + Go tests |
+| `altsem/gitu` | 2909 | silent | Magit-inspired Git TUI; ref/path/keybind edges | git ref/path edge + Rust tests |
+| `pythops/impala` | 2847 | silent | WiFi manager TUI for Linux; iface/network edges | wifi iface/network edge + Rust tests |
+| `control-theory/gonzo` | 2765 | silent | TUI log analysis tool; path/query edges | log path/query edge + Go tests |
+| `pvolok/dekit` | 2716 | silent | Run multiple commands in parallel; argv/path edges | parallel argv/path edge + Rust tests |
+| `megastep/makeself` | 2623 | silent | Self-extracting archive shell tool; path/script/archive edges | archive/path/script edge + shell tests |
+| `pythops/oryx` | 2578 | silent | eBPF network sniff TUI; iface/filter edges | eBPF iface/filter edge + Rust tests |
+| `kdash-rs/kdash` | 2533 | silent | Kubernetes dashboard TUI; resource/namespace edges | k8s resource/ns edge + Rust tests |
+| `tbillington/kondo` | 2389 | silent | Clean project dependencies/artifacts CLI; path/project-type edges | project path/clean edge + Rust tests |
+| `Zouuup/landrun` | 2285 | silent | Landlock sandbox runner CLI; path/perm edges | sandbox path/perm edge + Go tests |
+| `rapidloop/rtop` | 2188 | silent | Remote SSH system monitor; host/SSH/metric edges | SSH host/metric edge + Go tests |
+| `idursun/jjui` | 2152 | silent | Jujutsu (jj) TUI; revset/path edges | jj revset/path edge + Go tests |
+| `greymd/tmux-xpanes` | 2107 | silent | tmux-based terminal divider; pane/argv edges | tmux pane/argv edge + shell tests |
+| `lusingander/serie` | 2094 | silent | Git commit graph TUI; ref/graph edges | git graph/ref edge + Rust tests |
+| `rgwood/systemctl-tui` | 2053 | silent | Fast systemctl TUI; unit/action edges | systemctl unit/action edge + Rust tests |
+| `matheus-git/systemd-manager-tui` | 1580 | silent | systemd services manager TUI; unit/path edges | systemd unit/path edge + Rust tests |
+| `zaghaghi/openapi-tui` | 1323 | silent | OpenAPI browse/run TUI; spec/path edges | OpenAPI spec/path edge + Rust tests |
+| `ymtdzzz/otel-tui` | 1083 | silent | OpenTelemetry terminal viewer; endpoint/trace edges | otel endpoint/trace edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `unhappychoice/gitlogue` | 4969 | silent | Cinematic git replay entertainment — not sysadmin product |
+| `carloscuesta/gitmoji-cli` | 4830 | silent | Emoji commit UX CLI — weak product farm |
+| `danburzo/percollate` | 4675 | silent | Web-page-to-PDF tool — weak cli-systems path/quoting farm |
+| `multiprocessio/dsq` | 3865 | silent | Stale since 2023 — abandoned JSON/CSV SQL CLI |
+| `TheZoraiz/ascii-image-converter` | 3521 | silent | ASCII art novelty converter — weak sysadmin product |
+| `paulirish/git-open` | 3458 | silent | Tiny git open helper — one-liner satellite |
+| `killercup/cargo-edit` | 3451 | silent | Cargo subcommand satellite — prefer rustup/cargo product homes in devops |
+| `Canop/bacon` | 3409 | silent | Rust cargo background checker TUI — compilers/devops adjacency |
+| `hasura/graphqurl` | 3377 | silent | GraphQL curl — networking-distributed adjacency |
+| `bahdotsh/wrkflw` | 3317 | silent | Local GitHub Actions runner — devops-build sector |
+| `babarot/enhancd` | 2718 | silent | Interactive cd shell plugin — weak outsider hunk surface |
+| `p-gen/smenu` | 2493 | silent | Terminal menu widget — library-ish selection UI |
+| `Dr-Noob/cpufetch` | 2146 | silent | CPU architecture vanity fetch — neofetch-class |
+| `sheepla/pingu` | 2078 | silent | Novelty ping with pingu — toy CLI |
+| `ipinfo/cli` | 2066 | silent | Thin commercial IP API client CLI |
+| `hetznercloud/cli` | 1801 | silent | Vendor cloud CLI mega — prefer devops-build / thin product CLIs |
+| `zdharma-continuum/fast-syntax-highlighting` | 1747 | silent | Zsh syntax plugin fork — leave plugin skins |
+
+Notes: Prefer midband product CLIs/TUIs/sysadmin homes (htop/glances/ranger/skim/xh/aria2/fx/dasel/sd/gron/pandoc/git-cliff/gitu/jjui/pueue/entr/termscp/ATAC/systemctl-tui/bluetui/impala/kdash/dockly/landrun/gomplate/gobackup/sdkman/hishtory). Disclosure: htop/termscp/onefetch/fastfetch. Leave zsh plugin skins, neofetch-class vanity fetches, novelty CLIs (pingu/gitlogue/gitmoji), FUSE s3fs, vendor cloud megas, cargo-edit/bacon/wrkflw sector spills.
+

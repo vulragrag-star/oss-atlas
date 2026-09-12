@@ -293,3 +293,31 @@ Policy histogram (this pass): `{'silent': 50, 'disclosure': 3}`.
 
 Notes: Prefer container/runtime CLIs (colima/lima/distrobox/cri-o/slim/talos/incus/k3d), k8s installer/autoscaler/CLI plugins (kubespray/kompose/eksctl/karpenter/helmfile/kubefwd), IaC PR automation (atlantis/digger/driftctl), Nix env/deploy (devenv/nh/colmena/deploy-rs), serverless CLIs (openfaas/fn/nuclio/sam-cli). Disclosure: gateway-api/kueue/sam-cli/digger/nh/apptainer. Leave GUIs (awx/devtron), provider plugins, PaaS megas, hard_ban s6-overlay.
 
+## Midband product deepen (spill ≥5k★ if any) (2026-09-12, +10 scored)
+
+Account: `vulragrag-star` · Curated devops-build midband (1k–5k★) product container/k8s/IaC/Nix/CI/ops CLI homes still missing after prior devops-build midband + product deepens · Policy via `raw.githubusercontent.com` · **6** proceed / **4** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 9, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `nix-community/home-manager` | 10340 | silent | Declarative user environment via Nix | home.nix option/path edge + Nix tests |
+| `kubernetes-sigs/krew` | 7037 | silent | kubectl plugin manager CLI | krew install/index path edge + Go tests |
+| `coreos/ignition` | 973 | silent | First-boot machine configuration (Ignition) | ignition config path/unit edge + Go tests |
+| `containers/image` | 967 | silent | containers/image transport library (skopeo/podman shared) | image ref/transport parse edge + Go tests |
+| `rootless-containers/slirp4netns` | 930 | silent | User-mode networking for rootless containers | slirp CIDR/MTU/netns path edge + C tests |
+| `shipwright-io/build` | 821 | silent | K8s-native container build framework (Shipwright) | Build/BuildRun strategy path edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `semaphoreui/semaphore` | 14134 | silent | Ansible/Terraform UI control plane — AWX-class GUI leave |
+| `podman-desktop/podman-desktop` | 7999 | silent | Podman Desktop GUI — leave GUIs; prefer podman/buildah CLIs |
+| `getarcaneapp/arcane` | 7345 | hard_ban | AI_POLICY.md NO-AI — hard leave Docker management GUI |
+| `terraform-aws-modules/terraform-aws-eks` | 5005 | silent | Terraform EKS module mega — provider/module leave |
+
+Notes: Prefer midband product devops/build CLIs (container/OCI leftovers, k8s CLI/plugins/operators, IaC/policy CLIs, Nix/deploy/release CLIs, CI runner/ops CLIs, observability-adjacent ops products). Disclosure: grafana/alloy, crate-ci/cargo-release, sustainable-computing-io/kepler. Hard leave: getarcaneapp/arcane (NO-AI). Leave GUIs (podman-desktop/semaphore/zadig/monokle), awesome-lists/examples/official images, agent/MCP kits, DB/networking spills, Terraform modules, GH Actions satellites.
+

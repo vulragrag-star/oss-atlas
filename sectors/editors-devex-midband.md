@@ -364,3 +364,117 @@ Policy histogram (this pass): `{'silent': 66, 'agentscan': 2}`.
 
 Notes: Prefer midband DevEx product homes (Bash/Python LS leftovers, Neovim lint/DAP/fold/outline/completion plugins, Vim dispatch/signify/sneak, VS Code Jest/project/git-graph/markdown/Laravel/Helm extensions, markdown/MDX/Monaco editors, webpack/esbuild/rollup/eslint adjacency). Leave AgentScan (babel-loader, unjs/webpackbar), themes/icons/greeters (nightfox/gruvbox/rose-pine/material-icons/web-devicons/dashboard/alpha), AI chat toys (ChatGPT.nvim/copilot.lua/llama.vim/lsp-ai/vscode-pets), superseded palantir python-LS, stale csslint/goreporter.
 
+## Midband product deepen-3 (2026-09-13, +96 scored)
+
+Account: `vulragrag-star` · Curated editors-devex midband TS/JS (1k–5k★) DevEx/CLI/LSP/formatter/bundler/editor product homes after universe TS/JS 1k–2k fill · Policy via `raw.githubusercontent.com` · **76** proceed / **20** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 91, 'hard_ban': 1, 'agentscan': 4}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `cssnano/cssnano` | 4976 | silent | PostCSS CSS minifier product; plugin/option/path edges | cssnano plugin/option edge + tests |
+| `react-syntax-highlighter/react-syntax-highlighter` | 4676 | silent | React syntax-highlighter product; language/style/path edges | highlighter language/style edge + tests |
+| `reactjs/react-codemod` | 4408 | silent | Official React codemod scripts; transform/path edges | codemod transform/path edge + tests |
+| `unplugin/unplugin-vue-components` | 4293 | silent | Vue on-demand component auto-import unplugin; resolver/path edges | unplugin resolver/path edge + tests |
+| `react-monaco-editor/react-monaco-editor` | 4207 | silent | Monaco React wrapper; editor option/path edges | Monaco option/path edge + React tests |
+| `danvk/source-map-explorer` | 3932 | silent | Source-map bundle analyzer CLI; map/path edges | source-map path/analyze edge + tests |
+| `webpack/sass-loader` | 3891 | silent | Official webpack Sass loader; include/path edges | sass-loader include/path edge + tests |
+| `reactjs/react-docgen` | 3820 | silent | React component docgen CLI/lib; parse/path edges | docgen parse/path edge + tests |
+| `unplugin/unplugin-auto-import` | 3796 | silent | Auto-import unplugin for Vite/Webpack/Rollup; resolver/path edges | auto-import resolver/path edge + tests |
+| `rollup/plugins` | 3756 | silent | Official Rollup plugins monorepo; plugin option/path edges | rollup plugin option/path edge + tests |
+| `mozilla/source-map` | 3724 | silent | Mozilla source-map consume/generate library; VLQ/path edges | source-map VLQ/path edge + tests |
+| `antfu/vscode-file-nesting-config` | 3666 | silent | VS Code file-nesting config product; pattern/path edges | file-nesting pattern edge + tests |
+| `surmon-china/vue-codemirror` | 3480 | silent | CodeMirror Vue component; option/path edges | CodeMirror Vue option/path edge + tests |
+| `TypeStrong/ts-loader` | 3479 | silent | TypeScript webpack loader; config/path edges | ts-loader config/path edge + tests |
+| `bcherny/json-schema-to-typescript` | 3348 | silent | JSON Schema→TS codegen CLI; schema/path edges | schema→TS path edge + tests |
+| `YousefED/typescript-json-schema` | 3266 | silent | TS→JSON Schema generator; type/path edges | TS→schema type/path edge + tests |
+| `stoplightio/spectral` | 3205 | silent | OpenAPI/AsyncAPI JSON/YAML linter CLI; rule/path edges | spectral rule/path edge + tests |
+| `remirror/remirror` | 3035 | silent | ProseMirror React toolkit; extension/command edges | remirror extension/command edge + tests |
+| `zh-lx/code-inspector` | 3019 | silent | Click-to-IDE source inspector; path/loader edges | code-inspector path/loader edge + tests |
+| `sql-formatter-org/sql-formatter` | 2890 | silent | SQL whitespace formatter; dialect/path edges | SQL format dialect/path edge + tests |
+| `webpack/postcss-loader` | 2842 | silent | Official webpack PostCSS loader; config/path edges | postcss-loader config/path edge + tests |
+| `webpack/webpack-cli` | 2616 | silent | Webpack CLI product; config/path/command edges | webpack-cli config/path edge + tests |
+| `lydell/eslint-plugin-simple-import-sort` | 2455 | silent | ESLint import-sort plugin; autofix/path edges | import-sort autofix/path edge + tests |
+| `eslint-community/eslint-plugin-security` | 2375 | silent | ESLint Node security rules; rule/path edges | eslint-security rule edge + tests |
+| `uiwjs/react-codemirror` | 2251 | silent | CodeMirror 6 React component; extension/path edges | CodeMirror6 extension/path edge + tests |
+| `nestjs/nest-cli` | 2197 | silent | NestJS application CLI; schematic/path edges | nest-cli schematic/path edge + tests |
+| `marp-team/marp-vscode` | 2088 | silent | Marp markdown slides VS Code ext; parse/path edges | Marp parse/path edge + extension tests |
+| `jupyter-lsp/jupyterlab-lsp` | 2001 | silent | JupyterLab LSP integration; server/path edges | jupyterlab-lsp server/path edge + tests |
+| `TypeStrong/fork-ts-checker-webpack-plugin` | 1999 | silent | Webpack TS typecheck plugin; config/path edges | fork-ts-checker config/path edge + tests |
+| `eslint-stylistic/eslint-stylistic` | 1990 | silent | ESLint stylistic rules monorepo; rule/format edges | stylistic rule/format edge + tests |
+| `vue-macros/vue-macros` | 1984 | silent | Vue macros/syntax-sugar toolkit; transform/path edges | vue-macros transform/path edge + tests |
+| `microsoft/vscode-js-debug` | 1971 | silent | VS Code JS DAP debugger; breakpoint/path edges | js-debug breakpoint/path edge + tests |
+| `webpack/minimizer-webpack-plugin` | 1966 | silent | Webpack minimizer plugin; option/path edges | minimizer option/path edge + tests |
+| `microsoft/vscode-eslint` | 1952 | silent | Official ESLint VS Code extension; diagnostic/path edges | vscode-eslint diagnostic/path edge + tests |
+| `callstack/repack` | 1931 | silent | RN webpack bundler toolkit; config/path edges | repack config/path edge + tests |
+| `kentcdodds/mdx-bundler` | 1901 | silent | MDX/TSX string bundler; compile/path edges | mdx-bundler compile/path edge + tests |
+| `microsoft/vscode-languageserver-node` | 1786 | silent | LSP node implementation libraries; protocol/path edges | lsp-node protocol/path edge + tests |
+| `angular-eslint/angular-eslint` | 1783 | silent | Angular ESLint tooling monorepo; rule/path edges | angular-eslint rule/path edge + tests |
+| `mtxr/vscode-sqltools` | 1765 | silent | VS Code SQL tools extension; connection/query edges | sqltools connection/query edge + tests |
+| `microsoft/rnx-kit` | 1733 | silent | RN DevEx toolkit monorepo; metro/path edges | rnx-kit metro/path edge + tests |
+| `serverless-heaven/serverless-webpack` | 1729 | silent | Serverless Framework webpack plugin; bundle/path edges | serverless-webpack bundle/path edge + tests |
+| `microsoft/TypeScript-Sublime-Plugin` | 1702 | silent | TS language service for Sublime; protocol/path edges | sublime-ts protocol/path edge + tests |
+| `microsoft/vscode-cmake-tools` | 1685 | silent | VS Code CMake Tools; configure/path edges | cmake-tools configure/path edge + tests |
+| `streetsidesoftware/vscode-spell-checker` | 1679 | silent | VS Code spell checker; dictionary/path edges | spell-checker dictionary/path edge + tests |
+| `sapegin/mrm` | 1646 | silent | Project-config codemods CLI; task/path edges | mrm task/path edge + tests |
+| `esm-dev/modern-monaco` | 1605 | silent | Modern Monaco editor packaging; worker/path edges | modern-monaco worker/path edge + tests |
+| `statoscope/statoscope` | 1581 | silent | Webpack bundle analyze/validate toolkit; report/path edges | statoscope report/path edge + tests |
+| `privatenumber/pkgroll` | 1563 | silent | Zero-config Node/TS package bundler; export/path edges | pkgroll export/path edge + tests |
+| `kahole/edamagit` | 1539 | silent | Magit-like Git UI for VS Code; command/path edges | edamagit command/path edge + tests |
+| `qmhc/unplugin-dts` | 1526 | silent | DTS generation unplugin; emit/path edges | unplugin-dts emit/path edge + tests |
+| `ducktors/turborepo-remote-cache` | 1483 | silent | Turborepo remote cache server; cache/path edges | turbo-cache path edge + tests |
+| `prettier/plugin-ruby` | 1482 | silent | Prettier Ruby plugin; parse/format edges | prettier-ruby parse/format edge + tests |
+| `nrwl/nx-console` | 1414 | silent | Nx/Lerna VS Code/UI console; project/path edges | nx-console project/path edge + tests |
+| `chanhx/crabviz` | 1413 | silent | Interactive call-graph generator; LSP/path edges | crabviz call-graph/path edge + tests |
+| `mrmckeb/typescript-plugin-css-modules` | 1393 | silent | TS LS plugin for CSS modules; completion/path edges | css-modules LS completion/path edge + tests |
+| `Tencent/feflow` | 1385 | silent | Front-end engineer workflow CLI; command/path edges | feflow command/path edge + tests |
+| `eslint/config-inspector` | 1383 | silent | ESLint config visual inspector; config/path edges | config-inspector path edge + tests |
+| `wix/import-cost` | 1383 | silent | VS Code import-size display; package/path edges | import-cost package/path edge + tests |
+| `editorconfig/editorconfig-vscode` | 1370 | silent | EditorConfig VS Code extension; property/path edges | editorconfig property/path edge + tests |
+| `TypeFox/monaco-languageclient` | 1366 | silent | Monaco language-client toolbox; LSP/path edges | monaco-languageclient LSP/path edge + tests |
+| `fannheyward/coc-pyright` | 1361 | silent | coc.nvim Pyright extension; LSP/path edges | coc-pyright LSP/path edge + tests |
+| `folke/ultra-runner` | 1247 | silent | Fast monorepo script runner; workspace/path edges | ultra-runner workspace/path edge + tests |
+| `simonhaenisch/prettier-plugin-organize-imports` | 1239 | silent | Prettier organize-imports via TS LS; sort/path edges | organize-imports sort/path edge + tests |
+| `fi3ework/vite-plugin-checker` | 1239 | silent | Vite checker plugin (TS/ESLint/Stylelint); overlay/path edges | vite-plugin-checker overlay/path edge + tests |
+| `gajus/eslint-plugin-jsdoc` | 1229 | silent | ESLint JSDoc rules; tag/path edges | jsdoc rule/tag edge + tests |
+| `jest-community/eslint-plugin-jest` | 1170 | silent | ESLint Jest plugin; rule/path edges | eslint-jest rule edge + tests |
+| `just-jeb/angular-builders` | 1162 | silent | Angular builders (Jest/custom webpack); builder/path edges | angular-builders builder/path edge + tests |
+| `fannheyward/coc-rust-analyzer` | 1156 | silent | coc.nvim rust-analyzer extension; LSP/path edges | coc-rust-analyzer LSP/path edge + tests |
+| `weirongxu/coc-explorer` | 1148 | silent | coc.nvim file explorer; tree/path edges | coc-explorer tree/path edge + tests |
+| `istanbuljs/istanbuljs` | 1103 | silent | Istanbul coverage tooling monorepo; instrument/path edges | istanbul instrument/path edge + tests |
+| `yioneko/vtsls` | 1092 | silent | VS Code TS extension as LSP wrapper; protocol/path edges | vtsls protocol/path edge + tests |
+| `neoclide/coc-tsserver` | 1080 | silent | coc.nvim tsserver extension; completion/path edges | coc-tsserver completion/path edge + tests |
+| `testing-library/eslint-plugin-testing-library` | 1063 | silent | Testing Library ESLint plugin; rule/path edges | testing-library-eslint rule edge + tests |
+| `eclipse-langium/langium` | 1035 | silent | Langium DSL/language-engineering framework; grammar/LSP edges | langium grammar/LSP edge + tests |
+| `web-infra-dev/rslib` | 1032 | silent | Rsbuild library bundler; config/path edges | rslib config/path edge + tests |
+| `eslint-community/eslint-plugin-promise` | 1003 | silent | ESLint promise best-practice rules; rule/path edges | eslint-promise rule edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `callstack/haul` | 3677 | silent | Superseded RN bundler — prefer callstack/repack |
+| `json-schema-faker/json-schema-faker` | 3448 | silent | Fake-data generator from schema — prefer schema lint/codegen product homes |
+| `nuxt/devtools` | 3298 | agentscan | AgentScan adopter org (nuxt) — leave circle |
+| `unjs/unbuild` | 2727 | agentscan | AgentScan adopter org (unjs) — leave circle |
+| `mzgoddard/hard-source-webpack-plugin` | 2724 | silent | Stale webpack cache plugin (quiet years) — prefer active webpack/rspack homes |
+| `unjs/magicast` | 2477 | agentscan | AgentScan adopter org (unjs) — leave circle |
+| `godotengine/godot-vscode-plugin` | 2123 | silent | Godot agent-ban circle — leave vscode plugin with engine |
+| `zenbu-labs/terminal-code` | 1982 | silent | Terminal VS Code novelty — weak DevEx product hunk class vs LSP/formatter farms |
+| `rohitdhas/shittier` | 1804 | silent | Novelty joke formatter — not playbook farm hunk class |
+| `electron/devtron` | 1775 | silent | Quiet Electron DevTools extension — prefer active Electron/devtools homes |
+| `jonschlinkert/markdown-toc` | 1754 | silent | Quiet markdown TOC utility — thin CLI, prefer active MDX/remark homes |
+| `privatenumber/minification-benchmarks` | 1620 | silent | Benchmark suite not product CLI/LSP/formatter home |
+| `antfu/esno` | 1604 | silent | Thin tsx alias package — prefer privatenumber/tsx product |
+| `ChromeDevTools/devtools-protocol` | 1545 | silent | Protocol type definitions — specs-only, weak contribution farm |
+| `apollographql/apollo-client-devtools` | 1528 | silent | Browser DevTools panel for Apollo Client — app-devtools UI, weak playbook hunk |
+| `Redocly/redocly-cli` | 1510 | hard_ban | NO-AI / AGENTS.md ban — hard leave |
+| `stylelint/stylelint-config-standard` | 1419 | silent | Shareable config only — prefer stylelint core/plugin product |
+| `egoist/import-http` | 1234 | silent | Quiet URL-import experiment — prefer active bundler plugin homes |
+| `vitejs/devtools` | 1192 | agentscan | AgentScan adopter org (vitejs) — leave circle |
+| `egoist/bili` | 1030 | silent | Quiet/legacy JS bundler — prefer pkgroll/tsup/rslib homes |
+
+Notes: Prefer midband TS/JS DevEx product homes from the 1k–2k universe fill + 1k–5k midband (LSP/coc/vtsls/langium/monaco-languageclient, ESLint/Prettier/Stylelint/sql-formatter/spectral, webpack/rollup/pkgroll/rslib/repack loaders+CLIs, Monaco/CodeMirror/Remirror/VS Code extensions, codemod/mrm/vue-macros, knip-adjacent CLI/schema/source-map). Leave AgentScan (nuxt/unjs/vitejs), Redocly NO-AI, Godot circle, superseded haul/esno/bili/hard-source, novelty shittier/terminal-code, specs-only devtools-protocol, thin configs/benchmarks/aliases.
+

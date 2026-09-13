@@ -383,3 +383,140 @@ Policy histogram (this pass): `{'silent': 85, 'disclosure': 3}`.
 
 Notes: Prefer midband product networking homes (DNS/DoH resolvers, QUIC/gRPC/RPC, reverse proxies/LBs/ingress, VPN/tunnel/overlay CLIs, WebRTC/SFU/SIP, load-test/packet/diag CLIs, MQTT brokers, CNI/service-discovery leftovers). Disclosure: cilium/pwru, FreeRADIUS/freeradius-server, trickstercache/trickster. Leave thin SOCKS libs, VPN GUIs, novelty DNS, stale WireGuard mgmt, quiet SFUs, young gateways, circumvention-leaning P2P, whois/propagation TUIs.
 
+## Midband product deepen-2 (2026-09-13, +119 scored)
+
+Account: `vulragrag-star` · Curated python-tooling midband (1k–5k★) leftover product packaging/lint/test/type/AST/HTTP/CLI homes after prior python-tooling midband product deepen · Policy via `raw.githubusercontent.com` · **70** proceed / **49** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 118, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `imroc/req` | 4860 | silent | Go HTTP client with rich ergonomics | HTTP client/path/header edge + go tests |
+| `grpc/grpc-node` | 4842 | silent | Official gRPC for Node.js | RPC/stream/path edge + js tests |
+| `boostorg/beast` | 4822 | silent | Boost.Asio HTTP/WebSocket (C++) | HTTP/WS frame/path edge + C++ tests |
+| `ant-media/Ant-Media-Server` | 4732 | silent | Ultra-low-latency WebRTC streaming server | WebRTC/stream/path edge + java tests |
+| `timothymiller/cloudflare-ddns` | 4507 | silent | Cloudflare DDNS updater in Rust | API/record/path edge + rust tests |
+| `OptimalBits/redbird` | 4410 | silent | Modern Node reverse proxy | route/proxy/path edge + js tests |
+| `F-Stack/f-stack` | 4260 | silent | Userspace network development kit | userspace stack/path edge + C tests |
+| `yusing/godoxy` | 4153 | silent | Reverse proxy + container orchestrator | upstream/config/path edge + go tests |
+| `serverless-dns/serverless-dns` | 3796 | silent | RethinkDNS serverless DoH resolver | DoH/worker/path edge + js tests |
+| `theturtle32/WebSocket-Node` | 3781 | silent | Node.js WebSocket implementation | WS protocol/path edge + js tests |
+| `websocket-client/websocket-client` | 3707 | silent | Python WebSocket client | WS frame/path edge + python tests |
+| `pavel-odintsov/fastnetmon` | 3699 | silent | Fast DDoS sensor with flow/SPAN | flow/export/path edge + C++ tests |
+| `nmap/npcap` | 3588 | silent | Nmap Windows packet capture driver | pcap/capture/path edge + C tests |
+| `mpromonet/webrtc-streamer` | 3582 | silent | WebRTC streamer for V4L2/RTSP | WebRTC/RTSP path edge + C++ tests |
+| `parnurzeal/gorequest` | 3514 | silent | Simplified Go HTTP client | request builder/path edge + go tests |
+| `fagongzi/manba` | 3312 | silent | HTTP API Gateway in Go | route/plugin/path edge + go tests |
+| `vishvananda/netlink` | 3307 | silent | Go netlink library | netlink attr/path edge + go tests |
+| `eolinker/goku_lite` | 3131 | silent | Goku HTTP API Gateway (Go) | gateway/plugin/path edge + go tests |
+| `miroslavpejic85/mirotalksfu` | 3097 | silent | Self-hosted WebRTC SFU conferencing | SFU/media/path edge + js tests |
+| `userver-framework/userver` | 2970 | silent | C++ async framework with rich networking | HTTP/RPC path edge + C++ tests |
+| `shadowsocks/v2ray-plugin` | 2847 | silent | SIP003 v2ray plugin for shadowsocks | plugin/protocol/path edge + go tests |
+| `WireGuard/wireguard-windows` | 2801 | silent | Official WireGuard for Windows | WG tunnel/path edge + go tests |
+| `reactor/reactor-netty` | 2776 | silent | Reactor Netty TCP/HTTP/UDP/QUIC | Netty protocol/path edge + java tests |
+| `gojek/heimdall` | 2771 | silent | Enhanced Go HTTP client | client middleware/path edge + go tests |
+| `hashicorp/yamux` | 2674 | disclosure | Go stream multiplexing library | mux frame/path edge + go tests |
+| `github/glb-director` | 2455 | silent | GitHub Load Balancer Director | LB director/path edge + C tests |
+| `eclipse-paho/paho.mqtt.python` | 2423 | silent | Eclipse Paho MQTT Python client | MQTT packet/path edge + python tests |
+| `hashicorp/go-retryablehttp` | 2347 | silent | Retryable HTTP client (HashiCorp) | retry/backoff/path edge + go tests |
+| `eclipse-paho/paho.mqtt.java` | 2296 | silent | Eclipse Paho MQTT Java client | MQTT packet/path edge + java tests |
+| `m13253/dns-over-https` | 2205 | silent | High-perf DNS-over-HTTPS client/server | DoH query/path/config edge + go tests |
+| `algesten/ureq` | 2183 | silent | Simple safe Rust HTTP client | HTTP request/path edge + rust tests |
+| `onsip/SIP.js` | 2095 | silent | JavaScript SIP signaling library | SIP dialog/path edge + ts tests |
+| `aiortc/aioquic` | 2004 | silent | Python QUIC and HTTP/3 impl | QUIC frame/path edge + python tests |
+| `jeremycw/httpserver.h` | 1939 | silent | Single-header non-blocking HTTP server | HTTP parse/path edge + C tests |
+| `sipsorcery-org/sipsorcery` | 1937 | silent | C# WebRTC/SIP/VoIP library | SIP/WebRTC path edge + csharp tests |
+| `peer-calls/peer-calls` | 1903 | silent | Group P2P WebRTC video calls | WebRTC/signaling path edge + go tests |
+| `tikv/grpc-rs` | 1852 | silent | Rust gRPC on C Core + futures | RPC codec/path edge + rust tests |
+| `bogdanfinn/tls-client` | 1834 | silent | Go HTTP client with TLS fingerprint opts | TLS/JA3/path edge + go tests |
+| `devsisters/libquic` | 1833 | silent | QUIC multiplexed UDP transport (C++) | QUIC stream/path edge + C++ tests |
+| `enetx/surf` | 1815 | silent | Go HTTP client with browser TLS profiles | TLS fingerprint/path edge + go tests |
+| `robustmq/robustmq` | 1795 | silent | Rust MQTT/messaging infrastructure | broker/protocol/path edge + rust tests |
+| `TimothyYe/godns` | 1779 | silent | Multi-provider DDNS client CLI | provider/record/path edge + go tests |
+| `Allenxuxu/gev` | 1774 | silent | Non-blocking TCP network library (Go) | event loop/path edge + go tests |
+| `dghubble/sling` | 1720 | silent | Go HTTP client for API requests | URL/query/path edge + go tests |
+| `almeidapaulopt/tsdproxy` | 1699 | silent | Tailscale reverse proxy for Docker | proxy/config/path edge + go tests |
+| `eolinker/apinto` | 1676 | silent | Extensible Go API gateway | plugin/route/path edge + go tests |
+| `earthboundkid/requests` | 1671 | silent | Go HTTP requests helper library | request/path edge + go tests |
+| `facebook/mvfst` | 1658 | silent | Facebook QUIC transport implementation | QUIC/TLS/path edge + C++ tests |
+| `mrtazz/restclient-cpp` | 1613 | silent | C++ HTTP/REST client | HTTP client/path edge + C++ tests |
+| `websockets-rs/rust-websocket` | 1613 | silent | Rust RFC6455 WebSocket library | WS frame/path edge + rust tests |
+| `jselbie/stunserver` | 1611 | silent | STUNTMAN open-source STUN server | STUN packet/path edge + C++ tests |
+| `xtaci/smux` | 1603 | silent | Go stream multiplexing library | mux/stream/path edge + go tests |
+| `nats-io/nats.rs` | 1540 | silent | Official Rust NATS client | NATS protocol/path edge + rust tests |
+| `cisco-system-traffic-generator/trex-core` | 1517 | silent | TRex traffic generator core | traffic gen/path edge + C tests |
+| `http-rs/surf` | 1510 | silent | Async Rust HTTP client framework | client/middleware/path edge + rust tests |
+| `netsniff-ng/netsniff-ng` | 1422 | silent | Linux network plumbing Swiss army knife | packet tool/path edge + C tests |
+| `aregm/nff-go` | 1418 | silent | Network Function Framework for Go | NFV/packet path edge + go tests |
+| `DNSPod/dnspod-sr` | 1374 | silent | Recursive DNS server from DNSPod | recurse/cache/path edge + C tests |
+| `voyagermesh/voyager` | 1352 | silent | HAProxy L7/L4 ingress controller | ingress/config/path edge + go tests |
+| `edumeet/edumeet` | 1349 | silent | Multiparty meetings via mediasoup/WebRTC | SFU/room/path edge + js tests |
+| `guonaihong/gout` | 1328 | silent | Swiss-army Go HTTP client | HTTP DSL/path edge + go tests |
+| `getdnsapi/stubby` | 1316 | silent | getdns stub resolver DoT client | DoT/config/path edge + C tests |
+| `nats-io/nats.py` | 1248 | silent | Official Python NATS client | NATS protocol/path edge + python tests |
+| `microsoft/demikernel` | 1236 | silent | Kernel-bypass LibOS architecture | libOS/path edge + rust tests |
+| `LucasPickering/slumber` | 1226 | silent | Terminal HTTP/REST client | HTTP TUI/path edge + rust tests |
+| `ansyun/dpdk-ans` | 1219 | silent | DPDK accelerated network stack | DPDK TCP/IP path edge + C tests |
+| `jcmoraisjr/haproxy-ingress` | 1168 | silent | HAProxy Ingress Controller | ingress rule/path edge + go tests |
+| `tiny-http/tiny-http` | 1138 | silent | Low-level Rust HTTP server library | HTTP parse/path edge + rust tests |
+| `zmap/zdns` | 1135 | silent | Fast DNS lookup library and CLI | resolve/flag/path edge + go tests |
+| `denoland/fastwebsockets` | 1135 | silent | Fast RFC6455 WebSocket (Deno) | WS frame/path edge + rust tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `sylar-yin/sylar` | 4712 | silent | general C++ server framework; web-framework class |
+| `ilanyu/ReverseProxy` | 4564 | silent | thin reverse-proxy demo-class |
+| `mikeal/r2` | 4403 | silent | thin/stale HTTP client successor; quiet product surface |
+| `thomasnordquist/MQTT-Explorer` | 4060 | silent | MQTT GUI desktop explorer |
+| `BrowserBox/BrowserBox` | 3907 | silent | remote-browser product; wrong-sector DevEx/browser |
+| `claudiajs/claudia` | 3884 | silent | AWS Lambda deploy CLI; devops spill not networking product |
+| `shadowsocks/ChinaDNS` | 3602 | silent | GFW DNS poisoning circumvention |
+| `collectd/collectd` | 3363 | silent | systems metrics daemon; not networking product primary |
+| `lonng/nano` | 3226 | silent | game-server framework spill |
+| `twmb/franz-go` | 3059 | silent | Kafka client library; storage spill |
+| `frain-dev/convoy` | 2861 | silent | webhooks gateway; devops/event spill |
+| `motiv-labs/janus` | 2840 | silent | quiet Go API gateway |
+| `node-webrtc/node-webrtc` | 2803 | silent | Node WebRTC native bindings; quiet product |
+| `soheilhy/cmux` | 2768 | silent | thin connection mux library |
+| `wiseman/py-webrtcvad` | 2498 | silent | WebRTC VAD-only binding; thin |
+| `boazsegev/facil.io` | 2402 | silent | C web application framework |
+| `thomseddon/traefik-forward-auth` | 2391 | silent | auth sidecar not networking protocol product |
+| `WhatsApp/proxy` | 2347 | silent | WhatsApp-specific proxy; limited general product farm |
+| `songgao/water` | 2168 | silent | thin TUN/TAP library |
+| `fossabot/clash` | 2142 | silent | clash rule-proxy fork/mirror-class |
+| `emersion/go-smtp` | 2047 | silent | SMTP library; mail spill |
+| `Corvusoft/restbed` | 1999 | silent | C++ REST framework |
+| `yomorun/yomo` | 1923 | silent | AI agent serverless framework |
+| `droe/sslsplit` | 1876 | silent | TLS interception MitM tool; offensive-adjacent |
+| `EricssonResearch/openwebrtc` | 1821 | silent | stale/quiet WebRTC framework |
+| `h44z/wg-portal` | 1814 | silent | WireGuard web portal GUI |
+| `deepch/RTSPtoWebRTC` | 1790 | silent | quiet RTSP-WebRTC bridge |
+| `CluvexStudio/Aether` | 1753 | silent | WARP userspace for censored networks; circumvention |
+| `gamelinux/passivedns` | 1735 | silent | passive DNS sniffer for security analytics |
+| `Safe3/uusec-waf` | 1710 | silent | WAF product; security-crypto spill |
+| `quicwg/base-drafts` | 1664 | silent | QUIC IETF specs/docs-only |
+| `chronoxor/CppServer` | 1650 | silent | general async socket server framework |
+| `yaoweibin/nginx_tcp_proxy_module` | 1645 | silent | stale nginx TCP proxy module |
+| `getqujing/qtunnel` | 1643 | silent | quiet/stale socket tunnel |
+| `eclipse-paho/paho.mqtt.embedded-c` | 1542 | silent | embedded MQTT thin client |
+| `pritunl/pritunl-client` | 1446 | silent | VPN client GUI/desktop product |
+| `0x676e67/wreq-python` | 1437 | silent | privacy HTTP client; thin product surface |
+| `ccbkkb/MicroWARP` | 1426 | silent | WARP SOCKS install/recipe; circumvention |
+| `matt-42/lithium` | 1409 | silent | C++17 HTTP web framework |
+| `Diniboy1123/usque` | 1388 | silent | Cloudflare WARP client reimpl; circumvention |
+| `Stiffstream/restinio` | 1303 | silent | C++ HTTP server framework |
+| `royhills/arp-scan` | 1292 | silent | ARP scanner; offensive/recon adjacency |
+| `brainfucksec/kalitorify` | 1239 | silent | Tor transparent proxy for Kali; offensive-adjacent |
+| `awslabs/amazon-kinesis-video-streams-webrtc-sdk-c` | 1205 | silent | AWS Kinesis SDK wrapper; vendor SDK |
+| `Janusec/janusec` | 1201 | silent | young/quiet application gateway |
+| `trimstray/multitor` | 1189 | silent | multi-Tor load-balancing; circumvention/offensive-adjacent |
+| `eclipse-paho/paho.mqtt.javascript` | 1184 | silent | thin MQTT JS client; lower product surface |
+| `babelouest/ulfius` | 1146 | silent | C REST/web framework |
+| `leev/ngx_http_geoip2_module` | 1145 | silent | thin nginx GeoIP2 module |
+
+Notes: Prefer midband networking-distributed product homes (DNS/DoH/recursive CLIs & servers, HTTP/QUIC/gRPC protocol libs & gateways, reverse proxies/LBs/ingress, tunnels/VPN/WireGuard/SSH-jump products, WebRTC/SFU/SIP stacks, packet/pcap/XDP/load-test CLIs, MQTT/NATS brokers & clients, CNI/network observability). Disclosure: hashicorp/yamux. Leave thin SOCKS libs, VPN GUIs, GFW circumvention, WARP/Tor recipes, mail/Kafka spills, web frameworks, specs-only, offensive scanners.
+

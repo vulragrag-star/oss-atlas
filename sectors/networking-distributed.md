@@ -271,3 +271,27 @@ Policy histogram (this pass): `{'silent': 78, 'disclosure': 11, 'hard_ban': 4, '
 
 Notes: Prefer DNS/lookup CLIs, HTTP/QUIC/gRPC protocol+CLI (curl/trurl/quic-go/fasthttp/reqwest/buf/grpc-gateway/quinn/h2), tunnels/overlays (headscale/hysteria/sing-box/xray/v2ray/brook/netmaker/EasyTier/iroh/gluetun/mihomo/gost), reverse proxies/ingress (apisix/kong/contour/envoy-gateway), WebRTC/SFU (pion/mediasoup/livekit/mediamtx/go2rtc), load CLIs (vegeta/hey/k6), messaging brokers (nats/mosquitto/emqx/nsq), K8s CNI (calico/cni/multus/kube-vip/antrea), BGP (gobgp/exabgp), Consul/serf/raft. Disclosure: headscale/nats/calico/quinn/pangolin/thrift/hashicorp serf/memberlist/raft. Leave grpc NO-AI, rabbitmq NO-AI, kube-router NO-AI, AgentScan undici, GUIs (v2rayN/v2rayA/Qv2ray/insomnia), offensive scanners, web frameworks, kafka/etcd megas, wireshark process.
 
+## Midband product deepen-2 (spill ≥5k★ if any) (2026-09-13, +6 scored)
+
+Account: `vulragrag-star` · Curated python-tooling midband (1k–5k★) leftover product packaging/lint/test/type/AST/HTTP/CLI homes after prior python-tooling midband product deepen · Policy via `raw.githubusercontent.com` · **2** proceed / **4** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 6}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `fullstorydev/grpcui` | 5925 | silent | Interactive gRPC web UI (grpcurl-class) | gRPC reflect/path edge + go/js tests |
+| `signalwire/freeswitch` | 5143 | silent | Software-defined telecom/VoIP stack | SIP/media/path edge + C tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `ViRb3/wgcf` | 8694 | silent | Cloudflare WARP unofficial CLI; circumvention-adjacent |
+| `segmentio/kafka-go` | 8626 | silent | Kafka client; storage/messaging spill already covered elsewhere |
+| `foxcpp/maddy` | 6086 | silent | mail server; wrong-sector messaging/mail |
+| `caddyserver/certmagic` | 5597 | silent | ACME/TLS lib; security-crypto spill |
+
+Notes: Prefer midband networking-distributed product homes (DNS/DoH/recursive CLIs & servers, HTTP/QUIC/gRPC protocol libs & gateways, reverse proxies/LBs/ingress, tunnels/VPN/WireGuard/SSH-jump products, WebRTC/SFU/SIP stacks, packet/pcap/XDP/load-test CLIs, MQTT/NATS brokers & clients, CNI/network observability). Disclosure: hashicorp/yamux. Leave thin SOCKS libs, VPN GUIs, GFW circumvention, WARP/Tor recipes, mail/Kafka spills, web frameworks, specs-only, offensive scanners.
+

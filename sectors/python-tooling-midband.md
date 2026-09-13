@@ -349,3 +349,144 @@ Policy histogram (this pass): `{'disclosure': 4, 'silent': 50, 'agentscan': 4}`.
 
 Notes: Prefer midband python product homes (config/packaging leftovers, ASGI/HTTP clients, ORM/queue adapters, pytest plugins, type-hint CLIs, Markdown/PDF/XML parsers, Redis/Mongo OMs). Disclosure: mongo-python-driver/requests-cache/cattrs. Leave AgentScan aio-libs circle (aiocache/aiopg/aiobotocore/aiokafka), science spill (xarray), streaming/IoT/security spills (faust/opcua/parsedmarc/secretlint), crypto primitive (bcrypt), legacy toml/xlrd, thin inflect, AHK GUI wrapper.
 
+## Midband product deepen-2 (2026-09-13, +123 scored)
+
+Account: `vulragrag-star` · Curated python-tooling midband (1k–5k★) leftover product packaging/lint/test/type/AST/HTTP/CLI homes after prior python-tooling midband product deepen · Policy via `raw.githubusercontent.com` · **54** proceed / **69** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 118, 'disclosure': 5}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `jazzband/django-silk` | 4993 | silent | Django profiling/inspection middleware; request path timing edges with tests | profile/path timing edge + tests |
+| `grantjenks/python-sortedcontainers` | 3982 | silent | Sorted list/dict/set containers; insertion/bisect edges with tests | bisect/insert order edge + tests |
+| `tartley/colorama` | 3796 | silent | Cross-platform colored terminal text; ANSI/Win32 edge cases with tests | ANSI/Win32 color escape edge + tests |
+| `flasgger/flasgger` | 3744 | silent | Flask OpenAPI/Swagger UI helper; schema/path edges with tests | OpenAPI schema/path edge + tests |
+| `kennethreitz/responder` | 3617 | silent | Familiar HTTP service framework; route/path edges with tests | HTTP route/path edge + tests |
+| `axnsan12/drf-yasg` | 3545 | silent | DRF Swagger/OpenAPI 2 schema generator; path/schema edges with tests | Swagger schema/path edge + tests |
+| `tomerfiliba/plumbum` | 3051 | silent | Shell combinators CLI/lib; path/quoting/pipe edges with tests | path/quoting/pipe CLI edge + tests |
+| `tfranzel/drf-spectacular` | 2860 | silent | DRF OpenAPI 3 schema generator; serializer/path edges with tests | OpenAPI serializer/path edge + tests |
+| `chardet/chardet` | 2667 | silent | Character encoding detector; charset/BOM edge cases with tests | charset/BOM detect edge + tests |
+| `uqfoundation/dill` | 2449 | silent | Extended Python serializer; pickle protocol/path edges with tests | serialize/protocol path edge + tests |
+| `miguelgrinberg/Flask-Migrate` | 2404 | disclosure | Flask-Alembic migrations CLI; migrate/path edges — disclose AI assist | migration path/CLI edge + tests — disclose AI assist |
+| `fastapiutils/fastapi-utils` | 2309 | silent | Reusable FastAPI utilities; dependency/timing edges with tests | dependency/timing helper edge + tests |
+| `msgpack/msgpack-python` | 2104 | silent | MessagePack serializer; pack/unpack type edges with tests | pack/unpack type edge + tests |
+| `laurentS/slowapi` | 2057 | silent | Starlette/FastAPI rate limiter; key/path edges with tests | rate-limit key/path edge + tests |
+| `openapi-generators/openapi-python-client` | 1988 | silent | OpenAPI→modern Python client codegen; schema/path edges with tests | OpenAPI client codegen path edge + tests |
+| `omnilib/aiomultiprocess` | 1925 | silent | Async multiprocess helpers; pool/path edges with tests | async pool/process edge + tests |
+| `rholder/retrying` | 1922 | silent | General-purpose retry decorator lib; backoff/exception edges with tests | retry/backoff exception edge + tests |
+| `long2ice/fastapi-cache` | 1867 | silent | FastAPI response/function cache; key/ttl edges with tests | cache key/ttl edge + tests |
+| `alecthomas/voluptuous` | 1850 | silent | Python data validation library; schema/coerce edges with tests | schema validate/coerce edge + tests |
+| `alexmojaki/heartrate` | 1840 | silent | Realtime Python execution visualizer; path/trace edges with tests | trace/path viz edge + tests |
+| `requests/requests-oauthlib` | 1774 | silent | OAuthlib support for Requests; token/redirect edges with tests | OAuth token/redirect edge + tests |
+| `danielgtaylor/python-betterproto` | 1769 | silent | Protobuf 3 codegen & library; schema/wire edges with tests | protobuf schema/wire edge + tests |
+| `ronf/asyncssh` | 1757 | silent | Async SSH client/server; channel/path/auth edges with tests | SSH channel/path/auth edge + tests |
+| `django/asgiref` | 1632 | silent | ASGI spec utilities; sync/async bridge edges with tests | ASGI sync/async bridge edge + tests |
+| `spotify/dh-virtualenv` | 1628 | silent | Debian-packaged Python virtualenvs; path/build edges with tests | deb/venv path build edge + tests |
+| `cruft/cruft` | 1587 | silent | Cookiecutter template sync/update CLI; path/diff edges with tests | template sync/path diff edge + tests |
+| `Teemu/pytest-sugar` | 1533 | silent | pytest progress/UX plugin; report/path edges with tests | pytest report/path plugin edge + tests |
+| `litestar-org/polyfactory` | 1505 | silent | Mock data factories for pydantic/msgspec; schema/factory edges with tests | factory/schema generate edge + tests |
+| `pdbpp/pdbpp` | 1465 | silent | Drop-in pdb++ debugger; sticky/path command edges with tests | debugger cmd/path sticky edge + tests |
+| `wemake-services/django-modern-rest` | 1451 | disclosure | Typed async Django REST framework; schema/path edges — disclose AI assist | REST schema/path edge + tests — disclose AI assist |
+| `pydantic/httpx2` | 1430 | silent | Next-gen HTTP client; URL/header/redirect edges with tests | HTTP URL/header/redirect edge + tests |
+| `koxudaxi/fastapi-code-generator` | 1406 | silent | OpenAPI→FastAPI codegen CLI; schema/path edges with tests | OpenAPI codegen path/schema edge + tests |
+| `sloria/environs` | 1370 | silent | Env var parsing helpers; cast/path edges with tests | env cast/parse edge + tests |
+| `datafolklabs/cement` | 1349 | silent | Python application CLI framework; plugin/config path edges with tests | CLI plugin/config path edge + tests |
+| `tonybaloney/wily` | 1327 | silent | Python complexity/timing tracker CLI; path/report edges with tests | complexity path/report edge + tests |
+| `pschanely/CrossHair` | 1324 | silent | Symbolic analysis / contract testing tool; path/AST edges with tests | contract/AST path edge + tests |
+| `marshmallow-code/apispec` | 1219 | silent | Pluggable OpenAPI spec generator; plugin/schema edges with tests | OpenAPI plugin/schema edge + tests |
+| `yezz123/authx` | 1196 | silent | FastAPI auth/OAuth2 helpers; token/path edges with tests | auth token/path edge + tests |
+| `arskom/spyne` | 1151 | silent | Transport-agnostic RPC framework; serialize/protocol edges with tests | RPC serialize/protocol edge + tests |
+| `buildinspace/peru` | 1146 | silent | Generic include-other-people's-code package manager; path/sync edges with tests | fetch/sync path edge + tests |
+| `apiflask/apiflask` | 1136 | disclosure | Lightweight web API framework; schema/path edges — disclose AI assist | API schema/path edge + tests — disclose AI assist |
+| `CCExtractor/vardbg` | 1113 | silent | Python debugger/profiler with animated viz; path edges with tests | debug/profile path edge + tests |
+| `samuelcolvin/python-devtools` | 1077 | silent | Python debug/dev helpers; pretty/path edges with tests | devtools pretty/path edge + tests |
+| `patx/pickledb` | 1070 | silent | orjson-backed in-memory key-value store; key/path edges with tests | KV key/serialize edge + tests |
+| `jowilf/starlette-admin` | 1031 | silent | Starlette/FastAPI admin UI framework; route/path edges with tests | admin route/path edge + tests |
+| `adamchainz/time-machine` | 997 | silent | Test time-travel library; clock/timezone edges with tests | time freeze/tz edge + tests |
+| `tox-dev/platformdirs` | 983 | silent | Platform-specific directory helpers; path/OS edges with tests | platform path/OS edge + tests |
+| `tox-dev/filelock` | 973 | silent | Platform-independent file lock; lock/path edges with tests | file lock/path edge + tests |
+| `borntyping/python-colorlog` | 964 | silent | Colored logging formatter; format/level edges with tests | log format/color edge + tests |
+| `pypa/setuptools-scm` | 952 | silent | SCM-tag version management for packaging; tag/path edges with tests | SCM version/tag path edge + tests |
+| `PyCQA/autoflake` | 952 | silent | Remove unused imports/vars CLI; AST/path edges with tests | AST unused-import path edge + tests |
+| `Fatal1ty/mashumaro` | 937 | silent | Fast serialization library; codec/schema edges with tests | serialize codec/schema edge + tests |
+| `pallets-eco/flask-caching` | 934 | silent | Flask caching extension; key/backend edges with tests | cache key/backend edge + tests |
+| `twisted/towncrier` | 921 | silent | Release notes manager CLI; fragment/path edges with tests | news fragment/path edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `dpgaspar/Flask-AppBuilder` | 4961 | silent | App builder platform/GUI mega — leave PaaS-adjacent |
+| `pydantic/logfire` | 4473 | disclosure | AI observability / LLM platform spill — leave |
+| `open-webui/mcpo` | 4371 | silent | MCP/OpenAPI proxy agent-kit adjacent — leave |
+| `ktbyers/netmiko` | 4280 | silent | Network device SSH automation — networking spill |
+| `agermanidis/autosub` | 4189 | silent | Abandoned subtitle generator — leave abandoned |
+| `shobrook/rebound` | 4115 | silent | Stack Overflow CLI novelty — weak product farm |
+| `donnemartin/haxor-news` | 4089 | silent | HN browser CLI novelty — leave |
+| `chrippa/livestreamer` | 3863 | silent | Unmaintained stream extractor — leave abandoned |
+| `insanum/gcalcli` | 3762 | silent | Google Calendar CLI — cloud/service spill |
+| `zappa/Zappa` | 3694 | silent | Serverless deploy platform — devops/cloud spill |
+| `hypothesis/h` | 3180 | silent | Web annotation product (not HypothesisWorks/hypothesis) — wrong product |
+| `OpenStitching/stitching` | 2622 | silent | Image stitching CV — science/vision spill |
+| `gaasedelen/lighthouse` | 2580 | silent | RE coverage explorer — security/RE spill |
+| `hhursev/recipe-scrapers` | 2225 | silent | Recipe scraping — wrong-sector spill |
+| `youyuge34/PI-REC` | 2057 | silent | Image reconstruction DL — ML spill |
+| `vibheksoni/stealth-browser-mcp` | 2055 | silent | Anti-bot browser MCP agent kit — leave |
+| `astral-sh/ruff-pre-commit` | 2011 | silent | Thin pre-commit hook wrapper for Ruff — thin wrapper |
+| `bitly/data_hacks` | 1976 | silent | One-off data CLI hacks — thin/personal |
+| `google-deepmind/mathematics_dataset` | 1967 | silent | ML dataset generator — science/ML spill |
+| `ravendevteam/talon` | 1950 | silent | Windows tweaker GUI — leave |
+| `can4hou6joeng4/boss-agent-cli` | 1950 | silent | Job-site agent CLI — agent kit leave |
+| `nix-community/NUR` | 1948 | silent | Nix user repo — devops/nix spill |
+| `deadc0de6/dotdrop` | 1947 | silent | Dotfiles deployer — personal/dotfiles leave |
+| `everythingishacked/Semaphore` | 1938 | silent | Gesture keyboard novelty — leave |
+| `weaviate/elysia` | 1922 | silent | Weaviate platform backend — ML/vector spill |
+| `jjjake/internetarchive` | 1904 | silent | Archive.org API client — thin service wrapper |
+| `MontrealCorpusTools/Montreal-Forced-Aligner` | 1883 | silent | Speech alignment science — leave |
+| `pmh1314520/WebRPA` | 1880 | silent | No-code RPA GUI — leave |
+| `uselotus/lotus` | 1837 | silent | Pricing/billing platform — leave PaaS |
+| `TotallyNotChase/glitch-this` | 1792 | silent | Image glitch novelty — leave |
+| `HFrost0/bilix` | 1785 | silent | Video download CLI — yt-dlp-adjacent leave |
+| `bellingcat/telegram-phone-number-checker` | 1782 | silent | OSINT phone checker — security spill |
+| `mozilla/fx-private-relay` | 1779 | silent | Firefox Relay product app — leave |
+| `tdryer/hangups` | 1745 | silent | Dead Hangouts client — abandoned leave |
+| `python-kasa/python-kasa` | 1744 | silent | IoT smart-home API — IoT leave |
+| `jasonacox/tinytuya` | 1740 | silent | IoT Tuya devices — IoT leave |
+| `jacebrowning/memegen` | 1737 | silent | Meme API novelty — leave |
+| `codecov/codecov-action` | 1710 | silent | GH Action wrapper for Codecov — thin CI wrapper |
+| `bee-san/Name-That-Hash` | 1669 | silent | Hash identification — security spill |
+| `pypa/packaging.python.org` | 1666 | silent | Packaging user guide docs site — docs-only leave |
+| `karanhudia/borg-ui` | 1612 | silent | Borg backup GUI — leave GUI |
+| `hardbyte/python-can` | 1594 | silent | CAN bus / automotive IoT — IoT leave |
+| `benavlabs/fastcrud` | 1586 | silent | Thin FastAPI CRUD generator — weak farm |
+| `liuhuanyong/CrimeKgAssitant` | 1585 | silent | Crime NLP assistant — leave |
+| `juand-r/entity-recognition-datasets` | 1573 | silent | NER datasets dump — leave |
+| `jazzband/django-pipeline` | 1540 | silent | Django asset packaging — thin Django satellite |
+| `konlpy/konlpy` | 1492 | silent | Korean NLP package — science/NLP spill |
+| `Greenwolf/ntlm_theft` | 1488 | silent | NTLM hash theft tool — security spill |
+| `autopkg/autopkg` | 1480 | silent | macOS software packaging automation — devops spill |
+| `psypanda/hashID` | 1470 | silent | Hash type identifier — security spill |
+| `tiangolo/pydantic-sqlalchemy` | 1407 | silent | Thin SQLAlchemy↔Pydantic converter — thin wrapper |
+| `rpm-software-management/dnf` | 1380 | silent | Linux package manager — OS/devops spill |
+| `fnmsd/MySQL_Fake_Server` | 1379 | silent | MySQL fake server for file-read attacks — security spill |
+| `0xacb/recollapse` | 1375 | silent | Regex fuzz / bypass helper — security spill |
+| `Fabric-Development/fabric` | 1371 | silent | Desktop widget framework (not fabric/fabric) — wrong product |
+| `AlfredoSequeida/hints` | 1363 | silent | Linux GUI navigation hints — leave GUI |
+| `frol/flask-restplus-server-example` | 1334 | silent | Example/server template — leave templates |
+| `meridianlabs-ai/inspect_petri` | 1333 | silent | Alignment auditing agent — agent kit leave |
+| `osprey-oss/cookiecutter-uv` | 1328 | silent | Cookiecutter template already-covered class — leave templates |
+| `mymarilyn/clickhouse-driver` | 1302 | silent | ClickHouse DB driver — databases spill |
+| `testdrivenio/django-on-docker` | 1185 | silent | Dockerizing Django tutorial — leave tutorials |
+| `DoTheEvo/ANGRYsearch` | 1159 | silent | Linux file search GUI — leave |
+| `w-digital-scanner/w9scan` | 1136 | silent | Web vulnerability scanner — security spill |
+| `package-url/purl-spec` | 1109 | disclosure | PURL specification docs — specs-only leave |
+| `sibears/IDAGolangHelper` | 1093 | silent | IDA Pro Go helpers — RE/security spill |
+| `wintests/pytestDemo` | 1071 | silent | API automation demo/tutorial — leave demos |
+| `bterwijn/memory_graph` | 1071 | silent | Teaching/debug viz aid — leave teaching tools |
+| `vollib/vollib` | 1022 | silent | Options pricing finance lib — science/finance spill |
+| `certifi/python-certifi` | 996 | silent | Root CA bundle distribution — thin data package |
+
+Notes: Prefer midband python-tooling product homes (packaging/env CLIs, linters/formatters/typecheckers, test runners/fixtures/mocks, AST/parsers/codegen, HTTP/ASGI microframeworks & clients, config/CLI libs, async helpers, serialization/validation). Disclosure: Flask-Migrate, django-modern-rest, apiflask. Leave platforms/GUIs, agent kits, IoT, security spills, ML/science, thin wrappers, templates/docs-only, wrong-sector CLIs.
+

@@ -318,3 +318,28 @@ Policy histogram (this pass): `{'silent': 28}`.
 
 Notes: Prefer midband product DB/storage homes (engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM). Disclosure: crate/multigres/impala. Hard leave: neilotoole/sq (NO-AI). Leave cache libs (caffeine/ristretto/foyer), mobile ORMs (greenDAO/objectbox/realm), GUI/share apps (tank/Gokapi), data-grid platforms (geode/hazelcast/ignite), analytics transform (dbt), Text-to-SQL/connectors (anyquery), mirrors (LMDB/xapian), legacy proxies, thin wrappers.
 
+## Midband product deepen-2 (spill ≥5k★ if any) (2026-09-13, +6 scored)
+
+Account: `vulragrag-star` · Curated databases-storage midband (1k–5k★) leftover product engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM/proxy homes after prior databases-storage midband product deepen · Policy via `raw.githubusercontent.com` · **0** proceed / **6** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 6}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| — | | | none | |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `simonw/datasette` | 11459 | silent | Datasette publish platform; already well-covered product class / high-touch |
+| `FerretDB/FerretDB` | 11065 | silent | Mongo-wire on Postgres; ≥5k spill already farmed elsewhere |
+| `oramasearch/orama` | 10548 | silent | in-memory search; JS search kit spill ≥5k |
+| `alibaba/otter` | 8126 | silent | distributed DB sync; Alibaba ops platform |
+| `flike/kingshard` | 6398 | silent | legacy MySQL proxy; quiet/superseded |
+| `JanusGraph/janusgraph` | 5836 | silent | graph platform mega-adjacent; heavy ASF governance |
+
+Notes: Prefer midband databases-storage leftover product homes (engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM/proxy). Disclosure: apache/lucene, EnterpriseDB/barman, vortex-data/vortex, borgmatic-collective/borgmatic, apache/iceberg-rust. Hard ban: charles-001/dolphie (NO-AI). Leave thin clients/drivers, framework glue (Rails/Laravel/Nest providers), GUIs/explain UIs, generic rsync backups, legacy quiet proxies/engines, agent/BaaS kits, Kafka-CDC spills, specs-only.
+

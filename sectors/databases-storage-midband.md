@@ -338,3 +338,126 @@ Policy histogram (this pass): `{'silent': 79, 'disclosure': 3, 'hard_ban': 1}`.
 
 Notes: Prefer midband product DB/storage homes (engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM). Disclosure: crate/multigres/impala. Hard leave: neilotoole/sq (NO-AI). Leave cache libs (caffeine/ristretto/foyer), mobile ORMs (greenDAO/objectbox/realm), GUI/share apps (tank/Gokapi), data-grid platforms (geode/hazelcast/ignite), analytics transform (dbt), Text-to-SQL/connectors (anyquery), mirrors (LMDB/xapian), legacy proxies, thin wrappers.
 
+## Midband product deepen-2 (2026-09-13, +105 scored)
+
+Account: `vulragrag-star` · Curated databases-storage midband (1k–5k★) leftover product engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM/proxy homes after prior databases-storage midband product deepen · Policy via `raw.githubusercontent.com` · **60** proceed / **45** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 99, 'disclosure': 5, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `malisper/pgrust` | 4992 | silent | Postgres rewritten in Rust (engine leftover) | SQL/parser/storage path edge + rust tests |
+| `orientechnologies/orientdb` | 4985 | silent | Multi-model DBMS (graph/document) | query/schema/path edge + java tests |
+| `google/pebble` | 4961 | silent | Google Pebble KV/LSM storage engine | compaction/WAL/path edge + C tests |
+| `catfan/Medoo` | 4950 | silent | Lightweight PHP database framework | query builder/path edge + php tests |
+| `pudo/dataset` | 4872 | silent | Python SQL data handling library | SQL load/query/path edge + python tests |
+| `tokio-rs/mini-redis` | 4785 | silent | Educational Redis client/server in Tokio | RESP/protocol/path edge + rust tests |
+| `doctrine/migrations` | 4766 | silent | Doctrine DB migrations library | migration/version/path edge + php tests |
+| `h2database/h2database` | 4628 | silent | Embeddable Java RDBMS | SQL/engine/path edge + java tests |
+| `cakephp/phinx` | 4540 | silent | PHP database migrations for everyone | migration/path edge + php tests |
+| `praeclarum/sqlite-net` | 4459 | silent | Cross-platform SQLite client+ORM | SQLite ORM/path edge + csharp tests |
+| `oceanbase/miniob` | 4416 | silent | Compact teaching/research database | executor/storage/path edge + C++ tests |
+| `dotnetcore/FreeSql` | 4405 | silent | .NET AOT ORM multi-DB | ORM mapping/path edge + csharp tests |
+| `isar/hive` | 4392 | silent | Dart/Flutter key-value database | KV path/serialize edge + dart tests |
+| `isar/isar` | 4024 | silent | Async Dart NoSQL database | NoSQL query/path edge + dart tests |
+| `borisdj/EFCore.BulkExtensions` | 3999 | silent | EF Core bulk/batch extensions | bulk SQL/path edge + csharp tests |
+| `ravendb/ravendb` | 3998 | silent | ACID document database | doc store/query/path edge + csharp tests |
+| `mongodb/mongoid` | 3914 | silent | Official Ruby ODM for MongoDB | ODM query/path edge + ruby tests |
+| `apache/kylin` | 3773 | silent | Apache Kylin OLAP engine | cube/query/path edge + java tests |
+| `go-gorp/gorp` | 3744 | silent | Go ORM-ish persistence library | ORM mapping/path edge + go tests |
+| `apache/arrow-rs` | 3607 | silent | Official Rust Apache Arrow | Arrow IPC/array/path edge + rust tests |
+| `Netflix/atlas` | 3562 | silent | In-memory dimensional TSDB | timeseries query/path edge + scala tests |
+| `apache/lucene` | 3554 | disclosure | Apache Lucene search library | index/query/path edge + java tests |
+| `fluentmigrator/fluentmigrator` | 3511 | silent | .NET fluent migrations framework | migration/path edge + csharp tests |
+| `JasperFx/marten` | 3453 | silent | .NET document DB + event store on Postgres | doc/event/path edge + csharp tests |
+| `sqlkata/querybuilder` | 3379 | silent | C# SQL query builder | SQL builder/path edge + csharp tests |
+| `linq2db/linq2db` | 3326 | silent | LINQ to database provider | LINQ/SQL path edge + csharp tests |
+| `adelsz/pgtyped` | 3280 | silent | Typesafe SQL in TypeScript | SQL codegen/path edge + ts tests |
+| `simolus3/drift` | 3273 | silent | Reactive Dart persistence library | SQLite/query/path edge + dart tests |
+| `EnterpriseDB/barman` | 3236 | disclosure | Postgres backup & recovery manager | backup/WAL/path edge + python tests |
+| `jaredwray/keyv` | 3200 | silent | Simple multi-backend key-value storage | KV adapter/path edge + js tests |
+| `teamtnt/tntsearch` | 3196 | silent | PHP full-text search engine | index/search/path edge + php tests |
+| `vortex-data/vortex` | 3193 | disclosure | Extensible columnar storage framework | columnar codec/path edge + rust tests |
+| `apache/hugegraph` | 3175 | silent | Large-scale graph database | graph query/path edge + java tests |
+| `sqitchers/sqitch` | 3158 | silent | Sensible database change management | migrate/deploy/path edge + perl tests |
+| `apache/parquet-java` | 3079 | silent | Apache Parquet Java | Parquet read/write/path edge + java tests |
+| `dresende/node-orm2` | 3043 | silent | Node.js ORM | ORM mapping/path edge + js tests |
+| `doug-martin/goqu` | 2675 | silent | Go SQL builder and query library | SQL builder/path edge + go tests |
+| `db-migrate/node-db-migrate` | 2343 | silent | Node database migration framework | migration/path edge + js tests |
+| `borgmatic-collective/borgmatic` | 2324 | disclosure | Config-driven Borg backup wrapper | backup config/path edge + python tests |
+| `tidwall/redcon` | 2306 | silent | Redis-compatible server framework (Go) | RESP server/path edge + go tests |
+| `speedment/speedment` | 2092 | silent | Java Stream ORM toolkit | Stream ORM/path edge + java tests |
+| `apache/drill` | 2023 | silent | Apache Drill MPP query layer | SQL/query/path edge + java tests |
+| `schemacrawler/SchemaCrawler` | 1828 | silent | DB schema discovery tooling | schema crawl/path edge + java tests |
+| `stephenafamo/bob` | 1778 | silent | Go SQL query builder + ORM generator | SQL/ORM gen/path edge + go tests |
+| `SOCI/soci` | 1622 | silent | C++ database access library | DB access/path edge + C++ tests |
+| `xormplus/xorm` | 1554 | silent | Go ORM library (xorm fork) | ORM mapping/path edge + go tests |
+| `salsita/node-pg-migrate` | 1482 | silent | Node Postgres migration manager | migration/path edge + ts tests |
+| `peterbourgon/diskv` | 1454 | silent | Disk-backed key-value store | KV disk/path edge + go tests |
+| `yongman/tidis` | 1442 | silent | Distributed transactional Redis-protocol NoSQL | txn/KV/path edge + go tests |
+| `Tencent/TBase` | 1442 | silent | Enterprise distributed HTAP database | HTAP/SQL/path edge + C tests |
+| `pgRouting/pgrouting` | 1431 | silent | Postgres routing extension | graph routing SQL/path edge + C++ tests |
+| `xitongsys/parquet-go` | 1431 | silent | Pure Go Parquet read/write | Parquet codec/path edge + go tests |
+| `apache/iceberg-rust` | 1404 | disclosure | Apache Iceberg Rust | Iceberg table/path edge + rust tests |
+| `akrylysov/pogreb` | 1349 | silent | Embedded KV for read-heavy workloads | KV embed/path edge + go tests |
+| `dotnetcore/sharding-core` | 1286 | silent | EFCore sharding solution | shard routing/path edge + csharp tests |
+| `sbdchd/squawk` | 1173 | silent | Linter for Postgres migrations & SQL | SQL lint/path edge + rust tests |
+| `go-gormigrate/gormigrate` | 1173 | silent | Minimal Gorm migration helper | migration/path edge + go tests |
+| `ArcadeData/arcadedb` | 1153 | silent | Multi-model database | multi-model query/path edge + java tests |
+| `sqliteai/sqlite-vector` | 1140 | silent | SQLite vector extension | vector index/path edge + C tests |
+| `apache/iceberg-python` | 1131 | silent | PyIceberg | Iceberg table/path edge + python tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `gajus/slonik` | 4941 | silent | typed Postgres client library; thin client surface |
+| `backup/backup` | 4856 | silent | generic UNIX full-stack backup gem; not DB-specific |
+| `SPLWare/esProc` | 4685 | silent | SPL programming language for data; language/tooling spill |
+| `spatie/laravel-query-builder` | 4469 | silent | Laravel Eloquent API query builder; framework glue |
+| `autobase-tech/autobase` | 4379 | silent | automated Postgres DBaaS platform; PaaS mega class |
+| `apache/lucene-solr` | 4365 | silent | archived Solr+Lucene monorepo mirror; prefer apache/lucene |
+| `zendesk/maxwell` | 4260 | silent | MySQL binlog→Kafka producer; messaging spill |
+| `sjqzhang/go-fastdfs` | 4138 | silent | private cloud DFS; object-storage-adjacent but ops platform |
+| `fastmonkeys/stellar` | 3851 | silent | dev DB snapshot tool; quiet/stale |
+| `mevdschee/php-crud-api` | 3739 | silent | single-file PHP REST API over SQL; thin CRUD scaffold |
+| `schemaspy/schemaspy` | 3719 | silent | DB schema documentation GUI/site generator |
+| `phiresky/sql.js-httpvfs` | 3698 | silent | read-only sqlite-over-HTTP vfs novelty |
+| `linkedin/databus` | 3682 | silent | stale LinkedIn CDC; largely unmaintained legacy |
+| `rsnapshot/rsnapshot` | 3668 | silent | generic rsync backup; not DB/storage product primary |
+| `scenic-views/scenic` | 3624 | silent | Rails DB views helper; framework glue |
+| `laurent22/rsync-time-backup` | 3608 | silent | generic Time Machine-style rsync; not DB product |
+| `dalibo/pev2` | 3592 | silent | Postgres explain visualizer UI |
+| `wal-e/wal-e` | 3463 | silent | legacy Postgres WAL archiver; prefer wal-g; quiet |
+| `towhee-io/towhee` | 3451 | silent | ML embedding pipeline framework; vector-adjacent not DB engine |
+| `codemix/ts-sql` | 3306 | silent | SQL-in-TypeScript-types novelty; not product DB |
+| `Wisser/Jailer` | 3198 | silent | DB subsetting/browsing GUI tool |
+| `alibaba/cobar` | 3187 | silent | legacy MySQL sharding proxy; superseded by other proxies |
+| `dosco/graphjin` | 3167 | silent | GraphQL/MCP over DB for AI agents; agent-kit adjacency |
+| `geohot/minikeyvalue` | 3153 | silent | toy distributed KV under 1000 lines; novelty |
+| `shshemi/tabiew` | 3100 | silent | tabular data TUI viewer; CLI-systems spill |
+| `man-group/arctic` | 3087 | silent | finance tick datastore; niche quant spill |
+| `PomeloFoundation/Pomelo.EntityFrameworkCore.MySql` | 2974 | silent | EF Core MySQL provider; thin driver/provider |
+| `dataplat/dbatools` | 2831 | silent | SQL Server DBA automation suite; Windows DBA mega toolkit |
+| `aimeos/upscheme` | 2726 | silent | PHP schema helper; thin niche |
+| `apache/parquet-format` | 2572 | silent | Parquet format spec thrift; specs-only |
+| `supabase/cli` | 2411 | silent | Supabase platform CLI; BaaS/devops spill |
+| `opencurve/curve` | 2389 | silent | CNCF distributed storage; devops/infra spill mega-adjacent |
+| `gocraft/dbr` | 1848 | silent | thin Go database/sql helper additions |
+| `Tencent/paxosstore` | 1714 | silent | WeChat paxos store; low external contrib surface |
+| `dain/leveldb` | 1556 | silent | Java LevelDB port; quiet mirror-ish |
+| `ilyakatz/data-migrate` | 1549 | silent | Rails data-migrate gem; framework glue |
+| `tj/node-migrate` | 1544 | silent | abstract node migrate framework; thin/generic |
+| `georgysavva/scany` | 1521 | silent | Go DB scan helper library; thin adjacency |
+| `levelgraph/levelgraph` | 1520 | silent | JS graph-on-LevelDB; quiet niche |
+| `basho/bitcask` | 1419 | silent | legacy Riak bitcask engine; quiet/unmaintained |
+| `neo4jrb/activegraph` | 1405 | silent | Rails Neo4j OGM wrapper; framework glue |
+| `couchbase/forestdb` | 1332 | silent | legacy ForestDB; quiet Couchbase engine |
+| `ByteStorage/FlyDB` | 1232 | silent | small bitcask KV engine; thin novelty |
+| `charles-001/dolphie` | 1195 | hard_ban | CLAUDE.md NO-AI phrase |
+| `neo4j-contrib/neomodel` | 1089 | silent | Neo4j OGM library; thin mapper |
+
+Notes: Prefer midband databases-storage leftover product homes (engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM/proxy). Disclosure: apache/lucene, EnterpriseDB/barman, vortex-data/vortex, borgmatic-collective/borgmatic, apache/iceberg-rust. Hard ban: charles-001/dolphie (NO-AI). Leave thin clients/drivers, framework glue (Rails/Laravel/Nest providers), GUIs/explain UIs, generic rsync backups, legacy quiet proxies/engines, agent/BaaS kits, Kafka-CDC spills, specs-only.
+

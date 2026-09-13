@@ -350,3 +350,113 @@ Policy histogram (this pass): `{'silent': 86, 'disclosure': 5}`.
 
 Notes: Prefer midband product devops/build CLIs (container/OCI leftovers, k8s CLI/plugins/operators, IaC/policy CLIs, Nix/deploy/release CLIs, CI runner/ops CLIs, observability-adjacent ops products). Disclosure: grafana/alloy, crate-ci/cargo-release, sustainable-computing-io/kepler. Hard leave: getarcaneapp/arcane (NO-AI). Leave GUIs (podman-desktop/semaphore/zadig/monokle), awesome-lists/examples/official images, agent/MCP kits, DB/networking spills, Terraform modules, GH Actions satellites.
 
+## Midband product deepen-2 (2026-09-13, +92 scored)
+
+Account: `vulragrag-star` · Curated devops-build midband (1k–5k★) leftover product container/K8s/Nix/IaC/CI homes after prior devops-build midband deepen · Policy via `raw.githubusercontent.com` · **58** proceed / **34** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 87, 'disclosure': 5}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `mlocati/docker-php-extension-installer` | 4965 | silent | PHP extension installer for Docker images | ext name/path quoting edge + shell tests |
+| `parca-dev/parca` | 4965 | silent | Continuous profiling server/CLI | profile path edge + Go/TS tests |
+| `hashicorp/consul-template` | 4823 | silent | Generic template renderer for Consul/Vault | template/path edge + Go tests |
+| `robusta-dev/krr` | 4710 | silent | Prometheus-based K8s resource recommendations CLI | metric/query path edge + Python tests |
+| `nginx-proxy/docker-gen` | 4631 | silent | Generate files from Docker container metadata | template/path edge + Go tests |
+| `mcuadros/ofelia` | 3980 | silent | Docker job scheduler (crontab for containers) | job schedule/config path edge + Go tests |
+| `johanhaleby/kubetail` | 3486 | silent | Bash multi-pod log tail helper | label/selector path edge + bats/shell tests |
+| `eldadru/ksniff` | 3473 | silent | kubectl sniff plugin via tcpdump | pod/netns path edge + Go tests |
+| `vmware-tanzu/sonobuoy` | 3050 | silent | K8s conformance/diagnostic CLI | plugin/config path edge + Go tests |
+| `elastic/cloud-on-k8s` | 2845 | silent | Elastic Cloud on Kubernetes operator | ECK CRD/path edge + Go tests |
+| `kubie-org/kubie` | 2625 | silent | kubectx/kubens alternative CLI | kubeconfig context path edge + Rust tests |
+| `slok/sloth` | 2545 | silent | Prometheus SLO generator CLI | SLO spec/path edge + Go tests |
+| `iann0036/former2` | 2412 | silent | Generate CFN/Terraform from existing AWS | resource select/path edge + JS tests |
+| `NixOS/nixops` | 2197 | silent | NixOps NixOS deployment tool | deployment.nix path edge + Python tests |
+| `aws/eks-anywhere` | 2098 | silent | Run EKS on own infrastructure CLI | cluster config/path edge + Go tests |
+| `hashicorp/envconsul` | 2070 | silent | Populate env from Consul/Vault | template/path edge + Go tests |
+| `tazjin/nixery` | 2018 | silent | Nix-powered transparent container registry | Nix path/build tag edge + Go tests |
+| `kubernetes-sigs/cri-tools` | 2014 | silent | crictl/critest for CRI runtimes | runtime endpoint/path edge + Go tests |
+| `Azure/aztfexport` | 1910 | silent | Export existing Azure resources to Terraform | resource map/path edge + Go tests |
+| `adammck/terraform-inventory` | 1842 | silent | Terraform state → Ansible dynamic inventory | state parse/path edge + Go tests |
+| `kairos-io/kairos` | 1814 | silent | Immutable Linux meta-distro for edge K8s | image/build path edge + Go tests |
+| `kubetail-org/kubetail` | 1762 | disclosure | Real-time K8s logging dashboard CLI/UI-light | log stream/path edge + Go tests |
+| `tj/mmake` | 1735 | silent | Modern Make with docs/help | Makefile path/target edge + Go tests |
+| `kube-logging/logging-operator` | 1711 | disclosure | Logging operator for Kubernetes | flow/output CRD path edge + Go tests |
+| `alibaba/kt-connect` | 1679 | silent | K8s cloud-native local connect toolkit | mesh/proxy path edge + Go tests |
+| `dragonflyoss/nydus` | 1656 | silent | Nydus on-demand container image filesystem | image layer/path edge + Rust tests |
+| `hcavarsan/kftray` | 1558 | silent | kubectl port-forward manager CLI | port-forward map/path edge + Rust tests |
+| `mvisonneau/gitlab-ci-pipelines-exporter` | 1549 | silent | Prometheus exporter for GitLab CI | project/path edge + Go tests |
+| `pyrra-dev/pyrra` | 1546 | silent | Prometheus SLO tool | SLO config/path edge + Go tests |
+| `AliyunContainerService/gpushare-scheduler-extender` | 1532 | silent | GPU-sharing kube-scheduler extender | GPU request/path edge + Go tests |
+| `release-plz/release-plz` | 1474 | disclosure | Publish Rust crates from CI via Release PR | version/changelog path edge + Rust tests |
+| `corneliusweig/rakkess` | 1402 | silent | kubectl plugin for RBAC access matrix | verb/resource edge + Go tests |
+| `cloudflare/cf-terraforming` | 1399 | silent | Terraform from existing Cloudflare resources | resource export path edge + Go tests |
+| `helm-unittest/helm-unittest` | 1390 | silent | BDD unit tests for Helm charts (plugin) | test suite/path edge + Go tests |
+| `senthilrch/kube-fledged` | 1373 | silent | K8s operator caching container images on nodes | cache CRD/path edge + Go tests |
+| `kubenetworks/kubevpn` | 1369 | silent | Cloud-native K8s VPN / local connect | VPN route/path edge + Go tests |
+| `reactive-tech/kubegres` | 1351 | silent | Postgres operator for K8s | cluster CRD/path edge + Go tests |
+| `containerd/runwasi` | 1334 | silent | containerd Wasm/WASI runtime shim | shim/config path edge + Rust tests |
+| `kubernetes-sigs/scheduler-plugins` | 1322 | silent | Out-of-tree kube-scheduler plugins | plugin config/path edge + Go tests |
+| `KusionStack/kusion` | 1318 | silent | Intent-driven IDP platform orchestrator CLI | intent/stack path edge + Go tests |
+| `stategraph/stategraph` | 1281 | silent | Terraform alternative without state bottleneck | graph/state path edge + OCaml/tests |
+| `nix-community/dream2nix` | 1268 | silent | Simplified nix packaging for language ecosystems | package module path edge + Nix tests |
+| `schemahero/schemahero` | 1230 | silent | K8s operator for declarative DB schemas | schema CRD/path edge + Go tests |
+| `qoomon/docker-host` | 1162 | silent | Docker sidecar to forward traffic to host | network/env path edge + shell tests |
+| `immanuwell/dockerfile-roast` | 1108 | silent | Opinionated Dockerfile linter CLI | rule/path fixture edge + Rust tests |
+| `werf/nelm` | 1106 | silent | Helm 4-class Kubernetes deployment tool | chart/release path edge + Go tests |
+| `nklmilojevic/sofka` | 1101 | silent | Kubernetes TUI on kube-rs | TUI filter/context edge + Rust tests |
+| `alcideio/rbac-tool` | 1085 | silent | Kubernetes RBAC analysis CLI | RBAC rule/path edge + Go tests |
+| `caicloud/cyclone` | 1064 | silent | K8s-native workflow/pipeline engine | pipeline path/config edge + Go tests |
+| `DBCDK/morph` | 1063 | silent | NixOS deployment tool | nix deploy path edge + Go/Nix tests |
+| `jrhouston/tfk8s` | 1058 | silent | Convert K8s YAML manifests to Terraform | YAML→HCL path edge + Go tests |
+| `lework/kainstall` | 1055 | silent | Shell installer for HA Kubernetes | script path/quoting edge + shell tests |
+| `env0/terratag` | 1055 | silent | CLI to auto-tag Terraform resources | HCL tag inject edge + Go tests |
+| `helm/helm-mapkubeapis` | 1035 | silent | Helm plugin mapping deprecated K8s APIs | apiVersion map edge + Go tests |
+| `Trow-Registry/trow` | 1030 | silent | K8s-oriented container registry & image mgmt | push/pull/auth path edge + Rust tests |
+| `AliyunContainerService/image-syncer` | 1020 | silent | Registry V2 image sync CLI | sync rule/path edge + Go tests |
+| `nlewo/comin` | 1010 | silent | GitOps agent for NixOS machines | flake/git path edge + Go tests |
+| `opencontainers/umoci` | 958 | disclosure | Modify OCI images without Docker | layer/path edge + Go tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `SeldonIO/seldon-core` | 4779 | silent | MLOps packaging mega — leave ML |
+| `agentgateway/agentgateway` | 4756 | disclosure | Agentic proxy for AI agents — leave |
+| `kubero-dev/kubero` | 4409 | silent | Self-hosted PaaS GUI — leave PaaS |
+| `dqzboy/Docker-Proxy` | 4399 | silent | Docker mirror proxy service — leave mirrors |
+| `jeffijoe/awilix` | 4228 | silent | IoC container library — not devops product |
+| `kubeflow/pipelines` | 4207 | silent | Kubeflow ML pipelines — leave ML |
+| `instantbox/instantbox` | 4173 | silent | Instant Linux box novelty — leave |
+| `donknap/dpanel` | 4105 | silent | Docker visual panel GUI — leave |
+| `opendevops-cn/opendevops` | 4101 | silent | Cloud mgmt platform GUI — leave PaaS/GUI |
+| `dagger/container-use` | 4038 | silent | Dev envs for coding agents — leave agent kits |
+| `kubernetes/test-infra` | 4018 | silent | K8s test-infra mega — leave |
+| `kubernetes/enhancements` | 3937 | silent | KEP tracking docs — leave |
+| `Qihoo360/wayne` | 3698 | silent | K8s multi-cluster mgmt platform GUI — leave |
+| `dustinlyons/nixos-config` | 3620 | silent | Personal NixOS config — leave dotfiles |
+| `arcboxlabs/arcbox` | 3589 | silent | AI agent isolated machines — leave agent kits |
+| `Pradumnasaraf/DevOps` | 3260 | silent | Personal learning notes repo — leave |
+| `1Panel-dev/KubePi` | 2986 | silent | K8s panel GUI — leave |
+| `nix-community/nixvim` | 2946 | silent | Neovim via Nix — editors-devex spill |
+| `Qovery/engine` | 2461 | silent | Self-service infra PaaS engine — leave PaaS |
+| `storax/kubedoom` | 2168 | silent | Novelty DOOM-kills-pods — leave novelty |
+| `Yelp/paasta` | 1729 | silent | Distributed PaaS — leave PaaS megas |
+| `jupyterhub/zero-to-jupyterhub-k8s` | 1721 | silent | Helm chart + docs for JupyterHub — leave charts/docs |
+| `hashicorp/terraform-mcp-server` | 1524 | silent | Terraform MCP server — leave MCP/agent |
+| `GoogleCloudPlatform/cloud-builders` | 1463 | silent | Cloud Build builder images/examples — leave |
+| `Manoj-engineer/k8squest` | 1457 | silent | K8s learning game — leave tutorials/games |
+| `e2b-dev/runtime` | 1392 | silent | E2B agent sandbox runtime — leave agent kits |
+| `anjia0532/gcr.io_mirror` | 1390 | silent | GCR mirror list — leave mirrors |
+| `aquasecurity/starboard` | 1379 | silent | Superseded by trivy-operator — leave stale |
+| `kubeai-project/kubeai` | 1260 | silent | AI inference operator — leave AI product kits |
+| `sozercan/kubectl-ai` | 1195 | silent | LLM kubectl plugin — leave AI agent CLIs |
+| `opencontainers/distribution-spec` | 1140 | silent | OCI distribution spec docs — leave specs-only |
+| `syself/cluster-api-provider-hetzner` | 1134 | silent | Cluster API provider plugin — leave providers |
+| `jaegertracing/jaeger-operator` | 1119 | silent | Deprecated Jaeger operator — leave |
+| `CrunchyData/crunchy-containers` | 1029 | silent | Postgres container images — DB packaging leave |
+
+Notes: Prefer midband devops-build product homes (container/OCI/registry CLIs, k8s plugins/ops, Nix deploy, IaC CLIs, release/CI exporters, build-adjacent tools). Disclosure: kubetail, logging-operator, release-plz, umoci. Leave GUIs/panels, PaaS megas, provider plugins, mirrors, agent kits, ML platforms, learning dumps, personal nix configs, specs-only.
+

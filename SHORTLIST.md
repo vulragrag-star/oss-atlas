@@ -103,6 +103,6 @@ Mix: cli-systems=18, editors-devex=14, devops-build=14, python-tooling=12, datab
 | elixir-lang/elixir | 26629 | compilers-runtimes | disclosure | compile/macro/path edge + tests — disclose AI |
 | cookiecutter/cookiecutter | 25081 | python-tooling | silent | template path/hook quoting + tests |
 | Delgan/loguru | 24098 | python-tooling | disclosure | sink/path / format edge + tests — disclose AI; no agents |
+| iovisor/bcc | 22660 | compilers-runtimes | silent | BCC BPF tool/path edge + C/Python tests |
 | RustPython/RustPython | 22344 | compilers-runtimes | disclosure | parser/runtime/path edge + Rust tests — disclose AI |
 | micropython/micropython | 22054 | compilers-runtimes | disclosure | port/path/API edge + C tests — disclose AI |
-| gleam-lang/gleam | 21896 | compilers-runtimes | silent | parser/runtime/path edge + tests |

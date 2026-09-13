@@ -330,3 +330,100 @@ Policy histogram (this pass): `{'silent': 65, 'disclosure': 6}`.
 
 Notes: Prefer midband product compilers/runtimes (languages, Wasm/JIT VMs, interpreters, assembler/disassembler, userspace CPU emulators, shader/HDL toolchains, binding generators). Disclosure: cosmopolitan/box64/86Box/chisel/glslang/openj9/dynamorio/slang/veryl. Hard leave: capstone (forbids AI), FEX-Emu (NO-AI). Leave browser-Python toys (brython/skulpt), Vercel Labs scriptc, mint-lang novelty, RE frameworks (Triton/miasm/plasma), CompCert academic, tinyexpr/elk toys, MoonBit core satellite, node-ffi-napi, cpu_features lib.
 
+## Midband product deepen-2 (2026-09-13, +79 scored)
+
+Account: `vulragrag-star` · Curated compilers-runtimes midband (1k–5k★) language/Wasm/JIT/interpreter/assembler/eBPF/HDL-toolchain leftovers after prior compilers product deepens · Policy via `raw.githubusercontent.com` · **45** proceed / **34** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 76, 'disclosure': 3}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `scala-native/scala-native` | 4691 | silent | Scala Native bare-metal compiler/runtime product | Scala Native codegen/interop edge + Scala tests |
+| `ROCm/hip` | 4399 | silent | HIP heterogeneous C++ compute portability compiler/runtime | HIP compile/runtime/path edge + C++ tests |
+| `ballerina-platform/ballerina-lang` | 3853 | silent | Ballerina language compiler/runtime product | Ballerina compile/runtime edge + Ballerina tests |
+| `konsoletyper/teavm` | 3106 | silent | TeaVM Java→JS/Wasm/C bytecode compiler | TeaVM codegen/Wasm edge + Java tests |
+| `FStarLang/FStar` | 3104 | silent | F* proof-oriented language / compiler | F* typecheck/extract edge + F* tests |
+| `rubinius/rubinius` | 3094 | silent | Rubinius Ruby language platform / VM | Rubinius runtime/bytecode edge + Ruby tests |
+| `mozilla/cbindgen` | 2948 | silent | Rust→C bindings generator product CLI | cbindgen API/path edge + Rust tests |
+| `diku-dk/futhark` | 2798 | silent | Futhark data-parallel functional language compiler | Futhark compile/GPU edge + Futhark tests |
+| `clasp-developers/clasp` | 2782 | silent | Clasp Common Lisp on LLVM | Clasp compile/LLVM edge + Lisp tests |
+| `bakpakin/Fennel` | 2750 | silent | Fennel Lua Lisp language / compiler | Fennel compile/macro edge + Fennel/Lua tests |
+| `flix/flix` | 2739 | silent | Flix programming language compiler | Flix typecheck/codegen edge + Flix tests |
+| `peachpiecompiler/peachpie` | 2486 | silent | PeachPie PHP compiler/runtime on .NET | PeachPie compile/interop edge + C# tests |
+| `sbcl/sbcl` | 2146 | silent | Steel Bank Common Lisp compiler/runtime | SBCL compile/runtime edge + Lisp tests |
+| `EvgSkv/logica` | 2135 | silent | Logica logic language → SQL compiler | Logica compile/SQL edge + Python tests |
+| `amaranth-lang/amaranth` | 2082 | silent | Amaranth Python HDL toolchain | Amaranth HDL elaborat/emit edge + Python tests |
+| `Maratyszcza/PeachPy` | 2060 | silent | PeachPy x86-64 assembler embedded in Python | PeachPy asm/encode edge + Python tests |
+| `fengari-lua/fengari` | 2028 | silent | Fengari Lua VM in JavaScript | Fengari Lua VM/runtime edge + JS tests |
+| `chapel-lang/chapel` | 2022 | silent | Chapel parallel programming language | Chapel compile/runtime edge + Chapel tests |
+| `ValeLang/Vale` | 2010 | silent | Vale programming language compiler | Vale compile/memory edge + Scala tests |
+| `rakudo/rakudo` | 1896 | silent | Rakudo Raku compiler (MoarVM/JVM/JS) | Rakudo compile/runtime edge + Raku tests |
+| `oracle/bpftune` | 1880 | silent | bpftune BPF auto-tune Linux systems tool | bpftune BPF/policy edge + C tests |
+| `m4rs-mt/ILGPU` | 1754 | silent | ILGPU JIT compiler for .NET GPU programs | ILGPU JIT/kernel edge + C# tests |
+| `jphp-group/jphp` | 1709 | silent | JPHP PHP on JVM implementation | JPHP runtime/interop edge + Java tests |
+| `EnzymeAD/Enzyme` | 1693 | silent | Enzyme LLVM/MLIR automatic differentiation | Enzyme AD/LLVM pass edge + C++ tests |
+| `ganelson/inform` | 1642 | silent | Inform 7 interactive fiction language | Inform compile/path edge + C tests |
+| `TheThirdOne/rars` | 1633 | silent | RARS RISC-V assembler and runtime simulator | RARS asm/sim edge + Java tests |
+| `moonsharp-devs/moonsharp` | 1617 | silent | MoonSharp Lua interpreter for .NET | MoonSharp Lua runtime edge + C# tests |
+| `zama-ai/concrete` | 1576 | silent | Concrete TFHE/FHE compiler (Python→FHE) | Concrete compile/FHE edge + Python/C++ tests |
+| `eunomia-bpf/bpftime` | 1570 | silent | bpftime userspace eBPF runtime | bpftime eBPF runtime edge + C++ tests |
+| `ikvmnet/ikvm` | 1565 | silent | IKVM Java VM + bytecode-to-IL for .NET | IKVM bytecode/IL edge + C# tests |
+| `cincheo/jsweet` | 1489 | silent | JSweet Java→JavaScript transpiler | JSweet transpile/path edge + Java tests |
+| `ring-lang/ring` | 1463 | silent | Ring multi-paradigm embeddable language | Ring compile/runtime edge + C tests |
+| `titzer/virgil` | 1420 | silent | Virgil lightweight native language | Virgil compile/runtime edge + Virgil tests |
+| `sysprog21/shecc` | 1392 | silent | shecc self-hosting educational C compiler | shecc compile/ELF edge + C tests |
+| `LekKit/RVVM` | 1296 | silent | RVVM RISC-V virtual machine | RVVM instr/device/path edge + C tests |
+| `lfortran/lfortran` | 1240 | silent | LFortran modern Fortran compiler | LFortran parse/compile edge + C++ tests |
+| `MikePopoloski/slang` | 1137 | disclosure | Slang SystemVerilog compiler + language services (disclosure) (disclosure policy) | SystemVerilog parse/elaborate edge + C++ tests — disclose AI |
+| `dylibso/chicory` | 1136 | silent | Chicory native JVM WebAssembly runtime | Chicory Wasm runtime edge + Java tests |
+| `z88dk/z88dk` | 1135 | silent | z88dk Z80 family development kit / C compiler | z88dk compile/asm edge + C tests |
+| `libriscv/libriscv` | 1119 | silent | libriscv high-performance RISC-V sandbox | RISC-V sandbox/syscall edge + C++ tests |
+| `r-wasm/webr` | 1090 | silent | WebR: R language compiled to WebAssembly | WebR Wasm/R runtime edge + TS tests |
+| `hlorenzi/customasm` | 1060 | silent | customasm user-defined ISA assembler | customasm ISA/assemble edge + Rust tests |
+| `i-net-software/JWebAssembly` | 1053 | silent | JWebAssembly Java bytecode→Wasm compiler | Java→Wasm compile edge + Java tests |
+| `MobiVM/robovm` | 1042 | silent | RoboVM AOT JVM bytecode→iOS/macOS | RoboVM AOT/path edge + Java tests |
+| `bytecodealliance/jco` | 1002 | silent | jco JS toolchain for Wasm components | jco component/transpile edge + TS tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `jupyterlite/jupyterlite` | 4892 | silent | In-browser Jupyter Wasm notebook product — notebook/IDE spill |
+| `dfranx/SHADERed` | 4794 | silent | Shader IDE/GUI product — editors-devex spill |
+| `DulLabs/bhai-lang` | 4090 | silent | Toy programming language — novelty, not product farm |
+| `zxh0/jvm.go` | 3598 | silent | Toy JVM in Go — educational novelty |
+| `open-goal/jak-project` | 3506 | disclosure | Game language revival (Jak & Daxter) — game reverse-eng spill |
+| `patriciogonzalezvivo/lygia` | 3432 | silent | Shader snippet library — not a compiler/runtime product |
+| `SpinalHDL/VexRiscv` | 3251 | silent | FPGA RISC-V CPU core RTL — not toolchain product |
+| `viebel/klipse` | 3134 | silent | Interactive snippet playground plugin — demo surface |
+| `mirage/mirage` | 2987 | silent | MirageOS unikernel library OS — systems/OS spill vs language compiler |
+| `inspektor-gadget/inspektor-gadget` | 2924 | silent | K8s eBPF observability gadgets — devops/security spill |
+| `libbpf/libbpf` | 2755 | silent | libbpf C library mirror — prefer bcc/bpftrace/bpftool product CLIs |
+| `cksystemsteaching/selfie` | 2522 | silent | Educational self-compiling C + notebook teaching system |
+| `MichiganTypeScript/typescript-types-only-wasm-runtime` | 2404 | silent | Types-only Wasm runtime joke/demo — not product |
+| `stnolting/neorv32` | 2260 | silent | MCU-class RISC-V softcore RTL — not compiler product |
+| `BinaryAnalysisPlatform/bap` | 2255 | silent | Binary analysis platform — RE/security spill |
+| `riscv-boom/riscv-boom` | 2233 | silent | RISC-V CPU RTL core — not a compiler/runtime tool product |
+| `fusionlanguage/fut` | 1928 | silent | Fusion multi-target transpiler — low visibility / thin tests |
+| `ares-emulator/ares` | 1790 | silent | Multi-system game console emulator — leave |
+| `LuxLang/lux` | 1740 | silent | Lux research language — thin contribution surface |
+| `clojerl/clojerl` | 1714 | silent | Unofficial Clojure-on-Erlang — thin/unofficial farm |
+| `electrikmilk/cherri` | 1610 | disclosure | Siri Shortcuts novelty language — thin product farm |
+| `vtil-project/VTIL-Core` | 1588 | silent | VTIL intermediate language — RE/lifting spill |
+| `alexfru/SmallerC` | 1576 | silent | Simple educational C compiler — thin product farm |
+| `oxfeeefeee/goscript` | 1544 | silent | Incomplete Go-in-Rust research interpreter |
+| `aduros/wasm4` | 1529 | silent | Fantasy console for Wasm games — game leave |
+| `torch2424/wasmboy` | 1501 | silent | Game Boy emulator library in Wasm — console-emu leave |
+| `fetlang/fetlang` | 1499 | silent | Novelty fetish-themed language — leave |
+| `dadhi/FastExpressionCompiler` | 1375 | silent | C# expression-tree compiler library — thin lib, not language product |
+| `hughperkins/VeriGPU` | 1372 | silent | Verilog GPU research core — RTL leave |
+| `fortran-lang/stdlib` | 1350 | silent | Fortran stdlib satellite — compiler home not midband here |
+| `Jamesbarford/holyc-lang` | 1155 | silent | HolyC niche/novelty compiler — thin regression farm |
+| `vrtbl/passerine` | 1093 | silent | Small extensible novelty language — low product energy |
+| `jserv/amacc` | 1060 | silent | Tiny educational ARM C compiler — teaching toy |
+| `hamler-lang/hamler` | 1038 | silent | Hamler (Haskell-on-Erlang) — low maintainer energy / thin farm |
+
+Notes: Prefer midband compilers/runtimes product homes (languages, Wasm/JIT VMs, interpreters, assemblers, userspace CPU emulators/sandboxes, shader/HDL toolchains, eBPF runtimes/CLIs, FFI/bindgen CLIs). Disclosure: slang (MikePopoloski), ponyc. Leave console game emulators, fantasy consoles, toy/novelty langs, RTL CPU cores without toolchain, notebook/IDE spills, RE/binary-analysis frameworks, stdlib satellites, unikernel OS, thin expression-compiler libs.
+

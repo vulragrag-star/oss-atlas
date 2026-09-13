@@ -295,3 +295,30 @@ Policy histogram (this pass): `{'disclosure': 3, 'silent': 13, 'hard_ban': 2}`.
 
 Notes: Prefer midband product compilers/runtimes (languages, Wasm/JIT VMs, interpreters, assembler/disassembler, userspace CPU emulators, shader/HDL toolchains, binding generators). Disclosure: cosmopolitan/box64/86Box/chisel/glslang/openj9/dynamorio/slang/veryl. Hard leave: capstone (forbids AI), FEX-Emu (NO-AI). Leave browser-Python toys (brython/skulpt), Vercel Labs scriptc, mint-lang novelty, RE frameworks (Triton/miasm/plasma), CompCert academic, tinyexpr/elk toys, MoonBit core satellite, node-ffi-napi, cpu_features lib.
 
+## Midband product deepen-2 (spill ≥5k★ if any) (2026-09-13, +9 scored)
+
+Account: `vulragrag-star` · Curated compilers-runtimes midband (1k–5k★) language/Wasm/JIT/interpreter/assembler/eBPF/HDL-toolchain leftovers after prior compilers product deepens · Policy via `raw.githubusercontent.com` · **8** proceed / **1** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 8, 'disclosure': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `iovisor/bcc` | 22660 | silent | BCC BPF-based Linux IO/networking tools | BCC BPF tool/path edge + C/Python tests |
+| `triton-lang/triton` | 20144 | silent | Triton GPU DSL compiler (MLIR) | Triton kernel compile edge + Python tests |
+| `reasonml/reason` | 10321 | silent | Reason syntax / toolchain on OCaml | Reason parse/print edge + OCaml tests |
+| `lua/lua` | 10296 | silent | Lua language reference implementation | Lua VM/parse edge + C tests |
+| `cilium/ebpf` | 7957 | silent | ebpf-go pure-Go eBPF load/modify library | ebpf-go load/program edge + Go tests |
+| `unisonweb/unison` | 6726 | silent | Unison content-addressed language | Unison compile/sync edge + Haskell tests |
+| `svaarala/duktape` | 6208 | silent | Duktape embeddable JavaScript engine | Duktape JS runtime edge + C tests |
+| `ponylang/ponyc` | 6183 | disclosure | Pony actor-model language compiler (disclosure) (disclosure policy) | Pony compile/runtime edge + Pony tests — disclose AI |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `melonDS-emu/melonDS` | 5008 | silent | Nintendo DS game emulator — console-emu leave, not CR toolchain farm |
+
+Notes: Prefer midband compilers/runtimes product homes (languages, Wasm/JIT VMs, interpreters, assemblers, userspace CPU emulators/sandboxes, shader/HDL toolchains, eBPF runtimes/CLIs, FFI/bindgen CLIs). Disclosure: slang (MikePopoloski), ponyc. Leave console game emulators, fantasy consoles, toy/novelty langs, RTL CPU cores without toolchain, notebook/IDE spills, RE/binary-analysis frameworks, stdlib satellites, unikernel OS, thin expression-compiler libs.
+

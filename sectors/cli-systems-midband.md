@@ -327,3 +327,71 @@ Policy histogram (this pass): `{'silent': 51, 'disclosure': 1}`.
 
 Notes: Prefer midband product CLIs/TUIs/sysadmin homes (htop/glances/ranger/skim/xh/aria2/fx/dasel/sd/gron/pandoc/git-cliff/gitu/jjui/pueue/entr/termscp/ATAC/systemctl-tui/bluetui/impala/kdash/dockly/landrun/gomplate/gobackup/sdkman/hishtory). Disclosure: htop/termscp/onefetch/fastfetch. Leave zsh plugin skins, neofetch-class vanity fetches, novelty CLIs (pingu/gitlogue/gitmoji), FUSE s3fs, vendor cloud megas, cargo-edit/bacon/wrkflw sector spills.
 
+## Midband product deepen-2 (2026-09-13, +50 scored)
+
+Account: `vulragrag-star` · Curated cli-systems midband (1k–5k★) leftover product CLI/TUI/sysadmin homes after prior cli-systems product deepen · Policy via `raw.githubusercontent.com` · **34** proceed / **16** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 48, 'agentscan': 1, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `winscp/winscp` | 3830 | silent | Windows file manager with SFTP/SCP; path/protocol edges | SFTP path/protocol edge + C++ tests |
+| `marp-team/marp-cli` | 3816 | silent | Marp markdown presentation CLI; path/theme edges | marp path/theme edge + TS tests |
+| `JohannesKaufmann/html-to-markdown` | 3811 | silent | HTML-to-Markdown converter CLI; path/format edges | HTML format/path edge + Go tests |
+| `Gaurav-Gosain/tuios` | 3627 | silent | Terminal UI OS / multiplexer; session/pane edges | mux session/pane edge + Go tests |
+| `SurgeDM/Surge` | 3520 | silent | TUI download manager; URI/path/option edges | download URI/path edge + Go tests |
+| `gnebbia/kb` | 3411 | silent | Minimalist CLI knowledge base; path/tag edges | kb path/tag edge + Python tests |
+| `Textualize/frogmouth` | 3284 | silent | Markdown browser for the terminal; path/link edges | markdown path/link edge + Python tests |
+| `agavra/tuicr` | 3107 | silent | Code-review TUI with vim keys; diff/path edges | diff/path review edge + Rust tests |
+| `dooit-org/dooit` | 2948 | silent | TUI todo manager; path/config edges | todo path/config edge + Python tests |
+| `EnhancedJax/Bagels` | 2903 | silent | Terminal expense tracker TUI; path/config edges | expense path/config edge + Python tests |
+| `kainctl/isd` | 2140 | silent | Interactive systemd TUI; unit/filter edges | systemd unit/filter edge + Python tests |
+| `noborus/ov` | 2018 | silent | Feature-rich terminal text viewer/pager; path/format edges | pager path/format edge + Go tests |
+| `nosarthur/gita` | 1937 | silent | Manage many git repos CLI; path/repo edges | multi-repo path edge + Python tests |
+| `facebookincubator/fastmod` | 1926 | silent | Fast partial codemod CLI; path/regex edges | regex/path replace edge + Rust tests |
+| `bcicen/grmon` | 1892 | silent | Goroutine monitor CLI; process/metric edges | goroutine metric edge + Go tests |
+| `joehillen/sysz` | 1882 | silent | fzf terminal UI for systemctl; unit/filter edges | systemd unit/filter edge + Shell tests |
+| `vladkens/macmon` | 1879 | silent | Apple Silicon realtime system monitor; metric/sensor edges | metric/sensor edge + Rust tests |
+| `isacikgoz/gitin` | 1867 | silent | Git commit/branch/workdir explorer; path/ref edges | git ref/path edge + Go tests |
+| `aaronjanse/3mux` | 1850 | silent | i3-inspired terminal multiplexer; session/pane edges | session/pane edge + Go tests |
+| `mgunyho/tere` | 1799 | silent | Terminal file explorer; path/navigation edges | path navigate edge + Rust tests |
+| `PabloLec/RecoverPy` | 1789 | silent | Interactive deleted-file recovery; path/partition edges | partition/path recover edge + Python tests |
+| `whyisdifficult/jiratui` | 1694 | silent | Jira Textual TUI; config/query edges | jira query/config edge + Python tests |
+| `bgreenwell/xleak` | 1486 | silent | Terminal Excel viewer TUI; path/sheet/format edges | xlsx path/sheet edge + Rust tests |
+| `adtac/climate` | 1429 | silent | Swiss-army Linux utility CLI; subcommand/path edges | subcommand/path edge + Shell tests |
+| `samtay/so` | 1424 | silent | Terminal Stack Overflow client; query/path edges | query/cache path edge + Rust tests |
+| `tenox7/ttyplot` | 1379 | silent | Realtime terminal plotting utility; stdin/format edges | stdin/plot format edge + C tests |
+| `gvcgo/version-manager` | 1340 | silent | General SDK version manager; install/path/version edges | version install/path edge + Go tests |
+| `YiNNx/cmd-wrapped` | 1288 | silent | Shell history insights CLI; history/path edges | history path/parse edge + Rust tests |
+| `lasantosr/intelli-shell` | 1287 | silent | Shell command IntelliSense helper; history/completion edges | history/completion edge + Rust tests |
+| `ericfreese/rat` | 1286 | silent | Compose shell commands into interactive terminal apps; argv/pipe edges | argv/pipe compose edge + Go tests |
+| `psanford/wormhole-william` | 1255 | silent | Magic-wormhole file transfer CLI; path/code edges | transfer path/code edge + Go tests |
+| `naggie/dstask` | 1202 | silent | Git-powered terminal todo/note manager; path/markdown edges | task path/markdown edge + Go tests |
+| `jarun/imgp` | 1090 | silent | Batch image resizer/rotator CLI; path/geometry edges | image path/geometry edge + Python tests |
+| `stefanmaric/g` | 1082 | silent | Simple Go version manager; path/version edges | go version/path edge + Shell tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `schollz/progressbar` | 4703 | silent | Progress bar library — not a product home |
+| `dankamongmen/notcurses` | 4699 | silent | TUI/character-graphics library — not a product home |
+| `CLIUtils/CLI11` | 4441 | silent | C++ CLI parser framework — not a product home |
+| `peterbrittain/asciimatics` | 4303 | silent | Curses-like library — not a product home |
+| `pystardust/ytfzf` | 4152 | silent | YouTube finder novelty CLI — leave |
+| `nodejs/corepack` | 3803 | agentscan | AgentScan hit — leave |
+| `graykode/abtop` | 3542 | silent | AI coding agent monitor — agent product leave |
+| `TaKO8Ki/gobang` | 3318 | silent | Database TUI — databases-storage sector spill |
+| `archivy/archivy` | 3274 | silent | Self-host knowledge web app — not CLI product farm |
+| `orhun/ratty` | 3231 | silent | GPU terminal emulator — full terminal emulator leave |
+| `alecthomas/kong` | 3173 | silent | Go CLI parser framework — not a product home |
+| `muesli/termenv` | 2024 | silent | ANSI style library — not a product home |
+| `carapace-sh/carapace-bin` | 1953 | silent | Multi-shell completion binary — completions dump leave |
+| `bgreenwell/lstr` | 1535 | hard_ban | Policy hard_ban (NO-AI) — leave |
+| `ihabunek/toot` | 1323 | silent | Mastodon social CLI — novelty/social leave |
+| `sigoden/argc` | 1164 | silent | Bash CLI framework — not a product home |
+
+Notes: Prefer midband cli-systems product homes (file managers, monitors, fuzzy finders, version managers, transfer/clipboard, JSON/YAML wranglers, git explorers, pagers, package CLIs, multiplexers, systemd/sysadmin TUIs). Disclosure: gitoxide, rustnet. Leave shell plugin skins, cheatsheets, novelty/media TUIs, CLI frameworks/libs, AI agent CLIs, terminal emulators, networking tunnels, DB TUI sector spills. Hard ban: gh-dash, lstr. AgentScan: corepack.
+

@@ -362,3 +362,63 @@ Policy histogram (this pass): `{'disclosure': 3, 'silent': 33}`.
 
 Notes: Prefer midband product CLIs/TUIs/sysadmin homes (htop/glances/ranger/skim/xh/aria2/fx/dasel/sd/gron/pandoc/git-cliff/gitu/jjui/pueue/entr/termscp/ATAC/systemctl-tui/bluetui/impala/kdash/dockly/landrun/gomplate/gobackup/sdkman/hishtory). Disclosure: htop/termscp/onefetch/fastfetch. Leave zsh plugin skins, neofetch-class vanity fetches, novelty CLIs (pingu/gitlogue/gitmoji), FUSE s3fs, vendor cloud megas, cargo-edit/bacon/wrkflw sector spills.
 
+## Midband product deepen-2 (spill ≥5k★ if any) (2026-09-13, +42 scored)
+
+Account: `vulragrag-star` · Curated cli-systems midband (1k–5k★) leftover product CLI/TUI/sysadmin homes after prior cli-systems product deepen · Policy via `raw.githubusercontent.com` · **27** proceed / **15** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 36, 'disclosure': 5, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `microsoft/winget-cli` | 26417 | silent | Windows Package Manager product CLI; argv/manifest/installer path edges | manifest/installer path + argv edge with regression tests |
+| `allinurl/goaccess` | 20920 | silent | Realtime web log analyzer CLI/TUI; log-format/path/parser edges | log format/path parser edge + C tests |
+| `GitoxideLabs/gitoxide` | 11939 | disclosure | Pure Rust git implementation + CLIs (disclosure); path/object edges | git path/object edge + Rust tests — disclose AI |
+| `Syllo/nvtop` | 10994 | silent | GPU/accelerator process monitor; device/metric/query edges | GPU device/metric edge + C tests |
+| `tstack/lnav` | 10655 | silent | Log file navigator product; format/path/filter edges | log format/path/filter edge + C++ tests |
+| `hatoo/oha` | 10544 | silent | HTTP load generator CLI; URL/header/timing edges | URL/header/load edge + Rust tests |
+| `sharkdp/hexyl` | 10270 | silent | Command-line hex viewer; path/offset/format edges | path/offset/format edge + Rust tests |
+| `gcla/termshark` | 10010 | silent | Terminal UI for tshark; capture/filter/pcap path edges | pcap path/filter edge + Go tests |
+| `aksakalli/gtop` | 9928 | silent | System monitoring dashboard for terminal; metric/layout edges | metric/layout edge + JS tests |
+| `akavel/up` | 8844 | silent | Ultimate Plumber pipe-writing tool; pipeline/quoting edges | pipeline/quoting edge + Go tests |
+| `mfontanini/presenterm` | 8833 | silent | Markdown terminal slideshow; path/theme/slide edges | markdown path/theme edge + Rust tests |
+| `vi/websocat` | 8690 | silent | WebSocket netcat-class CLI; URL/protocol edges | WS URL/protocol edge + Rust tests |
+| `pemistahl/grex` | 8184 | silent | Regex generator CLI from examples; argv/pattern edges | pattern/argv edge + Rust tests |
+| `fujiapple852/trippy` | 7914 | silent | Network diagnostic traceroute CLI; host/protocol edges | host/protocol/path edge + Rust tests |
+| `svenstaro/miniserve` | 7851 | silent | Simple HTTP file server CLI; path/bind/option edges | serve path/bind edge + Rust tests |
+| `mgdm/htmlq` | 7580 | silent | jq-like HTML query CLI; selector/path edges | CSS selector/path edge + Rust tests |
+| `timvisee/ffsend` | 7414 | silent | Secure file share CLI; path/auth/transfer edges | transfer path/auth edge + Rust tests |
+| `pimalaya/himalaya` | 7230 | silent | Email management CLI; account/path/IMAP edges | email account/path edge + Rust tests |
+| `sharkdp/pastel` | 6489 | silent | Color generate/analyze/convert CLI; format/argv edges | color format/argv edge + Rust tests |
+| `alexpasmantier/television` | 6262 | silent | Fast portable fuzzy finder; path/query/preview edges | fuzzy query/path edge + Rust tests |
+| `kucherenko/jscpd` | 6199 | silent | Copy/paste detector CLI; path/language edges | path/language detect edge + tests |
+| `ynqa/jnv` | 6104 | silent | Interactive JSON filter using jq; expr/path edges | jq expr/path edge + Rust tests |
+| `GothenburgBitFactory/taskwarrior` | 6060 | silent | Command-line task management; filter/date/config edges | filter/date/config edge + C++ tests |
+| `Slackadays/Clipboard` | 5899 | silent | Cross-platform clipboard manager CLI; path/format/pipe edges | clipboard path/format edge + C++ tests |
+| `PaulJuliusMartinez/jless` | 5477 | silent | Command-line JSON viewer; path/query/navigate edges | JSON path/navigate edge + Rust tests |
+| `sachaos/viddy` | 5418 | silent | Modern watch command with history/pager; argv/interval edges | watch argv/interval edge + Rust tests |
+| `domcyrus/rustnet` | 5020 | disclosure | Per-process network monitor TUI (disclosure); process/net edges | process/net edge + Rust tests — disclose AI |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `tldr-pages/tldr` | 63692 | disclosure | Cheatsheet dump — not a product CLI farm |
+| `spf13/cobra` | 44603 | silent | Go CLI framework library — not a product home |
+| `google/python-fire` | 28218 | silent | CLI framework library — not a product home |
+| `withfig/autocomplete` | 25218 | silent | Shell completion dump / autocomplete skins leave |
+| `urfave/cli` | 24237 | silent | Go CLI framework library — not a product home |
+| `Rigellute/spotify-tui` | 19348 | silent | Media player TUI — novelty/media leave |
+| `dlvhdr/gh-dash` | 12509 | hard_ban | Policy hard_ban (NO-AI) — leave |
+| `svenstaro/genact` | 12191 | silent | Novelty nonsense activity generator — leave |
+| `ekzhang/bore` | 11494 | silent | Localhost tunnel — networking spill leave |
+| `sigoden/aichat` | 10440 | silent | AI chat / LLM CLI — agent product leave |
+| `aome510/spotify-player` | 7205 | silent | Media player TUI — novelty/media leave |
+| `bitfield/script` | 7035 | disclosure | Go scripting library — not a product CLI home |
+| `mtkennerly/ludusavi` | 6260 | silent | PC game save backup — novelty/game leave |
+| `achannarasappa/ticker` | 6228 | silent | Stock/crypto ticker TUI — novelty finance leave |
+| `pterm/pterm` | 5537 | disclosure | Go terminal beautify library — not a product home |
+
+Notes: Prefer midband cli-systems product homes (file managers, monitors, fuzzy finders, version managers, transfer/clipboard, JSON/YAML wranglers, git explorers, pagers, package CLIs, multiplexers, systemd/sysadmin TUIs). Disclosure: gitoxide, rustnet. Leave shell plugin skins, cheatsheets, novelty/media TUIs, CLI frameworks/libs, AI agent CLIs, terminal emulators, networking tunnels, DB TUI sector spills. Hard ban: gh-dash, lstr. AgentScan: corepack.
+

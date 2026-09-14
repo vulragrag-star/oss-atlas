@@ -427,3 +427,131 @@ Policy histogram (this pass): `{'silent': 76, 'disclosure': 3}`.
 
 Notes: Prefer midband compilers/runtimes product homes (languages, Wasm/JIT VMs, interpreters, assemblers, userspace CPU emulators/sandboxes, shader/HDL toolchains, eBPF runtimes/CLIs, FFI/bindgen CLIs). Disclosure: slang (MikePopoloski), ponyc. Leave console game emulators, fantasy consoles, toy/novelty langs, RTL CPU cores without toolchain, notebook/IDE spills, RE/binary-analysis frameworks, stdlib satellites, unikernel OS, thin expression-compiler libs.
 
+## Midband product deepen-3 (2026-09-14, +110 scored)
+
+Account: `vulragrag-star` · Curated compilers-runtimes midband TS/JS (1k–5k★) leftover Wasm/runtime/interpreter/transpiler/codegen/FFI homes after cli-systems deepen-3 · Policy via `raw.githubusercontent.com` · **40** proceed / **70** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 104, 'agentscan': 4, 'disclosure': 1, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `node-ffi/node-ffi` | 4320 | silent | Node.js Foreign Function Interface bindgen product | node-ffi bindgen/FFI path edge + tests |
+| `ferdikoomen/openapi-typescript-codegen` | 3368 | silent | OpenAPI→TypeScript/JavaScript client codegen | OpenAPI codegen quoting/path edge + tests |
+| `elsaland/elsa` | 2833 | silent | Elsa minimal JS/TS runtime written in Go | Elsa runtime path/module edge + tests |
+| `decaffeinate/decaffeinate` | 2707 | silent | CoffeeScript→JavaScript transpiler product | decaffeinate transpile edge + tests |
+| `PiotrDabkowski/Js2Py` | 2570 | silent | JavaScript→Python translator & interpreter | Js2Py transpile/interp edge + tests |
+| `NeilFraser/JS-Interpreter` | 2184 | silent | Sandboxed JavaScript interpreter in JavaScript | JS-Interpreter sandbox/eval edge + tests |
+| `atlassian-labs/compiled` | 2055 | silent | Compile-time CSS-in-JS library (Compiled) | Compiled CSS compile/extract edge + tests |
+| `thx/resvg-js` | 1988 | silent | resvg Rust SVG renderer via Wasm JS bindings | resvg-js Wasm binding/path edge + tests |
+| `graphql-editor/graphql-zeus` | 1977 | silent | GraphQL typed client + code generator | graphql-zeus codegen edge + tests |
+| `WordPress/wordpress-playground` | 1972 | silent | WordPress-in-browser via WebAssembly PHP runtime | WP Playground Wasm/PHP path edge + tests |
+| `EmNudge/watlings` | 1756 | silent | WebAssembly learning exercises (watlings) product | watlings Wasm exercise/path edge + tests |
+| `justjake/quickjs-emscripten` | 1706 | silent | QuickJS-emscripten JS engine bindings / sandbox runtime | QuickJS binding/path/env edge + tests |
+| `syl22-00/pocketsphinx.js` | 1508 | silent | Pocketsphinx speech recognition in JS/Wasm | pocketsphinx.js Wasm binding edge + tests |
+| `pocket-stack/pocketjs` | 1442 | silent | PocketJS portable application runtime | PocketJS runtime path/env edge + tests |
+| `rhashimoto/wa-sqlite` | 1415 | silent | WebAssembly SQLite with browser storage extensions | wa-sqlite Wasm/VFS path edge + tests |
+| `improbable-eng/ts-protoc-gen` | 1394 | silent | protoc plugin codegen for TypeScript / gRPC-Web | protoc-gen TS codegen edge + tests |
+| `silentmatt/expr-eval` | 1352 | silent | Mathematical expression evaluator language product | expr-eval parse/eval edge + tests |
+| `roblox-ts/roblox-ts` | 1300 | silent | TypeScript-to-Luau compiler product for Roblox | TS→Luau transpile/codegen edge + tests |
+| `shift-js/shift-js` | 1271 | silent | Swift-to-JavaScript source transpiler | Swift→JS transpile quoting edge + tests |
+| `bvibber/ogv.js` | 1238 | silent | Media codecs compiled to JS/Wasm player runtime | ogv.js Wasm codec path edge + tests |
+| `joelseverin/linux-wasm` | 1232 | silent | Linux kernel WebAssembly architecture port | linux-wasm arch/runtime edge + tests |
+| `Myriad-Dreamin/typst.ts` | 1216 | silent | Typst typesetting engine runtime in JavaScript/Wasm | typst.ts Wasm binding/path edge + tests |
+| `sandersn/mini-typescript` | 1209 | silent | Miniature TypeScript compiler model (teaching product) | mini-typescript parse/check edge + tests |
+| `leaningtech/cheerp-meta` | 1191 | silent | Cheerp C/C++→Wasm/JS compiler toolchain meta | Cheerp compile/link Wasm edge + tests |
+| `peggyjs/peggy` | 1179 | silent | Peggy parser-generator (PEG.js successor) product | parser-generator edge-case + grammar tests |
+| `shazow/whatsabi` | 1162 | silent | EVM bytecode ABI extractor / metadata tooling | whatsabi bytecode/ABI edge + tests |
+| `Daninet/hash-wasm` | 1156 | silent | Hand-tuned Wasm hash functions product library | hash-wasm Wasm binding edge + tests |
+| `malinajs/malinajs` | 1152 | silent | Malina.js frontend compiler (Svelte-inspired) | Malina compile/codegen edge + tests |
+| `onelang/OneLang` | 1143 | silent | OneLang multi-language source-to-source transpiler | OneLang transpile/codegen edge + tests |
+| `brownplt/pyret-lang` | 1129 | silent | Pyret language implementation / toolchain | Pyret parse/runtime edge + tests |
+| `cloudflare/sandbox-sdk` | 1129 | silent | Cloudflare edge sandboxed code execution SDK | sandbox-sdk runtime/env edge + tests |
+| `bring-shrubbery/SVG-to-SwiftUI` | 1119 | silent | SVG-to-SwiftUI compiler product | SVG→SwiftUI codegen edge + tests |
+| `teleporthq/teleport-code-generators` | 1115 | silent | TeleportHQ modern JS code generators collection | teleport codegen path/quoting edge + tests |
+| `zalando-incubator/graphql-jit` | 1084 | silent | GraphQL JIT execution compiler | GraphQL JIT compile/exec edge + tests |
+| `choojs/bankai` | 1084 | silent | Bankai friendly web compiler / bundler product | bankai compile/asset path edge + tests |
+| `sqlite/sqlite-wasm` | 1053 | silent | Official SQLite Wasm ES-module wrapper runtime | sqlite-wasm load/path edge + tests |
+| `ThatOpen/engine_web-ifc` | 1041 | silent | IFC file reader/writer at native speeds (Wasm) | web-ifc parse/Wasm path edge + tests |
+| `anvil-works/anvil-runtime` | 1025 | silent | Anvil web-app hosting runtime engine | Anvil runtime path/env edge + tests |
+| `ryansolid/dom-expressions` | 1017 | silent | Fine-grained DOM runtime / JSX compiler substrate | dom-expressions compile/runtime edge + tests |
+| `davidedc/Algebrite` | 1000 | silent | Computer Algebra System in TypeScript/JavaScript | Algebrite CAS parse/eval edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `xiangechen/chili3d` | 4833 | silent | Browser 3D CAD app — generic web app leave |
+| `unjs/magic-regexp` | 4337 | agentscan | AgentScan org unjs — hard leave |
+| `oklai/koala` | 3947 | silent | GUI less/sass/coffeescript compiler app — not CR toolchain farm |
+| `Smashing/smashing` | 3300 | silent | Dashboard framework — web app leave |
+| `mikeric/rivets` | 3220 | silent | Data-binding UI library — not compiler/runtime |
+| `remix-project-org/remix-project` | 3052 | silent | Solidity browser IDE — forever_out adjacency / IDE spill |
+| `unjs/jiti` | 2958 | agentscan | AgentScan org unjs — hard leave |
+| `joye61/pic-smaller` | 2875 | silent | Image compressor web app — not CR |
+| `davidmonterocrespo24/velxio` | 2822 | silent | MCU emulator in browser — emulator leave |
+| `ethereumjs/ethereumjs-monorepo` | 2755 | silent | EVM/L1 stack — security-crypto sector spill |
+| `YusufB5/ASCILINE` | 2728 | silent | ASCII video engine novelty — leave |
+| `runtypes/runtypes` | 2700 | silent | Runtime type validation lib — thin satellite |
+| `milind-soni/OpenMausBot` | 2651 | silent | AI agent bot with VM — AI/agent leave |
+| `evgeny-nadymov/telegram-react` | 2591 | silent | Telegram web client — generic web app |
+| `evanwashere/mitata` | 2530 | silent | Benchmark tooling — not language runtime product |
+| `SheepChef/Abracadabra` | 2483 | silent | Text encryption novelty — leave |
+| `shgopher/GOFamily` | 2287 | silent | Go tutorial/handbook — learn material leave |
+| `upstash/ratelimit-js` | 2047 | silent | Serverless rate-limit lib — networking/devops spill |
+| `iden3/snarkjs` | 2038 | silent | zkSNARK crypto — security-crypto spill |
+| `redux-loop/redux-loop` | 1950 | silent | Redux Elm-effects port — UI lib leave |
+| `serkanyersen/ifvisible.js` | 1950 | silent | Page-visibility helper — not CR |
+| `jberg/butterchurn` | 1945 | silent | WebGL music visualizer — novelty leave |
+| `ranuts/document` | 1940 | silent | Browser office editor — web app leave |
+| `hashicorp-forge/hermes` | 1907 | silent | Document management (not Hermes JS engine) — leave |
+| `jackschaedler/goya` | 1860 | silent | Pixel art editor — editors spill |
+| `kuma-ui/kuma-ui` | 1859 | silent | Zero-runtime UI component library — UI kit leave |
+| `ng-packagr/ng-packagr` | 1858 | silent | Angular package format tooling — devops/editors spill |
+| `evloghq/evlog` | 1851 | silent | Observability/logs product — devops spill |
+| `sveltejs/svelte-preprocess` | 1798 | agentscan | AgentScan org sveltejs — hard leave |
+| `tbtlr/gordon` | 1785 | silent | Flash runtime novelty / dead tech — leave |
+| `stoneWeb/elm-react-native` | 1752 | silent | Elm delivery app clone — demo app leave |
+| `OpenNebula/one` | 1743 | silent | Cloud platform — devops spill |
+| `shadcn-labs/pdfcn` | 1738 | silent | PDF UI components — UI kit leave |
+| `vega/ts-json-schema-generator` | 1715 | silent | TS→JSON-Schema — editors-devex spill |
+| `whitphx/stlite` | 1660 | silent | In-browser Streamlit — notebook/app spill |
+| `goldvideo/h265player` | 1659 | silent | H.265 video player — media app leave |
+| `mihaip/infinite-mac` | 1618 | silent | Classic Mac emulator — emulator leave |
+| `yossdotpro/removerized` | 1616 | silent | AI image toolkit — AI/web app leave |
+| `fiduswriter/simple-datatables` | 1608 | silent | DataTables port — UI lib leave |
+| `af/envalid` | 1591 | silent | Env var validation — thin CLI/config satellite |
+| `Alex313031/Mercury` | 1541 | silent | Firefox browser fork — not CR product |
+| `argotorg/solc-js` | 1508 | hard_ban | Solidity forever_out / NO-AI adjacency — hard leave |
+| `vercel-community/php` | 1468 | silent | Vercel PHP serverless runtime — devops spill |
+| `nccgroup/house` | 1465 | silent | Mobile RE analysis toolkit — RE/security spill |
+| `tejaswigowda/ffmpeg-webCLI` | 1425 | silent | ffmpeg.wasm video editor — media app leave |
+| `baotlake/office-website` | 1421 | silent | Web Office suite — web app leave |
+| `octanejs/octane` | 1389 | disclosure | Disclosure AI-policy CONTRIBUTING — leave |
+| `microsoft/tslib` | 1343 | silent | TS helper runtime stubs — thin satellite |
+| `KittyCAD/modeling-app` | 1295 | silent | CAD design studio app — web app leave |
+| `De-Panther/unity-webxr-export` | 1257 | silent | Unity WebXR export — game/engine spill |
+| `dashersw/gea` | 1242 | silent | Reactive UI framework — UI kit leave |
+| `diez/diez` | 1237 | silent | Design token framework — DevEx/design spill |
+| `RobinBlomberg/kysely-codegen` | 1236 | silent | Kysely DB type codegen — databases-storage spill |
+| `unjs/unpdf` | 1233 | agentscan | AgentScan org unjs — hard leave |
+| `tractordev/apptron` | 1213 | silent | Local-first platform — vague product / leave |
+| `kettle11/tangle` | 1208 | silent | Networked multiplayer Wasm — networking spill |
+| `yysun/apprun` | 1176 | silent | AppRun SPA library — UI framework leave |
+| `CH563/shot-easy-website` | 1164 | silent | Screenshot/compress website — web app leave |
+| `EventSource/eventsource` | 1157 | silent | EventSource client — networking spill |
+| `rive-app/rive-react` | 1157 | silent | Rive React runtime wrapper — UI/animation leave |
+| `judge0/ide` | 1121 | silent | Online code editor IDE — editors spill |
+| `darula-hpp/shimmer-from-structure` | 1119 | silent | Skeleton loader UI — UI kit leave |
+| `Tencent/hel` | 1108 | silent | Module federation SDK — devops/bundler spill |
+| `PaddlePaddle/Paddle.js` | 1104 | silent | PaddlePaddle web ML — ML app leave |
+| `prompt-security/clawsec` | 1103 | silent | AI agent security skills — AI/security leave |
+| `wking-io/elm-live` | 1068 | silent | Elm live-reload dev server — editors-devex spill |
+| `drashland/drash` | 1064 | silent | Web framework — networking/web leave |
+| `gqty-dev/gqty` | 1038 | silent | GraphQL client — networking spill |
+| `tokenami/tokenami` | 1017 | silent | CSS utility design-system lib — UI/DevEx leave |
+| `vercel/fun` | 1013 | silent | Local serverless λ runtime — devops-build spill |
+
+Notes: Prefer midband TS/JS compilers-runtimes product homes (QuickJS/Wasm bindings, transpilers, parser-generators, expression evaluators, small language impls, FFI/bindgen, codegen). Leave AgentScan (unjs/*, sveltejs/*), disclosure, Solidity forever_out, EVM/zk crypto spills, web apps/CAD/emulators, thin satellites, DevEx/bundler/DB/networking spills.
+

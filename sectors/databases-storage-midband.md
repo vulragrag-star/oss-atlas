@@ -461,3 +461,141 @@ Policy histogram (this pass): `{'silent': 99, 'disclosure': 5, 'hard_ban': 1}`.
 
 Notes: Prefer midband databases-storage leftover product homes (engines/KV/TSDB/vector/search/object-storage/backup/migrate/SQL-CLI/ORM/proxy). Disclosure: apache/lucene, EnterpriseDB/barman, vortex-data/vortex, borgmatic-collective/borgmatic, apache/iceberg-rust. Hard ban: charles-001/dolphie (NO-AI). Leave thin clients/drivers, framework glue (Rails/Laravel/Nest providers), GUIs/explain UIs, generic rsync backups, legacy quiet proxies/engines, agent/BaaS kits, Kafka-CDC spills, specs-only.
 
+## Midband product deepen-3 (2026-09-14, +120 scored)
+
+Account: `vulragrag-star` · Curated databases-storage midband TS/JS (1k–5k★) leftover SQL/ORM/migration/KV/Redis/Mongo/SQLite/backup/CDC/schema homes after databases-storage deepen-2 and other sector deepen-3s · Policy via `raw.githubusercontent.com` · **52** proceed / **68** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 117, 'disclosure': 3}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `jlongster/absurd-sql` | 4321 | silent | SQLite3 persisted in IndexedDB product | sqlite/vfs/path edge + js tests |
+| `bee-queue/bee-queue` | 4036 | silent | Redis-backed job/task queue for Node.js | Redis queue/path edge + js tests |
+| `joeferner/redis-commander` | 4003 | silent | Redis management GUI/CLI product written in Node | Redis admin/path edge + js tests |
+| `timgit/pg-boss` | 3950 | silent | Postgres-backed job queue for Node | job queue/SQL path edge + js tests |
+| `parse-community/parse-dashboard` | 3806 | silent | Dashboard for managing Parse Server (Mongo-backed BaaS) | Parse admin/path edge + js tests |
+| `animir/node-rate-limiter-flexible` | 3585 | silent | Atomic counters/rate limits with Redis/Mongo/Memcached backends | storage counter/path edge + js tests |
+| `vitaly-t/pg-promise` | 3553 | silent | PostgreSQL interface library for Node.js | pg query/path edge + js tests |
+| `nosqlclient/nosqlclient` | 3468 | silent | Self-hosted MongoDB management GUI product | Mongo admin/path edge + js tests |
+| `remult/remult` | 3211 | silent | Full-stack CRUD with SSOT TypeScript entities (ORM-ish) | entity CRUD/path edge + ts tests |
+| `multiprocessio/datastation` | 2954 | silent | Desktop app to query/script/visualize data from many DBs | SQL query/path edge + ts tests |
+| `sequelize/sequelize-auto` | 2923 | silent | Generate Sequelize models from live database schemas | schema reverse/path edge + js tests |
+| `typegoose/mongodb-memory-server` | 2844 | silent | Spin up MongoDB server binaries for tests | Mongo binary/path edge + ts tests |
+| `yy0931/sqlite3-editor` | 2755 | silent | SQLite3 editor / schema tooling product | SQLite schema/path edge + ts tests |
+| `cars10/elasticvue` | 2746 | silent | Elasticsearch GUI (desktop/extension/docker) | ES admin/path edge + ts tests |
+| `le0pard/pgtune` | 2740 | silent | Tune PostgreSQL config by hardware profile | pg config/path edge + js tests |
+| `graphile/worker` | 2385 | silent | High-performance Node.js/PostgreSQL job queue | job queue/SQL path edge + ts tests |
+| `oguimbal/pg-mem` | 2367 | silent | In-memory Postgres instance for unit tests | SQL engine/path edge + ts tests |
+| `sequelize/umzug` | 2210 | silent | Framework-agnostic Node.js migration tool | migration/path edge + ts tests |
+| `brody2consult/cordova-sqlite-storage` | 2161 | silent | Cordova/PhoneGap plugin for SQLite databases | SQLite plugin/path edge + js tests |
+| `jaredwray/cacheable` | 2007 | silent | Multi-backend caching packages (Keyv-adjacent storage) | cache adapter/path edge + ts tests |
+| `mike-marcacci/node-redlock` | 1981 | silent | Redis Redlock distributed lock implementation | Redis lock/path edge + js tests |
+| `diego3g/rocketredis` | 1946 | silent | Redis GUI client product | Redis GUI/path edge + ts tests |
+| `eveningkid/denodb` | 1919 | silent | Deno multi-DB ORM (MySQL/SQLite/Postgres/Mongo) | ORM mapping/path edge + ts tests |
+| `mickhansen/graphql-sequelize` | 1883 | silent | GraphQL & Relay over MySQL/Postgres via Sequelize | Sequelize GraphQL/path edge + js tests |
+| `smrchy/rsmq` | 1819 | silent | Redis Simple Message Queue | Redis queue/path edge + js tests |
+| `variety/variety` | 1762 | silent | MongoDB schema analyzer CLI product | schema sample/path edge + js tests |
+| `Portabase/portabase` | 1717 | silent | Multi-DB backup & restore CLI/product (Postgres/MySQL/MsSQL/SQLite) | backup/restore/path edge + tests |
+| `thevahidal/soul` | 1684 | silent | Automatic SQLite RESTful + realtime API server | SQLite REST/path edge + js tests |
+| `Level/level` | 1674 | silent | Universal abstract-level key-value database for Node/browsers | KV level/path edge + js tests |
+| `Paxa/postbird` | 1638 | silent | Open-source PostgreSQL GUI client (macOS/Linux/Windows) | pg GUI query/path edge + js tests |
+| `js-data/js-data` | 1613 | silent | Framework-agnostic data layer / ORM-ish resource library | data mapper/path edge + js tests |
+| `ts-safeql/safeql` | 1567 | silent | Validate and auto-generate TypeScript types from raw SQL | SQL typecheck/path edge + ts tests |
+| `jly8866/archer` | 1565 | silent | Automated SQL ops platform (Inception-based execute/audit) | SQL audit/path edge + js tests |
+| `HeyPuter/kv.js` | 1530 | silent | Advanced in-memory key-value cache for JavaScript | KV cache/TTL path edge + js tests |
+| `Meteor-Community-Packages/meteor-autoform` | 1427 | silent | Meteor AutoForm UI helpers over Mongo collections | Mongo form/path edge + js tests |
+| `jawj/zapatos` | 1403 | silent | Zero-abstraction Postgres TypeScript SQL library (non-ORM) | SQL codegen/path edge + ts tests |
+| `supabase/storage` | 1324 | silent | S3-compatible object storage with Postgres metadata | object storage/path edge + ts tests |
+| `supabase/postgres-meta` | 1241 | silent | RESTful API for managing Postgres schemas/roles/tables | schema meta/path edge + ts tests |
+| `adonisjs/lucid` | 1221 | silent | AdonisJS SQL ORM (Postgres/MySQL/SQLite/MSSQL) | ORM query/path edge + ts tests |
+| `valtyr/prisma-kysely` | 1188 | silent | Generate Kysely types from Prisma schema | schema codegen/path edge + ts tests |
+| `saintedlama/passport-local-mongoose` | 1164 | silent | Mongoose plugin for Passport-Local auth (Mongo user store) | Mongo auth plugin/path edge + js tests |
+| `sergeyksv/tingodb` | 1157 | silent | Embedded Node.js database upward-compatible with MongoDB | embedded Mongo/path edge + js tests |
+| `davidyaha/graphql-redis-subscriptions` | 1118 | silent | GraphQL subscriptions pub/sub via Redis | Redis pubsub/path edge + js tests |
+| `neumino/thinky` | 1111 | silent | JavaScript ORM for RethinkDB | RethinkDB ORM/path edge + js tests |
+| `stripe/sync-engine` | 1079 | silent | Stripe account → Postgres CDC/sync engine | CDC sync/path edge + ts tests |
+| `bradleyboy/tuql` | 1076 | silent | Auto GraphQL server from SQLite database or SQL file | SQLite GraphQL/path edge + js tests |
+| `mongoosastic/mongoosastic` | 1073 | silent | Index Mongoose models into Elasticsearch automatically | ES index sync/path edge + js tests |
+| `biggora/caminte` | 1073 | silent | Cross-database ORM for NodeJS | ORM mapping/path edge + js tests |
+| `nijikokun/generate-schema` | 1072 | silent | Convert JSON objects to MySQL/Mongoose/JSON Schema | schema infer/path edge + js tests |
+| `seppevs/migrate-mongo` | 1030 | silent | MongoDB database migration tool for Node | migration/version/path edge + js tests |
+| `Meteor-Community-Packages/meteor-collection2` | 1015 | silent | Mongo.Collection schema validation extension for Meteor | Mongo schema/path edge + js tests |
+| `alfateam/orange-orm` | 1014 | silent | Node/TypeScript SQL ORM product | ORM mapping/query path edge + ts tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `ElasticHQ/elasticsearch-HQ` | 4993 | silent | Elasticsearch monitoring web dashboard; ops UI not product engine |
+| `searchkit/searchkit` | 4854 | silent | React/Vue search UI for ES/Opensearch; frontend UI kit |
+| `jamiewilson/form-to-google-sheets` | 4750 | silent | HTML form → Google Sheets; not DB/storage product |
+| `supabase/supabase-js` | 4562 | silent | Supabase BaaS client SDK; thin client / platform spill |
+| `tapexyz/tape` | 4454 | silent | media-sharing platform; not DB product |
+| `meowtec/imgo` | 4417 | silent | image optimization desktop app; not DB |
+| `graphif/project-graph` | 4413 | silent | node-based notes visualizer; not DB |
+| `brocoders/nestjs-boilerplate` | 4387 | silent | NestJS boilerplate with TypeORM/Mongoose; starter template |
+| `nestjsx/crud` | 4323 | silent | NestJS CRUD framework glue; not standalone DB product |
+| `watsonbox/exportify` | 4225 | silent | Spotify playlist export; not DB |
+| `open-legal-products/mike` | 4220 | silent | legal AI platform; agent/AI spill |
+| `tmoroney/auto-subs` | 4205 | silent | DaVinci subtitle tool; not DB |
+| `nilbuild/pennywise` | 3867 | silent | floating browser window app; not DB |
+| `zhblue/hustoj` | 3792 | silent | online judge platform; MySQL-backed app not DB product |
+| `apache/cordova-android` | 3788 | silent | Cordova Android platform; not DB |
+| `LimeSurvey/LimeSurvey` | 3719 | silent | survey platform; not DB product |
+| `chaskiq/chaskiq` | 3568 | silent | live chat/support platform; not DB |
+| `marcj/deepkit` | 3544 | silent | modular TS framework mega; framework spill |
+| `vantezzen/autoform` | 3493 | silent | auto form renderer UI; frontend spill |
+| `antonycourtney/tad` | 3479 | silent | tabular data viewer desktop; viz UI not DB engine |
+| `mlogclub/bbs-go` | 3475 | silent | community/forum app; not DB product |
+| `jakearchibald/idb-keyval` | 3241 | silent | tiny IndexedDB keyval helper; thin library |
+| `crawlab-team/artipub` | 3204 | silent | article publishing platform; not DB |
+| `yourselfhosted/slash` | 3178 | silent | link sharing platform; not DB |
+| `walinejs/waline` | 3116 | silent | comment system; app not DB product |
+| `final-form/final-form` | 3045 | silent | form state library; frontend spill |
+| `MacRimi/ProxMenux` | 2973 | silent | Proxmox VE toolkit; devops spill |
+| `tj/connect-redis` | 2822 | silent | thin Redis session store for Connect; thin adapter |
+| `socketio/socket.io-redis-adapter` | 2767 | silent | Socket.IO Redis adapter; networking spill |
+| `disease-sh/API` | 2503 | silent | COVID/Influenza API; not DB product |
+| `kentcdodds/kentcdodds.com` | 2494 | silent | personal website; not DB |
+| `lana-k/sqliteviz` | 2354 | silent | browser SQL data visualisation UI; viz spill |
+| `jquery/jquery-migrate` | 2091 | silent | jQuery migrate helper; not SQL migration |
+| `lasting-yang/frida_dump` | 2071 | silent | Frida dump tool; RE/security spill |
+| `Syngnat/GoNavi` | 1897 | silent | AI & MCP multi-data-source DB client; AI/MCP adjacency |
+| `zws-im/zws` | 1848 | silent | URL shortener; not DB product |
+| `wangweianger/zanePerfor` | 1799 | silent | frontend performance monitor; ops spill |
+| `fbsamples/messenger-platform-samples` | 1750 | silent | Messenger samples; tutorial spill |
+| `vfsfitvnm/frida-il2cpp-bridge` | 1738 | silent | Frida IL2CPP bridge; RE spill |
+| `react-querybuilder/react-querybuilder` | 1735 | silent | React query-builder UI component; frontend kit |
+| `tengge1/ShadowEditor` | 1706 | silent | 3D scene editor; Mongo-backed app not DB |
+| `perftools/xhgui` | 1687 | silent | XHProf profiling UI; ops spill |
+| `naomiaro/waveform-playlist` | 1677 | disclosure | CLAUDE.md AI mention; audio editor spill not DB product |
+| `kuzzleio/kuzzle` | 1673 | silent | self-hostable backend platform; BaaS mega |
+| `JackySoft/marsview` | 1650 | silent | low-code visual builder; not DB |
+| `xuwujing/springBoot-study` | 1638 | silent | SpringBoot study tutorials; tutorial spill |
+| `adminsyspro/proxcenter-ui` | 1619 | silent | Proxmox vCenter alternative UI; devops spill |
+| `PegaProx/project-pegaprox` | 1569 | disclosure | CONTRIBUTING AI policy; Proxmox datacenter UI spill not DB |
+| `garrylachman/ElectroCRUD` | 1549 | silent | Electron CRUD desktop over SQL; CRUD GUI app |
+| `arpanghosh8453/open-dronelog` | 1525 | silent | drone log analyzer dashboard; not DB |
+| `surmon-china/nodepress` | 1524 | silent | headless CMS API; CMS spill |
+| `vueform/vueform` | 1510 | silent | Vue form framework; frontend spill |
+| `wannabespace/conar` | 1443 | silent | AI-powered multi-DB tool; AI/agent adjacency |
+| `event-driven-io/Pongo` | 1376 | disclosure | CONTRIBUTING/AGENTS/CLAUDE AI-assisted disclosure; Mongo-on-Postgres product otherwise leave for policy |
+| `pierpo/react-archer` | 1343 | silent | draw arrows between React elements; UI kit |
+| `openworkflowdev/openworkflow` | 1318 | silent | durable workflow framework; not DB product |
+| `surrealdb/surrealist` | 1299 | silent | SurrealDB desktop management GUI; GUI spill |
+| `emuell/restic-browser` | 1297 | silent | generic restic backup browser; not DB-specific |
+| `nuxt-hub/core` | 1290 | silent | Nuxt Hub DB/KV/blob addon; framework glue |
+| `digitallyinduced/thin-backend` | 1248 | silent | universal web app BaaS; platform spill |
+| `layrjs/layr` | 1217 | silent | full-stack framework; framework spill |
+| `simov/express-admin` | 1194 | silent | Express SQL admin panel; admin UI spill |
+| `JKHeadley/rest-hapi` | 1181 | silent | RESTful API generator; scaffold spill |
+| `mswjs/data` | 1064 | silent | data querying for JS tests/mocks; test kit |
+| `vercel/nextjs-postgres-auth-starter` | 1053 | silent | Next.js + Drizzle starter template |
+| `Rabithua/Rote` | 1037 | silent | personal note repository; notes app |
+| `mohammed-bahumaish/prisma-editor` | 1036 | silent | Prisma schema visual editor UI; schema viz spill |
+| `keonik/prisma-erd-generator` | 1033 | silent | Prisma ER diagram generator; diagram spill |
+
+Notes: Prefer midband TS/JS databases-storage product homes (SQL/ORM with real SQL surface, migrations, Redis/KV stores, Mongo/SQLite/embedded DBs, backup/CDC/ETL CLIs, schema tools, object-storage with DB metadata). Leave ecommerce/CRUD apps, thin frontend dashboards, tutorials/starters, agent/AI kits, BaaS mega platforms, GUI-only admin panels, disclosure/hard_ban.
+

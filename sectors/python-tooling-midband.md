@@ -490,3 +490,141 @@ Policy histogram (this pass): `{'silent': 118, 'disclosure': 5}`.
 
 Notes: Prefer midband python-tooling product homes (packaging/env CLIs, linters/formatters/typecheckers, test runners/fixtures/mocks, AST/parsers/codegen, HTTP/ASGI microframeworks & clients, config/CLI libs, async helpers, serialization/validation). Disclosure: Flask-Migrate, django-modern-rest, apiflask. Leave platforms/GUIs, agent kits, IoT, security spills, ML/science, thin wrappers, templates/docs-only, wrong-sector CLIs.
 
+## Midband product deepen-3 (2026-09-14, +120 scored)
+
+Account: `vulragrag-star` · Curated python-tooling midband Python (1k–5k★) leftover packaging/lint/test/HTTP-async/CLI/config/serialize/PDF/ORM-helper product homes after python-tooling deepen-2 and other sector deepen-3s · Policy via `raw.githubusercontent.com` · **56** proceed / **64** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 117, 'disclosure': 3}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `jazzband/tablib` | 4757 | silent | Tabular datasets XLS/CSV/JSON/YAML; format/path edges with tests | tabular format/path edge + tests |
+| `graphql-python/graphene-django` | 4393 | silent | GraphQL for Django; schema/resolve edges with tests | GraphQL schema/resolve edge + tests |
+| `camelot-dev/camelot` | 3820 | silent | PDF table extraction; parse/path edges with tests | PDF table parse/path edge + tests |
+| `Suor/funcy` | 3507 | silent | Functional tools for Python; compose/select edges with tests | compose/select functional edge + tests |
+| `Miksus/rocketry` | 3363 | silent | Modern Python scheduling library; schedule/path edges with tests | schedule parse/path edge + tests |
+| `celery/kombu` | 3142 | silent | Messaging library for Python; serialize/transport edges with tests | message serialize/transport edge + tests |
+| `jazzband/django-redis` | 3086 | silent | Django Redis cache backend; key/serialize edges with tests | cache key/serialize edge + tests |
+| `reloadware/reloadium` | 2985 | silent | Hot reload and profiling for Python; path/reload edges with tests | reload/path profile edge + tests |
+| `keleshev/schema` | 2946 | silent | Pythonic schema validation; coerce/type edges with tests | schema validate/coerce edge + tests |
+| `grantjenks/python-diskcache` | 2906 | silent | Disk-backed cache; path/TTL/evict edges with tests | disk cache path/TTL edge + tests |
+| `pikepdf/pikepdf` | 2798 | silent | PDF read/write via QPDF; page/path edges with tests | PDF page/path edge + tests |
+| `tkem/cachetools` | 2777 | silent | Extensible memoizing collections; TTL/key edges with tests | cache TTL/key edge + tests |
+| `evansd/whitenoise` | 2760 | silent | Static file serving for Python web apps; path/MIME edges with tests | static path/MIME edge + tests |
+| `noirbizarre/flask-restplus` | 2731 | silent | Flask REST+docs framework; swagger/path edges with tests | REST swagger/path edge + tests |
+| `aboutcode-org/scancode-toolkit` | 2622 | silent | License/copyright/dependency scanner CLI; path/parse edges with tests | scan path/license parse edge + tests |
+| `schematics/schematics` | 2586 | silent | Python data structures validation; model/type edges with tests | model/validate type edge + tests |
+| `mongodb/motor` | 2525 | silent | Async MongoDB/Tornado driver; query/path edges with tests | async Mongo query/path edge + tests |
+| `Tivix/django-rest-auth` | 2416 | silent | Django REST auth helpers; token/path edges with tests | auth token/path edge + tests |
+| `xhtml2pdf/xhtml2pdf` | 2391 | silent | HTML-to-PDF via ReportLab; layout/path edges with tests | HTML/PDF layout path edge + tests |
+| `agronholm/sqlacodegen` | 2368 | silent | SQLAlchemy model code generator; reflect/path edges with tests | codegen reflect/path edge + tests |
+| `mirumee/ariadne` | 2342 | silent | Schema-first GraphQL for Python; schema/path edges with tests | GraphQL schema/path edge + tests |
+| `GrahamDumpleton/wrapt` | 2304 | silent | Decorators/wrappers/monkey-patch; wrap/call edges with tests | wrap/decorator call edge + tests |
+| `python-restx/flask-restx` | 2234 | silent | Flask-RESTPlus fork; swagger/path edges with tests | REST swagger/path edge + tests |
+| `Alir3z4/html2text` | 2170 | silent | HTML to Markdown converter; parse/entity edges with tests | HTML/Markdown parse edge + tests |
+| `jeffknupp/sandman2` | 2041 | silent | Auto REST API for legacy DBs; reflect/path edges with tests | REST reflect/path edge + tests |
+| `celery/django-celery-beat` | 1953 | silent | Celery periodic tasks via Django ORM; schedule/path edges with tests | beat schedule/path edge + tests |
+| `myusuf3/delorean` | 1823 | silent | Datetime helper library; TZ/parse edges with tests | datetime TZ/parse edge + tests |
+| `cirospaciari/socketify.py` | 1713 | silent | High-perf HTTP/WS for PyPy/CPython; path/protocol edges with tests | HTTP/WS path/protocol edge + tests |
+| `awtkns/fastapi-crudrouter` | 1695 | silent | Dynamic FastAPI CRUD router; path/model edges with tests | CRUD path/model edge + tests |
+| `dropbox/PyHive` | 1693 | silent | Python Hive/Presto interface; SQL/path edges with tests | Hive/Presto SQL/path edge + tests |
+| `crossbario/autobahn-testsuite` | 1692 | disclosure | WebSocket protocol testsuite; frame/path edges — disclose AI assist | WS frame/path edge + tests — disclose AI assist |
+| `pyeventsourcing/eventsourcing` | 1685 | silent | Event sourcing library; store/serialize edges with tests | event store/serialize edge + tests |
+| `uriyyo/fastapi-pagination` | 1679 | silent | FastAPI pagination helpers; page/limit edges with tests | pagination page/limit edge + tests |
+| `prettytable/prettytable` | 1669 | silent | ASCII table display; align/width edges with tests | table align/width edge + tests |
+| `vimalloc/flask-jwt-extended` | 1580 | silent | Flask JWT extension; claim/path edges with tests | JWT claim/path edge + tests |
+| `trallnag/prometheus-fastapi-instrumentator` | 1486 | silent | Prometheus metrics for FastAPI; path/metric edges with tests | metrics path/label edge + tests |
+| `flask-api/flask-api` | 1473 | silent | Browsable web APIs for Flask; render/path edges with tests | API browse/render path edge + tests |
+| `eralchemy/eralchemy` | 1433 | silent | ER diagram generator for SQLAlchemy; parse/path edges with tests | ER diagram parse/path edge + tests |
+| `kvesteri/sqlalchemy-utils` | 1345 | silent | SQLAlchemy utils/datatypes; type/path edges with tests | SQLAlchemy type/path edge + tests |
+| `miguelgrinberg/Flask-HTTPAuth` | 1289 | disclosure | Flask Basic/Digest/Token auth; auth path edges — disclose AI assist | auth path/header edge + tests — disclose AI assist |
+| `emmett-framework/emmett` | 1235 | silent | Python web framework; route/path edges with tests | route/path framework edge + tests |
+| `mar10/wsgidav` | 1232 | silent | WebDAV server on WSGI; path/auth edges with tests | WebDAV path/auth edge + tests |
+| `alisaifee/flask-limiter` | 1206 | silent | Flask rate limiting; key/path edges with tests | rate-limit key/path edge + tests |
+| `pypa/gh-action-pypi-publish` | 1183 | silent | Blessed GitHub Action for PyPI publish; path/token edges with tests | publish path/token edge + tests |
+| `jazzband/django-configurations` | 1135 | silent | Django settings by environment; config/env edges with tests | settings env/config edge + tests |
+| `python-validators/validators` | 1124 | silent | Human-friendly validators; email/url/path edges with tests | validate email/url/path edge + tests |
+| `duo-labs/parliament` | 1123 | silent | AWS IAM linting library; policy/parse edges with tests | IAM policy lint/parse edge + tests |
+| `AcademySoftwareFoundation/rez` | 1092 | silent | Package config/build/deploy system; resolve/path edges with tests | package resolve/path edge + tests |
+| `tortoise/aerich` | 1082 | silent | TortoiseORM migrations CLI; migrate/path edges with tests | migration path/CLI edge + tests |
+| `TypeError/secure` | 1055 | silent | HTTP security headers helper; header/default edges with tests | security header/default edge + tests |
+| `sibson/redbeat` | 1051 | silent | Celery Beat Redis scheduler; schedule/key edges with tests | beat schedule/key edge + tests |
+| `sebleier/django-redis-cache` | 1040 | silent | Redis cache backend for Django; key/TTL edges with tests | cache key/TTL edge + tests |
+| `jfilter/clean-text` | 1028 | silent | Text cleaning utilities; unicode/normalize edges with tests | text clean/normalize edge + tests |
+| `daijro/hrequests` | 1022 | silent | Human-friendly HTTP client; header/session edges with tests | HTTP session/header edge + tests |
+| `sabuhish/fastapi-mail` | 1011 | silent | FastAPI mail sending; attach/path edges with tests | mail attach/path edge + tests |
+| `mongomock/mongomock` | 1003 | silent | Mock pymongo collections; query/filter edges with tests | mock query/filter edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `JakeWharton/pidcat` | 4955 | silent | Android logcat colorizer — mobile/Android spill |
+| `cloudtools/troposphere` | 4944 | silent | AWS CloudFormation DSL — cloud/IaC spill |
+| `miguelgrinberg/microblog` | 4776 | silent | Flask Mega-Tutorial sample app — tutorial leave |
+| `OTRF/ThreatHunter-Playbook` | 4659 | silent | Threat hunting detections — security spill |
+| `IDSIA/sacred` | 4378 | silent | ML experiment config/repro — ML science spill |
+| `jonaslejon/malicious-pdf` | 4309 | silent | Malicious PDF generator — security/offensive spill |
+| `praw-dev/praw` | 4252 | silent | Reddit API wrapper — service/API spill |
+| `eclipse-sumo/sumo` | 4177 | silent | Traffic simulation — science/domain spill |
+| `opengeos/segment-geospatial` | 4145 | silent | Geospatial ML segmentation — ML/science spill |
+| `snipsco/snips-nlu` | 3973 | silent | NLU/NLP package — ML spill |
+| `arvin341az-glitch/RVG` | 3972 | silent | Proxy management panel — circumvention/proxy GUI leave |
+| `fastapi-admin/fastapi-admin` | 3823 | silent | Admin dashboard GUI mega — leave PaaS-adjacent |
+| `geex-arts/django-jet` | 3622 | silent | Django admin theme/GUI — leave |
+| `pathwaycom/bdh` | 3555 | silent | ML architecture research — ML spill |
+| `zzzeek/sqlalchemy` | 3453 | silent | Unofficial mirror — not product home (official sqlalchemy/sqlalchemy) |
+| `Mirix-AI/MIRIX` | 3441 | silent | Multi-agent personal assistant — agent kit leave |
+| `batrachianai/toad` | 3429 | disclosure | AI terminal interface — AI/agent leave |
+| `pinry/pinry` | 3422 | silent | Image board web app — product GUI leave |
+| `resemble-ai/Resemblyzer` | 3303 | silent | Voice DL compare — ML spill |
+| `christabor/flask_jsondash` | 3281 | silent | Dashboard builder GUI — leave |
+| `milesmcc/shynet` | 3154 | silent | Web analytics product — product/platform leave |
+| `tensorflow/agents` | 3026 | silent | TF-Agents RL library — ML spill |
+| `tiangolo/uwsgi-nginx-flask-docker` | 3003 | silent | Docker image recipe — devops/image leave |
+| `tiangolo/uvicorn-gunicorn-fastapi-docker` | 2915 | silent | Docker image recipe — devops/image leave |
+| `aaronsw/html2text` | 2813 | silent | Unmaintained HTML2Markdown — prefer Alir3z4 fork; leave abandoned |
+| `flaskbb/flaskbb` | 2660 | silent | Forum software product — app leave |
+| `supabase/supabase-py` | 2578 | silent | Supabase BaaS client — platform SDK leave |
+| `onekey-sec/unblob` | 2555 | silent | Firmware/container extractor — security/RE spill |
+| `fastapi-practices/fastapi-best-architecture` | 2551 | silent | Enterprise FastAPI scaffold — template leave |
+| `virtio-win/virtio-win-pkg-scripts` | 2537 | silent | Windows driver packaging scripts — wrong sector |
+| `ungoogled-software/ungoogled-chromium-windows` | 2528 | silent | Browser packaging — wrong sector |
+| `allegro/ralph` | 2517 | silent | CMDB/asset management product — platform leave |
+| `keithrozario/Klayers` | 2506 | silent | AWS Lambda layers packaging — cloud spill |
+| `ChrispyBacon-dev/DockFlare` | 2442 | silent | Cloudflare tunnel Docker UI — devops/GUI leave |
+| `mjhea0/flaskr-tdd` | 2342 | silent | Flask tutorial/TDD sample — tutorial leave |
+| `fairlearn/fairlearn` | 2285 | silent | ML fairness package — ML/science spill |
+| `h5py/h5py` | 2252 | silent | HDF5 science I/O — science spill |
+| `ramnes/notion-sdk-py` | 2182 | silent | Notion API SDK — service SDK spill |
+| `indico/indico` | 2109 | silent | Event management product (CERN) — product leave |
+| `greyli/helloflask` | 2079 | silent | Hello Flask tutorial book code — tutorial leave |
+| `BetaStreetOmnis/xhs_ai_publisher` | 2076 | silent | AI Xiaohongshu publisher — agent/social leave |
+| `SublimeLinter/SublimeLinter` | 2039 | silent | Sublime Text plugin — editors spill |
+| `noamgat/lm-format-enforcer` | 2035 | silent | LLM output format enforcer — AI/LLM leave |
+| `django-notifications/django-notifications` | 1955 | silent | Notifications app product — app leave |
+| `raphaelvallat/pingouin` | 1929 | silent | Stats package — science spill |
+| `dynamicslab/pysindy` | 1899 | silent | Dynamical systems ID — science/ML spill |
+| `scholarly-python-package/scholarly` | 1880 | silent | Google Scholar scraper — wrong-sector spill |
+| `johannfaouzi/pyts` | 1877 | silent | Time series classification — ML spill |
+| `Werneror/Poetry` | 1780 | silent | Chinese poetry dataset — wrong product (not packaging) |
+| `sindresorhus/editorconfig-sublime` | 1775 | silent | Sublime EditorConfig plugin — editors spill |
+| `awslabs/aws-config-rules` | 1738 | silent | AWS Config sample rules — cloud spill |
+| `mjun0812/flash-attention-prebuild-wheels` | 1730 | silent | ML wheels prebuild — ML spill |
+| `dj-bolt/django-bolt` | 1683 | silent | Django+Rust web framework product — platform leave |
+| `Scony/godot-gdscript-toolkit` | 1607 | silent | GDScript tools — game/editors spill |
+| `mdhiggins/sickbeard_mp4_automator` | 1586 | silent | Media convertor — media/IoT-adjacent leave |
+| `ExpDev07/coronavirus-tracker-api` | 1569 | silent | COVID tracker API — dead/domain leave |
+| `amisadmin/fastapi-amis-admin` | 1566 | silent | Admin dashboard GUI — leave |
+| `chr0nzz/traefik-manager` | 1562 | silent | Traefik web UI — devops/GUI leave |
+| `guillevc/yubal` | 1556 | silent | YouTube Music downloader — media leave |
+| `celery/django-celery` | 1551 | silent | Old abandoned Celery-Django project — leave abandoned |
+| `HaoZhang95/Python24` | 1547 | silent | Python/ML course notes — tutorial leave |
+| `insistence/RuoYi-Vue3-FastAPI` | 1525 | silent | Admin scaffold template — template leave |
+| `pysal/pysal` | 1522 | silent | Spatial analysis meta-package — science spill |
+| `Parallels/rq-dashboard` | 1522 | silent | RQ queue dashboard GUI — leave |
+
+Notes: Prefer midband Python python-tooling product homes (packaging/build/publish, lint/format/type/AST, test/fixtures/property/mutation, HTTP/async/OpenAPI, CLI frameworks, config/env/serialize/datetime/PDF, ORM/ODM/query helpers that belong in python-tooling). Leave AgentScan (aio-libs), hard AI bans, platforms/GUIs, agent kits, IoT, security spills, ML/science, thin wrappers, templates/docs-only, wrong-sector CLIs (netmiko/zappa/gcalcli/hashID/dnf), disclosure-only leaves as scored.
+

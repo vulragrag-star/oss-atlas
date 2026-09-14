@@ -520,3 +520,141 @@ Policy histogram (this pass): `{'silent': 118, 'disclosure': 1}`.
 
 Notes: Prefer midband networking-distributed product homes (DNS/DoH/recursive CLIs & servers, HTTP/QUIC/gRPC protocol libs & gateways, reverse proxies/LBs/ingress, tunnels/VPN/WireGuard/SSH-jump products, WebRTC/SFU/SIP stacks, packet/pcap/XDP/load-test CLIs, MQTT/NATS brokers & clients, CNI/network observability). Disclosure: hashicorp/yamux. Leave thin SOCKS libs, VPN GUIs, GFW circumvention, WARP/Tor recipes, mail/Kafka spills, web frameworks, specs-only, offensive scanners.
 
+## Midband product deepen-3 (2026-09-14, +120 scored)
+
+Account: `vulragrag-star` · Curated networking-distributed midband TS/JS (1k–5k★) leftover DNS/HTTP/QUIC/gRPC/proxy/tunnel/WebRTC/SFU/WS/MQTT/AMQP/load-perf product homes after networking-distributed deepen-2 and other sector deepen-3s · Policy via `raw.githubusercontent.com` · **60** proceed / **60** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 116, 'agentscan': 2, 'disclosure': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `developit/redaxios` | 4878 | silent | Tiny Axios-API fetch wrapper HTTP client | HTTP client/path/header edge + js tests |
+| `miroslavpejic85/mirotalk` | 4733 | silent | Self-hosted P2P WebRTC video conferencing | WebRTC/signaling/path edge + js tests |
+| `peers/peerjs-server` | 4697 | silent | PeerJS signaling/server for WebRTC | signaling/peer/path edge + js tests |
+| `kdzwinel/betwixt` | 4557 | silent | Chrome DevTools-based web debug proxy | proxy/HAR/path edge + js tests |
+| `acacode/swagger-typescript-api` | 4118 | silent | OpenAPI→Fetch/Axios client codegen | OpenAPI client gen/path edge + ts tests |
+| `steveseguin/vdo.ninja` | 4031 | silent | WebRTC remote video bring-into-OBS tool | WebRTC/stream/path edge + js tests |
+| `alovajs/alova` | 4014 | silent | Request strategy layer for JS HTTP | request strategy/path edge + ts tests |
+| `wendux/fly` | 3924 | silent | Promise HTTP client with forwarding | HTTP client/forward/path edge + js tests |
+| `amqp-node/amqplib` | 3846 | silent | AMQP 0-9-1 client for Node.js | AMQP frame/path edge + js tests |
+| `webrtcHacks/adapter` | 3746 | silent | WebRTC adapter shim across browsers | adapter/prefix/path edge + js tests |
+| `ardatan/graphql-mesh` | 3511 | silent | GraphQL federation for any API | federation/gateway/path edge + ts tests |
+| `ts-rest/ts-rest` | 3338 | silent | RPC-like typed client/server contracts | RPC contract/path edge + ts tests |
+| `localtunnel/server` | 3319 | silent | localtunnel.me public tunnel server | tunnel/path/proxy edge + js tests |
+| `alibaba/lightproxy` | 3217 | silent | Cross-platform web debugging proxy | proxy/MITM/path edge + js tests |
+| `infinitered/apisauce` | 2885 | silent | Axios + standardized errors wrapper | HTTP client/error/path edge + js tests |
+| `spdy-http2/node-spdy` | 2789 | silent | SPDY/HTTP2 server on Node.js | HTTP2/SPDY frame/path edge + js tests |
+| `websockets/wscat` | 2778 | silent | WebSocket cat CLI | WS frame/path/CLI edge + js tests |
+| `tl-open-source/tl-rtc-file` | 2624 | silent | WebRTC P2P media/file streaming tool | WebRTC P2P/path edge + js tests |
+| `muaz-khan/RTCMultiConnection` | 2619 | silent | WebRTC multi-peer JS library | WebRTC peer/path edge + js tests |
+| `firecamp-dev/firecamp` | 2610 | silent | Open-source API client (Postman-like) | API client/HTTP/path edge + ts tests |
+| `versatica/JsSIP` | 2602 | silent | JavaScript SIP library | SIP message/path edge + js tests |
+| `ueberdosis/hocuspocus` | 2577 | silent | Yjs CRDT WebSocket backend | WS/CRDT/path edge + ts tests |
+| `lukeed/sockette` | 2465 | silent | Tiny WebSocket wrapper library | WS reconnect/path edge + js tests |
+| `actionhero/actionhero` | 2414 | silent | Realtime multi-transport Node API server | API transport/path edge + js tests |
+| `bubenshchykov/ngrok` | 2413 | silent | Node wrapper for ngrok tunnels | tunnel/CLI/path edge + js tests |
+| `fmeringdal/nettu-meet` | 2407 | silent | Open-source video conferencing system | WebRTC meet/path edge + ts tests |
+| `hipache/hipache` | 2306 | silent | Distributed HTTP and WebSocket proxy | proxy/WS/path edge + js tests |
+| `binaryjs/binaryjs` | 2189 | silent | Binary WebSocket streaming for Node | WS binary/stream/path edge + js tests |
+| `mikeal/bent` | 2187 | silent | Functional fetch-based HTTP client | HTTP client/path edge + js tests |
+| `OpenVidu/openvidu` | 2129 | silent | Self-hosted real-time video platform | WebRTC SFU/path edge + js tests |
+| `sockjs/sockjs-node` | 2099 | silent | WebSocket emulation Node server | SockJS protocol/path edge + js tests |
+| `reactive/data-client` | 2035 | silent | Async REST/state client library | REST client/cache/path edge + ts tests |
+| `kartikk221/hyper-express` | 2030 | silent | High-performance Node HTTP server | HTTP server/path edge + js tests |
+| `cheeselemon/ophiuchi-desktop` | 2020 | silent | Localhost SSL proxy manager (Docker) | SSL proxy/path edge + ts tests |
+| `softonic/axios-retry` | 2014 | silent | Axios retry interceptor plugin | retry/backoff/path edge + js tests |
+| `webtorrent/bittorrent-tracker` | 1941 | silent | BitTorrent tracker client & server | tracker announce/path edge + js tests |
+| `tsrpc/tsrpc` | 1934 | silent | TypeScript RPC with runtime type checks | RPC codec/path edge + ts tests |
+| `simoneb/axios-hooks` | 1890 | silent | React hooks for axios HTTP | axios hooks/path edge + js tests |
+| `robbie-cahill/tunnelmole-client` | 1889 | silent | Tunnelmole local server tunnel client | tunnel/path edge + ts tests |
+| `robtaussig/react-use-websocket` | 1884 | silent | React hook for WebSocket | WS hook/path edge + ts tests |
+| `enisdenjo/graphql-ws` | 1871 | silent | GraphQL over WebSocket protocol | WS GraphQL/path edge + ts tests |
+| `stepci/stepci` | 1870 | silent | API testing and QA CLI | API test/HTTP/path edge + ts tests |
+| `VaalaCat/frp-panel` | 1827 | silent | Multi-node frp web UI panel | frp tunnel/config/path edge + ts tests |
+| `youzan/zan-proxy` | 1824 | silent | Extensible PC/Mobile debug proxy | proxy/rule/path edge + js tests |
+| `molnarg/node-http2` | 1791 | silent | HTTP/2 client and server for Node | HTTP2 frame/path edge + js tests |
+| `Novage/p2p-media-loader` | 1719 | silent | P2P engine for live/VOD streaming | P2P media/path edge + ts tests |
+| `bufbuild/protobuf-es` | 1661 | silent | Protocol Buffers for ECMAScript | protobuf codec/path edge + ts tests |
+| `itteco/iframely` | 1648 | silent | oEmbed proxy for 1800+ domains | oEmbed proxy/path edge + js tests |
+| `tomas/needle` | 1636 | silent | Streamable Node HTTP client with proxy | HTTP client/proxy/path edge + js tests |
+| `wiredoor/wiredoor` | 1620 | silent | Self-hosted ingress-as-a-service | ingress/tunnel/path edge + ts tests |
+| `jhurliman/node-rate-limiter` | 1564 | silent | Generic Node rate limiter | rate-limit window/path edge + js tests |
+| `timostamm/protobuf-ts` | 1343 | silent | Protobuf and RPC for TypeScript | protobuf/RPC/path edge + ts tests |
+| `simplewebrtc/signalmaster` | 1300 | silent | Socket.io WebRTC signaling server | signaling/path edge + js tests |
+| `willswire/unifi-ddns` | 1284 | silent | Cloudflare DDNS for UniFi OS | DDNS record/path edge + ts tests |
+| `law-chain-hot/websocket-devtools` | 1190 | silent | WebSocket traffic control/devtools | WS inspect/path edge + ts tests |
+| `ladjs/frisbee` | 1145 | silent | Fetch-based axios/superagent alternative | HTTP client/path edge + js tests |
+| `njpatel/grpcc` | 1133 | silent | gRPC CLI for easy server testing | gRPC CLI/path edge + js tests |
+| `avwo/whistle-client` | 1093 | silent | HTTP/2 HTTPS WS debugging proxy client | proxy/debug/path edge + js tests |
+| `aspida/aspida` | 1075 | silent | TypeScript-friendly HTTP client wrapper | HTTP client/type/path edge + ts tests |
+| `apify/proxy-chain` | 1037 | silent | Node/TS proxy server chain impl | proxy chain/path edge + ts tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `simplewebrtc/SimpleWebRTC` | 4685 | silent | stale SimpleWebRTC umbrella; quiet surface |
+| `blinker-iot/blinker-js` | 4382 | silent | IoT hardware SDK spill |
+| `lazy-luo/smarGate` | 4360 | silent | intranet tunnel C++ product; lang/surface mismatch for TS/JS slice |
+| `totaljs/framework` | 4355 | silent | generic Node.js web framework |
+| `mdaines/viz-js` | 4348 | silent | Graphviz-in-browser; wrong-sector viz |
+| `google/tamperchrome` | 4220 | silent | Chrome extension intercept; browser DevEx spill |
+| `chjj/tty.js` | 4216 | silent | browser terminal via socket.io; DevEx spill |
+| `MetinSeylan/Vue-Socket.io` | 3896 | silent | thin Vue/Vuex socket.io wrapper |
+| `songquanpeng/message-pusher` | 3882 | silent | message push service; wrong-sector notify |
+| `auduno/headtrackr` | 3698 | silent | webcam headtracking CV; not networking product |
+| `react-native-community/hooks` | 3624 | silent | React Native hooks; mobile DevEx spill |
+| `LLOneBot/LuckyLilliaBot` | 3607 | silent | OneBot/Satori bot protocol kit |
+| `webtorrent/instant.io` | 3594 | silent | WebTorrent demo streaming site |
+| `ctimmerm/axios-mock-adapter` | 3543 | silent | axios mock adapter; test helper not product |
+| `mellow-io/mellow` | 3543 | silent | global transparent proxy client; circumvention-adjacent |
+| `contentlayerdev/contentlayer` | 3539 | silent | content→data CMS toolchain; wrong sector |
+| `gokrazy/gokrazy` | 3490 | silent | Go appliance builder; not TS/JS networking |
+| `any4ai/AnyCrawl` | 3454 | silent | web crawler; wrong-sector scrape |
+| `KOWX712/Tricky-Addon-Update-Target-List` | 3446 | silent | Android KSU WebUI; wrong sector |
+| `slackapi/node-slack-sdk` | 3378 | silent | Slack SDK; chat platform spill |
+| `netptop/siteproxy` | 3156 | silent | reverse proxy for blocked sites; circumvention |
+| `aspen-cloud/triplit` | 3113 | silent | syncing database; databases-storage spill |
+| `slackapi/bolt-js` | 2944 | silent | Slack app framework spill |
+| `supercorp-ai/supergateway` | 2843 | silent | MCP stdio/SSE gateway; agent kit |
+| `jimuzhe/tiez-clipboard` | 2777 | silent | clipboard manager; wrong sector |
+| `thlorenz/proxyquire` | 2745 | silent | require() mock proxy; not network proxy |
+| `salarcode/SmartProxy` | 2734 | silent | browser proxy extension; VPN/GUI-adjacent |
+| `streamproc/MediaStreamRecorder` | 2677 | silent | media recorder library; not networking primary |
+| `molvqingtai/WebChat` | 2567 | silent | website chat overlay app |
+| `NetrisTV/ws-scrcpy` | 2559 | silent | scrcpy web client; device mirror spill |
+| `Ice-Hazymoon/openai-scf-proxy` | 2543 | silent | OpenAI cloud-function proxy; circumvention/AI |
+| `blenderskool/blaze` | 2479 | silent | file-sharing PWA; generic app |
+| `unjs/ipx` | 2453 | agentscan | AgentScan org unjs blacklist |
+| `msojocs/fiddler-everywhere-enhance` | 2429 | silent | Fiddler Everywhere enhance/crack-adjacent |
+| `getmeli/meli` | 2419 | silent | static site deploy platform; devops spill |
+| `numberwolf/h265web.js` | 2342 | silent | H.265 web player; media player spill |
+| `jeremyckahn/chitchatter` | 2328 | silent | P2P chat app; messaging app not protocol product |
+| `alangrainger/immich-public-proxy` | 2250 | silent | Immich photo share proxy; app spill |
+| `tdurieux/anonymous_github` | 2224 | silent | anonymous GitHub proxy; privacy tool spill |
+| `TommyLemon/APIAuto` | 2220 | silent | API GUI mega-tool with AI; wrong surface |
+| `Hubs-Foundation/hubs` | 2215 | silent | WebVR social spaces; app/platform spill |
+| `nextcloud/spreed` | 2190 | disclosure | Nextcloud Talk platform; AGENTS.md disclosure |
+| `AlexxIT/WebRTC` | 2178 | silent | Home Assistant WebRTC component |
+| `Tinywan/H5-dash-hls-rtmp-webrtc` | 2148 | silent | HTML5 live player recipes; media spill |
+| `UseInterstellar/Interstellar` | 2128 | silent | school web proxy; circumvention |
+| `imcvampire/vue-axios` | 1996 | silent | thin Vue axios wrapper |
+| `astrofox-io/astrofox` | 1975 | silent | motion graphics app; wrong sector |
+| `zenhosta/9drive` | 1969 | silent | storage gateway web app; storage spill |
+| `HalseySpicy/Hooks-Admin` | 1961 | silent | React admin template |
+| `twilio/twilio-video-app-react` | 1823 | silent | Twilio sample collaboration app |
+| `VoidenHQ/voiden` | 1729 | silent | API docs-in-Markdown product; DevEx spill |
+| `tonghohin/screen-sharing` | 1697 | silent | simple screen-share room app |
+| `AllskyTeam/allsky` | 1612 | silent | Raspberry Pi allsky camera; IoT spill |
+| `webRTC-io/webRTC.io` | 1603 | silent | stale abandoned WebRTC abstraction |
+| `Sharkord/sharkord` | 1494 | silent | chat server with voice; messaging app |
+| `crossbario/autobahn-js` | 1450 | disclosure | WAMP lib with AI_POLICY.md disclosure |
+| `unjs/untun` | 1377 | agentscan | AgentScan org unjs blacklist |
+| `fanchangyong/deershare` | 1176 | silent | P2P file transfer web app |
+| `jcubic/sysend` | 1163 | silent | cross-tab sync helper; not networking product |
+| `vialer/vialer-js` | 1006 | silent | WebRTC softphone UI platform |
+
+Notes: Prefer midband TS/JS networking-distributed product homes (DNS/DDNS CLIs, HTTP/QUIC/gRPC clients, proxies/ingress/LB, tunnels (product CLIs not GUIs), WebRTC/SFU/SIP, WebSocket/SockJS, MQTT/AMQP/NATS-adjacent, load/perf/rate-limit CLIs, protocol libs with real product surface). Leave thin SOCKS, VPN GUIs, GFW/WARP/Tor circumvention, offensive scanners, mail/Kafka spills, generic web frameworks, specs-only, agent kits, chat apps, AgentScan/disclosure/hard_ban.
+

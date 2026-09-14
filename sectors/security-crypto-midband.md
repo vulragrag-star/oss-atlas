@@ -403,3 +403,131 @@ Policy histogram (this pass): `{'silent': 56, 'disclosure': 3, 'hard_ban': 1}`.
 
 Notes: Prefer midband security product homes (vuln mgmt/GRC, IAM/SSO/OIDC, OTP/2FA, secrets CLIs/sharing, ACME/PKI, SAST/CSPM, runtime K8s policy, host firewall/hardening, OpenPGP/crypto libs with testable API edges). Leave hard_ban cryfs, specs-only (w3c/webauthn, slsa docs), signature/pattern DBs, HTML novelty secrets, RN MMKV spill, DDoS megas, email-server megas, packaging-only LDAP images.
 
+## Midband product deepen-3 (2026-09-14, +110 scored)
+
+Account: `vulragrag-star` · Curated security-crypto midband TS/JS (1k–5k★) leftover PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ/OTP/crypto homes after security-crypto deepen-2 and other sector deepen-3s · Policy via `raw.githubusercontent.com` · **50** proceed / **60** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 102, 'disclosure': 7, 'hard_ban': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `MrSwitch/hello.js` | 4619 | silent | OAuth social-login client library product | hello.js OAuth provider path edge + tests |
+| `oauthjs/node-oauth2-server` | 4063 | silent | Compliant OAuth 2.0 authorization server product for Node | OAuth2 grant/token/path edge + Node tests |
+| `eth0izzle/shhgit` | 3982 | silent | Secrets-in-code detection CLI product | secret pattern/path edge + scanner tests |
+| `KuroLabs/stegcloak` | 3891 | silent | Steganography secret-hiding CLI product | stego hide/reveal path edge + tests |
+| `dcodeIO/bcrypt.js` | 3797 | silent | Pure-JS bcrypt password hashing crypto library | bcrypt hash/salt edge + crypto tests |
+| `shuaiplus/nodewarden` | 3658 | silent | Bitwarden-compatible secrets vault on Workers | vault cipher/sync path edge + tests |
+| `henryboldi/felony` | 3458 | silent | Desktop PGP encryption product | PGP key/encrypt path edge + tests |
+| `express-rate-limit/express-rate-limit` | 3305 | silent | Express rate-limiting security middleware product | rate-limit window/key edge + tests |
+| `easychen/CookieCloud` | 3152 | silent | E2E-encrypted browser cookie sync product | cookie sync encrypt/path edge + tests |
+| `jpillora/xdomain` | 3146 | silent | Cross-domain CORS alternative security library | xdomain postMessage/CORS edge + tests |
+| `ExpressGateway/express-gateway` | 3030 | silent | Express microservices API Gateway with auth plugins | gateway auth/plugin path edge + tests |
+| `pyllyukko/user.js` | 2893 | silent | Firefox configuration hardening product | hardening pref/path edge + tests |
+| `chibisafe/chibisafe` | 2771 | silent | Blazing-fast TypeScript file vault product | file vault upload/path edge + tests |
+| `jaredhanson/passport-local` | 2754 | silent | Passport local username/password strategy product | Passport local auth path edge + tests |
+| `ciaranj/node-oauth` | 2432 | silent | Node.js OAuth 1.0/2.0 wrapper library product | node-oauth token/path edge + tests |
+| `onury/accesscontrol` | 2329 | silent | Role/attribute-based access control (RBAC/ABAC) library | RBAC grant/deny path edge + tests |
+| `Caligatio/jsSHA` | 2264 | silent | Complete SHA family hash crypto library (JS/TS) | hash algorithm/path edge + tests |
+| `sergiodxa/remix-auth` | 2201 | silent | Remix authentication framework product | auth strategy/session path edge + tests |
+| `mikenicholson/passport-jwt` | 1981 | silent | Passport JWT authentication strategy product | JWT strategy/verify path edge + tests |
+| `dchest/tweetnacl-js` | 1923 | silent | TweetNaCl cryptographic library port to JavaScript | NaCl box/sign path edge + crypto tests |
+| `cloudflare/workers-oauth-provider` | 1870 | silent | OAuth provider library for Cloudflare Workers | OAuth provider token/path edge + tests |
+| `mailvelope/mailvelope` | 1842 | silent | Browser OpenPGP encryption for webmail product | OpenPGP encrypt/key path edge + tests |
+| `intika/Librefox` | 1778 | silent | Firefox privacy/hardening enhancement product | privacy pref/hardening path edge + tests |
+| `Noovolari/leapp` | 1774 | silent | Cloud IAM access DevTool / credential session CLI | IAM session/credential path edge + tests |
+| `indutny/elliptic` | 1765 | silent | Fast elliptic-curve cryptography library in JS | ECC curve/sign path edge + crypto tests |
+| `clerk/javascript` | 1755 | silent | Clerk authentication JS/TS monorepo product | Clerk auth SDK/session path edge + tests |
+| `googleworkspace/apps-script-oauth2` | 1747 | silent | OAuth2 library for Google Apps Script | OAuth2 token/refresh path edge + tests |
+| `pilcrowonpaper/arctic` | 1717 | silent | OAuth 2.0 clients for popular identity providers | OAuth client provider/path edge + tests |
+| `forwardemail/forwardemail.net` | 1671 | silent | Privacy-focused encrypted email product | email encrypt/TLS path edge + tests |
+| `holtwick/briefing` | 1627 | silent | Secure direct video group-chat product | WebRTC secure-chat path edge + tests |
+| `SpiderOak/Encryptr` | 1559 | silent | Zero-knowledge cloud password manager product | password vault/crypto path edge + tests |
+| `sidebase/nuxt-auth` | 1551 | silent | Nuxt authentication product (Auth.js adapter) | Nuxt auth session/provider path edge + tests |
+| `ssoready/ssoready` | 1535 | silent | Enterprise SSO (SAML + SCIM) developer tooling product | SAML/SCIM SSO path edge + tests |
+| `oauth-io/oauthd` | 1520 | silent | OAuth Daemon open-source OAuth provider product | OAuth daemon provider/path edge + tests |
+| `traceless/alist-encrypt` | 1504 | silent | AList WebDAV encryption proxy product | WebDAV encrypt/path edge + tests |
+| `accounts-js/accounts` | 1502 | silent | Fullstack authentication and accounts-management product | accounts auth/session path edge + tests |
+| `robinkarlberg/transfer.zip-web` | 1499 | silent | Self-hostable encrypted file-sharing product | file-share encrypt/path edge + tests |
+| `hectorm/otpauth` | 1476 | silent | HOTP/TOTP one-time password library product | OTP generate/verify path edge + tests |
+| `tilfinltd/aws-extend-switch-roles` | 1429 | silent | AWS IAM role-switch browser extension product | IAM role-switch path edge + tests |
+| `Tygs/0bin` | 1404 | silent | Client-side encrypted pastebin product | paste encrypt/expire path edge + tests |
+| `PeculiarVentures/PKI.js` | 1399 | silent | Pure JS PKI formats/X.509/CMS crypto library | PKI ASN.1/X.509 path edge + tests |
+| `Authing/Guard` | 1361 | silent | Authing SSO login widget / Guard product | SSO widget/login path edge + tests |
+| `davewasmer/devcert` | 1308 | silent | Local HTTPS / trusted cert development product | devcert CA/path edge + TLS tests |
+| `jaredhanson/passport-facebook` | 1307 | silent | Passport Facebook OAuth authentication strategy | Passport Facebook OAuth path edge + tests |
+| `step-security/harden-runner` | 1268 | silent | CI/CD harden-runner security agent product | CI harden policy/path edge + tests |
+| `dotenv-org/dotenv-vault` | 1245 | silent | dotenv-vault secrets sync product | dotenv vault sync/path edge + tests |
+| `HemmeligOrg/Hemmelig.app` | 1243 | silent | Self-hosted sensitive-secret sharing product | secret share/expire path edge + tests |
+| `nhost/hasura-backend-plus` | 1169 | silent | Hasura Auth + Storage backend product | Hasura auth/storage path edge + tests |
+| `auth0/auth0.js` | 1059 | silent | Auth0 headless browser authentication SDK | Auth0 SDK login/token path edge + tests |
+| `openid/AppAuth-JS` | 1014 | silent | AppAuth OAuth 2.0 / OIDC JS client SDK product | AppAuth OIDC flow/path edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `SadeghHayeri/GreenTunnel` | 4909 | silent | Anti-censorship / VPN circumvention utility — leave |
+| `darrenhinde/OpenAgentsControl` | 4842 | silent | AI agent framework — agent kit leave |
+| `paulmillr/encrypted-dns` | 4800 | silent | DoH config profiles — networking/config dump leave |
+| `Mathieu2301/TradingView-API` | 4769 | silent | TradingView stocks API — wrong sector |
+| `async-labs/saas` | 4511 | silent | SaaS boilerplate — template leave |
+| `dmno-dev/varlock` | 4392 | disclosure | Disclosure AI-policy AGENTS.md — leave |
+| `bookorbit/bookorbit` | 4304 | hard_ban | NO-AI phrase in PR template — hard leave |
+| `XiaoDuoYa/codex-with-chatgpt` | 4265 | silent | ChatGPT/Codex AI agent kit — leave |
+| `dwyl/learn-json-web-tokens` | 4173 | silent | JWT tutorial/learn repo — leave |
+| `buqiyuan/vue3-antdv-admin` | 4110 | silent | Admin panel UI framework — leave |
+| `nextauthjs/next-auth-example` | 4030 | silent | NextAuth example app — leave |
+| `gildas-lormeau/zip.js` | 3892 | silent | Zip library — not security-crypto product home |
+| `async-labs/builderbook` | 3792 | silent | Learn JS stack tutorial app — leave |
+| `Haehnchen/crypto-trading-bot` | 3523 | silent | Crypto trading bot — wrong sector |
+| `onecli/onecli` | 3478 | silent | Sandboxed AI agent harness — agent kit leave |
+| `duolahypercho/codex-router` | 3447 | silent | Codex AI model router — agent kit leave |
+| `AdventDevInc/kudu` | 3436 | silent | Desktop cleaner/scanner utility — not security product farm |
+| `pashpashpash/vault-ai` | 3391 | silent | ChatGPT vault memory — AI kit leave |
+| `cyu/rack-cors` | 3289 | silent | Rack CORS middleware (Ruby) — thin CORS / wrong-lang leave |
+| `cool-team-official/cool-admin-midway` | 3272 | silent | AI admin framework — web app leave |
+| `nexu-io/nexu` | 3270 | silent | OpenClaw desktop client — agent kit leave |
+| `guilhermerodz/input-otp` | 3255 | silent | Unstyled OTP input UI component — thin frontend leave |
+| `chaterm/Chaterm` | 3076 | silent | AI terminal for infra — agent/CLI spill leave |
+| `afteracademy/nodejs-backend-architecture-typescript` | 3072 | silent | Learn/architecture tutorial — leave |
+| `jeremykenedy/laravel-auth` | 3043 | silent | Laravel auth boilerplate — template leave |
+| `zenstackhq/zenstack` | 2942 | silent | TypeScript ORM/data layer — databases spill |
+| `coddingtonbear/obsidian-local-rest-api` | 2921 | disclosure | Disclosure AI-policy + Obsidian/MCP spill — leave |
+| `voidauth/voidauth` | 2818 | disclosure | Disclosure CONTRIBUTING AI-policy — leave (SSO product otherwise) |
+| `SabakiHQ/Sabaki` | 2775 | silent | Go board / SGF editor game — leave |
+| `auth0/angular2-jwt` | 2623 | silent | Thin Angular JWT helper — thin JWT middleware leave |
+| `huanghanzhilian/c-shopping` | 2422 | silent | Ecommerce shopping platform — web app leave |
+| `jbilcke-hf/clapper` | 2326 | silent | Video synthesizer app — wrong sector |
+| `staylor/react-helmet-async` | 2297 | silent | React Helmet UI helper — thin frontend leave |
+| `manfredsteyer/angular-oauth2-oidc` | 1984 | silent | Frontend Angular OIDC client — frontend OIDC leave |
+| `FoalTS/foal` | 1935 | silent | Full Node web framework — not security product home |
+| `sbwml/luci-app-mosdns` | 1829 | silent | OpenWrt DNS forwarder Luci app — networking spill |
+| `LibPDF-js/core` | 1823 | disclosure | Disclosure CONTRIBUTING + PDF lib wrong-sector — leave |
+| `xyzeva/k-id-age-verifier` | 1725 | silent | Age-verification automation — leave |
+| `panshak/accountill` | 1694 | silent | Invoicing web app — wrong sector |
+| `bitbonsai/mcpvault` | 1663 | silent | MCP agent secrets server — agent kit leave |
+| `node-opcua/node-opcua` | 1659 | disclosure | Disclosure AI-policy + industrial OPC UA spill — leave |
+| `NopeCHALLC/nopecha-nodejs` | 1447 | silent | Automated CAPTCHA solver — leave |
+| `PrismarineJS/node-minecraft-protocol` | 1414 | silent | Minecraft protocol — game leave |
+| `styled-components/vue-styled-components` | 1377 | silent | CSS-in-JS styled-components port — leave |
+| `hokaccha/node-jwt-simple` | 1355 | silent | Thin JWT encode/decode module — thin JWT leave |
+| `koajs/jwt` | 1349 | silent | Thin Koa JWT middleware — thin JWT leave |
+| `SteveSuv/remix-words-funny` | 1344 | silent | English learning website — web app leave |
+| `MomenSherif/react-oauth` | 1337 | silent | Frontend React Google OAuth — frontend OIDC leave |
+| `hadynz/obsidian-kindle-plugin` | 1281 | disclosure | Disclosure + Obsidian plugin spill — leave |
+| `Jose-Gael-Cruz-Lopez/underclassmen-opportunities` | 1278 | silent | Curated opportunities list — leave |
+| `helloyanis/age-verification-bypass` | 1271 | silent | Age-verification bypass extension — leave |
+| `sakurity/securelogin` | 1207 | silent | Repo moved / abandoned securelogin — leave |
+| `bramses/bramses-highly-opinionated-vault-2023` | 1199 | silent | Obsidian vault config dump — leave |
+| `wireapp/wire-webapp` | 1192 | silent | Wire chat mega web client — leave |
+| `juliusmarminge/acme-corp` | 1175 | silent | Demo/corp template repo — leave |
+| `burakorkmez/mern-chat-app` | 1102 | silent | MERN chat app with JWT — generic web app leave |
+| `epicweb-dev/cachified` | 1059 | silent | Cache wrapper library — not security product |
+| `stravo1/obsidian-gdrive-sync` | 1045 | silent | Obsidian Google Drive sync plugin — leave |
+| `chrisgrieser/shimmering-obsidian` | 1038 | disclosure | Disclosure + Obsidian Alfred workflow spill — leave |
+| `aidenlx/zotlit` | 1017 | silent | Obsidian Zotero plugin — leave |
+
+Notes: Prefer midband TS/JS security-crypto product homes (PKI/TLS/ACME, IAM/SSO/OTP, secrets managers, SBOM/SAST/SCA, WAF/authZ, host firewall/hardening, OpenPGP/crypto libs). Leave offensive scanners/crackers, RE frameworks, VPN/censorship tools, thin JWT middleware, frontend OIDC clients, specs-only, agent kits, generic web apps, Obsidian spills, disclosure/hard_ban.
+

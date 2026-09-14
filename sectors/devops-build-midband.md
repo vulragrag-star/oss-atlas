@@ -460,3 +460,99 @@ Policy histogram (this pass): `{'silent': 87, 'disclosure': 5}`.
 
 Notes: Prefer midband devops-build product homes (container/OCI/registry CLIs, k8s plugins/ops, Nix deploy, IaC CLIs, release/CI exporters, build-adjacent tools). Disclosure: kubetail, logging-operator, release-plz, umoci. Leave GUIs/panels, PaaS megas, provider plugins, mirrors, agent kits, ML platforms, learning dumps, personal nix configs, specs-only.
 
+## Midband product deepen-3 (2026-09-14, +78 scored)
+
+Account: `vulragrag-star` · Curated devops-build midband TS/JS (1k–5k★) CLI/CI/CD/container/IaC/build product homes after editors-devex deepen-3 · Policy via `raw.githubusercontent.com` · **63** proceed / **15** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 74, 'disclosure': 2, 'agentscan': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `apocas/dockerode` | 4947 | silent | Node Docker Remote API client | API path/option edge + Node tests |
+| `cloudflare/workers-sdk` | 4529 | silent | Wrangler Workers CLI/SDK monorepo | CLI config/path/deploy edge + tests |
+| `firebase/firebase-tools` | 4467 | silent | Firebase CLI | CLI command/config/path edge + tests |
+| `firecow/gitlab-ci-local` | 4086 | silent | Local GitLab CI runner/CLI | yaml/job/path edge + tests |
+| `middyjs/middy` | 3905 | silent | AWS Lambda middleware engine | middleware chain/handler edge + tests |
+| `webpack/tapable` | 3863 | silent | Webpack plugin hook library | hook/order edge + tests |
+| `mxschmitt/action-tmate` | 3581 | silent | SSH debug Action via tmate | Action input/path edge + tests |
+| `prometheus/client_js` | 3488 | silent | Prometheus Node client | metric/label edge + tests |
+| `open-telemetry/opentelemetry-js` | 3465 | silent | OpenTelemetry JS client | exporter/span edge + tests |
+| `open-telemetry/opentelemetry-demo` | 3343 | disclosure | OTel demo shop (disclosure) | service/config edge + tests — disclose AI assist |
+| `broccolijs/broccoli` | 3323 | silent | Asset pipeline build tool | tree/plugin path edge + tests |
+| `pmmmwh/react-refresh-webpack-plugin` | 3186 | silent | Webpack Fast Refresh plugin | loader/option edge + tests |
+| `github-aws-runners/terraform-aws-github-runner` | 3121 | silent | Terraform module for GH Action runners on AWS | TF module/path/var edge + tests |
+| `originjs/vite-plugin-federation` | 3046 | silent | Vite/Rollup module federation plugin | federation config/path edge + tests |
+| `aws-actions/configure-aws-credentials` | 3001 | silent | AWS credentials Action | input/role/path edge + tests |
+| `react-native-community/cli` | 2936 | silent | React Native community CLI | CLI argv/path/config edge + tests |
+| `aws-amplify/amplify-cli` | 2874 | silent | AWS Amplify CLI toolchain | CLI category/path edge + tests |
+| `peter-evans/create-pull-request` | 2849 | silent | Create-PR GitHub Action | Action input/branch edge + tests |
+| `bloomberg/goldpinger` | 2739 | silent | K8s mesh debug/display tool | probe/path/config edge + Go/TS tests |
+| `tj-actions/changed-files` | 2718 | silent | Changed-files GitHub Action | path filter/globs edge + tests |
+| `architect/architect` | 2625 | silent | Functional web app IaC framework | manifest/deploy path edge + tests |
+| `stefanzweifel/git-auto-commit-action` | 2572 | silent | Auto-commit Action | path/message input edge + tests |
+| `googleapis/release-please-action` | 2520 | silent | Release-please Action | manifest/version edge + tests |
+| `swc-project/swc-node` | 1981 | silent | Faster ts-node via SWC | register/path/tsconfig edge + tests |
+| `OpenAPITools/openapi-generator-cli` | 1974 | silent | OpenAPI generator Node wrapper CLI | CLI argv/generator edge + tests |
+| `cloudflare/wrangler-action` | 1944 | silent | Deploy Workers via Action | Action input/path edge + tests |
+| `Swatinem/rust-cache` | 1914 | silent | Rust/cargo cache Action | cache key/path edge + tests |
+| `godaddy/terminus` | 1912 | silent | K8s readiness/liveness + graceful shutdown | healthcheck/signal edge + tests |
+| `google-github-actions/setup-gcloud` | 1911 | silent | Install/configure gcloud Action | Action input/path edge + tests |
+| `dyrector-io/dyrectorio` | 1847 | silent | Self-hosted CD/deploy platform | deploy/config path edge + tests |
+| `Serverless-Devs/Serverless-Devs` | 1830 | silent | Serverless developer CLI | CLI command/config edge + tests |
+| `aws-powertools/powertools-lambda-typescript` | 1789 | silent | AWS Lambda Powertools TS | middleware/logger edge + tests |
+| `AikidoSec/safe-chain` | 1755 | silent | Protect npm/yarn/pnpm install supply chain | CLI install path edge + tests |
+| `Sparticuz/chromium` | 1643 | silent | Chromium for serverless platforms | binary/path/layer edge + tests |
+| `tauri-apps/tauri-action` | 1610 | silent | Tauri binary build Action | target/path edge + tests |
+| `hashicorp/setup-terraform` | 1586 | silent | Setup Terraform CLI Action | version/path input edge + tests |
+| `peaceiris/actions-hugo` | 1577 | silent | Hugo setup/build Action | version/path edge + tests |
+| `calibreapp/image-actions` | 1575 | silent | Image compress Action | path/format edge + tests |
+| `docker/login-action` | 1487 | silent | Docker registry login Action | registry/cred input edge + tests |
+| `webfactory/ssh-agent` | 1483 | silent | ssh-agent setup Action | key/path input edge + tests |
+| `milliHQ/terraform-aws-next-js` | 1476 | silent | TF module deploy Next.js to AWS | module/path/var edge + tests |
+| `cypress-io/github-action` | 1463 | silent | Cypress E2E Action | spec/path/browser edge + tests |
+| `cloudflare/serverless-registry` | 1454 | silent | Container registry on Workers+R2 | push/pull/path edge + tests |
+| `amannn/action-semantic-pull-request` | 1389 | silent | Semantic PR title Action | title/pattern edge + tests |
+| `google-github-actions/auth` | 1385 | silent | GCP auth Action | workload identity/path edge + tests |
+| `docker/setup-buildx-action` | 1382 | silent | Docker Buildx setup Action | builder/driver edge + tests |
+| `sighupio/permission-manager` | 1376 | silent | K8s RBAC permission manager | RBAC/yaml path edge + tests |
+| `expo/eas-cli` | 1354 | silent | Expo EAS build/submit CLI | CLI profile/path edge + tests |
+| `slackapi/slack-github-action` | 1346 | silent | Slack notify Action | payload/input edge + tests |
+| `pnpm/action-setup` | 1320 | silent | Install pnpm Action | version/path edge + tests |
+| `KidkArolis/jetpack` | 1307 | silent | Rspack-based web build tool | config/path edge + tests |
+| `EndBug/add-and-commit` | 1289 | silent | Add-and-commit Action | path/message edge + tests |
+| `benchmark-action/github-action-benchmark` | 1251 | silent | Continuous benchmark Action | tool/path edge + tests |
+| `exoframejs/exoframe` | 1156 | silent | Self-hosted one-command deploy tool | deploy/config path edge + tests |
+| `docker/metadata-action` | 1146 | silent | Docker tags/labels metadata Action | tag/label edge + tests |
+| `web-infra-dev/rsdoctor` | 1139 | silent | Rspack build analyzer | bundle/path report edge + tests |
+| `rsms/estrella` | 1101 | silent | esbuild-based build tool | build config/path edge + tests |
+| `cdxgen/cdxgen` | 1067 | silent | CycloneDX SBOM generator CLI | scan/path/format edge + tests |
+| `aws-actions/amazon-ecr-login` | 1058 | silent | ECR login Action | registry/region edge + tests |
+| `serverless-operations/serverless-step-functions` | 1048 | silent | Serverless Framework Step Functions plugin | plugin/config edge + tests |
+| `goreleaser/goreleaser-action` | 1035 | silent | GoReleaser Action | config/path edge + tests |
+| `expo/expo-github-action` | 1034 | silent | Expo EAS Action | profile/path edge + tests |
+| `egoist/esbuild-register` | 1010 | silent | On-the-fly esbuild transpile register | register/path/ext edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `actions/setup-node` | 4959 | silent | Official Actions setup satellite — leave first-party Actions mega |
+| `nklayman/vue-cli-plugin-electron-builder` | 4074 | silent | Vue Electron scaffold plugin — editors/app spill leave |
+| `kite-org/kite` | 3126 | disclosure | K8s multi-cluster dashboard GUI — leave dashboards |
+| `philippemerle/KubeDiagrams` | 2696 | silent | K8s architecture diagram generator — leave viz/docs tools |
+| `aws/aws-toolkit-vscode` | 1997 | silent | VS Code AWS toolkit — editors-devex spill |
+| `kubewall/kubewall` | 1938 | silent | K8s dashboard GUI — leave |
+| `infracost/vscode-infracost` | 1837 | silent | VS Code Infracost extension — editors spill |
+| `skooner-k8s/skooner` | 1445 | silent | K8s dashboard GUI — leave |
+| `dorny/test-reporter` | 1182 | silent | Test-reporter Action satellite — leave (dorny circle already leave) |
+| `magento/pwa-studio` | 1083 | silent | Magento PWA storefront mega — leave commerce apps |
+| `changesets/action` | 1068 | agentscan | AgentScan adopter org (changesets) — leave |
+| `sveltejs/vite-plugin-svelte` | 1041 | agentscan | AgentScan adopter org (sveltejs) — leave |
+| `shakacode/bootstrap-loader` | 1018 | silent | Thin Bootstrap webpack loader — leave thin/stale loaders |
+| `draios/sysdig-inspect` | 1010 | silent | Sysdig Inspect GUI — leave |
+| `AkhileshNS/heroku-deploy` | 1008 | silent | Heroku deploy Action satellite — leave thin PaaS Actions |
+
+Notes: Prefer midband TS/JS devops product homes (Docker/K8s clients+CLIs, Wrangler/Firebase/Serverless/Amplify CLIs, substantial GitHub Actions, OTel/Prometheus clients, esbuild/SWC/Rspack/Broccoli build tools, SBOM/supply-chain CLIs). Leave AgentScan (changesets/sveltejs), first-party Actions megas (actions/setup-node), K8s dashboard GUIs (kite/kubewall/skooner/sysdig-inspect), VS Code toolkit spills, thin Heroku/PWA/loader satellites.
+

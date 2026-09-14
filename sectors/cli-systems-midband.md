@@ -395,3 +395,126 @@ Policy histogram (this pass): `{'silent': 48, 'agentscan': 1, 'hard_ban': 1}`.
 
 Notes: Prefer midband cli-systems product homes (file managers, monitors, fuzzy finders, version managers, transfer/clipboard, JSON/YAML wranglers, git explorers, pagers, package CLIs, multiplexers, systemd/sysadmin TUIs). Disclosure: gitoxide, rustnet. Leave shell plugin skins, cheatsheets, novelty/media TUIs, CLI frameworks/libs, AI agent CLIs, terminal emulators, networking tunnels, DB TUI sector spills. Hard ban: gh-dash, lstr. AgentScan: corepack.
 
+## Midband product deepen-3 (2026-09-14, +105 scored)
+
+Account: `vulragrag-star` · Curated cli-systems midband TS/JS (1k–5k★) leftover product CLI/file-manager/clipboard/JSON-CSV/git/screenshot/share homes after devops-build deepen-3 · Policy via `raw.githubusercontent.com` · **32** proceed / **73** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 102, 'disclosure': 2, 'agentscan': 1}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `antfu-collective/taze` | 4281 | silent | Deps refresh CLI — package path/semver | package path/semver edge + tests |
+| `marionebl/svg-term-cli` | 4244 | silent | Terminal session→SVG CLI — cast path/parse | cast path/parse edge + tests |
+| `sindresorhus/speed-test` | 3949 | silent | speedtest.net CLI — argv/output | argv/output edge + tests |
+| `yoshiko-pg/difit` | 3161 | silent | Diff review CLI (local web UI) — path/diff parse | diff/path parse edge + tests |
+| `mozilla/web-ext` | 3135 | silent | Browser-extension CLI — path/manifest | manifest/path edge + tests |
+| `sindresorhus/fast-cli` | 2877 | silent | fast.com speed-test CLI — argv/network | argv/network edge + tests |
+| `sindresorhus/emoj` | 2427 | silent | Emoji search CLI — argv/query | query/argv edge + tests |
+| `PasteBar/PasteBarApp` | 2148 | silent | Clipboard manager product — clipboard/path | clipboard/path edge + tests |
+| `Keyang/node-csvtojson` | 2035 | silent | CSV→JSON with CLI — path/schema | CSV path/schema edge + tests |
+| `coderaiser/cloudcmd` | 2027 | silent | Web file manager with console — path/fs | path/fs edge + tests |
+| `sindresorhus/capture-website` | 2012 | silent | Website capture used by screenshot CLIs — URL/path | URL/path edge + tests |
+| `WeiChiaChang/stacks-cli` | 1998 | silent | Website stack analyzer CLI — URL/argv | URL/argv edge + tests |
+| `sindresorhus/clipboardy` | 1983 | silent | Clipboard access widely used by CLIs — OS/path | clipboard/OS edge + tests |
+| `guhcostan/mac-cleaner-cli` | 1969 | silent | macOS disk-cleaner CLI — path/argv | path/argv edge + tests |
+| `shelljs/shx` | 1871 | silent | Portable shell commands for npm scripts — path/argv | path/argv edge + tests |
+| `parvardegr/sharing` | 1837 | silent | Directory/file share CLI — path/serve | path/serve edge + tests |
+| `microlinkhq/browserless` | 1835 | silent | Headless browser driver used by screenshot CLIs — URL/argv | URL/argv edge + tests |
+| `C2FO/fast-csv` | 1790 | silent | CSV parse/format toolkit — path/schema | CSV path/schema edge + tests |
+| `sindresorhus/pageres-cli` | 1743 | silent | Website screenshot CLI — URL/path/viewport | URL/path/viewport edge + tests |
+| `ddopson/underscore-cli` | 1732 | silent | JSON/JS wrangling CLI — path/expr parse | JSON path/expr parse edge + tests |
+| `Timmoth/RackPeek` | 1685 | silent | Infra inventory CLI — path/config | path/config edge + tests |
+| `gildas-lormeau/single-file-cli` | 1604 | silent | Single-file web save CLI — URL/path | URL/path edge + tests |
+| `afc163/fanyi` | 1553 | silent | Translator CLI — argv/query | query/argv edge + tests |
+| `dsherret/dax` | 1496 | silent | Cross-platform shell tools — path/quoting/spawn | path/quoting/spawn edge + tests |
+| `sezna/nps` | 1448 | silent | npm package-scripts runner — path/config | scripts path/config edge + tests |
+| `sindresorhus/trash-cli` | 1414 | silent | Trash CLI — path/quoting | path/quoting edge + tests |
+| `1111mp/nvm-desktop` | 1397 | silent | Node version manager desktop — path/shim | version path/shim edge + tests |
+| `maticzav/emma-cli` | 1245 | silent | npm package finder/install CLI — query/path | query/install path edge + tests |
+| `lukeed/sirv` | 1174 | silent | Static-file CLI server — path/serve | serve path edge + tests |
+| `golbin/git-commander` | 1119 | silent | Git TUI — repo/ref path | repo/ref path edge + tests |
+| `igorshubovych/markdownlint-cli` | 1095 | silent | Markdownlint CLI — path/config/globs | path/config/glob edge + tests |
+| `error311/FileRise` | 1012 | silent | Self-hosted file manager — path/fs | path/fs edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `Tencent/teamai-cli` | 4426 | silent | AI-native team CLI — leave |
+| `mixedbread-ai/mgrep` | 4394 | silent | AI semantic grep — leave |
+| `farzher/fuzzysort` | 4350 | silent | Fuzzy-search library — leave |
+| `hoothin/UserScripts` | 4293 | silent | Userscript collection — leave |
+| `router-for-me/Cli-Proxy-API-Management-Center` | 4225 | silent | CLI-proxy management WebUI — leave |
+| `zerebos/ghostty-config` | 4199 | disclosure | Ghostty config generator; disclosure + terminal-config spill — leave |
+| `lirantal/nodejs-cli-apps-best-practices` | 4121 | silent | Docs/guidebook — not product home — leave |
+| `zhw2590582/ArtPlayer` | 4047 | silent | HTML5 video player — leave |
+| `yeoman/yo` | 3964 | silent | Generator scaffolding CLI — leave |
+| `indexzero/nconf` | 3859 | silent | Config library — leave |
+| `acode/cli` | 3816 | silent | Autocode CLI / AI-adjacent — leave |
+| `songguoxs/gpt4o-image-prompts` | 3815 | silent | AI image prompt dump — leave |
+| `openspeedtest/Speed-Test` | 3774 | silent | HTML5 web speed-test app — leave |
+| `homerchen19/nba-go` | 3714 | silent | Sports novelty CLI — leave |
+| `sindresorhus/meow` | 3712 | silent | CLI framework/helper — leave (framework) |
+| `vercel-labs/wterm` | 3451 | silent | Web terminal emulator — leave |
+| `mattallty/Caporal.js` | 3449 | silent | CLI framework — leave |
+| `dthree/vantage` | 3413 | silent | Realtime Node REPL/CLI novelty — leave |
+| `diced/zipline` | 3410 | silent | File upload server — devops/web spill — leave |
+| `jscad/OpenJSCAD.org` | 3242 | silent | CAD tooling spill — leave |
+| `SuperCmdLabs/SuperCmd` | 3167 | silent | macOS launcher GUI — leave |
+| `infinitered/gluegun` | 3146 | silent | CLI framework — leave |
+| `NaturalIntelligence/fast-xml-parser` | 3138 | silent | XML library without primary CLI home — leave |
+| `cacjs/cac` | 3132 | silent | CLI framework — leave |
+| `nirui/sshwifty` | 3124 | silent | Web SSH client — networking spill — leave |
+| `ibelick/prompt-kit` | 3065 | silent | AI prompt UI kit — leave |
+| `apollographql/apollo-tooling` | 3041 | silent | Apollo client tooling (superseded) — leave |
+| `leeoniya/uFuzzy` | 3029 | silent | Fuzzy-search library — leave |
+| `gnmyt/MySpeed` | 3003 | silent | Web speed-test analysis app — leave |
+| `sindresorhus/cli-spinners` | 2931 | silent | Spinner library — leave |
+| `asciinema/asciinema-player` | 2922 | disclosure | Web player for recordings — not CLI product; disclosure — leave |
+| `anysphere/priompt` | 2853 | silent | LLM prompt JSX toolkit — leave |
+| `sedwards2009/extraterm` | 2828 | silent | Terminal emulator — leave |
+| `handsontable/hyperformula` | 2785 | silent | Spreadsheet formula engine — leave |
+| `billchurch/webssh2` | 2771 | silent | Web SSH client — networking spill — leave |
+| `sequelize/cli` | 2556 | silent | DB migration CLI — databases-storage spill — leave |
+| `glidea/banana-prompt-quicker` | 2412 | silent | AI prompt helper — leave |
+| `productdevbook/hucre` | 2157 | silent | Spreadsheet engine — leave |
+| `supreme-gg-gg/instagram-cli` | 2136 | silent | Social novelty CLI — leave |
+| `riccardoperra/codeimage` | 2089 | silent | Code screenshot GUI — leave |
+| `google-github-actions/run-gemini-cli` | 2077 | silent | Gemini agent Action — leave |
+| `qq15725/modern-screenshot` | 2069 | silent | DOM screenshot library — leave |
+| `shellhub-io/shellhub` | 2065 | silent | Remote device access — networking spill — leave |
+| `klaudiosinani/qoa` | 2049 | silent | Prompt library — leave |
+| `afar1/fieldtheory-cli` | 2020 | silent | Agent-workflow CLI — leave |
+| `Urigo/graphql-cli` | 2018 | silent | GraphQL tooling — leave |
+| `ionic-team/ionic-cli` | 2004 | silent | Mobile framework CLI — leave |
+| `flatiron/prompt` | 1967 | silent | Prompt library — leave |
+| `filiksyos/gitreverse` | 1918 | silent | Reverse-engineer repo into prompt — AI-adjacent — leave |
+| `ahmadawais/corona-cli` | 1835 | silent | COVID novelty CLI — leave |
+| `sindresorhus/update-notifier` | 1808 | silent | Notifier library — leave |
+| `google-labs-code/stitch-sdk` | 1797 | silent | AI UI-generation SDK — leave |
+| `tableflowhq/csv-import` | 1790 | silent | Web CSV importer UI — leave |
+| `zonemeen/musicn` | 1766 | silent | Music novelty CLI — leave |
+| `jdalrymple/gitbeaker` | 1731 | silent | GitLab SDK not CLI product — leave |
+| `lukeed/kleur` | 1695 | silent | Color library — leave |
+| `jorgebucaran/colorette` | 1623 | silent | Color library — leave |
+| `nyakang/nyaterm` | 1593 | silent | Remote terminal workspace — leave |
+| `jalonsogo/tui-studio` | 1548 | silent | TUI visual design GUI — leave |
+| `Cay-Zhang/RSSBud` | 1534 | silent | iOS/macOS RSS app — leave |
+| `sindresorhus/conf` | 1346 | silent | Config library — leave |
+| `unjs/citty` | 1315 | agentscan | AgentScan adopter — leave |
+| `nxshell/nxshell` | 1260 | silent | Terminal product — leave |
+| `arcanis/clipanion` | 1257 | silent | CLI framework — leave |
+| `npkgz/cli-progress` | 1256 | silent | Progress-bar library — leave |
+| `c4spar/cliffy` | 1177 | silent | CLI framework — leave |
+| `nashaofu/shell360` | 1157 | silent | SSH GUI client — networking spill — leave |
+| `sindresorhus/terminal-image` | 1130 | silent | Image-in-terminal library — leave |
+| `m31coding/fuzzy-search` | 1124 | silent | Frontend fuzzy-search library — leave |
+| `lukeed/sade` | 1079 | silent | CLI framework — leave |
+| `hustcer/star` | 1052 | silent | Stock novelty CLI — leave |
+| `sindresorhus/copy-text-to-clipboard` | 1045 | silent | Tiny browser clipboard helper — leave |
+| `nordtheme/iterm2` | 1023 | silent | iTerm2 theme pack — leave |
+
+Notes: Prefer midband TS/JS cli-systems product homes (screenshot/share CLIs, trash/clipboard, JSON/CSV wranglers, markdownlint, npm package CLIs, static servers, git TUIs, file managers, deps refresh). Leave AgentScan (unjs/citty), disclosure terminal-config/player helpers, AI agent/prompt CLIs, novelty/sports/music CLIs, CLI frameworks/libs, terminal emulators, web SSH, theme packs, scaffold/mobile/DB/GraphQL sector spills.
+

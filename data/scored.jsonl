@@ -4128,3 +4128,108 @@
 {"full_name": "dorny/test-reporter", "sector": "devops-build", "stars": 1182, "policy": "silent", "proceed": false, "why": "Test-reporter Action satellite — leave (dorny circle already leave)", "bug_class_hint": "n/a — leave"}
 {"full_name": "changesets/action", "sector": "devops-build", "stars": 1068, "policy": "agentscan", "proceed": false, "why": "AgentScan adopter org (changesets) — leave", "bug_class_hint": "n/a — leave"}
 {"full_name": "sveltejs/vite-plugin-svelte", "sector": "devops-build", "stars": 1041, "policy": "agentscan", "proceed": false, "why": "AgentScan adopter org (sveltejs) — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "antfu-collective/taze", "sector": "cli-systems", "stars": 4281, "policy": "silent", "proceed": true, "why": "Deps refresh CLI — package path/semver", "bug_class_hint": "package path/semver edge + tests"}
+{"full_name": "marionebl/svg-term-cli", "sector": "cli-systems", "stars": 4244, "policy": "silent", "proceed": true, "why": "Terminal session→SVG CLI — cast path/parse", "bug_class_hint": "cast path/parse edge + tests"}
+{"full_name": "sindresorhus/speed-test", "sector": "cli-systems", "stars": 3949, "policy": "silent", "proceed": true, "why": "speedtest.net CLI — argv/output", "bug_class_hint": "argv/output edge + tests"}
+{"full_name": "yoshiko-pg/difit", "sector": "cli-systems", "stars": 3161, "policy": "silent", "proceed": true, "why": "Diff review CLI (local web UI) — path/diff parse", "bug_class_hint": "diff/path parse edge + tests"}
+{"full_name": "mozilla/web-ext", "sector": "cli-systems", "stars": 3135, "policy": "silent", "proceed": true, "why": "Browser-extension CLI — path/manifest", "bug_class_hint": "manifest/path edge + tests"}
+{"full_name": "sindresorhus/fast-cli", "sector": "cli-systems", "stars": 2877, "policy": "silent", "proceed": true, "why": "fast.com speed-test CLI — argv/network", "bug_class_hint": "argv/network edge + tests"}
+{"full_name": "sindresorhus/emoj", "sector": "cli-systems", "stars": 2427, "policy": "silent", "proceed": true, "why": "Emoji search CLI — argv/query", "bug_class_hint": "query/argv edge + tests"}
+{"full_name": "PasteBar/PasteBarApp", "sector": "cli-systems", "stars": 2148, "policy": "silent", "proceed": true, "why": "Clipboard manager product — clipboard/path", "bug_class_hint": "clipboard/path edge + tests"}
+{"full_name": "Keyang/node-csvtojson", "sector": "cli-systems", "stars": 2035, "policy": "silent", "proceed": true, "why": "CSV→JSON with CLI — path/schema", "bug_class_hint": "CSV path/schema edge + tests"}
+{"full_name": "coderaiser/cloudcmd", "sector": "cli-systems", "stars": 2027, "policy": "silent", "proceed": true, "why": "Web file manager with console — path/fs", "bug_class_hint": "path/fs edge + tests"}
+{"full_name": "sindresorhus/capture-website", "sector": "cli-systems", "stars": 2012, "policy": "silent", "proceed": true, "why": "Website capture used by screenshot CLIs — URL/path", "bug_class_hint": "URL/path edge + tests"}
+{"full_name": "WeiChiaChang/stacks-cli", "sector": "cli-systems", "stars": 1998, "policy": "silent", "proceed": true, "why": "Website stack analyzer CLI — URL/argv", "bug_class_hint": "URL/argv edge + tests"}
+{"full_name": "sindresorhus/clipboardy", "sector": "cli-systems", "stars": 1983, "policy": "silent", "proceed": true, "why": "Clipboard access widely used by CLIs — OS/path", "bug_class_hint": "clipboard/OS edge + tests"}
+{"full_name": "guhcostan/mac-cleaner-cli", "sector": "cli-systems", "stars": 1969, "policy": "silent", "proceed": true, "why": "macOS disk-cleaner CLI — path/argv", "bug_class_hint": "path/argv edge + tests"}
+{"full_name": "shelljs/shx", "sector": "cli-systems", "stars": 1871, "policy": "silent", "proceed": true, "why": "Portable shell commands for npm scripts — path/argv", "bug_class_hint": "path/argv edge + tests"}
+{"full_name": "parvardegr/sharing", "sector": "cli-systems", "stars": 1837, "policy": "silent", "proceed": true, "why": "Directory/file share CLI — path/serve", "bug_class_hint": "path/serve edge + tests"}
+{"full_name": "microlinkhq/browserless", "sector": "cli-systems", "stars": 1835, "policy": "silent", "proceed": true, "why": "Headless browser driver used by screenshot CLIs — URL/argv", "bug_class_hint": "URL/argv edge + tests"}
+{"full_name": "C2FO/fast-csv", "sector": "cli-systems", "stars": 1790, "policy": "silent", "proceed": true, "why": "CSV parse/format toolkit — path/schema", "bug_class_hint": "CSV path/schema edge + tests"}
+{"full_name": "sindresorhus/pageres-cli", "sector": "cli-systems", "stars": 1743, "policy": "silent", "proceed": true, "why": "Website screenshot CLI — URL/path/viewport", "bug_class_hint": "URL/path/viewport edge + tests"}
+{"full_name": "ddopson/underscore-cli", "sector": "cli-systems", "stars": 1732, "policy": "silent", "proceed": true, "why": "JSON/JS wrangling CLI — path/expr parse", "bug_class_hint": "JSON path/expr parse edge + tests"}
+{"full_name": "Timmoth/RackPeek", "sector": "cli-systems", "stars": 1685, "policy": "silent", "proceed": true, "why": "Infra inventory CLI — path/config", "bug_class_hint": "path/config edge + tests"}
+{"full_name": "gildas-lormeau/single-file-cli", "sector": "cli-systems", "stars": 1604, "policy": "silent", "proceed": true, "why": "Single-file web save CLI — URL/path", "bug_class_hint": "URL/path edge + tests"}
+{"full_name": "afc163/fanyi", "sector": "cli-systems", "stars": 1553, "policy": "silent", "proceed": true, "why": "Translator CLI — argv/query", "bug_class_hint": "query/argv edge + tests"}
+{"full_name": "dsherret/dax", "sector": "cli-systems", "stars": 1496, "policy": "silent", "proceed": true, "why": "Cross-platform shell tools — path/quoting/spawn", "bug_class_hint": "path/quoting/spawn edge + tests"}
+{"full_name": "sezna/nps", "sector": "cli-systems", "stars": 1448, "policy": "silent", "proceed": true, "why": "npm package-scripts runner — path/config", "bug_class_hint": "scripts path/config edge + tests"}
+{"full_name": "sindresorhus/trash-cli", "sector": "cli-systems", "stars": 1414, "policy": "silent", "proceed": true, "why": "Trash CLI — path/quoting", "bug_class_hint": "path/quoting edge + tests"}
+{"full_name": "1111mp/nvm-desktop", "sector": "cli-systems", "stars": 1397, "policy": "silent", "proceed": true, "why": "Node version manager desktop — path/shim", "bug_class_hint": "version path/shim edge + tests"}
+{"full_name": "maticzav/emma-cli", "sector": "cli-systems", "stars": 1245, "policy": "silent", "proceed": true, "why": "npm package finder/install CLI — query/path", "bug_class_hint": "query/install path edge + tests"}
+{"full_name": "lukeed/sirv", "sector": "cli-systems", "stars": 1174, "policy": "silent", "proceed": true, "why": "Static-file CLI server — path/serve", "bug_class_hint": "serve path edge + tests"}
+{"full_name": "golbin/git-commander", "sector": "cli-systems", "stars": 1119, "policy": "silent", "proceed": true, "why": "Git TUI — repo/ref path", "bug_class_hint": "repo/ref path edge + tests"}
+{"full_name": "igorshubovych/markdownlint-cli", "sector": "cli-systems", "stars": 1095, "policy": "silent", "proceed": true, "why": "Markdownlint CLI — path/config/globs", "bug_class_hint": "path/config/glob edge + tests"}
+{"full_name": "error311/FileRise", "sector": "cli-systems", "stars": 1012, "policy": "silent", "proceed": true, "why": "Self-hosted file manager — path/fs", "bug_class_hint": "path/fs edge + tests"}
+{"full_name": "Tencent/teamai-cli", "sector": "cli-systems", "stars": 4426, "policy": "silent", "proceed": false, "why": "AI-native team CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "mixedbread-ai/mgrep", "sector": "cli-systems", "stars": 4394, "policy": "silent", "proceed": false, "why": "AI semantic grep — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "farzher/fuzzysort", "sector": "cli-systems", "stars": 4350, "policy": "silent", "proceed": false, "why": "Fuzzy-search library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "hoothin/UserScripts", "sector": "cli-systems", "stars": 4293, "policy": "silent", "proceed": false, "why": "Userscript collection — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "router-for-me/Cli-Proxy-API-Management-Center", "sector": "cli-systems", "stars": 4225, "policy": "silent", "proceed": false, "why": "CLI-proxy management WebUI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "zerebos/ghostty-config", "sector": "cli-systems", "stars": 4199, "policy": "disclosure", "proceed": false, "why": "Ghostty config generator; disclosure + terminal-config spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "lirantal/nodejs-cli-apps-best-practices", "sector": "cli-systems", "stars": 4121, "policy": "silent", "proceed": false, "why": "Docs/guidebook — not product home — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "zhw2590582/ArtPlayer", "sector": "cli-systems", "stars": 4047, "policy": "silent", "proceed": false, "why": "HTML5 video player — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "yeoman/yo", "sector": "cli-systems", "stars": 3964, "policy": "silent", "proceed": false, "why": "Generator scaffolding CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "indexzero/nconf", "sector": "cli-systems", "stars": 3859, "policy": "silent", "proceed": false, "why": "Config library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "acode/cli", "sector": "cli-systems", "stars": 3816, "policy": "silent", "proceed": false, "why": "Autocode CLI / AI-adjacent — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "songguoxs/gpt4o-image-prompts", "sector": "cli-systems", "stars": 3815, "policy": "silent", "proceed": false, "why": "AI image prompt dump — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "openspeedtest/Speed-Test", "sector": "cli-systems", "stars": 3774, "policy": "silent", "proceed": false, "why": "HTML5 web speed-test app — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "homerchen19/nba-go", "sector": "cli-systems", "stars": 3714, "policy": "silent", "proceed": false, "why": "Sports novelty CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sindresorhus/meow", "sector": "cli-systems", "stars": 3712, "policy": "silent", "proceed": false, "why": "CLI framework/helper — leave (framework)", "bug_class_hint": "n/a — leave"}
+{"full_name": "vercel-labs/wterm", "sector": "cli-systems", "stars": 3451, "policy": "silent", "proceed": false, "why": "Web terminal emulator — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "mattallty/Caporal.js", "sector": "cli-systems", "stars": 3449, "policy": "silent", "proceed": false, "why": "CLI framework — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "dthree/vantage", "sector": "cli-systems", "stars": 3413, "policy": "silent", "proceed": false, "why": "Realtime Node REPL/CLI novelty — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "diced/zipline", "sector": "cli-systems", "stars": 3410, "policy": "silent", "proceed": false, "why": "File upload server — devops/web spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "jscad/OpenJSCAD.org", "sector": "cli-systems", "stars": 3242, "policy": "silent", "proceed": false, "why": "CAD tooling spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "SuperCmdLabs/SuperCmd", "sector": "cli-systems", "stars": 3167, "policy": "silent", "proceed": false, "why": "macOS launcher GUI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "infinitered/gluegun", "sector": "cli-systems", "stars": 3146, "policy": "silent", "proceed": false, "why": "CLI framework — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "NaturalIntelligence/fast-xml-parser", "sector": "cli-systems", "stars": 3138, "policy": "silent", "proceed": false, "why": "XML library without primary CLI home — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "cacjs/cac", "sector": "cli-systems", "stars": 3132, "policy": "silent", "proceed": false, "why": "CLI framework — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "nirui/sshwifty", "sector": "cli-systems", "stars": 3124, "policy": "silent", "proceed": false, "why": "Web SSH client — networking spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "ibelick/prompt-kit", "sector": "cli-systems", "stars": 3065, "policy": "silent", "proceed": false, "why": "AI prompt UI kit — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "apollographql/apollo-tooling", "sector": "cli-systems", "stars": 3041, "policy": "silent", "proceed": false, "why": "Apollo client tooling (superseded) — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "leeoniya/uFuzzy", "sector": "cli-systems", "stars": 3029, "policy": "silent", "proceed": false, "why": "Fuzzy-search library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "gnmyt/MySpeed", "sector": "cli-systems", "stars": 3003, "policy": "silent", "proceed": false, "why": "Web speed-test analysis app — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sindresorhus/cli-spinners", "sector": "cli-systems", "stars": 2931, "policy": "silent", "proceed": false, "why": "Spinner library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "asciinema/asciinema-player", "sector": "cli-systems", "stars": 2922, "policy": "disclosure", "proceed": false, "why": "Web player for recordings — not CLI product; disclosure — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "anysphere/priompt", "sector": "cli-systems", "stars": 2853, "policy": "silent", "proceed": false, "why": "LLM prompt JSX toolkit — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sedwards2009/extraterm", "sector": "cli-systems", "stars": 2828, "policy": "silent", "proceed": false, "why": "Terminal emulator — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "handsontable/hyperformula", "sector": "cli-systems", "stars": 2785, "policy": "silent", "proceed": false, "why": "Spreadsheet formula engine — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "billchurch/webssh2", "sector": "cli-systems", "stars": 2771, "policy": "silent", "proceed": false, "why": "Web SSH client — networking spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sequelize/cli", "sector": "cli-systems", "stars": 2556, "policy": "silent", "proceed": false, "why": "DB migration CLI — databases-storage spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "glidea/banana-prompt-quicker", "sector": "cli-systems", "stars": 2412, "policy": "silent", "proceed": false, "why": "AI prompt helper — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "productdevbook/hucre", "sector": "cli-systems", "stars": 2157, "policy": "silent", "proceed": false, "why": "Spreadsheet engine — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "supreme-gg-gg/instagram-cli", "sector": "cli-systems", "stars": 2136, "policy": "silent", "proceed": false, "why": "Social novelty CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "riccardoperra/codeimage", "sector": "cli-systems", "stars": 2089, "policy": "silent", "proceed": false, "why": "Code screenshot GUI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "google-github-actions/run-gemini-cli", "sector": "cli-systems", "stars": 2077, "policy": "silent", "proceed": false, "why": "Gemini agent Action — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "qq15725/modern-screenshot", "sector": "cli-systems", "stars": 2069, "policy": "silent", "proceed": false, "why": "DOM screenshot library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "shellhub-io/shellhub", "sector": "cli-systems", "stars": 2065, "policy": "silent", "proceed": false, "why": "Remote device access — networking spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "klaudiosinani/qoa", "sector": "cli-systems", "stars": 2049, "policy": "silent", "proceed": false, "why": "Prompt library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "afar1/fieldtheory-cli", "sector": "cli-systems", "stars": 2020, "policy": "silent", "proceed": false, "why": "Agent-workflow CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "Urigo/graphql-cli", "sector": "cli-systems", "stars": 2018, "policy": "silent", "proceed": false, "why": "GraphQL tooling — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "ionic-team/ionic-cli", "sector": "cli-systems", "stars": 2004, "policy": "silent", "proceed": false, "why": "Mobile framework CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "flatiron/prompt", "sector": "cli-systems", "stars": 1967, "policy": "silent", "proceed": false, "why": "Prompt library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "filiksyos/gitreverse", "sector": "cli-systems", "stars": 1918, "policy": "silent", "proceed": false, "why": "Reverse-engineer repo into prompt — AI-adjacent — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "ahmadawais/corona-cli", "sector": "cli-systems", "stars": 1835, "policy": "silent", "proceed": false, "why": "COVID novelty CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sindresorhus/update-notifier", "sector": "cli-systems", "stars": 1808, "policy": "silent", "proceed": false, "why": "Notifier library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "google-labs-code/stitch-sdk", "sector": "cli-systems", "stars": 1797, "policy": "silent", "proceed": false, "why": "AI UI-generation SDK — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "tableflowhq/csv-import", "sector": "cli-systems", "stars": 1790, "policy": "silent", "proceed": false, "why": "Web CSV importer UI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "zonemeen/musicn", "sector": "cli-systems", "stars": 1766, "policy": "silent", "proceed": false, "why": "Music novelty CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "jdalrymple/gitbeaker", "sector": "cli-systems", "stars": 1731, "policy": "silent", "proceed": false, "why": "GitLab SDK not CLI product — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "lukeed/kleur", "sector": "cli-systems", "stars": 1695, "policy": "silent", "proceed": false, "why": "Color library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "jorgebucaran/colorette", "sector": "cli-systems", "stars": 1623, "policy": "silent", "proceed": false, "why": "Color library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "nyakang/nyaterm", "sector": "cli-systems", "stars": 1593, "policy": "silent", "proceed": false, "why": "Remote terminal workspace — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "jalonsogo/tui-studio", "sector": "cli-systems", "stars": 1548, "policy": "silent", "proceed": false, "why": "TUI visual design GUI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "Cay-Zhang/RSSBud", "sector": "cli-systems", "stars": 1534, "policy": "silent", "proceed": false, "why": "iOS/macOS RSS app — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sindresorhus/conf", "sector": "cli-systems", "stars": 1346, "policy": "silent", "proceed": false, "why": "Config library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "unjs/citty", "sector": "cli-systems", "stars": 1315, "policy": "agentscan", "proceed": false, "why": "AgentScan adopter — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "nxshell/nxshell", "sector": "cli-systems", "stars": 1260, "policy": "silent", "proceed": false, "why": "Terminal product — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "arcanis/clipanion", "sector": "cli-systems", "stars": 1257, "policy": "silent", "proceed": false, "why": "CLI framework — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "npkgz/cli-progress", "sector": "cli-systems", "stars": 1256, "policy": "silent", "proceed": false, "why": "Progress-bar library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "c4spar/cliffy", "sector": "cli-systems", "stars": 1177, "policy": "silent", "proceed": false, "why": "CLI framework — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "nashaofu/shell360", "sector": "cli-systems", "stars": 1157, "policy": "silent", "proceed": false, "why": "SSH GUI client — networking spill — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sindresorhus/terminal-image", "sector": "cli-systems", "stars": 1130, "policy": "silent", "proceed": false, "why": "Image-in-terminal library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "m31coding/fuzzy-search", "sector": "cli-systems", "stars": 1124, "policy": "silent", "proceed": false, "why": "Frontend fuzzy-search library — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "lukeed/sade", "sector": "cli-systems", "stars": 1079, "policy": "silent", "proceed": false, "why": "CLI framework — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "hustcer/star", "sector": "cli-systems", "stars": 1052, "policy": "silent", "proceed": false, "why": "Stock novelty CLI — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "sindresorhus/copy-text-to-clipboard", "sector": "cli-systems", "stars": 1045, "policy": "silent", "proceed": false, "why": "Tiny browser clipboard helper — leave", "bug_class_hint": "n/a — leave"}
+{"full_name": "nordtheme/iterm2", "sector": "cli-systems", "stars": 1023, "policy": "silent", "proceed": false, "why": "iTerm2 theme pack — leave", "bug_class_hint": "n/a — leave"}

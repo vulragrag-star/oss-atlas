@@ -531,3 +531,146 @@ Policy histogram (this pass): `{'silent': 102, 'disclosure': 7, 'hard_ban': 1}`.
 
 Notes: Prefer midband TS/JS security-crypto product homes (PKI/TLS/ACME, IAM/SSO/OTP, secrets managers, SBOM/SAST/SCA, WAF/authZ, host firewall/hardening, OpenPGP/crypto libs). Leave offensive scanners/crackers, RE frameworks, VPN/censorship tools, thin JWT middleware, frontend OIDC clients, specs-only, agent kits, generic web apps, Obsidian spills, disclosure/hard_ban.
 
+## Midband product deepen-4 (2026-09-14, +125 scored)
+
+Account: `vulragrag-star` · Curated security-crypto midband (1k–5k★) leftover TS/JS+Go/Rust/Python PKI/TLS/IAM/secrets/SBOM/SAST/WAF/authZ/OTP/crypto homes after security-crypto deepen-3 and other sector deepen-3s · Policy via `raw.githubusercontent.com` · **49** proceed / **76** leave · No fork/PR/comment.
+
+Policy histogram (this pass): `{'silent': 123, 'disclosure': 2}`.
+
+### PROCEED (this pass)
+
+| Repo | ★ | Policy | Why fit | Sample bug class |
+|---|---:|---|---|---|
+| `hardentools/hardentools` | 3110 | silent | Windows attack-surface hardening security tool | hardening toggle/path edge + tests |
+| `joestump/python-oauth2` | 3008 | silent | Python OAuth client library product | OAuth client signature/path edge + tests |
+| `pquerna/otp` | 2956 | silent | Go TOTP/HOTP one-time password crypto library | TOTP/HOTP code/window edge + Go tests |
+| `refraction-networking/utls` | 2572 | silent | Low-level Go TLS library with fingerprint control | TLS handshake/cipher path edge + tests |
+| `int128/kubelogin` | 2354 | silent | kubectl plugin for Kubernetes OIDC authentication | OIDC login/token path edge + tests |
+| `sh-dv/hat.sh` | 2284 | silent | Browser file encrypt/decrypt security product | file encrypt/key path edge + tests |
+| `ghostunnel/ghostunnel` | 2198 | silent | TLS proxy with mutual authentication product | mTLS proxy/cert path edge + tests |
+| `vgough/encfs` | 2164 | silent | Encrypted FUSE filesystem crypto product | EncFS mount/cipher path edge + tests |
+| `RichardKnop/go-oauth2-server` | 2149 | silent | Spec-compliant standalone OAuth2 server (Go) | OAuth2 grant/token path edge + tests |
+| `Keats/jsonwebtoken` | 2089 | silent | Rust JWT encode/decode crypto library | JWT claim/alg path edge + Rust tests |
+| `mkhorasani/Streamlit-Authenticator` | 2084 | silent | Streamlit secure authentication module | auth session/password path edge + tests |
+| `openpubkey/opkssh` | 2061 | silent | OpenPubkey SSH authentication product | SSH pubkey/OIDC path edge + tests |
+| `nuxt-community/auth-module` | 1924 | silent | Nuxt 2 authentication module product | auth strategy/session path edge + tests |
+| `iMerica/dj-rest-auth` | 1869 | silent | Django REST Framework authentication product | auth session/token path edge + tests |
+| `wallarm/gotestwaf` | 1804 | silent | API security / WAF assessment toolkit (Go) | WAF bypass/detection path edge + tests |
+| `cs01/termpair` | 1778 | silent | Browser terminal sharing with E2E encryption | E2E terminal crypto path edge + tests |
+| `krakenjs/lusca` | 1774 | silent | Express application security middleware product | CSP/CSRF/XSS header path edge + tests |
+| `etesync/server` | 1771 | silent | Etebase E2E encrypted sync server product | E2E sync/crypto path edge + tests |
+| `mpdavis/python-jose` | 1757 | silent | Python JOSE/JWT/JWE/JWS implementation | JOSE header/alg path edge + tests |
+| `mikespook/gorbac` | 1676 | silent | Lightweight Go RBAC authorization library | RBAC grant/deny path edge + tests |
+| `zama-ai/tfhe-rs` | 1662 | silent | Pure Rust TFHE fully-homomorphic encryption lib | FHE encrypt/bootstrap path edge + tests |
+| `lelylan/simple-oauth2` | 1641 | silent | Node.js OAuth2 client library product | OAuth2 token/refresh path edge + tests |
+| `samwafgo/SamWaf` | 1562 | silent | Self-hosted lightweight website WAF product | WAF rule/block path edge + tests |
+| `kubernetes-sigs/secrets-store-csi-driver` | 1560 | silent | Kubernetes Secrets Store CSI driver product | CSI secret mount/provider path edge + tests |
+| `cachix/secretspec` | 1504 | silent | Declarative secret-provider interface product | secret provider/resolve path edge + tests |
+| `securitybunker/databunker` | 1484 | silent | Secure vault for customer PII/PHI/PCI records | PII vault/token path edge + tests |
+| `doy/rbw` | 1479 | silent | Unofficial Bitwarden CLI (Rust) secrets product | vault unlock/sync path edge + tests |
+| `hudikhq/hoodik` | 1475 | silent | Self-hosted end-to-end encrypted storage | E2E encrypt/storage path edge + tests |
+| `lunasec-io/lunasec` | 1469 | silent | Dependency security / SCA scanner product | SCA vuln/path edge + scanner tests |
+| `tuneinsight/lattigo` | 1445 | silent | Lattice-based multiparty HE crypto library (Go) | lattice HE/cipher path edge + tests |
+| `go-pkgz/auth` | 1353 | silent | Go authenticator via OAuth2/direct/email | OAuth2 auth provider path edge + tests |
+| `hvac/hvac` | 1315 | silent | Python client for HashiCorp Vault secrets | Vault secret/path edge + client tests |
+| `owasp-dep-scan/dep-scan` | 1284 | silent | OWASP next-gen dependency risk/SCA scanner | SBOM/SCA risk path edge + tests |
+| `paralus/paralus` | 1212 | silent | Kubernetes access manager / user credentials | K8s RBAC access/path edge + tests |
+| `ramosbugs/oauth2-rs` | 1205 | silent | Strongly-typed Rust OAuth2 client library | OAuth2 client token/path edge + tests |
+| `google/certificate-transparency-go` | 1179 | silent | Certificate Transparency auditing library (Go) | CT log/cert path edge + tests |
+| `7ritn/VaulTLS` | 1140 | silent | Self-hosted mTLS certificate management app | mTLS cert/issue path edge + tests |
+| `apache/casbin-rs` | 1136 | silent | Casbin authorization library for Rust | RBAC/ABAC policy path edge + tests |
+| `XmirrorSecurity/OpenSCA-cli` | 1130 | silent | Open-source software supply-chain SCA CLI | SCA/SBOM scan path edge + tests |
+| `crewjam/saml` | 1113 | silent | SAML library for Go identity federation | SAML assertion/ACS path edge + tests |
+| `mcginty/snow` | 1096 | silent | Rust Noise Protocol Framework crypto library | Noise handshake/cipher path edge + tests |
+| `christiaangoossens/hass-oidc-auth` | 1069 | silent | Home Assistant OpenID Connect auth provider | OIDC auth provider path edge + tests |
+| `margelo/react-native-quick-crypto` | 1069 | silent | Fast Node crypto module for React Native | crypto API/path edge + native tests |
+| `RealmTeam/django-rest-framework-social-oauth2` | 1066 | silent | Django REST social OAuth2 auth product | social OAuth2 token path edge + tests |
+| `duo-labs/py_webauthn` | 1061 | silent | Pythonic WebAuthn/FIDO2 server library | WebAuthn ceremony/attestation edge + tests |
+| `emanuele-em/proxelar` | 1061 | silent | Scriptable local traffic inspect workbench | proxy inspect/TLS path edge + tests |
+| `authomatic/authomatic` | 1054 | silent | Python authorization/authentication client | OAuth auth provider path edge + tests |
+| `auth0/auth0-spa-js` | 1010 | silent | Auth0 SPA authentication SDK product | OIDC SPA token/silent-auth path edge + tests |
+| `seeden/rbac` | 1005 | silent | Hierarchical RBAC library for Node.js | RBAC hierarchy/permission path edge + tests |
+
+### LEAVE (this pass)
+
+| Repo | ★ | Policy | Reason |
+|---|---:|---|---|
+| `PiotrMachowski/Xiaomi-cloud-tokens-extractor` | 4772 | silent | IoT token extractor — IoT spill leave |
+| `lwch/natpass` | 4447 | silent | Remote access / NAT tunnel utility — VPN-adjacent leave |
+| `thangchung/go-coffeeshop` | 4361 | silent | Microservices demo app — template leave |
+| `hwholiday/learning_tools` | 4311 | silent | Go learning materials — tutorial leave |
+| `GAM-team/GAM` | 4305 | silent | Google Workspace admin CLI — wrong-sector admin CLI leave |
+| `alexandreborges/malwoverview` | 4087 | silent | Threat-hunting / malware analysis tool — offensive leave |
+| `google-deepmind/acme` | 4062 | silent | Reinforcement learning agents library — ML leave |
+| `bitpay/wallet` | 3941 | silent | Bitcoin wallet — crypto-currency leave |
+| `masterking32/MasterHttpRelayVPN` | 3927 | silent | Domain-fronted HTTP/SOCKS VPN tunnel — VPN leave |
+| `crypto101/book` | 3767 | silent | Cryptography textbook — docs leave |
+| `facebookresearch/ReAgent` | 3714 | silent | RL reasoning platform — ML leave |
+| `FxPool/FXMinerProxy` | 3709 | silent | Miner proxy — wrong sector / mining leave |
+| `ly4k/Certipy` | 3668 | silent | AD Certificate Services enum/abuse tool — offensive leave |
+| `gaubert/gmvault` | 3638 | silent | Gmail backup tool — wrong-sector backup leave |
+| `coreruleset/coreruleset` | 3266 | disclosure | Disclosure AI-assisted PR template — leave (OWASP CRS otherwise) |
+| `sideshow/apns2` | 3187 | silent | Apple Push Notification library — wrong sector (push) |
+| `lejianwen/rustdesk-api` | 3112 | silent | RustDesk remote-desktop API — remote-access spill leave |
+| `freenet/freenet-core` | 3096 | disclosure | Disclosure CONTRIBUTING AI-policy — leave |
+| `LyricTian/gin-admin` | 2859 | silent | Admin panel RBAC scaffolding — admin dashboard leave |
+| `speakeasyjs/speakeasy` | 2755 | silent | Unmaintained Node 2FA library — unmaintained leave |
+| `lesismal/nbio` | 2754 | silent | High-conn networking library — networking spill leave |
+| `xnl-h4ck3r/waymore` | 2749 | silent | Wayback/recon OSINT tool — recon leave |
+| `trustgraph-ai/trustgraph` | 2712 | silent | AI context orchestration — AI kit leave |
+| `ihciah/shadow-tls` | 2681 | silent | TLS-handshake proxy to evade firewall — GFW/VPN leave |
+| `nexus-xyz/nexus-zkvm` | 2618 | silent | zkVM research — ZK/ML spill leave |
+| `epsylon/ufonet` | 2523 | silent | Denial-of-Service toolkit — offensive leave |
+| `m4ll0k/SecretFinder` | 2513 | silent | Sensitive-data finder / recon script — offensive leave |
+| `synctv-org/synctv` | 2486 | silent | Synchronized video watching — wrong sector |
+| `static-web-server/static-web-server` | 2357 | silent | Static web server — networking/devops spill leave |
+| `AaronL725/grok-register` | 2211 | silent | Bulk Grok account register — AI/abuse leave |
+| `suyuan32/simple-admin-core` | 2058 | silent | Admin microservice scaffold — admin dashboard leave |
+| `bufanyun/hotgo` | 2030 | silent | Full-stack AI admin platform — admin/AI scaffold leave |
+| `KunMoe/kun-galgame-forum` | 1959 | silent | Galgame forum — wrong sector |
+| `rustmailer/bichon` | 1949 | silent | Email archive client — wrong sector |
+| `scality/cloudserver` | 1943 | silent | S3 object store — databases/storage spill leave |
+| `O365/python-o365` | 1921 | silent | Microsoft Graph client — wrong-sector Graph SDK leave |
+| `roxy-wi/roxy-wi` | 1823 | silent | Load-balancer admin UI — devops spill leave |
+| `yjose/reactjs-popup` | 1805 | silent | React popup UI component — frontend leave |
+| `basir/node-react-ecommerce` | 1757 | silent | Ecommerce tutorial app — template leave |
+| `UniClipboard/UniClipboard` | 1717 | silent | Clipboard sync app — wrong sector |
+| `twilco/kosmonaut` | 1716 | silent | Web browser engine — wrong sector |
+| `anyproto/any-sync` | 1709 | silent | Local-first sync protocol — networking spill leave |
+| `secluso/core` | 1668 | silent | Pi home security camera — IoT spill leave |
+| `Kodiqa-Solutions/VaultS3` | 1605 | silent | S3-compatible object storage — storage spill leave |
+| `nohajc/anylinuxfs` | 1557 | silent | macOS linux FS mount — systems spill leave |
+| `sartoopjj/thefeed` | 1540 | silent | DNS feed reader — networking spill leave |
+| `Danny-Dasilva/CycleTLS` | 1519 | silent | TLS/JA3 fingerprint spoof library — dual-use recon leave |
+| `cryptii/cryptii` | 1497 | silent | Educational cipher playground web app — toy leave |
+| `dgrubelic/vue-authenticate` | 1424 | silent | Thin Vue auth frontend library — thin frontend auth leave |
+| `Kianmhz/GooseRelayVPN` | 1418 | silent | SOCKS5 VPN via Google Apps Script — VPN leave |
+| `blacklanternsecurity/TREVORspray` | 1382 | silent | Password sprayer — offensive leave |
+| `devfeel/dotweb` | 1377 | silent | Go web micro framework — framework spill leave |
+| `KosmosisDire/obsidian-webpage-export` | 1354 | silent | Obsidian export plugin — Obsidian spill leave |
+| `tkaitchuck/aHash` | 1346 | silent | Non-cryptographic hash — not security-crypto product |
+| `NiREvil/vless` | 1318 | silent | V2Ray/VLESS subscription links — VPN/censorship leave |
+| `alx-xlx/goindex` | 1311 | silent | Google Drive indexer — wrong sector |
+| `sardanioss/httpcloak` | 1300 | silent | Browser-identical TLS fingerprint HTTP client — dual-use leave |
+| `guyoung/CaptfEncoder` | 1298 | silent | CTF encode/decode toolkit — CTF leave |
+| `lerd-env/lerd` | 1285 | silent | Local PHP Herd-like env — devops spill leave |
+| `jvdsn/crypto-attacks` | 1284 | silent | Cryptographic attack implementations — offensive leave |
+| `TencentBlueKing/bk-sops` | 1276 | silent | BlueKing DevOps SOP platform — devops mega leave |
+| `privacypass/challenge-bypass-extension` | 1249 | silent | DEPRECATED Privacy Pass extension — deprecated leave |
+| `liamcottle/reticulum-meshchat` | 1246 | silent | Mesh chat app — wrong sector |
+| `zkonduit/ezkl` | 1221 | silent | ZK ML inference engine — ZK/ML spill leave |
+| `projectdiscovery/tlsx` | 1141 | silent | TLS grabber recon tool — recon leave |
+| `meganz/webclient` | 1137 | silent | MEGA cloud web client mega — BaaS/client leave |
+| `DevLARLEY/WidevineProxy2` | 1098 | silent | Widevine DRM proxy extension — DRM spill leave |
+| `k8spacket/k8spacket` | 1097 | silent | K8s traffic metrics — networking observability leave |
+| `tophant-ai/ClawVault` | 1078 | silent | OpenClaw agent security vault — AI agent kit leave |
+| `ali-bouali/book-social-network` | 1059 | silent | Book social network app — CRUD app leave |
+| `ijry/lyadmin` | 1057 | silent | Generic PHP admin panel — admin dashboard leave |
+| `D0n9X1n/hexo-blog-encrypt` | 1052 | silent | Hexo blog encrypt plugin — thin blog plugin leave |
+| `a16z/jolt` | 1039 | silent | zkVM research — ZK spill leave |
+| `authts/react-oidc-context` | 1029 | silent | Thin React OIDC frontend wrapper — thin frontend OIDC leave |
+| `ogxd/gxhash` | 1027 | silent | Non-cryptographic hash — not security-crypto product |
+| `revertinc/revert` | 1012 | silent | CRM integration platform — wrong sector BaaS leave |
+
+Notes: Prefer midband TS/JS (and Go/Rust/Python fill) security-crypto product homes (PKI/TLS/ACME, IAM/SSO/OTP, secrets managers, SBOM/SAST/SCA, WAF/authZ, host firewall/hardening, OpenPGP/crypto libs). Leave offensive scanners/crackers, RE frameworks, VPN/censorship tools, thin JWT middleware, frontend OIDC clients, specs-only, agent kits, generic web apps, Obsidian spills, disclosure/hard_ban.
+
